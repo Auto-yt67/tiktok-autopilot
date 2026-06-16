@@ -1,11 +1,13 @@
 {
   "urls": [
     "https://www.twitch.tv/stableronaldo/clip/ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
-    "https://www.twitch.tv/brittt/clip/IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR"
+    "https://www.twitch.tv/brittt/clip/IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR",
+    "https://www.twitch.tv/jessedstreams/clip/AverageSparklyTortoisePeoplesChamp"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
-    "IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR"
+    "IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR",
+    "AverageSparklyTortoisePeoplesChamp"
   ],
   "history": [
     {
@@ -25,6 +27,15 @@
       "title": "OGRE LOUNGING",
       "twitch_views": 5115711,
       "posted_at": "2026-06-16T18:59:33.582269+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jessedstreams/clip/AverageSparklyTortoisePeoplesChamp",
+      "clip_id": "AverageSparklyTortoisePeoplesChamp",
+      "streamer": "JesseDStreams",
+      "game": "Just Chatting",
+      "title": "The awakening",
+      "twitch_views": 4104751,
+      "posted_at": "2026-06-16T22:05:01.845652+00:00"
     }
   ]
 }
