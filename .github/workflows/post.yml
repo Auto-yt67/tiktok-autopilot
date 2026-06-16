@@ -2,12 +2,12 @@ name: Post Twitch Clip
 
 on:
   schedule:
-    - cron: '0 13 * * *'   # 8am ET
-    - cron: '0 16 * * *'   # 11am ET
-    - cron: '0 19 * * *'   # 2pm ET
-    - cron: '0 22 * * *'   # 5pm ET
-    - cron: '0 1 * * *'    # 8pm ET
-    - cron: '0 4 * * *'    # 11pm ET
+    - cron: '0 12 * * *'   # 8am ET
+    - cron: '0 15 * * *'   # 11am ET
+    - cron: '0 18 * * *'   # 2pm ET
+    - cron: '0 21 * * *'   # 5pm ET
+    - cron: '0 0 * * *'    # 8pm ET
+    - cron: '0 3 * * *'    # 11pm ET
   workflow_dispatch:         # allow manual trigger
 
 jobs:
