@@ -1,9 +1,11 @@
 {
   "urls": [
-    "https://www.twitch.tv/stableronaldo/clip/ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC"
+    "https://www.twitch.tv/stableronaldo/clip/ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
+    "https://www.twitch.tv/brittt/clip/IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR"
   ],
   "clip_ids": [
-    "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC"
+    "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
+    "IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR"
   ],
   "history": [
     {
@@ -14,6 +16,15 @@
       "title": "nahh",
       "twitch_views": 17726263,
       "posted_at": "2026-06-16T03:29:06.888803+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/brittt/clip/IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR",
+      "clip_id": "IronicArtisticOrcaWTRuck-UecXBrM6ECC-DAZR",
+      "streamer": "Brittt",
+      "game": "Just Chatting",
+      "title": "OGRE LOUNGING",
+      "twitch_views": 5115711,
+      "posted_at": "2026-06-16T18:59:33.582269+00:00"
     }
   ]
 }
