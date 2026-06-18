@@ -10,7 +10,8 @@
     "https://www.twitch.tv/qa_vod_automation/clip/AnimatedOptimisticWasabiVoteNay",
     "https://www.twitch.tv/itsneryssa/clip/PoliteCorrectHorseradishPeteZarollTie",
     "https://www.twitch.tv/itsneryssa/clip/ImpossibleLovelyChimpanzeePraiseIt",
-    "https://www.twitch.tv/edisonparklive/clip/DignifiedColdbloodedDragonDoggo"
+    "https://www.twitch.tv/edisonparklive/clip/DignifiedColdbloodedDragonDoggo",
+    "https://www.twitch.tv/itsneryssa/clip/WiseDreamyNightingaleTakeNRG"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -23,7 +24,8 @@
     "AnimatedOptimisticWasabiVoteNay",
     "PoliteCorrectHorseradishPeteZarollTie",
     "ImpossibleLovelyChimpanzeePraiseIt",
-    "DignifiedColdbloodedDragonDoggo"
+    "DignifiedColdbloodedDragonDoggo",
+    "WiseDreamyNightingaleTakeNRG"
   ],
   "history": [
     {
@@ -124,6 +126,15 @@
       "title": "FINALLYYY",
       "twitch_views": 1548719,
       "posted_at": "2026-06-18T14:34:18.380869+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/itsneryssa/clip/WiseDreamyNightingaleTakeNRG",
+      "clip_id": "WiseDreamyNightingaleTakeNRG",
+      "streamer": "itsNeryssa",
+      "game": "World of Warcraft",
+      "title": "Dark Iron Dwarf Mole Machine - Teleport to Stormwind",
+      "twitch_views": 1729903,
+      "posted_at": "2026-06-18T20:49:44.341693+00:00"
     }
   ]
 }
