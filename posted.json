@@ -8,7 +8,8 @@
     "https://www.twitch.tv/myth/clip/TrustworthyBreakableJuiceCorgiDerp",
     "https://www.twitch.tv/playvs_college2/clip/BeautifulTentativeRhinocerosANELE",
     "https://www.twitch.tv/qa_vod_automation/clip/AnimatedOptimisticWasabiVoteNay",
-    "https://www.twitch.tv/itsneryssa/clip/PoliteCorrectHorseradishPeteZarollTie"
+    "https://www.twitch.tv/itsneryssa/clip/PoliteCorrectHorseradishPeteZarollTie",
+    "https://www.twitch.tv/itsneryssa/clip/ImpossibleLovelyChimpanzeePraiseIt"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -19,7 +20,8 @@
     "TrustworthyBreakableJuiceCorgiDerp",
     "BeautifulTentativeRhinocerosANELE",
     "AnimatedOptimisticWasabiVoteNay",
-    "PoliteCorrectHorseradishPeteZarollTie"
+    "PoliteCorrectHorseradishPeteZarollTie",
+    "ImpossibleLovelyChimpanzeePraiseIt"
   ],
   "history": [
     {
@@ -102,6 +104,15 @@
       "title": "Skyreach - Green Monocle Solve",
       "twitch_views": 1780982,
       "posted_at": "2026-06-18T11:59:15.100288+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/itsneryssa/clip/ImpossibleLovelyChimpanzeePraiseIt",
+      "clip_id": "ImpossibleLovelyChimpanzeePraiseIt",
+      "streamer": "itsNeryssa",
+      "game": "World of Warcraft",
+      "title": "Dark Iron Dwarf Mole Machine - Teleport to Ironforge",
+      "twitch_views": 1748030,
+      "posted_at": "2026-06-18T12:36:08.560118+00:00"
     }
   ]
 }
