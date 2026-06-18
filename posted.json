@@ -7,7 +7,8 @@
     "https://www.twitch.tv/jynxzi/clip/WittySplendidQueleaCoolCat-cTxb1sVsofITA3km",
     "https://www.twitch.tv/myth/clip/TrustworthyBreakableJuiceCorgiDerp",
     "https://www.twitch.tv/playvs_college2/clip/BeautifulTentativeRhinocerosANELE",
-    "https://www.twitch.tv/qa_vod_automation/clip/AnimatedOptimisticWasabiVoteNay"
+    "https://www.twitch.tv/qa_vod_automation/clip/AnimatedOptimisticWasabiVoteNay",
+    "https://www.twitch.tv/itsneryssa/clip/PoliteCorrectHorseradishPeteZarollTie"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -17,7 +18,8 @@
     "WittySplendidQueleaCoolCat-cTxb1sVsofITA3km",
     "TrustworthyBreakableJuiceCorgiDerp",
     "BeautifulTentativeRhinocerosANELE",
-    "AnimatedOptimisticWasabiVoteNay"
+    "AnimatedOptimisticWasabiVoteNay",
+    "PoliteCorrectHorseradishPeteZarollTie"
   ],
   "history": [
     {
@@ -91,6 +93,15 @@
       "title": "a",
       "twitch_views": 1729598,
       "posted_at": "2026-06-17T23:11:18.196183+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/itsneryssa/clip/PoliteCorrectHorseradishPeteZarollTie",
+      "clip_id": "PoliteCorrectHorseradishPeteZarollTie",
+      "streamer": "itsNeryssa",
+      "game": "World of Warcraft",
+      "title": "Skyreach - Green Monocle Solve",
+      "twitch_views": 1780982,
+      "posted_at": "2026-06-18T11:59:15.100288+00:00"
     }
   ]
 }
