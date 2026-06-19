@@ -15,7 +15,8 @@
     "https://www.twitch.tv/strawberrytabby/clip/ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX",
     "https://www.twitch.tv/kashin/clip/AntediluvianAmorphousEchidnaKappaPride",
     "https://www.twitch.tv/itsneryssa/clip/TiredImpossibleEmuLitFam",
-    "https://www.twitch.tv/kaicenat/clip/PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ"
+    "https://www.twitch.tv/kaicenat/clip/PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ",
+    "https://www.twitch.tv/warcraft/clip/FilthySuccessfulManateeRuleFive"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -33,7 +34,8 @@
     "ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX",
     "AntediluvianAmorphousEchidnaKappaPride",
     "TiredImpossibleEmuLitFam",
-    "PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ"
+    "PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ",
+    "FilthySuccessfulManateeRuleFive"
   ],
   "history": [
     {
@@ -179,6 +181,15 @@
       "title": "TYLA FRIENDONE KAI",
       "twitch_views": 1364369,
       "posted_at": "2026-06-19T13:04:31.589575+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/warcraft/clip/FilthySuccessfulManateeRuleFive",
+      "clip_id": "FilthySuccessfulManateeRuleFive",
+      "streamer": "Warcraft",
+      "game": "World of Warcraft",
+      "title": "Level Squish",
+      "twitch_views": 1273809,
+      "posted_at": "2026-06-19T14:28:42.580329+00:00"
     }
   ]
 }
