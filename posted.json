@@ -17,7 +17,8 @@
     "https://www.twitch.tv/itsneryssa/clip/TiredImpossibleEmuLitFam",
     "https://www.twitch.tv/kaicenat/clip/PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ",
     "https://www.twitch.tv/warcraft/clip/FilthySuccessfulManateeRuleFive",
-    "https://www.twitch.tv/moosemeat/clip/GentleDeliciousCiderBIRB"
+    "https://www.twitch.tv/moosemeat/clip/GentleDeliciousCiderBIRB",
+    "https://www.twitch.tv/goldenboyftw/clip/IronicThirstyLardCorgiDerp"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -37,7 +38,8 @@
     "TiredImpossibleEmuLitFam",
     "PeppyBelovedWrenchPMSTwin-d9QSnX_sIrzsJ_YQ",
     "FilthySuccessfulManateeRuleFive",
-    "GentleDeliciousCiderBIRB"
+    "GentleDeliciousCiderBIRB",
+    "IronicThirstyLardCorgiDerp"
   ],
   "history": [
     {
@@ -201,6 +203,15 @@
       "title": "Follow @mooseandyy on twitter for banger content.",
       "twitch_views": 994490,
       "posted_at": "2026-06-19T18:23:05.613077+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/goldenboyftw/clip/IronicThirstyLardCorgiDerp",
+      "clip_id": "IronicThirstyLardCorgiDerp",
+      "streamer": "GoldenboyFTW",
+      "game": "Overwatch",
+      "title": "goldenboy tears up",
+      "twitch_views": 869729,
+      "posted_at": "2026-06-19T20:30:44.072112+00:00"
     }
   ]
 }
