@@ -12,7 +12,8 @@
     "https://www.twitch.tv/itsneryssa/clip/ImpossibleLovelyChimpanzeePraiseIt",
     "https://www.twitch.tv/edisonparklive/clip/DignifiedColdbloodedDragonDoggo",
     "https://www.twitch.tv/itsneryssa/clip/WiseDreamyNightingaleTakeNRG",
-    "https://www.twitch.tv/strawberrytabby/clip/ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX"
+    "https://www.twitch.tv/strawberrytabby/clip/ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX",
+    "https://www.twitch.tv/kashin/clip/AntediluvianAmorphousEchidnaKappaPride"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -27,7 +28,8 @@
     "ImpossibleLovelyChimpanzeePraiseIt",
     "DignifiedColdbloodedDragonDoggo",
     "WiseDreamyNightingaleTakeNRG",
-    "ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX"
+    "ArtsyProtectivePeppermintTBCheesePull-mEx23W-15ZNIxzZX",
+    "AntediluvianAmorphousEchidnaKappaPride"
   ],
   "history": [
     {
@@ -146,6 +148,15 @@
       "title": "What do you mean by that?",
       "twitch_views": 1469607,
       "posted_at": "2026-06-18T22:36:08.946912+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kashin/clip/AntediluvianAmorphousEchidnaKappaPride",
+      "clip_id": "AntediluvianAmorphousEchidnaKappaPride",
+      "streamer": "Kashin",
+      "game": "League of Legends",
+      "title": "SICKWOMBO",
+      "twitch_views": 1404962,
+      "posted_at": "2026-06-19T00:15:24.367055+00:00"
     }
   ]
 }
