@@ -311,12 +311,11 @@ def build_caption_filter(words: list, caption_y: int) -> str:
 def process_video(video_path: Path, title: str) -> Path:
     """
     Build a 1080x1920 vertical video:
-      - Top strip: reserved blurred-background area for the title (fixed
-        height, so the title always has room no matter the clip's aspect
-        ratio — it never overlaps the actual clip content).
-      - Below that: blurred background fills the rest of the frame, with
-        the clip scaled to fit width (no stretch), centered in that area.
-      - Title: white text, black outline, centered in the top strip.
+      - Title: white text, black outline, in a blurred strip at the very
+        top of the frame.
+      - Clip: placed immediately below the title with no gap, scaled to
+        fit width (no stretch).
+      - Remaining space below the clip: blurred background fill.
       - Captions: 2-word groups, white text, black outline, near bottom of clip.
     """
     try:
@@ -332,35 +331,40 @@ def process_video(video_path: Path, title: str) -> Path:
         title_fontsize = get_title_fontsize(clean_title)
         log.info(f"Title: '{clean_title}' | fontsize: {title_fontsize}")
 
-        # Fixed-height strip reserved at the top for the title. The clip
-        # itself is confined to the area below this, so the title always
-        # has guaranteed clearance regardless of the source aspect ratio.
+        # Fixed-height strip reserved at the top for the title.
         TITLE_AREA_H = max(170, title_fontsize + 90)
-        video_area_h = TARGET_H - TITLE_AREA_H
-
         title_y = int((TITLE_AREA_H - title_fontsize) / 2)
 
-        # Foreground height once scaled to fit the video area's width, used
-        # to find where the actual clip content ends within that area (so
-        # captions sit on top of it, not down in the blurred margin).
-        fg_height = src_h * (TARGET_W / src_w)
-        fg_top_in_area = max(0, (video_area_h - fg_height) / 2)
-        fg_bottom = TITLE_AREA_H + fg_top_in_area + min(fg_height, video_area_h)
+        # Foreground height once scaled to fit target width.
+        fg_height_raw = src_h * (TARGET_W / src_w)
+        max_fg_height = TARGET_H - TITLE_AREA_H
 
-        # Captions sit near the bottom of the actual visible clip (not the
-        # blurred background), nudged down a bit.
-        caption_y = int(min(fg_bottom, TARGET_H) - 110)
+        if fg_height_raw <= max_fg_height:
+            # Fits within the available height at full target width.
+            fg_height = fg_height_raw
+            fg_scale = f"scale={TARGET_W}:-2"
+        else:
+            # Source is tall/narrow enough that scaling to full width would
+            # overflow past the bottom of the frame — scale to fit the
+            # available height instead, keeping aspect ratio (narrower than
+            # TARGET_W, centered horizontally by the overlay below).
+            fg_height = max_fg_height
+            fg_scale = f"scale=-2:{int(max_fg_height)}"
+
+        # Clip sits immediately below the title strip — no gap.
+        fg_top = TITLE_AREA_H
+        fg_bottom = fg_top + fg_height
+
+        # Captions sit near the bottom of the actual visible clip, nudged
+        # down a bit (not down in the blurred margin below the clip).
+        caption_y = int(fg_bottom - 110)
 
         words = transcribe_audio(video_path)
         caption_filter = build_caption_filter(words, caption_y)
 
-        # Foreground: scale to fit width, keep aspect ratio
-        fg_scale = f"scale={TARGET_W}:-2"
-
-        # Background: scale up to fill the *full* canvas + heavy blur, then
-        # we slice it into a top strip (behind the title) and a bottom
-        # region (behind the clip), so the blur is visually continuous
-        # across the whole frame instead of two separately-blurred pieces.
+        # Background: scale up to fill the full canvas + heavy blur, used
+        # both behind the title strip and to fill any leftover space below
+        # the clip (when the clip doesn't reach the bottom of the frame).
         bg_full_scale = (
             f"scale={TARGET_W}:{TARGET_H}:force_original_aspect_ratio=increase,"
             f"crop={TARGET_W}:{TARGET_H},gblur=sigma=20"
@@ -382,22 +386,18 @@ def process_video(video_path: Path, title: str) -> Path:
         # 1. split source into a full-canvas blurred background, and a
         #    foreground copy
         # 2. bg_full: scale+crop+blur to fill the entire 1080x1920 canvas
-        # 3. fg: scale to fit width, keep aspect
-        # 4. bg_full is cropped into bg_strip (top TITLE_AREA_H, behind the
-        #    title) and bg_video (the rest, behind the clip)
-        # 5. overlay fg centered on bg_video -> video_area
-        # 6. stack bg_strip on top of video_area to form the full frame
-        # 7. draw title + captions on top
+        #    (this shows through anywhere the foreground doesn't cover —
+        #    behind the title strip, and below the clip if it's short)
+        # 3. fg: scale to fit width, keep aspect, clamp to available height
+        # 4. overlay fg onto bg_full, positioned flush against the bottom
+        #    of the title strip (y=TITLE_AREA_H), horizontally centered
+        # 5. draw title + captions on top
         filter_complex = (
             f"[0:v]split=2[bg_src][fg_src];"
-            f"[bg_src]{bg_full_scale}[bg_full];"
+            f"[bg_src]{bg_full_scale}[bg];"
             f"[fg_src]{fg_scale}[fg];"
-            f"[bg_full]split=2[bg_full_a][bg_full_b];"
-            f"[bg_full_a]crop={TARGET_W}:{TITLE_AREA_H}:0:0[bg_strip];"
-            f"[bg_full_b]crop={TARGET_W}:{video_area_h}:0:{TITLE_AREA_H}[bg_video];"
-            f"[bg_video][fg]overlay=(W-w)/2:(H-h)/2[video_area];"
-            f"[bg_strip][video_area]vstack=inputs=2[merged];"
-            f"[merged]{overlay_filters}[outv]"
+            f"[bg][fg]overlay=(W-w)/2:{fg_top}[merged_video];"
+            f"[merged_video]{overlay_filters}[outv]"
         )
 
         out_path = video_path.parent / f"processed_{video_path.name}"
