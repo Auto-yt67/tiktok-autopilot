@@ -311,11 +311,13 @@ def build_caption_filter(words: list, caption_y: int) -> str:
 def process_video(video_path: Path, title: str) -> Path:
     """
     Build a 1080x1920 vertical video:
-      - Title: white text, black outline, in a blurred strip at the very
-        top of the frame.
-      - Clip: placed immediately below the title with no gap, scaled to
-        fit width (no stretch).
-      - Remaining space below the clip: blurred background fill.
+      - Title + clip are treated as one block (title strip directly above
+        the clip, no gap) and that block is vertically centered in the frame.
+      - Title: white text, black outline, in a blurred strip above the clip.
+      - Clip: scaled to fit width (or height, whichever is the binding
+        constraint), no stretching, horizontally centered.
+      - Any leftover space (above/below the block, or to the sides if the
+        clip is narrower than target width): blurred background fill.
       - Captions: 2-word groups, white text, black outline, near bottom of clip.
     """
     try:
@@ -333,7 +335,6 @@ def process_video(video_path: Path, title: str) -> Path:
 
         # Fixed-height strip reserved at the top for the title.
         TITLE_AREA_H = max(170, title_fontsize + 90)
-        title_y = int((TITLE_AREA_H - title_fontsize) / 2)
 
         # Foreground height once scaled to fit target width.
         fg_height_raw = src_h * (TARGET_W / src_w)
@@ -351,8 +352,15 @@ def process_video(video_path: Path, title: str) -> Path:
             fg_height = max_fg_height
             fg_scale = f"scale=-2:{int(max_fg_height)}"
 
+        # Total height of the title+clip block, used to center it
+        # vertically in the canvas (instead of pinning it to the top).
+        block_h = TITLE_AREA_H + fg_height
+        block_top = max(0, (TARGET_H - block_h) / 2)
+
+        title_y = int(block_top + (TITLE_AREA_H - title_fontsize) / 2)
+
         # Clip sits immediately below the title strip — no gap.
-        fg_top = TITLE_AREA_H
+        fg_top = block_top + TITLE_AREA_H
         fg_bottom = fg_top + fg_height
 
         # Captions sit near the bottom of the actual visible clip, nudged
@@ -387,16 +395,18 @@ def process_video(video_path: Path, title: str) -> Path:
         #    foreground copy
         # 2. bg_full: scale+crop+blur to fill the entire 1080x1920 canvas
         #    (this shows through anywhere the foreground doesn't cover —
-        #    behind the title strip, and below the clip if it's short)
-        # 3. fg: scale to fit width, keep aspect, clamp to available height
-        # 4. overlay fg onto bg_full, positioned flush against the bottom
-        #    of the title strip (y=TITLE_AREA_H), horizontally centered
+        #    above/below the title+clip block, and on the sides if the
+        #    clip is narrower than the target width)
+        # 3. fg: scale to fit width (or height, if that's the binding
+        #    constraint), keep aspect ratio
+        # 4. overlay fg onto bg_full at fg_top, horizontally centered — the
+        #    title+clip block as a whole is vertically centered in the frame
         # 5. draw title + captions on top
         filter_complex = (
             f"[0:v]split=2[bg_src][fg_src];"
             f"[bg_src]{bg_full_scale}[bg];"
             f"[fg_src]{fg_scale}[fg];"
-            f"[bg][fg]overlay=(W-w)/2:{fg_top}[merged_video];"
+            f"[bg][fg]overlay=(W-w)/2:{int(fg_top)}[merged_video];"
             f"[merged_video]{overlay_filters}[outv]"
         )
 
