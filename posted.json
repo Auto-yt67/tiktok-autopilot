@@ -24,7 +24,8 @@
     "https://www.twitch.tv/arjayoce/clip/RepleteSpicyStarlingPupper",
     "https://www.twitch.tv/xqc/clip/NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
     "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch",
-    "https://www.twitch.tv/kitboga/clip/PlainObliqueWormThunBeast"
+    "https://www.twitch.tv/kitboga/clip/PlainObliqueWormThunBeast",
+    "https://www.twitch.tv/piratesoftware/clip/CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -51,7 +52,8 @@
     "RepleteSpicyStarlingPupper",
     "NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
     "TrappedAmericanBoarAMPTropPunch",
-    "PlainObliqueWormThunBeast"
+    "PlainObliqueWormThunBeast",
+    "CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw"
   ],
   "history": [
     {
@@ -278,6 +280,15 @@
       "title": "Kitboga guesses syskey password set by scammer in 2 tries",
       "twitch_views": 691314,
       "posted_at": "2026-06-20T08:36:44.021804+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/piratesoftware/clip/CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
+      "clip_id": "CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
+      "streamer": "PirateSoftware",
+      "game": "World of Warcraft",
+      "title": "cringe",
+      "twitch_views": 790533,
+      "posted_at": "2026-06-20T10:22:06.729048+00:00"
     }
   ]
 }
