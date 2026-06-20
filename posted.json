@@ -25,7 +25,8 @@
     "https://www.twitch.tv/xqc/clip/NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
     "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch",
     "https://www.twitch.tv/kitboga/clip/PlainObliqueWormThunBeast",
-    "https://www.twitch.tv/piratesoftware/clip/CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw"
+    "https://www.twitch.tv/piratesoftware/clip/CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
+    "https://www.twitch.tv/warcraft/clip/StrongHonestTeaNinjaGrumpy"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -53,7 +54,8 @@
     "NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
     "TrappedAmericanBoarAMPTropPunch",
     "PlainObliqueWormThunBeast",
-    "CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw"
+    "CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
+    "StrongHonestTeaNinjaGrumpy"
   ],
   "history": [
     {
@@ -289,6 +291,15 @@
       "title": "cringe",
       "twitch_views": 790533,
       "posted_at": "2026-06-20T10:22:06.729048+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/warcraft/clip/StrongHonestTeaNinjaGrumpy",
+      "clip_id": "StrongHonestTeaNinjaGrumpy",
+      "streamer": "Warcraft",
+      "game": "World of Warcraft",
+      "title": "8.2 HoA foreshadowing?",
+      "twitch_views": 776044,
+      "posted_at": "2026-06-20T11:28:53.593112+00:00"
     }
   ]
 }
