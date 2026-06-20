@@ -28,7 +28,8 @@
     "https://www.twitch.tv/piratesoftware/clip/CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
     "https://www.twitch.tv/warcraft/clip/StrongHonestTeaNinjaGrumpy",
     "https://www.twitch.tv/forsen/clip/KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
-    "https://www.twitch.tv/brogottocurious/clip/ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib"
+    "https://www.twitch.tv/brogottocurious/clip/ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
+    "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -59,7 +60,8 @@
     "CuteEnchantingDunlinWTRuck-pcNk1MHB3fGxWKyw",
     "StrongHonestTeaNinjaGrumpy",
     "KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
-    "ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib"
+    "ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
+    "GeniusSpinelessAlligatorRitzMitz"
   ],
   "history": [
     {
@@ -322,6 +324,15 @@
       "title": "Fivem Conflict RP having fun on new server",
       "twitch_views": 660547,
       "posted_at": "2026-06-20T20:09:54.752410+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz",
+      "clip_id": "GeniusSpinelessAlligatorRitzMitz",
+      "streamer": "souljaboy",
+      "game": "VALORANT",
+      "title": "Soulja Boy ~30 mins into his stream",
+      "twitch_views": 635914,
+      "posted_at": "2026-06-20T22:00:50.850397+00:00"
     }
   ]
 }
