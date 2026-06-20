@@ -22,7 +22,8 @@
     "https://www.twitch.tv/eslcs/clip/OutstandingSavoryHorseradishVoteNay-LAPBj16O4cwDOKX9",
     "https://www.twitch.tv/reckful/clip/TrappedFrigidPenguinSeemsGood",
     "https://www.twitch.tv/arjayoce/clip/RepleteSpicyStarlingPupper",
-    "https://www.twitch.tv/xqc/clip/NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo"
+    "https://www.twitch.tv/xqc/clip/NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
+    "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -47,7 +48,8 @@
     "OutstandingSavoryHorseradishVoteNay-LAPBj16O4cwDOKX9",
     "TrappedFrigidPenguinSeemsGood",
     "RepleteSpicyStarlingPupper",
-    "NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo"
+    "NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
+    "TrappedAmericanBoarAMPTropPunch"
   ],
   "history": [
     {
@@ -256,6 +258,15 @@
       "title": "wow",
       "twitch_views": 774275,
       "posted_at": "2026-06-20T00:12:17.411787+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch",
+      "clip_id": "TrappedAmericanBoarAMPTropPunch",
+      "streamer": "sodapoppin",
+      "game": "IRL",
+      "title": "Mia Khalifa at Sodapoppin's house",
+      "twitch_views": 693768,
+      "posted_at": "2026-06-20T01:01:04.793403+00:00"
     }
   ]
 }
