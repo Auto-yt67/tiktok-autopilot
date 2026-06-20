@@ -23,7 +23,8 @@
     "https://www.twitch.tv/reckful/clip/TrappedFrigidPenguinSeemsGood",
     "https://www.twitch.tv/arjayoce/clip/RepleteSpicyStarlingPupper",
     "https://www.twitch.tv/xqc/clip/NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
-    "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch"
+    "https://www.twitch.tv/sodapoppin/clip/TrappedAmericanBoarAMPTropPunch",
+    "https://www.twitch.tv/kitboga/clip/PlainObliqueWormThunBeast"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -49,7 +50,8 @@
     "TrappedFrigidPenguinSeemsGood",
     "RepleteSpicyStarlingPupper",
     "NimbleProductiveAsparagusHeyGuys-s77ZvN10Yr-O2sfo",
-    "TrappedAmericanBoarAMPTropPunch"
+    "TrappedAmericanBoarAMPTropPunch",
+    "PlainObliqueWormThunBeast"
   ],
   "history": [
     {
@@ -267,6 +269,15 @@
       "title": "Mia Khalifa at Sodapoppin's house",
       "twitch_views": 693768,
       "posted_at": "2026-06-20T01:01:04.793403+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kitboga/clip/PlainObliqueWormThunBeast",
+      "clip_id": "PlainObliqueWormThunBeast",
+      "streamer": "Kitboga",
+      "game": "IRL",
+      "title": "Kitboga guesses syskey password set by scammer in 2 tries",
+      "twitch_views": 691314,
+      "posted_at": "2026-06-20T08:36:44.021804+00:00"
     }
   ]
 }
