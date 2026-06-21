@@ -29,7 +29,8 @@
     "https://www.twitch.tv/warcraft/clip/StrongHonestTeaNinjaGrumpy",
     "https://www.twitch.tv/forsen/clip/KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
     "https://www.twitch.tv/brogottocurious/clip/ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
-    "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz"
+    "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz",
+    "https://www.twitch.tv/masondota2/clip/CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -61,7 +62,8 @@
     "StrongHonestTeaNinjaGrumpy",
     "KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
     "ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
-    "GeniusSpinelessAlligatorRitzMitz"
+    "GeniusSpinelessAlligatorRitzMitz",
+    "CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN"
   ],
   "history": [
     {
@@ -333,6 +335,15 @@
       "title": "Soulja Boy ~30 mins into his stream",
       "twitch_views": 635914,
       "posted_at": "2026-06-20T22:00:50.850397+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/masondota2/clip/CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
+      "clip_id": "CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
+      "streamer": "masondota2",
+      "game": "Dota 2",
+      "title": "Mason receives his Christmas present",
+      "twitch_views": 621296,
+      "posted_at": "2026-06-21T10:50:23.458535+00:00"
     }
   ]
 }
