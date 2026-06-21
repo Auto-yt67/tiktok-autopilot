@@ -30,7 +30,8 @@
     "https://www.twitch.tv/forsen/clip/KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
     "https://www.twitch.tv/brogottocurious/clip/ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
     "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz",
-    "https://www.twitch.tv/masondota2/clip/CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN"
+    "https://www.twitch.tv/masondota2/clip/CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
+    "https://www.twitch.tv/xqc/clip/ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -63,7 +64,8 @@
     "KathishFaintFriesGingerPower-IWV6AJsEbYlFzRA8",
     "ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
     "GeniusSpinelessAlligatorRitzMitz",
-    "CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN"
+    "CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
+    "ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN"
   ],
   "history": [
     {
@@ -344,6 +346,15 @@
       "title": "Mason receives his Christmas present",
       "twitch_views": 621296,
       "posted_at": "2026-06-21T10:50:23.458535+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN",
+      "clip_id": "ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN",
+      "streamer": "xQc",
+      "game": "Special Events",
+      "title": "APPLE??",
+      "twitch_views": 745594,
+      "posted_at": "2026-06-21T11:35:45.593745+00:00"
     }
   ]
 }
