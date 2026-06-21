@@ -31,7 +31,8 @@
     "https://www.twitch.tv/brogottocurious/clip/ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
     "https://www.twitch.tv/souljaboy/clip/GeniusSpinelessAlligatorRitzMitz",
     "https://www.twitch.tv/masondota2/clip/CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
-    "https://www.twitch.tv/xqc/clip/ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN"
+    "https://www.twitch.tv/xqc/clip/ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN",
+    "https://www.twitch.tv/melharucos/clip/ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -65,7 +66,8 @@
     "ColdbloodedClumsyBubbleteaAMPTropPunch-zhXK8yRcKI5DzFib",
     "GeniusSpinelessAlligatorRitzMitz",
     "CheerfulFrozenLaptopMcaT-u70lacgn1Q8z8DzN",
-    "ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN"
+    "ShyGoldenWaffleRiPepperonis-75PvhsRCULS9ifBN",
+    "ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4"
   ],
   "history": [
     {
@@ -355,6 +357,15 @@
       "title": "APPLE??",
       "twitch_views": 745594,
       "posted_at": "2026-06-21T11:35:45.593745+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/melharucos/clip/ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4",
+      "clip_id": "ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4",
+      "streamer": "melharucos",
+      "game": "Minecraft",
+      "title": "\u0423 \u043d\u0435\u0433\u043e \u0440\u0435\u0430\u043b\u044c\u043d\u043e \u043a\u043b\u0430\u0441\u0441\u043d\u044b\u0439 \u0448\u0430\u0440!",
+      "twitch_views": 604404,
+      "posted_at": "2026-06-21T12:03:29.733021+00:00"
     }
   ]
 }
