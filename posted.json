@@ -38,7 +38,8 @@
     "https://www.twitch.tv/moonmoon/clip/SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
     "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss",
     "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch",
-    "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu"
+    "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu",
+    "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -79,7 +80,8 @@
     "SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
     "ShinyEndearingGooseKappaRoss",
     "GorgeousFastEggnogImGlitch",
-    "PeacefulAbnegateCookieMikeHogu"
+    "PeacefulAbnegateCookieMikeHogu",
+    "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI"
   ],
   "history": [
     {
@@ -432,6 +434,15 @@
       "title": "Kyle Calls Out EE",
       "twitch_views": 544865,
       "posted_at": "2026-06-22T18:37:27.499357+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
+      "clip_id": "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
+      "streamer": "madisonbeer",
+      "game": "Fall Guys",
+      "title": "ahegao",
+      "twitch_views": 715254,
+      "posted_at": "2026-06-22T21:36:54.319649+00:00"
     }
   ]
 }
