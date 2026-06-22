@@ -37,7 +37,8 @@
     "https://www.twitch.tv/meteos/clip/HotHedonisticPistachioPoooound",
     "https://www.twitch.tv/moonmoon/clip/SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
     "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss",
-    "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch"
+    "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch",
+    "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -77,7 +78,8 @@
     "HotHedonisticPistachioPoooound",
     "SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
     "ShinyEndearingGooseKappaRoss",
-    "GorgeousFastEggnogImGlitch"
+    "GorgeousFastEggnogImGlitch",
+    "PeacefulAbnegateCookieMikeHogu"
   ],
   "history": [
     {
@@ -421,6 +423,15 @@
       "title": "sodapoppin spits on the floor in stockholm",
       "twitch_views": 557366,
       "posted_at": "2026-06-22T17:23:35.485493+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu",
+      "clip_id": "PeacefulAbnegateCookieMikeHogu",
+      "streamer": "ESL_DOTA2",
+      "game": "Dota 2",
+      "title": "Kyle Calls Out EE",
+      "twitch_views": 544865,
+      "posted_at": "2026-06-22T18:37:27.499357+00:00"
     }
   ]
 }
