@@ -40,7 +40,8 @@
     "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch",
     "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu",
     "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
-    "https://www.twitch.tv/zenwayproductions/clip/CuteReliableCarrotFrankerZ"
+    "https://www.twitch.tv/zenwayproductions/clip/CuteReliableCarrotFrankerZ",
+    "https://www.twitch.tv/loltyler1/clip/HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -83,7 +84,8 @@
     "GorgeousFastEggnogImGlitch",
     "PeacefulAbnegateCookieMikeHogu",
     "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
-    "CuteReliableCarrotFrankerZ"
+    "CuteReliableCarrotFrankerZ",
+    "HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4"
   ],
   "history": [
     {
@@ -454,6 +456,15 @@
       "title": "Overwatch STGCC eSports - Mountain Dew Cup 2016: Day 2",
       "twitch_views": 518138,
       "posted_at": "2026-06-22T22:22:58.040286+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/loltyler1/clip/HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
+      "clip_id": "HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
+      "streamer": "loltyler1",
+      "game": "League of Legends",
+      "title": "exposed",
+      "twitch_views": 514813,
+      "posted_at": "2026-06-22T23:09:32.411502+00:00"
     }
   ]
 }
