@@ -39,7 +39,8 @@
     "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss",
     "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch",
     "https://www.twitch.tv/esl_dota2/clip/PeacefulAbnegateCookieMikeHogu",
-    "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI"
+    "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
+    "https://www.twitch.tv/zenwayproductions/clip/CuteReliableCarrotFrankerZ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -81,7 +82,8 @@
     "ShinyEndearingGooseKappaRoss",
     "GorgeousFastEggnogImGlitch",
     "PeacefulAbnegateCookieMikeHogu",
-    "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI"
+    "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
+    "CuteReliableCarrotFrankerZ"
   ],
   "history": [
     {
@@ -443,6 +445,15 @@
       "title": "ahegao",
       "twitch_views": 715254,
       "posted_at": "2026-06-22T21:36:54.319649+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/zenwayproductions/clip/CuteReliableCarrotFrankerZ",
+      "clip_id": "CuteReliableCarrotFrankerZ",
+      "streamer": "ZenwayProductions",
+      "game": "Overwatch",
+      "title": "Overwatch STGCC eSports - Mountain Dew Cup 2016: Day 2",
+      "twitch_views": 518138,
+      "posted_at": "2026-06-22T22:22:58.040286+00:00"
     }
   ]
 }
