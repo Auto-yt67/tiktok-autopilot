@@ -35,7 +35,8 @@
     "https://www.twitch.tv/melharucos/clip/ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4",
     "https://www.twitch.tv/rocketleague/clip/AbstruseAgileClamJebaited",
     "https://www.twitch.tv/meteos/clip/HotHedonisticPistachioPoooound",
-    "https://www.twitch.tv/moonmoon/clip/SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl"
+    "https://www.twitch.tv/moonmoon/clip/SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
+    "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -73,7 +74,8 @@
     "ChillyBlueAirGuitarAliens-u1wVTnslg2ydqrc4",
     "AbstruseAgileClamJebaited",
     "HotHedonisticPistachioPoooound",
-    "SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl"
+    "SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
+    "ShinyEndearingGooseKappaRoss"
   ],
   "history": [
     {
@@ -399,6 +401,15 @@
       "title": "Moon addresses his ERP",
       "twitch_views": 584465,
       "posted_at": "2026-06-21T22:26:15.479924+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss",
+      "clip_id": "ShinyEndearingGooseKappaRoss",
+      "streamer": "jakenbakeLIVE",
+      "game": "IRL",
+      "title": "FU*K ME!",
+      "twitch_views": 572131,
+      "posted_at": "2026-06-22T16:02:43.586207+00:00"
     }
   ]
 }
