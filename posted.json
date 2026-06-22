@@ -36,7 +36,8 @@
     "https://www.twitch.tv/rocketleague/clip/AbstruseAgileClamJebaited",
     "https://www.twitch.tv/meteos/clip/HotHedonisticPistachioPoooound",
     "https://www.twitch.tv/moonmoon/clip/SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
-    "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss"
+    "https://www.twitch.tv/jakenbakelive/clip/ShinyEndearingGooseKappaRoss",
+    "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -75,7 +76,8 @@
     "AbstruseAgileClamJebaited",
     "HotHedonisticPistachioPoooound",
     "SillyRelievedOxOSkomodo-6lO2SykZYTg6NGYl",
-    "ShinyEndearingGooseKappaRoss"
+    "ShinyEndearingGooseKappaRoss",
+    "GorgeousFastEggnogImGlitch"
   ],
   "history": [
     {
@@ -410,6 +412,15 @@
       "title": "FU*K ME!",
       "twitch_views": 572131,
       "posted_at": "2026-06-22T16:02:43.586207+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sodapoppin/clip/GorgeousFastEggnogImGlitch",
+      "clip_id": "GorgeousFastEggnogImGlitch",
+      "streamer": "sodapoppin",
+      "game": "IRL",
+      "title": "sodapoppin spits on the floor in stockholm",
+      "twitch_views": 557366,
+      "posted_at": "2026-06-22T17:23:35.485493+00:00"
     }
   ]
 }
