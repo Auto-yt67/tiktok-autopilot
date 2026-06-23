@@ -44,7 +44,8 @@
     "https://www.twitch.tv/loltyler1/clip/HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
     "https://www.twitch.tv/riotgames/clip/GoodAlertBurritoTheTarFu",
     "https://www.twitch.tv/ohnepixel/clip/AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
-    "https://www.twitch.tv/vixienette/clip/AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES"
+    "https://www.twitch.tv/vixienette/clip/AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
+    "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -91,7 +92,8 @@
     "HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
     "GoodAlertBurritoTheTarFu",
     "AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
-    "AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES"
+    "AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
+    "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa"
   ],
   "history": [
     {
@@ -498,6 +500,15 @@
       "title": "SAY SOMETHING",
       "twitch_views": 476164,
       "posted_at": "2026-06-23T12:51:26.459353+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
+      "clip_id": "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
+      "streamer": "PirateSoftware",
+      "game": "Path of Exile 2",
+      "title": "Pirate quits Hardcore",
+      "twitch_views": 488948,
+      "posted_at": "2026-06-23T19:25:33.990037+00:00"
     }
   ]
 }
