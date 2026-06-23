@@ -42,7 +42,8 @@
     "https://www.twitch.tv/madisonbeer/clip/LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
     "https://www.twitch.tv/zenwayproductions/clip/CuteReliableCarrotFrankerZ",
     "https://www.twitch.tv/loltyler1/clip/HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
-    "https://www.twitch.tv/riotgames/clip/GoodAlertBurritoTheTarFu"
+    "https://www.twitch.tv/riotgames/clip/GoodAlertBurritoTheTarFu",
+    "https://www.twitch.tv/ohnepixel/clip/AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -87,7 +88,8 @@
     "LazyLongZucchiniImGlitch-a-Gbe6LNDs1hJKEI",
     "CuteReliableCarrotFrankerZ",
     "HonestEnticingParrotNononoCat-PlnB4JlQAunypNR4",
-    "GoodAlertBurritoTheTarFu"
+    "GoodAlertBurritoTheTarFu",
+    "AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ"
   ],
   "history": [
     {
@@ -476,6 +478,15 @@
       "title": "VALORANT REVEAL (PROJECT A)",
       "twitch_views": 484982,
       "posted_at": "2026-06-23T08:51:13.478597+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ohnepixel/clip/AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
+      "clip_id": "AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
+      "streamer": "ohnePixel",
+      "game": "Counter-Strike",
+      "title": "2nd knife in cs2",
+      "twitch_views": 484978,
+      "posted_at": "2026-06-23T11:45:24.543540+00:00"
     }
   ]
 }
