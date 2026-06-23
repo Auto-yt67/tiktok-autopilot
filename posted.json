@@ -45,7 +45,8 @@
     "https://www.twitch.tv/riotgames/clip/GoodAlertBurritoTheTarFu",
     "https://www.twitch.tv/ohnepixel/clip/AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
     "https://www.twitch.tv/vixienette/clip/AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
-    "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa"
+    "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
+    "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -93,7 +94,8 @@
     "GoodAlertBurritoTheTarFu",
     "AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
     "AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
-    "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa"
+    "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
+    "FilthyConsiderateAirGuitarKappaPride"
   ],
   "history": [
     {
@@ -509,6 +511,15 @@
       "title": "Pirate quits Hardcore",
       "twitch_views": 488948,
       "posted_at": "2026-06-23T19:25:33.990037+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride",
+      "clip_id": "FilthyConsiderateAirGuitarKappaPride",
+      "streamer": "xQc",
+      "game": "Fortnite",
+      "title": "what",
+      "twitch_views": 460252,
+      "posted_at": "2026-06-23T21:21:13.081504+00:00"
     }
   ]
 }
