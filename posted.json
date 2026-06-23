@@ -46,7 +46,8 @@
     "https://www.twitch.tv/ohnepixel/clip/AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
     "https://www.twitch.tv/vixienette/clip/AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
     "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
-    "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride"
+    "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride",
+    "https://www.twitch.tv/ottr/clip/SmoothShinyPterodactylPupper"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -95,7 +96,8 @@
     "AffluentApatheticFlyHoneyBadger-Se0a1H_zGIowesvQ",
     "AmazonianDarkCourgetteKAPOW-Edfr6ubzt8pchNES",
     "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
-    "FilthyConsiderateAirGuitarKappaPride"
+    "FilthyConsiderateAirGuitarKappaPride",
+    "SmoothShinyPterodactylPupper"
   ],
   "history": [
     {
@@ -520,6 +522,15 @@
       "title": "what",
       "twitch_views": 460252,
       "posted_at": "2026-06-23T21:21:13.081504+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ottr/clip/SmoothShinyPterodactylPupper",
+      "clip_id": "SmoothShinyPterodactylPupper",
+      "streamer": "ottr",
+      "game": "Apex Legends",
+      "title": "LOVE_FuryXD Dies!?!",
+      "twitch_views": 467811,
+      "posted_at": "2026-06-23T22:25:27.875214+00:00"
     }
   ]
 }
