@@ -51,7 +51,8 @@
     "https://www.twitch.tv/forsen/clip/AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
     "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy",
     "https://www.twitch.tv/shroud/clip/ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
-    "https://www.twitch.tv/dexbonus/clip/RelatedBeautifulEggnogHoneyBadger"
+    "https://www.twitch.tv/dexbonus/clip/RelatedBeautifulEggnogHoneyBadger",
+    "https://www.twitch.tv/quin69/clip/BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -105,7 +106,8 @@
     "AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
     "WrongSpinelessMacaroniSpicyBoy",
     "ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
-    "RelatedBeautifulEggnogHoneyBadger"
+    "RelatedBeautifulEggnogHoneyBadger",
+    "BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu"
   ],
   "history": [
     {
@@ -575,6 +577,15 @@
       "title": "Doogs and Sam are having a... BABY!",
       "twitch_views": 433692,
       "posted_at": "2026-06-24T18:24:14.417260+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/quin69/clip/BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
+      "clip_id": "BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
+      "streamer": "Quin69",
+      "game": "Path of Exile 2",
+      "title": "real",
+      "twitch_views": 455050,
+      "posted_at": "2026-06-24T21:14:17.107488+00:00"
     }
   ]
 }
