@@ -52,7 +52,8 @@
     "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy",
     "https://www.twitch.tv/shroud/clip/ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
     "https://www.twitch.tv/dexbonus/clip/RelatedBeautifulEggnogHoneyBadger",
-    "https://www.twitch.tv/quin69/clip/BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu"
+    "https://www.twitch.tv/quin69/clip/BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
+    "https://www.twitch.tv/vixienette/clip/VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -107,7 +108,8 @@
     "WrongSpinelessMacaroniSpicyBoy",
     "ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
     "RelatedBeautifulEggnogHoneyBadger",
-    "BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu"
+    "BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
+    "VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY"
   ],
   "history": [
     {
@@ -586,6 +588,15 @@
       "title": "real",
       "twitch_views": 455050,
       "posted_at": "2026-06-24T21:14:17.107488+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/vixienette/clip/VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY",
+      "clip_id": "VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY",
+      "streamer": "vixienette",
+      "game": "Counter-Strike",
+      "title": "mc villager in cs.. LOL",
+      "twitch_views": 431593,
+      "posted_at": "2026-06-24T22:48:47.523612+00:00"
     }
   ]
 }
