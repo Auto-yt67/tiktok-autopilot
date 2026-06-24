@@ -49,7 +49,8 @@
     "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride",
     "https://www.twitch.tv/ottr/clip/SmoothShinyPterodactylPupper",
     "https://www.twitch.tv/forsen/clip/AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
-    "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy"
+    "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy",
+    "https://www.twitch.tv/shroud/clip/ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -101,7 +102,8 @@
     "FilthyConsiderateAirGuitarKappaPride",
     "SmoothShinyPterodactylPupper",
     "AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
-    "WrongSpinelessMacaroniSpicyBoy"
+    "WrongSpinelessMacaroniSpicyBoy",
+    "ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV"
   ],
   "history": [
     {
@@ -553,6 +555,15 @@
       "title": "Confirmed",
       "twitch_views": 454022,
       "posted_at": "2026-06-24T10:39:31.075975+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/shroud/clip/ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
+      "clip_id": "ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
+      "streamer": "shroud",
+      "game": "VALORANT",
+      "title": "Shroud hits a triple wallbang",
+      "twitch_views": 453062,
+      "posted_at": "2026-06-24T12:13:52.287521+00:00"
     }
   ]
 }
