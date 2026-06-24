@@ -48,7 +48,8 @@
     "https://www.twitch.tv/piratesoftware/clip/EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
     "https://www.twitch.tv/xqc/clip/FilthyConsiderateAirGuitarKappaPride",
     "https://www.twitch.tv/ottr/clip/SmoothShinyPterodactylPupper",
-    "https://www.twitch.tv/forsen/clip/AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6"
+    "https://www.twitch.tv/forsen/clip/AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
+    "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -99,7 +100,8 @@
     "EagerKitschyQuailJKanStyle-Nm1F9zcmSXFOIpsa",
     "FilthyConsiderateAirGuitarKappaPride",
     "SmoothShinyPterodactylPupper",
-    "AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6"
+    "AbrasiveGlamorousGrouseUnSane-VbEAMdRLWQHLX5K6",
+    "WrongSpinelessMacaroniSpicyBoy"
   ],
   "history": [
     {
@@ -542,6 +544,15 @@
       "title": "forsen",
       "twitch_views": 457468,
       "posted_at": "2026-06-24T00:16:50.244045+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/disguisedtoast/clip/WrongSpinelessMacaroniSpicyBoy",
+      "clip_id": "WrongSpinelessMacaroniSpicyBoy",
+      "streamer": "DisguisedToast",
+      "game": "Fortnite",
+      "title": "Confirmed",
+      "twitch_views": 454022,
+      "posted_at": "2026-06-24T10:39:31.075975+00:00"
     }
   ]
 }
