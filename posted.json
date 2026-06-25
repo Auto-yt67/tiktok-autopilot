@@ -53,7 +53,8 @@
     "https://www.twitch.tv/shroud/clip/ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
     "https://www.twitch.tv/dexbonus/clip/RelatedBeautifulEggnogHoneyBadger",
     "https://www.twitch.tv/quin69/clip/BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
-    "https://www.twitch.tv/vixienette/clip/VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY"
+    "https://www.twitch.tv/vixienette/clip/VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY",
+    "https://www.twitch.tv/twitchrivals/clip/SilkyExuberantLyrebirdTBCheesePull"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -109,7 +110,8 @@
     "ScrumptiousStrangeAardvarkDansGame-saGWgSaVIlpBVUBV",
     "RelatedBeautifulEggnogHoneyBadger",
     "BrightSillyCroquetteChefFrank-d80v2Hbzz839y6Xu",
-    "VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY"
+    "VibrantPoorSnakeOMGScoots-voh7RNYy0QiCwyeY",
+    "SilkyExuberantLyrebirdTBCheesePull"
   ],
   "history": [
     {
@@ -597,6 +599,15 @@
       "title": "mc villager in cs.. LOL",
       "twitch_views": 431593,
       "posted_at": "2026-06-24T22:48:47.523612+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/twitchrivals/clip/SilkyExuberantLyrebirdTBCheesePull",
+      "clip_id": "SilkyExuberantLyrebirdTBCheesePull",
+      "streamer": "TwitchRivals",
+      "game": "League of Legends",
+      "title": "lmaoo",
+      "twitch_views": 428608,
+      "posted_at": "2026-06-25T08:41:11.845200+00:00"
     }
   ]
 }
