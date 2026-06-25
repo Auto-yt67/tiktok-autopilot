@@ -57,7 +57,8 @@
     "https://www.twitch.tv/twitchrivals/clip/SilkyExuberantLyrebirdTBCheesePull",
     "https://www.twitch.tv/kaicenat/clip/PerfectHelpfulPotatoSSSsss-iYvWQFwd95WKkUPB",
     "https://www.twitch.tv/riotgames/clip/PoliteQuaintMilkDxAbomb",
-    "https://www.twitch.tv/nl_kripp/clip/SuaveJoyousWormCopyThis"
+    "https://www.twitch.tv/nl_kripp/clip/SuaveJoyousWormCopyThis",
+    "https://www.twitch.tv/lirik/clip/PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -117,7 +118,8 @@
     "SilkyExuberantLyrebirdTBCheesePull",
     "PerfectHelpfulPotatoSSSsss-iYvWQFwd95WKkUPB",
     "PoliteQuaintMilkDxAbomb",
-    "SuaveJoyousWormCopyThis"
+    "SuaveJoyousWormCopyThis",
+    "PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4"
   ],
   "history": [
     {
@@ -641,6 +643,15 @@
       "title": "Kripp presses the button",
       "twitch_views": 550989,
       "posted_at": "2026-06-25T19:22:49.281180+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/lirik/clip/PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
+      "clip_id": "PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
+      "streamer": "LIRIK",
+      "game": "Special Events",
+      "title": "Video Game Awards 2022 With Chat",
+      "twitch_views": 473843,
+      "posted_at": "2026-06-25T21:19:27.448211+00:00"
     }
   ]
 }
