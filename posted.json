@@ -59,7 +59,8 @@
     "https://www.twitch.tv/riotgames/clip/PoliteQuaintMilkDxAbomb",
     "https://www.twitch.tv/nl_kripp/clip/SuaveJoyousWormCopyThis",
     "https://www.twitch.tv/lirik/clip/PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
-    "https://www.twitch.tv/warframe/clip/SparklyInterestingButterBudStar"
+    "https://www.twitch.tv/warframe/clip/SparklyInterestingButterBudStar",
+    "https://www.twitch.tv/spizzelz/clip/SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -121,7 +122,8 @@
     "PoliteQuaintMilkDxAbomb",
     "SuaveJoyousWormCopyThis",
     "PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
-    "SparklyInterestingButterBudStar"
+    "SparklyInterestingButterBudStar",
+    "SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g"
   ],
   "history": [
     {
@@ -663,6 +665,15 @@
       "title": "Prime Time #209 - Back For Spore!",
       "twitch_views": 540766,
       "posted_at": "2026-06-25T23:05:07.831638+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/spizzelz/clip/SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g",
+      "clip_id": "SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g",
+      "streamer": "spizzelz",
+      "game": "Fortnite",
+      "title": "wwwww",
+      "twitch_views": 409654,
+      "posted_at": "2026-06-26T08:43:13.462725+00:00"
     }
   ]
 }
