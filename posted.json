@@ -61,7 +61,8 @@
     "https://www.twitch.tv/lirik/clip/PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
     "https://www.twitch.tv/warframe/clip/SparklyInterestingButterBudStar",
     "https://www.twitch.tv/spizzelz/clip/SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g",
-    "https://www.twitch.tv/playhearthstone/clip/VenomousWiseBananaDatSheffy"
+    "https://www.twitch.tv/playhearthstone/clip/VenomousWiseBananaDatSheffy",
+    "https://www.twitch.tv/psp1g/clip/GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -125,7 +126,8 @@
     "PoliteBrightMouseOSkomodo-JROWcZVK4SouyFS4",
     "SparklyInterestingButterBudStar",
     "SullenAmazonianMelonDxAbomb-I7Nmi_UxTW0JSc7g",
-    "VenomousWiseBananaDatSheffy"
+    "VenomousWiseBananaDatSheffy",
+    "GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R"
   ],
   "history": [
     {
@@ -685,6 +687,15 @@
       "title": "seiko",
       "twitch_views": 499664,
       "posted_at": "2026-06-26T10:44:39.832333+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/psp1g/clip/GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R",
+      "clip_id": "GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R",
+      "streamer": "PSP1G",
+      "game": "Counter-Strike",
+      "title": "CS2",
+      "twitch_views": 406047,
+      "posted_at": "2026-06-26T12:04:08.883611+00:00"
     }
   ]
 }
