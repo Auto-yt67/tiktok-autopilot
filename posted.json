@@ -64,7 +64,8 @@
     "https://www.twitch.tv/playhearthstone/clip/VenomousWiseBananaDatSheffy",
     "https://www.twitch.tv/psp1g/clip/GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R",
     "https://www.twitch.tv/kaicenat/clip/ResoluteToughCatCoolStoryBob-2B3DE_CjkL4iuSHp",
-    "https://www.twitch.tv/michaelreeves/clip/HeartlessPricklyMartenPartyTime"
+    "https://www.twitch.tv/michaelreeves/clip/HeartlessPricklyMartenPartyTime",
+    "https://www.twitch.tv/myth/clip/LuckyCautiousChickpeaHoneyBadger"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -131,7 +132,8 @@
     "VenomousWiseBananaDatSheffy",
     "GracefulApatheticPastaPeteZarollTie-sY-QMISyB2nDu07R",
     "ResoluteToughCatCoolStoryBob-2B3DE_CjkL4iuSHp",
-    "HeartlessPricklyMartenPartyTime"
+    "HeartlessPricklyMartenPartyTime",
+    "LuckyCautiousChickpeaHoneyBadger"
   ],
   "history": [
     {
@@ -718,6 +720,15 @@
       "title": "30k Andy",
       "twitch_views": 397877,
       "posted_at": "2026-06-26T21:10:44.987045+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/myth/clip/LuckyCautiousChickpeaHoneyBadger",
+      "clip_id": "LuckyCautiousChickpeaHoneyBadger",
+      "streamer": "Myth",
+      "game": "Fortnite",
+      "title": "Self Rocket Ride",
+      "twitch_views": 392848,
+      "posted_at": "2026-06-26T21:58:45.115726+00:00"
     }
   ]
 }
