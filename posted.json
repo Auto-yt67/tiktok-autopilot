@@ -69,7 +69,8 @@
     "https://www.twitch.tv/a_seagull/clip/OptimisticImpartialGoosePeanutButterJellyTime",
     "https://www.twitch.tv/strawberrytabby/clip/ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
     "https://www.twitch.tv/trumpsc/clip/EphemeralExcitedDiscDoggo",
-    "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis"
+    "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis",
+    "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -141,7 +142,8 @@
     "OptimisticImpartialGoosePeanutButterJellyTime",
     "ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
     "EphemeralExcitedDiscDoggo",
-    "EphemeralDullBeePanicVis"
+    "EphemeralDullBeePanicVis",
+    "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD"
   ],
   "history": [
     {
@@ -773,6 +775,15 @@
       "title": "rtz vs vg",
       "twitch_views": 373761,
       "posted_at": "2026-06-27T15:58:20.312761+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
+      "clip_id": "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
+      "streamer": "xQc",
+      "game": "Minecraft",
+      "title": "xqcSmug TeaTime 16:38",
+      "twitch_views": 360862,
+      "posted_at": "2026-06-27T19:00:23.210888+00:00"
     }
   ]
 }
