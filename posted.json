@@ -66,7 +66,8 @@
     "https://www.twitch.tv/kaicenat/clip/ResoluteToughCatCoolStoryBob-2B3DE_CjkL4iuSHp",
     "https://www.twitch.tv/michaelreeves/clip/HeartlessPricklyMartenPartyTime",
     "https://www.twitch.tv/myth/clip/LuckyCautiousChickpeaHoneyBadger",
-    "https://www.twitch.tv/a_seagull/clip/OptimisticImpartialGoosePeanutButterJellyTime"
+    "https://www.twitch.tv/a_seagull/clip/OptimisticImpartialGoosePeanutButterJellyTime",
+    "https://www.twitch.tv/strawberrytabby/clip/ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -135,7 +136,8 @@
     "ResoluteToughCatCoolStoryBob-2B3DE_CjkL4iuSHp",
     "HeartlessPricklyMartenPartyTime",
     "LuckyCautiousChickpeaHoneyBadger",
-    "OptimisticImpartialGoosePeanutButterJellyTime"
+    "OptimisticImpartialGoosePeanutButterJellyTime",
+    "ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt"
   ],
   "history": [
     {
@@ -740,6 +742,15 @@
       "title": "Seagull Demonetized",
       "twitch_views": 403176,
       "posted_at": "2026-06-27T08:09:45.774492+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/strawberrytabby/clip/ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
+      "clip_id": "ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
+      "streamer": "StrawberryTabby",
+      "game": "VALORANT",
+      "title": "LOCK IN ",
+      "twitch_views": 380588,
+      "posted_at": "2026-06-27T09:22:42.574382+00:00"
     }
   ]
 }
