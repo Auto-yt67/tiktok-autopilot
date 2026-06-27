@@ -68,7 +68,8 @@
     "https://www.twitch.tv/myth/clip/LuckyCautiousChickpeaHoneyBadger",
     "https://www.twitch.tv/a_seagull/clip/OptimisticImpartialGoosePeanutButterJellyTime",
     "https://www.twitch.tv/strawberrytabby/clip/ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
-    "https://www.twitch.tv/trumpsc/clip/EphemeralExcitedDiscDoggo"
+    "https://www.twitch.tv/trumpsc/clip/EphemeralExcitedDiscDoggo",
+    "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -139,7 +140,8 @@
     "LuckyCautiousChickpeaHoneyBadger",
     "OptimisticImpartialGoosePeanutButterJellyTime",
     "ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
-    "EphemeralExcitedDiscDoggo"
+    "EphemeralExcitedDiscDoggo",
+    "EphemeralDullBeePanicVis"
   ],
   "history": [
     {
@@ -762,6 +764,15 @@
       "title": "So sad",
       "twitch_views": 389374,
       "posted_at": "2026-06-27T10:38:17.462186+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis",
+      "clip_id": "EphemeralDullBeePanicVis",
+      "streamer": "dota2ti",
+      "game": "Dota 2",
+      "title": "rtz vs vg",
+      "twitch_views": 373761,
+      "posted_at": "2026-06-27T15:58:20.312761+00:00"
     }
   ]
 }
