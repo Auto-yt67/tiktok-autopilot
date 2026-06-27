@@ -70,7 +70,8 @@
     "https://www.twitch.tv/strawberrytabby/clip/ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
     "https://www.twitch.tv/trumpsc/clip/EphemeralExcitedDiscDoggo",
     "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis",
-    "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD"
+    "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
+    "https://www.twitch.tv/ow_esports/clip/OpenRenownedNewtPMSTwin"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -143,7 +144,8 @@
     "ArbitraryDifferentTurtleDoggo-pmx_v-mcmDD2HpIt",
     "EphemeralExcitedDiscDoggo",
     "EphemeralDullBeePanicVis",
-    "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD"
+    "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
+    "OpenRenownedNewtPMSTwin"
   ],
   "history": [
     {
@@ -784,6 +786,15 @@
       "title": "xqcSmug TeaTime 16:38",
       "twitch_views": 360862,
       "posted_at": "2026-06-27T19:00:23.210888+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ow_esports/clip/OpenRenownedNewtPMSTwin",
+      "clip_id": "OpenRenownedNewtPMSTwin",
+      "streamer": "ow_esports",
+      "game": "Overwatch",
+      "title": "ZEDD SKIN?",
+      "twitch_views": 344863,
+      "posted_at": "2026-06-27T21:45:21.036073+00:00"
     }
   ]
 }
