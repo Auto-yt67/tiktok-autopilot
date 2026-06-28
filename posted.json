@@ -76,7 +76,8 @@
     "https://www.twitch.tv/eternalenvyy/clip/InexpensiveElegantNigiriCmonBruh",
     "https://www.twitch.tv/ow_esports/clip/SpotlessUglyCakeDatBoi",
     "https://www.twitch.tv/bacon_mom/clip/DrabRelatedHerringWTRuck",
-    "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy"
+    "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy",
+    "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -155,7 +156,8 @@
     "InexpensiveElegantNigiriCmonBruh",
     "SpotlessUglyCakeDatBoi",
     "DrabRelatedHerringWTRuck",
-    "PlainBlindingShieldTooSpicy"
+    "PlainBlindingShieldTooSpicy",
+    "CarelessLitigiousTireSeemsGood"
   ],
   "history": [
     {
@@ -850,6 +852,15 @@
       "title": "Sans Mii Swordfighter Skin Announced",
       "twitch_views": 427194,
       "posted_at": "2026-06-28T19:00:08.319263+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood",
+      "clip_id": "CarelessLitigiousTireSeemsGood",
+      "streamer": "dota2ti",
+      "game": "Dota 2",
+      "title": "Notail MonkaS",
+      "twitch_views": 334248,
+      "posted_at": "2026-06-28T21:48:11.922257+00:00"
     }
   ]
 }
