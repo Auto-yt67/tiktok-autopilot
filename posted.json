@@ -73,7 +73,8 @@
     "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
     "https://www.twitch.tv/ow_esports/clip/OpenRenownedNewtPMSTwin",
     "https://www.twitch.tv/sykkuno/clip/ElegantRichStorkFunRun",
-    "https://www.twitch.tv/eternalenvyy/clip/InexpensiveElegantNigiriCmonBruh"
+    "https://www.twitch.tv/eternalenvyy/clip/InexpensiveElegantNigiriCmonBruh",
+    "https://www.twitch.tv/ow_esports/clip/SpotlessUglyCakeDatBoi"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -149,7 +150,8 @@
     "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
     "OpenRenownedNewtPMSTwin",
     "ElegantRichStorkFunRun",
-    "InexpensiveElegantNigiriCmonBruh"
+    "InexpensiveElegantNigiriCmonBruh",
+    "SpotlessUglyCakeDatBoi"
   ],
   "history": [
     {
@@ -817,6 +819,15 @@
       "title": "EE Banned",
       "twitch_views": 340614,
       "posted_at": "2026-06-28T10:16:11.886819+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ow_esports/clip/SpotlessUglyCakeDatBoi",
+      "clip_id": "SpotlessUglyCakeDatBoi",
+      "streamer": "ow_esports",
+      "game": "Overwatch",
+      "title": "5000 IQ",
+      "twitch_views": 335568,
+      "posted_at": "2026-06-28T10:59:41.229510+00:00"
     }
   ]
 }
