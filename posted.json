@@ -75,7 +75,8 @@
     "https://www.twitch.tv/sykkuno/clip/ElegantRichStorkFunRun",
     "https://www.twitch.tv/eternalenvyy/clip/InexpensiveElegantNigiriCmonBruh",
     "https://www.twitch.tv/ow_esports/clip/SpotlessUglyCakeDatBoi",
-    "https://www.twitch.tv/bacon_mom/clip/DrabRelatedHerringWTRuck"
+    "https://www.twitch.tv/bacon_mom/clip/DrabRelatedHerringWTRuck",
+    "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -153,7 +154,8 @@
     "ElegantRichStorkFunRun",
     "InexpensiveElegantNigiriCmonBruh",
     "SpotlessUglyCakeDatBoi",
-    "DrabRelatedHerringWTRuck"
+    "DrabRelatedHerringWTRuck",
+    "PlainBlindingShieldTooSpicy"
   ],
   "history": [
     {
@@ -839,6 +841,15 @@
       "title": "Wow",
       "twitch_views": 339475,
       "posted_at": "2026-06-28T16:04:25.010301+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy",
+      "clip_id": "PlainBlindingShieldTooSpicy",
+      "streamer": "Nintendo",
+      "game": "Special Events",
+      "title": "Sans Mii Swordfighter Skin Announced",
+      "twitch_views": 427194,
+      "posted_at": "2026-06-28T19:00:08.319263+00:00"
     }
   ]
 }
