@@ -71,7 +71,8 @@
     "https://www.twitch.tv/trumpsc/clip/EphemeralExcitedDiscDoggo",
     "https://www.twitch.tv/dota2ti/clip/EphemeralDullBeePanicVis",
     "https://www.twitch.tv/xqc/clip/ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
-    "https://www.twitch.tv/ow_esports/clip/OpenRenownedNewtPMSTwin"
+    "https://www.twitch.tv/ow_esports/clip/OpenRenownedNewtPMSTwin",
+    "https://www.twitch.tv/sykkuno/clip/ElegantRichStorkFunRun"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -145,7 +146,8 @@
     "EphemeralExcitedDiscDoggo",
     "EphemeralDullBeePanicVis",
     "ExquisiteDepressedTurnipTriHard-2tc4CC7oFFDxwbTD",
-    "OpenRenownedNewtPMSTwin"
+    "OpenRenownedNewtPMSTwin",
+    "ElegantRichStorkFunRun"
   ],
   "history": [
     {
@@ -795,6 +797,15 @@
       "title": "ZEDD SKIN?",
       "twitch_views": 344863,
       "posted_at": "2026-06-27T21:45:21.036073+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sykkuno/clip/ElegantRichStorkFunRun",
+      "clip_id": "ElegantRichStorkFunRun",
+      "streamer": "Sykkuno",
+      "game": "VALORANT",
+      "title": "Sykkuno realizes his top donators are all girls.",
+      "twitch_views": 344323,
+      "posted_at": "2026-06-28T08:37:03.356720+00:00"
     }
   ]
 }
