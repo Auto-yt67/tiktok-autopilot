@@ -80,7 +80,8 @@
     "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood",
     "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5",
     "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
-    "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood"
+    "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood",
+    "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -163,7 +164,8 @@
     "CarelessLitigiousTireSeemsGood",
     "CogentTubularSquirrelMau5",
     "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
-    "DeterminedNaiveSandpiperSeemsGood"
+    "DeterminedNaiveSandpiperSeemsGood",
+    "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf"
   ],
   "history": [
     {
@@ -894,6 +896,15 @@
       "title": "Lily brutally denies fan that wants to take a picture with her",
       "twitch_views": 377325,
       "posted_at": "2026-06-29T16:43:53.611097+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
+      "clip_id": "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
+      "streamer": "Trainwreckstv",
+      "game": "Slots",
+      "title": "Dork Unit gift MAX WIN 15 mil! Let's go!",
+      "twitch_views": 342447,
+      "posted_at": "2026-06-29T19:20:30.477811+00:00"
     }
   ]
 }
