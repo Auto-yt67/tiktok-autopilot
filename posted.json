@@ -78,7 +78,8 @@
     "https://www.twitch.tv/bacon_mom/clip/DrabRelatedHerringWTRuck",
     "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy",
     "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood",
-    "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5"
+    "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5",
+    "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -159,7 +160,8 @@
     "DrabRelatedHerringWTRuck",
     "PlainBlindingShieldTooSpicy",
     "CarelessLitigiousTireSeemsGood",
-    "CogentTubularSquirrelMau5"
+    "CogentTubularSquirrelMau5",
+    "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ"
   ],
   "history": [
     {
@@ -872,6 +874,15 @@
       "title": "Shroud talking about the Rivals format",
       "twitch_views": 337184,
       "posted_at": "2026-06-29T12:53:15.079430+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
+      "clip_id": "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
+      "streamer": "Cinna",
+      "game": "Special Events",
+      "title": "HUGGER",
+      "twitch_views": 389478,
+      "posted_at": "2026-06-29T14:42:31.727499+00:00"
     }
   ]
 }
