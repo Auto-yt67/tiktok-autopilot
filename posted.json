@@ -82,7 +82,8 @@
     "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
     "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood",
     "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
-    "https://www.twitch.tv/xqc/clip/SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p"
+    "https://www.twitch.tv/xqc/clip/SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
+    "https://www.twitch.tv/ow_esports/clip/ObservantHeartlessPastaHeyGuys"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -167,7 +168,8 @@
     "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
     "DeterminedNaiveSandpiperSeemsGood",
     "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
-    "SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p"
+    "SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
+    "ObservantHeartlessPastaHeyGuys"
   ],
   "history": [
     {
@@ -916,6 +918,15 @@
       "title": "xQc beats Forsen (20:05)",
       "twitch_views": 335285,
       "posted_at": "2026-06-29T21:13:46.543371+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ow_esports/clip/ObservantHeartlessPastaHeyGuys",
+      "clip_id": "ObservantHeartlessPastaHeyGuys",
+      "streamer": "ow_esports",
+      "game": "Overwatch",
+      "title": "High Noon Kid reacts to DJ Khaled dancing",
+      "twitch_views": 332871,
+      "posted_at": "2026-06-29T22:20:46.570727+00:00"
     }
   ]
 }
