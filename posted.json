@@ -77,7 +77,8 @@
     "https://www.twitch.tv/ow_esports/clip/SpotlessUglyCakeDatBoi",
     "https://www.twitch.tv/bacon_mom/clip/DrabRelatedHerringWTRuck",
     "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy",
-    "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood"
+    "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood",
+    "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -157,7 +158,8 @@
     "SpotlessUglyCakeDatBoi",
     "DrabRelatedHerringWTRuck",
     "PlainBlindingShieldTooSpicy",
-    "CarelessLitigiousTireSeemsGood"
+    "CarelessLitigiousTireSeemsGood",
+    "CogentTubularSquirrelMau5"
   ],
   "history": [
     {
@@ -861,6 +863,15 @@
       "title": "Notail MonkaS",
       "twitch_views": 334248,
       "posted_at": "2026-06-28T21:48:11.922257+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5",
+      "clip_id": "CogentTubularSquirrelMau5",
+      "streamer": "TwitchRivals",
+      "game": "Apex Legends",
+      "title": "Shroud talking about the Rivals format",
+      "twitch_views": 337184,
+      "posted_at": "2026-06-29T12:53:15.079430+00:00"
     }
   ]
 }
