@@ -81,7 +81,8 @@
     "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5",
     "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
     "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood",
-    "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf"
+    "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
+    "https://www.twitch.tv/xqc/clip/SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -165,7 +166,8 @@
     "CogentTubularSquirrelMau5",
     "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
     "DeterminedNaiveSandpiperSeemsGood",
-    "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf"
+    "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
+    "SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p"
   ],
   "history": [
     {
@@ -905,6 +907,15 @@
       "title": "Dork Unit gift MAX WIN 15 mil! Let's go!",
       "twitch_views": 342447,
       "posted_at": "2026-06-29T19:20:30.477811+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
+      "clip_id": "SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
+      "streamer": "xQc",
+      "game": "Minecraft",
+      "title": "xQc beats Forsen (20:05)",
+      "twitch_views": 335285,
+      "posted_at": "2026-06-29T21:13:46.543371+00:00"
     }
   ]
 }
