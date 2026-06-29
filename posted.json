@@ -79,7 +79,8 @@
     "https://www.twitch.tv/nintendo/clip/PlainBlindingShieldTooSpicy",
     "https://www.twitch.tv/dota2ti/clip/CarelessLitigiousTireSeemsGood",
     "https://www.twitch.tv/twitchrivals/clip/CogentTubularSquirrelMau5",
-    "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ"
+    "https://www.twitch.tv/cinna/clip/SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
+    "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -161,7 +162,8 @@
     "PlainBlindingShieldTooSpicy",
     "CarelessLitigiousTireSeemsGood",
     "CogentTubularSquirrelMau5",
-    "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ"
+    "SleepyCoyDumplingsNononoCat-37dsbQlwG1TvBoWZ",
+    "DeterminedNaiveSandpiperSeemsGood"
   ],
   "history": [
     {
@@ -883,6 +885,15 @@
       "title": "HUGGER",
       "twitch_views": 389478,
       "posted_at": "2026-06-29T14:42:31.727499+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood",
+      "clip_id": "DeterminedNaiveSandpiperSeemsGood",
+      "streamer": "lilypichu",
+      "game": "Special Events",
+      "title": "Lily brutally denies fan that wants to take a picture with her",
+      "twitch_views": 377325,
+      "posted_at": "2026-06-29T16:43:53.611097+00:00"
     }
   ]
 }
