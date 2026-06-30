@@ -86,7 +86,8 @@
     "https://www.twitch.tv/ow_esports/clip/ObservantHeartlessPastaHeyGuys",
     "https://www.twitch.tv/kaicenat/clip/CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
     "https://www.twitch.tv/the_pinata/clip/FaintEnjoyableAxePJSugar-TH8XG0fuEKsyJ0-G",
-    "https://www.twitch.tv/kaicenat/clip/LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6"
+    "https://www.twitch.tv/kaicenat/clip/LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6",
+    "https://www.twitch.tv/amouranth/clip/AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -175,7 +176,8 @@
     "ObservantHeartlessPastaHeyGuys",
     "CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
     "FaintEnjoyableAxePJSugar-TH8XG0fuEKsyJ0-G",
-    "LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6"
+    "LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6",
+    "AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER"
   ],
   "history": [
     {
@@ -960,6 +962,15 @@
       "title": "LMAO W PRANK",
       "twitch_views": 349858,
       "posted_at": "2026-06-30T12:03:21.144154+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/amouranth/clip/AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
+      "clip_id": "AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
+      "streamer": "AMOURANTH",
+      "game": "Diablo IV",
+      "title": "\u2705 DROPS \ud83d\udd25 HELLTIDE \ud83d\udd25 WORLD 3 \u2705 !s --> social links \ud83d\udd25!KICK\u2705",
+      "twitch_views": 792687,
+      "posted_at": "2026-06-30T18:26:19.102496+00:00"
     }
   ]
 }
