@@ -83,7 +83,8 @@
     "https://www.twitch.tv/lilypichu/clip/DeterminedNaiveSandpiperSeemsGood",
     "https://www.twitch.tv/trainwreckstv/clip/UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
     "https://www.twitch.tv/xqc/clip/SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
-    "https://www.twitch.tv/ow_esports/clip/ObservantHeartlessPastaHeyGuys"
+    "https://www.twitch.tv/ow_esports/clip/ObservantHeartlessPastaHeyGuys",
+    "https://www.twitch.tv/kaicenat/clip/CarefulHotElkRickroll-vXk-MhNgj4Fkuiji"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -169,7 +170,8 @@
     "DeterminedNaiveSandpiperSeemsGood",
     "UgliestSuaveAirGuitarMcaT-qYjbjWwGNJZ8GSbf",
     "SingleHilariousRamenPunchTrees-NR0pJT1Lec5Q9E8p",
-    "ObservantHeartlessPastaHeyGuys"
+    "ObservantHeartlessPastaHeyGuys",
+    "CarefulHotElkRickroll-vXk-MhNgj4Fkuiji"
   ],
   "history": [
     {
@@ -927,6 +929,15 @@
       "title": "High Noon Kid reacts to DJ Khaled dancing",
       "twitch_views": 332871,
       "posted_at": "2026-06-29T22:20:46.570727+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kaicenat/clip/CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
+      "clip_id": "CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
+      "streamer": "KaiCenat",
+      "game": "I'm Only Sleeping",
+      "title": "CAR HORN UNLOCKED!!!",
+      "twitch_views": 414243,
+      "posted_at": "2026-06-30T08:48:31.446307+00:00"
     }
   ]
 }
