@@ -87,7 +87,8 @@
     "https://www.twitch.tv/kaicenat/clip/CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
     "https://www.twitch.tv/the_pinata/clip/FaintEnjoyableAxePJSugar-TH8XG0fuEKsyJ0-G",
     "https://www.twitch.tv/kaicenat/clip/LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6",
-    "https://www.twitch.tv/amouranth/clip/AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER"
+    "https://www.twitch.tv/amouranth/clip/AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
+    "https://www.twitch.tv/shroud/clip/TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -177,7 +178,8 @@
     "CarefulHotElkRickroll-vXk-MhNgj4Fkuiji",
     "FaintEnjoyableAxePJSugar-TH8XG0fuEKsyJ0-G",
     "LazyPlausibleMarjoramCoolStoryBob-Gb13xztajLSNESR6",
-    "AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER"
+    "AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
+    "TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ"
   ],
   "history": [
     {
@@ -971,6 +973,15 @@
       "title": "\u2705 DROPS \ud83d\udd25 HELLTIDE \ud83d\udd25 WORLD 3 \u2705 !s --> social links \ud83d\udd25!KICK\u2705",
       "twitch_views": 792687,
       "posted_at": "2026-06-30T18:26:19.102496+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/shroud/clip/TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
+      "clip_id": "TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
+      "streamer": "shroud",
+      "game": "Diablo IV",
+      "title": "F Shroud",
+      "twitch_views": 561873,
+      "posted_at": "2026-06-30T21:20:38.958642+00:00"
     }
   ]
 }
