@@ -91,7 +91,8 @@
     "https://www.twitch.tv/shroud/clip/TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
     "https://www.twitch.tv/firedancer/clip/EnthusiasticAdventurousFoxVoHiYo-1XCarr-o2jeLgDlO",
     "https://www.twitch.tv/carn_/clip/AlertTardyReindeerWow-9evcSPvW1VolcSkT",
-    "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA"
+    "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
+    "https://www.twitch.tv/quin69/clip/PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -185,7 +186,8 @@
     "TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
     "EnthusiasticAdventurousFoxVoHiYo-1XCarr-o2jeLgDlO",
     "AlertTardyReindeerWow-9evcSPvW1VolcSkT",
-    "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA"
+    "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
+    "PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG"
   ],
   "history": [
     {
@@ -1015,6 +1017,15 @@
       "title": "A surprise in the background",
       "twitch_views": 330067,
       "posted_at": "2026-07-01T11:45:29.722322+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/quin69/clip/PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
+      "clip_id": "PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
+      "streamer": "Quin69",
+      "game": "Diablo IV",
+      "title": "LOLW",
+      "twitch_views": 354506,
+      "posted_at": "2026-07-01T12:53:02.206335+00:00"
     }
   ]
 }
