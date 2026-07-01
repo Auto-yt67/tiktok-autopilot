@@ -93,7 +93,8 @@
     "https://www.twitch.tv/carn_/clip/AlertTardyReindeerWow-9evcSPvW1VolcSkT",
     "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
     "https://www.twitch.tv/quin69/clip/PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
-    "https://www.twitch.tv/szelioficjalnie/clip/TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL"
+    "https://www.twitch.tv/szelioficjalnie/clip/TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL",
+    "https://www.twitch.tv/dota2ti/clip/ResourcefulMistyTigerTakeNRG"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -189,7 +190,8 @@
     "AlertTardyReindeerWow-9evcSPvW1VolcSkT",
     "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
     "PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
-    "TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL"
+    "TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL",
+    "ResourcefulMistyTigerTakeNRG"
   ],
   "history": [
     {
@@ -1037,6 +1039,15 @@
       "title": "wskoczy\u0142 (niemo\u017cliwe)",
       "twitch_views": 324724,
       "posted_at": "2026-07-01T18:35:26.419960+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/dota2ti/clip/ResourcefulMistyTigerTakeNRG",
+      "clip_id": "ResourcefulMistyTigerTakeNRG",
+      "streamer": "dota2ti",
+      "game": "Dota 2",
+      "title": "2 new heroes !!!",
+      "twitch_views": 321304,
+      "posted_at": "2026-07-01T21:02:37.365689+00:00"
     }
   ]
 }
