@@ -94,7 +94,8 @@
     "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
     "https://www.twitch.tv/quin69/clip/PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
     "https://www.twitch.tv/szelioficjalnie/clip/TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL",
-    "https://www.twitch.tv/dota2ti/clip/ResourcefulMistyTigerTakeNRG"
+    "https://www.twitch.tv/dota2ti/clip/ResourcefulMistyTigerTakeNRG",
+    "https://www.twitch.tv/a_seagull/clip/BraveFrigidJaguarPicoMause"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -191,7 +192,8 @@
     "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
     "PricklyBigDovePanicBasket-5oQ02vNAvjBfjnbG",
     "TolerantTriumphantClipsmomTwitchRPG-kPVyZapemUwU1PFL",
-    "ResourcefulMistyTigerTakeNRG"
+    "ResourcefulMistyTigerTakeNRG",
+    "BraveFrigidJaguarPicoMause"
   ],
   "history": [
     {
@@ -1048,6 +1050,15 @@
       "title": "2 new heroes !!!",
       "twitch_views": 321304,
       "posted_at": "2026-07-01T21:02:37.365689+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/a_seagull/clip/BraveFrigidJaguarPicoMause",
+      "clip_id": "BraveFrigidJaguarPicoMause",
+      "streamer": "A_Seagull",
+      "game": "Overwatch",
+      "title": "sleepy",
+      "twitch_views": 300112,
+      "posted_at": "2026-07-01T22:48:49.632059+00:00"
     }
   ]
 }
