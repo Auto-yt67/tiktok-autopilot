@@ -90,7 +90,8 @@
     "https://www.twitch.tv/amouranth/clip/AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
     "https://www.twitch.tv/shroud/clip/TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
     "https://www.twitch.tv/firedancer/clip/EnthusiasticAdventurousFoxVoHiYo-1XCarr-o2jeLgDlO",
-    "https://www.twitch.tv/carn_/clip/AlertTardyReindeerWow-9evcSPvW1VolcSkT"
+    "https://www.twitch.tv/carn_/clip/AlertTardyReindeerWow-9evcSPvW1VolcSkT",
+    "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -183,7 +184,8 @@
     "AbrasiveGentleHarePogChamp-ItfLV1GCa0tdf6ER",
     "TangentialBillowingJalapenoYee-ccA2oB1pEYh4CHWJ",
     "EnthusiasticAdventurousFoxVoHiYo-1XCarr-o2jeLgDlO",
-    "AlertTardyReindeerWow-9evcSPvW1VolcSkT"
+    "AlertTardyReindeerWow-9evcSPvW1VolcSkT",
+    "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA"
   ],
   "history": [
     {
@@ -1004,6 +1006,15 @@
       "title": "rip?",
       "twitch_views": 411451,
       "posted_at": "2026-07-01T10:53:19.617941+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/f1nn5ter/clip/HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
+      "clip_id": "HomelyResourcefulCrowPrimeMe-sQmDfn3soaNEhMuA",
+      "streamer": "F1NN5TER",
+      "game": "Minecraft",
+      "title": "A surprise in the background",
+      "twitch_views": 330067,
+      "posted_at": "2026-07-01T11:45:29.722322+00:00"
     }
   ]
 }
