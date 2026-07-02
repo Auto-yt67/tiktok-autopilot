@@ -1,0 +1,45 @@
+name: Analyze Hashtag Performance
+
+on:
+  schedule:
+    - cron: '0 14 * * 0'   # Sunday, ~9-10am ET
+  workflow_dispatch:         # allow manual trigger
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest hashtag_state.json
+        run: git pull --rebase
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Run analysis
+        env:
+          PUBLER_API_KEY: ${{ secrets.PUBLER_API_KEY }}
+          PUBLER_WORKSPACE_ID: ${{ secrets.PUBLER_WORKSPACE_ID }}
+          PUBLER_ACCOUNT_ID: ${{ secrets.PUBLER_ACCOUNT_ID }}
+        run: python analyze_hashtags.py
+
+      - name: Commit updated hashtag_state.json
+        run: |
+          git config user.name "clipbot"
+          git config user.email "clipbot@users.noreply.github.com"
+          git add hashtag_state.json
+          git diff --staged --quiet || git commit -m "update hashtag_state.json [skip ci]"
+          git push
