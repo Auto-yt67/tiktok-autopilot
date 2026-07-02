@@ -3,8 +3,8 @@
   "winner": null,
   "counts": {
     "broad_reach": 1,
-    "niche_community": 0,
+    "niche_community": 1,
     "reaction_mood": 0
   },
-  "next_index": 1
+  "next_index": 2
 }
