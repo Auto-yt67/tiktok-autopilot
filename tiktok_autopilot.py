@@ -31,7 +31,7 @@ MIN_CLIP_VIEWS    = 5_000
 DOWNLOAD_DIR      = Path("downloads")
 POSTED_LOG        = Path("posted.json")
 CAPTION_LIMIT     = 2200
-FONT_PATH         = "/usr/share/fonts/truetype/dejavu/DejaVu-Sans-Bold.ttf"
+FONT_PATH         = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 CAPTION_OPENERS = [
     "bro really said 💀",
