@@ -1,0 +1,10 @@
+{
+  "phase": "testing",
+  "winner": null,
+  "counts": {
+    "broad_reach": 0,
+    "niche_community": 0,
+    "reaction_mood": 0
+  },
+  "next_index": 0
+}
