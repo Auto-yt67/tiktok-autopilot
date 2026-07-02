@@ -11,6 +11,8 @@ import os, json, logging, requests, random, re, subprocess
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from PIL import ImageFont
+
 import hashtag_manager as hm
 import best_times
 
@@ -103,6 +105,34 @@ def get_title_fontsize(title: str) -> int:
         return 38
     else:
         return 32
+
+
+def fit_title(title: str, max_width: int, font_path: str,
+              max_size: int = 72, min_size: int = 28) -> tuple:
+    """
+    Picks the largest fontsize (starting from the length-based guess, capped
+    at max_size) whose rendered width fits within max_width. If it still
+    doesn't fit at min_size, truncates the text with an ellipsis until it
+    does — guarantees the result never overflows the canvas.
+    Returns (text, fontsize).
+    """
+    size = min(get_title_fontsize(title), max_size)
+    text = title
+
+    while size >= min_size:
+        font = ImageFont.truetype(font_path, size)
+        bbox = font.getbbox(text)
+        width = bbox[2] - bbox[0]
+        if width <= max_width:
+            return text, size
+        size -= 2
+
+    # Still too wide even at min_size — shorten the text instead.
+    size = min_size
+    font = ImageFont.truetype(font_path, size)
+    while text and font.getbbox(text + "…")[2] > max_width:
+        text = text[:-1].rstrip()
+    return (text + "…" if text else "…"), size
 
 
 # ── Twitch ────────────────────────────────────────────────────────────────────
@@ -226,8 +256,14 @@ def get_video_dimensions(video_path: Path) -> tuple:
 def transcribe_audio(video_path: Path) -> list:
     try:
         import whisper
-        model = whisper.load_model("tiny")
-        result = model.transcribe(str(video_path), word_timestamps=True)
+        model = whisper.load_model("base")
+        result = model.transcribe(
+            str(video_path),
+            word_timestamps=True,
+            language="en",
+            condition_on_previous_text=False,
+            fp16=False,
+        )
         words = []
         for segment in result.get("segments", []):
             for word_info in segment.get("words", []):
@@ -282,10 +318,9 @@ def process_video(video_path: Path, title: str) -> Path:
 
         clean_title = ''.join(c for c in title if ord(c) < 128).strip()
         clean_title = clean_title.replace("'", "").replace('"', '').replace(':', '').replace('\\', '')
-        if len(clean_title) > 80:
-            clean_title = clean_title[:80]
 
-        title_fontsize = get_title_fontsize(clean_title)
+        TITLE_MAX_WIDTH = TARGET_W - 80  # leave margin on both sides
+        clean_title, title_fontsize = fit_title(clean_title, TITLE_MAX_WIDTH, FONT_PATH)
         log.info(f"Title: '{clean_title}' | fontsize: {title_fontsize}")
 
         # Fixed-height strip reserved at the top for the title.
