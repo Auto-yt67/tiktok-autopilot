@@ -1,11 +1,18 @@
 """
 TikTok Autopilot — Trending Twitch Clips Edition
 GitHub Actions version: runs once per invocation (no loop/scheduler needed)
+
+Source: Just Chatting category only, clips from the last 7 days.
+Hashtags: rotates through 3 A/B-tested sets (see hashtag_manager.py) until
+a winner is locked in by analyze_hashtags.py.
 """
 
 import os, json, logging, requests, random, re, subprocess
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+import hashtag_manager as hm
+import best_times
 
 logging.basicConfig(
     level=logging.INFO,
@@ -14,36 +21,15 @@ logging.basicConfig(
 )
 log = logging.getLogger("autopilot")
 
-MAX_CLIP_SECONDS = 90
-MIN_CLIP_VIEWS   = 5_000
-TOP_GAMES_COUNT  = 15
-CLIPS_PER_GAME   = 10
-DOWNLOAD_DIR     = Path("downloads")
-POSTED_LOG       = Path("posted.json")
-CAPTION_LIMIT    = 2200
-FONT_PATH        = "/usr/share/fonts/truetype/MochiBoom.ttf"
-
-BASE_TAGS = [
-    "#fyp", "#foryou", "#foryoupage", "#viral", "#trending",
-    "#twitch", "#twitchclips", "#streamer", "#streaming", "#livestreaming",
-]
-
-GAME_TAGS = {
-    "just chatting":       ["#justchatting", "#IRL"],
-    "fortnite":            ["#fortnite", "#fortniteclips", "#fn"],
-    "minecraft":           ["#minecraft", "#minecraftclips"],
-    "league of legends":   ["#leagueoflegends", "#lol", "#league"],
-    "valorant":            ["#valorant", "#valorantclips", "#val"],
-    "grand theft auto v":  ["#gta", "#gtav", "#gta5", "#gtarp"],
-    "call of duty":        ["#callofduty", "#cod", "#warzone"],
-    "apex legends":        ["#apex", "#apexlegends", "#apexclips"],
-    "overwatch":           ["#overwatch", "#ow2"],
-    "counter-strike":      ["#csgo", "#cs2", "#counterstrike"],
-    "world of warcraft":   ["#wow", "#worldofwarcraft"],
-    "elden ring":          ["#eldenring", "#fromsoftware"],
-    "chess":               ["#chess", "#chesstwitch"],
-    "slots":               ["#slots", "#casino", "#gambling"],
-}
+JUST_CHATTING_GAME_ID = "509658"
+CLIP_WINDOW_DAYS = 7
+CLIPS_FETCH_COUNT = 100   # Twitch's max "first" value per call
+MAX_CLIP_SECONDS  = 90
+MIN_CLIP_VIEWS    = 5_000
+DOWNLOAD_DIR      = Path("downloads")
+POSTED_LOG        = Path("posted.json")
+CAPTION_LIMIT     = 2200
+FONT_PATH         = "/usr/share/fonts/truetype/MochiBoom.ttf"
 
 CAPTION_OPENERS = [
     "bro really said 💀",
@@ -67,7 +53,7 @@ def load_posted() -> dict:
     return {"urls": [], "clip_ids": [], "history": []}
 
 
-def save_posted(clip: dict):
+def save_posted(clip: dict, hashtag_set: str):
     data = load_posted()
     if clip["url"] not in data["urls"]:
         data["urls"].append(clip["url"])
@@ -80,6 +66,7 @@ def save_posted(clip: dict):
         "game": clip.get("game", ""),
         "title": clip["title"],
         "twitch_views": clip.get("views", 0),
+        "hashtag_set": hashtag_set,
         "posted_at": datetime.now(timezone.utc).isoformat(),
     })
     POSTED_LOG.write_text(json.dumps(data, indent=2))
@@ -91,27 +78,17 @@ def already_posted(clip: dict) -> bool:
             clip["clip_id"] in data.get("clip_ids", []))
 
 
-def build_caption(clip: dict) -> str:
+def build_caption(clip: dict, tag_set: dict) -> str:
     streamer = clip["streamer"]
-    game = clip.get("game", "").lower()
     opener = random.choice(CAPTION_OPENERS)
     streamer_tag = f"#{re.sub(r'[^a-zA-Z0-9]', '', streamer.lower())}"
-    extra_tags = []
-    for game_key, tags in GAME_TAGS.items():
-        if game_key in game:
-            extra_tags = tags
-            break
-    all_tags = BASE_TAGS + [streamer_tag] + extra_tags
+    all_tags = tag_set["tags"] + [streamer_tag]
     caption = f"{opener} {streamer}"
     for tag in all_tags:
         candidate = caption + " " + tag
         if len(candidate) <= CAPTION_LIMIT:
             caption = candidate
     return caption
-
-
-def hex_to_ffmpeg(hex_color: str) -> str:
-    return "0x" + hex_color.lstrip("#")
 
 
 def get_title_fontsize(title: str) -> int:
@@ -147,36 +124,21 @@ def get_twitch_headers() -> dict:
     }
 
 
-def get_trending_game_ids(headers: dict) -> list:
-    try:
-        r = requests.get(
-            "https://api.twitch.tv/helix/games/top",
-            headers=headers,
-            params={"first": TOP_GAMES_COUNT},
-            timeout=15,
-        )
-        r.raise_for_status()
-        games = r.json().get("data", [])
-        log.info(f"Trending: {[g['name'] for g in games]}")
-        return [(g["id"], g["name"]) for g in games]
-    except Exception as e:
-        log.warning(f"Could not fetch trending games: {e}")
-        return [
-            ("509658", "Just Chatting"), ("33214", "Fortnite"),
-            ("32982", "Grand Theft Auto V"), ("27471", "Minecraft"),
-            ("516575", "Valorant"), ("29307", "League of Legends"),
-        ]
-
-
-def fetch_clips_for_game(game_id: str, game_name: str, headers: dict) -> list:
+def fetch_just_chatting_clips(headers: dict) -> list:
+    """Top Just Chatting clips from the last CLIP_WINDOW_DAYS days."""
     posted = load_posted()
     posted_urls = set(posted.get("urls", []))
     posted_ids = set(posted.get("clip_ids", []))
+    started_at = (datetime.now(timezone.utc) - timedelta(days=CLIP_WINDOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
     try:
         r = requests.get(
             "https://api.twitch.tv/helix/clips",
             headers=headers,
-            params={"game_id": game_id, "first": CLIPS_PER_GAME},
+            params={
+                "game_id": JUST_CHATTING_GAME_ID,
+                "first": CLIPS_FETCH_COUNT,
+                "started_at": started_at,
+            },
             timeout=15,
         )
         r.raise_for_status()
@@ -195,36 +157,29 @@ def fetch_clips_for_game(game_id: str, game_name: str, headers: dict) -> list:
                 "url": clip["url"],
                 "clip_id": clip["id"],
                 "streamer": clip["broadcaster_name"],
-                "game": game_name,
+                "game": "Just Chatting",
                 "views": clip["view_count"],
                 "duration": clip["duration"],
             })
         return results
     except Exception as e:
-        log.warning(f"Error fetching clips for {game_name}: {e}")
+        log.warning(f"Error fetching Just Chatting clips: {e}")
         return []
 
 
 def scrape_viral_clips() -> list:
     headers = get_twitch_headers()
-    trending_games = get_trending_game_ids(headers)
-    all_clips = []
-    seen_ids = set()
-    for game_id, game_name in trending_games:
-        for clip in fetch_clips_for_game(game_id, game_name, headers):
-            if clip["clip_id"] not in seen_ids:
-                seen_ids.add(clip["clip_id"])
-                all_clips.append(clip)
-    all_clips.sort(key=lambda x: x["views"], reverse=True)
+    clips = fetch_just_chatting_clips(headers)
+    clips.sort(key=lambda x: x["views"], reverse=True)
     seen_streamers = set()
     final = []
-    for clip in all_clips:
+    for clip in clips:
         if clip["streamer"].lower() not in seen_streamers:
             seen_streamers.add(clip["streamer"].lower())
             final.append(clip)
         if len(final) >= 15:
             break
-    log.info(f"Found {len(final)} clips")
+    log.info(f"Found {len(final)} Just Chatting clips from the last {CLIP_WINDOW_DAYS} days")
     return final
 
 
@@ -471,7 +426,7 @@ def post_to_publer(video_path: Path, caption: str) -> bool:
         media_id = upload_to_publer(video_path)
         if not media_id:
             raise Exception("No media ID returned")
-        scheduled_at = (datetime.now(timezone.utc) + timedelta(minutes=2)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        scheduled_at = best_times.best_scheduled_time(default_delay_minutes=2)
         payload = {
             "bulk": {
                 "state": "scheduled",
@@ -510,6 +465,10 @@ def main():
         log.info("No new clips found")
         return
 
+    set_name, tag_set = hm.get_active_set()
+    phase = hm.load_state()["phase"]
+    log.info(f"Hashtag set: {set_name} ({'locked winner' if phase == 'locked' else 'testing'})")
+
     for clip in clips:
         if already_posted(clip):
             continue
@@ -518,10 +477,11 @@ def main():
         if not video_path:
             continue
         processed_path = process_video(video_path, clip["title"])
-        caption = build_caption(clip)
+        caption = build_caption(clip, tag_set)
         success = post_to_publer(processed_path, caption)
         if success:
-            save_posted(clip)
+            save_posted(clip, set_name)
+            hm.record_post(set_name)
             log.info("Done!")
             return
 
