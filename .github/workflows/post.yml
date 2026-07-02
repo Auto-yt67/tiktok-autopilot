@@ -34,14 +34,12 @@ jobs:
 
       - name: Install font
         run: |
-          mkdir -p /usr/share/fonts/truetype
-          curl -fL -o /usr/share/fonts/truetype/MochiBoom.ttf \
-            "https://raw.githubusercontent.com/${{ github.repository }}/main/MochiBoom.ttf"
-          # Fail loudly if the font didn't download correctly — a missing/
-          # corrupt font makes ffmpeg's drawtext filter fail, which silently
-          # falls back to posting the unprocessed clip (no title/captions).
-          file /usr/share/fonts/truetype/MochiBoom.ttf | grep -qi "font\|TrueType\|data" \
-            && echo "Font OK" || (echo "::error::MochiBoom.ttf did not download correctly" && exit 1)
+          mkdir -p /usr/share/fonts/truetype/baloo2
+          curl -fL -o /usr/share/fonts/truetype/baloo2/Baloo2-Bold.ttf \
+            "https://raw.githubusercontent.com/google/fonts/main/ofl/baloo2/Baloo2-Bold.ttf"
+          file /usr/share/fonts/truetype/baloo2/Baloo2-Bold.ttf | grep -qi "font\|TrueType\|data" \
+            && echo "Font OK" || (echo "::error::Baloo2-Bold.ttf did not download correctly" && exit 1)
+          fc-cache -f
 
       - name: Set up Python
         uses: actions/setup-python@v5
