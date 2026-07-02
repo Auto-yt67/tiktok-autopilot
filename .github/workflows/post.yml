@@ -35,8 +35,15 @@ jobs:
       - name: Install font
         run: |
           mkdir -p /usr/share/fonts/truetype/baloo2
-          curl -fL -o /usr/share/fonts/truetype/baloo2/Baloo2-Bold.ttf \
-            "https://raw.githubusercontent.com/google/fonts/main/ofl/baloo2/Baloo2-Bold.ttf"
+          # Google Fonts serves woff2 to modern user-agents but still serves
+          # plain .ttf to old ones — spoofing an ancient IE UA gets us a
+          # direct static TTF link without guessing repo file paths.
+          FONT_URL=$(curl -sL -A "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" \
+            "https://fonts.googleapis.com/css?family=Baloo+2:700" | grep -o "https://[^)]*\.ttf" | head -1)
+          if [ -z "$FONT_URL" ]; then
+            echo "::error::Could not resolve a Baloo 2 Bold .ttf URL from Google Fonts" && exit 1
+          fi
+          curl -fL -o /usr/share/fonts/truetype/baloo2/Baloo2-Bold.ttf "$FONT_URL"
           file /usr/share/fonts/truetype/baloo2/Baloo2-Bold.ttf | grep -qi "font\|TrueType\|data" \
             && echo "Font OK" || (echo "::error::Baloo2-Bold.ttf did not download correctly" && exit 1)
           fc-cache -f
