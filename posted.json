@@ -98,7 +98,8 @@
     "https://www.twitch.tv/a_seagull/clip/BraveFrigidJaguarPicoMause",
     "https://www.twitch.tv/emiru/clip/GrossSnappySnoodPoooound-S2DyY8t4Gy5aBoa8",
     "https://www.twitch.tv/erobb221/clip/SparklingSpineyPuffinRlyTho-YRpCHmdH55kJWvTx",
-    "https://www.twitch.tv/xqc/clip/PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD"
+    "https://www.twitch.tv/xqc/clip/PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD",
+    "https://www.twitch.tv/xqc/clip/GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -199,7 +200,8 @@
     "BraveFrigidJaguarPicoMause",
     "GrossSnappySnoodPoooound-S2DyY8t4Gy5aBoa8",
     "SparklingSpineyPuffinRlyTho-YRpCHmdH55kJWvTx",
-    "PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD"
+    "PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD",
+    "GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7"
   ],
   "history": [
     {
@@ -1095,6 +1097,16 @@
       "twitch_views": 51396,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-02T05:47:59.522098+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
+      "clip_id": "GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "monkaS",
+      "twitch_views": 37020,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-02T18:27:38.245281+00:00"
     }
   ]
 }
