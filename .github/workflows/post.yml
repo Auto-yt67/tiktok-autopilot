@@ -2,12 +2,12 @@ name: Post Twitch Clip
 
 on:
   schedule:
-    - cron: '0 12 * * *'   # 8am ET
-    - cron: '0 15 * * *'   # 11am ET
-    - cron: '0 18 * * *'   # 2pm ET
-    - cron: '0 21 * * *'   # 5pm ET
-    - cron: '0 0 * * *'    # 8pm ET
-    - cron: '0 3 * * *'    # 11pm ET
+    - cron: '0 13 * * *'   # 8am ET
+    - cron: '0 16 * * *'   # 11am ET
+    - cron: '0 19 * * *'   # 2pm ET
+    - cron: '0 22 * * *'   # 5pm ET
+    - cron: '0 1 * * *'    # 8pm ET
+    - cron: '0 4 * * *'    # 11pm ET
   workflow_dispatch:         # allow manual trigger
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pull latest posted.json
+      - name: Pull latest posted.json / hashtag_state.json / best_times_cache.json
         run: git pull --rebase
 
       - name: Install system dependencies
@@ -35,8 +35,13 @@ jobs:
       - name: Install font
         run: |
           mkdir -p /usr/share/fonts/truetype
-          curl -L -o /usr/share/fonts/truetype/MochiBoom.ttf \
-            "https://github.com/${{ github.repository }}/raw/main/MochiBoom.ttf" || true
+          curl -fL -o /usr/share/fonts/truetype/MochiBoom.ttf \
+            "https://raw.githubusercontent.com/${{ github.repository }}/main/MochiBoom.ttf"
+          # Fail loudly if the font didn't download correctly — a missing/
+          # corrupt font makes ffmpeg's drawtext filter fail, which silently
+          # falls back to posting the unprocessed clip (no title/captions).
+          file /usr/share/fonts/truetype/MochiBoom.ttf | grep -qi "font\|TrueType\|data" \
+            && echo "Font OK" || (echo "::error::MochiBoom.ttf did not download correctly" && exit 1)
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -56,10 +61,10 @@ jobs:
           PUBLER_ACCOUNT_ID: ${{ secrets.PUBLER_ACCOUNT_ID }}
         run: python tiktok_autopilot.py
 
-      - name: Commit updated posted.json
+      - name: Commit updated posted.json / hashtag_state.json / best_times_cache.json
         run: |
           git config user.name "clipbot"
           git config user.email "clipbot@users.noreply.github.com"
-          git add posted.json
-          git diff --staged --quiet || git commit -m "update posted.json [skip ci]"
+          git add posted.json hashtag_state.json best_times_cache.json
+          git diff --staged --quiet || git commit -m "update posted.json / hashtag_state.json / best_times_cache.json [skip ci]"
           git push
