@@ -102,7 +102,8 @@
     "https://www.twitch.tv/xqc/clip/GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
     "https://www.twitch.tv/thestockguy/clip/FancyEnchantingYakStoneLightning-UsAQpvLwdxQ_z7F1",
     "https://www.twitch.tv/waterlynn/clip/RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
-    "https://www.twitch.tv/totaamc/clip/HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW"
+    "https://www.twitch.tv/totaamc/clip/HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
+    "https://www.twitch.tv/sodapoppin/clip/StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -207,7 +208,8 @@
     "GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
     "FancyEnchantingYakStoneLightning-UsAQpvLwdxQ_z7F1",
     "RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
-    "HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW"
+    "HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
+    "StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR"
   ],
   "history": [
     {
@@ -1143,6 +1145,16 @@
       "twitch_views": 29733,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-03T09:48:08.303527+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sodapoppin/clip/StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR",
+      "clip_id": "StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR",
+      "streamer": "sodapoppin",
+      "game": "Just Chatting",
+      "title": "Soda gets roasted",
+      "twitch_views": 26120,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-03T11:17:08.625991+00:00"
     }
   ]
 }
