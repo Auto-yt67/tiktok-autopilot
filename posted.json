@@ -104,7 +104,8 @@
     "https://www.twitch.tv/waterlynn/clip/RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
     "https://www.twitch.tv/totaamc/clip/HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
     "https://www.twitch.tv/sodapoppin/clip/StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR",
-    "https://www.twitch.tv/xqc/clip/CuteCleverManateeNotATK-QvRa9AGAocMs8Y7S"
+    "https://www.twitch.tv/xqc/clip/CuteCleverManateeNotATK-QvRa9AGAocMs8Y7S",
+    "https://www.twitch.tv/sarahbridgewater/clip/TallVastPangolinPRChase-S6Yi8Lzd_MUVaniS"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -211,7 +212,8 @@
     "RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
     "HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
     "StrongGentleJamPeoplesChamp-Eq3gucs3rk_59dyR",
-    "CuteCleverManateeNotATK-QvRa9AGAocMs8Y7S"
+    "CuteCleverManateeNotATK-QvRa9AGAocMs8Y7S",
+    "TallVastPangolinPRChase-S6Yi8Lzd_MUVaniS"
   ],
   "history": [
     {
@@ -1167,6 +1169,16 @@
       "twitch_views": 21777,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-03T12:00:22.549871+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sarahbridgewater/clip/TallVastPangolinPRChase-S6Yi8Lzd_MUVaniS",
+      "clip_id": "TallVastPangolinPRChase-S6Yi8Lzd_MUVaniS",
+      "streamer": "sarahbridgewater",
+      "game": "Just Chatting",
+      "title": "Crashed into a bush!",
+      "twitch_views": 18561,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-03T18:05:33.766294+00:00"
     }
   ]
 }
