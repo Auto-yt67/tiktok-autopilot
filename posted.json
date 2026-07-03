@@ -101,7 +101,8 @@
     "https://www.twitch.tv/xqc/clip/PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD",
     "https://www.twitch.tv/xqc/clip/GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
     "https://www.twitch.tv/thestockguy/clip/FancyEnchantingYakStoneLightning-UsAQpvLwdxQ_z7F1",
-    "https://www.twitch.tv/waterlynn/clip/RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk"
+    "https://www.twitch.tv/waterlynn/clip/RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
+    "https://www.twitch.tv/totaamc/clip/HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -205,7 +206,8 @@
     "PiliableLachrymoseGerbilNotATK-kboqxn42dOPMZzbD",
     "GracefulPlumpLampPastaThat-pYEvcHP7nH2XwkU7",
     "FancyEnchantingYakStoneLightning-UsAQpvLwdxQ_z7F1",
-    "RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk"
+    "RelentlessRespectfulSushiWow-cQYXUHQZm311gXQk",
+    "HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW"
   ],
   "history": [
     {
@@ -1131,6 +1133,16 @@
       "twitch_views": 27150,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-02T22:51:38.610298+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/totaamc/clip/HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
+      "clip_id": "HealthyInnocentShinglePMSTwin-MqFlto1HdyzzzOpW",
+      "streamer": "totaamc",
+      "game": "Just Chatting",
+      "title": "ravshan ravshan",
+      "twitch_views": 29733,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-03T09:48:08.303527+00:00"
     }
   ]
 }
