@@ -111,7 +111,8 @@
     "https://www.twitch.tv/lyasyaa/clip/BrainyCreativeHumanNinjaGrumpy-YzjD8Z3-vrXhfAJV",
     "https://www.twitch.tv/marlon/clip/ArbitraryPeacefulNightingaleKeepo-SwlDtzpysXVwWOge",
     "https://www.twitch.tv/erobb221/clip/HeartlessBovineSandpiperEleGiggle-Qzen_Ew6TBf8Dm9B",
-    "https://www.twitch.tv/jasontheween/clip/CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj"
+    "https://www.twitch.tv/jasontheween/clip/CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj",
+    "https://www.twitch.tv/ishowspeed/clip/AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -225,7 +226,8 @@
     "BrainyCreativeHumanNinjaGrumpy-YzjD8Z3-vrXhfAJV",
     "ArbitraryPeacefulNightingaleKeepo-SwlDtzpysXVwWOge",
     "HeartlessBovineSandpiperEleGiggle-Qzen_Ew6TBf8Dm9B",
-    "CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj"
+    "CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj",
+    "AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ"
   ],
   "history": [
     {
@@ -1251,6 +1253,16 @@
       "twitch_views": 11277,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-04T16:38:36.007026+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ",
+      "clip_id": "AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ",
+      "streamer": "IShowSpeed",
+      "game": "Just Chatting",
+      "title": "speed big and colombiano hahaha",
+      "twitch_views": 11171,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-04T20:17:22.311094+00:00"
     }
   ]
 }
