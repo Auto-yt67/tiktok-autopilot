@@ -114,7 +114,8 @@
     "https://www.twitch.tv/jasontheween/clip/CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj",
     "https://www.twitch.tv/ishowspeed/clip/AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ",
     "https://www.twitch.tv/healthygamer_gg/clip/CarelessStupidAardvarkTBTacoLeft-0qX-clbkDkG4cYtB",
-    "https://www.twitch.tv/forsen/clip/PunchyCrunchyBaboonBibleThump-3ZEA64efFvi9SWfi"
+    "https://www.twitch.tv/forsen/clip/PunchyCrunchyBaboonBibleThump-3ZEA64efFvi9SWfi",
+    "https://www.twitch.tv/ishowspeed/clip/ElatedFrailPotatoBrokeBack-B1UqSf_oHEmKIvPR"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -231,7 +232,8 @@
     "CrowdedDignifiedPoultryDatSheffy-MImQrEIDF_PvPnJj",
     "AbstruseHonestTriangleOhMyDog-HNiFoERAP-FHaPJZ",
     "CarelessStupidAardvarkTBTacoLeft-0qX-clbkDkG4cYtB",
-    "PunchyCrunchyBaboonBibleThump-3ZEA64efFvi9SWfi"
+    "PunchyCrunchyBaboonBibleThump-3ZEA64efFvi9SWfi",
+    "ElatedFrailPotatoBrokeBack-B1UqSf_oHEmKIvPR"
   ],
   "history": [
     {
@@ -1287,6 +1289,16 @@
       "twitch_views": 12774,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-05T08:35:41.581195+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/ElatedFrailPotatoBrokeBack-B1UqSf_oHEmKIvPR",
+      "clip_id": "ElatedFrailPotatoBrokeBack-B1UqSf_oHEmKIvPR",
+      "streamer": "IShowSpeed",
+      "game": "Just Chatting",
+      "title": "theeze nuts",
+      "twitch_views": 8473,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-05T09:59:17.640751+00:00"
     }
   ]
 }
