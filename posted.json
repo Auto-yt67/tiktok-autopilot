@@ -119,7 +119,8 @@
     "https://www.twitch.tv/aryssa614/clip/BashfulEvilPancakeKevinTurtle-Ce2PP0S40svEKh-6",
     "https://www.twitch.tv/esfandtv/clip/VastUninterestedChickpeaPeanutButterJellyTime-spq7GdD0SkvNsBLH",
     "https://www.twitch.tv/stableronaldo/clip/ArtsySplendidFalconFutureMan-VWS3U9R-Z_OGrBcn",
-    "https://www.twitch.tv/quin69/clip/PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-"
+    "https://www.twitch.tv/quin69/clip/PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-",
+    "https://www.twitch.tv/ishowspeed/clip/MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -241,7 +242,8 @@
     "BashfulEvilPancakeKevinTurtle-Ce2PP0S40svEKh-6",
     "VastUninterestedChickpeaPeanutButterJellyTime-spq7GdD0SkvNsBLH",
     "ArtsySplendidFalconFutureMan-VWS3U9R-Z_OGrBcn",
-    "PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-"
+    "PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-",
+    "MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD"
   ],
   "history": [
     {
@@ -1347,6 +1349,16 @@
       "twitch_views": 14480,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-05T22:39:12.683757+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD",
+      "clip_id": "MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD",
+      "streamer": "IShowSpeed",
+      "game": "Just Chatting",
+      "title": "\u58f0\u306f\u4e57\u3063\u305f\u305e\u30ac\u30df\u30c3\u30af\u30b9",
+      "twitch_views": 9212,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-06T12:30:50.832039+00:00"
     }
   ]
 }
