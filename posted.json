@@ -121,7 +121,8 @@
     "https://www.twitch.tv/stableronaldo/clip/ArtsySplendidFalconFutureMan-VWS3U9R-Z_OGrBcn",
     "https://www.twitch.tv/quin69/clip/PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-",
     "https://www.twitch.tv/ishowspeed/clip/MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD",
-    "https://www.twitch.tv/vangard/clip/CredulousHotMuleNinjaGrumpy-B0hwK5o0V8zrfkCu"
+    "https://www.twitch.tv/vangard/clip/CredulousHotMuleNinjaGrumpy-B0hwK5o0V8zrfkCu",
+    "https://www.twitch.tv/jinnytty/clip/ObservantAnnoyingPeppermintWTRuck-rQzGrW3dwytTKh_p"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -245,7 +246,8 @@
     "ArtsySplendidFalconFutureMan-VWS3U9R-Z_OGrBcn",
     "PeppyEagerKalePicoMause-wNgVfBPmLZ2dE7t-",
     "MotionlessMiniatureFriseeRalpherZ-K66S7WFIisDyfDfD",
-    "CredulousHotMuleNinjaGrumpy-B0hwK5o0V8zrfkCu"
+    "CredulousHotMuleNinjaGrumpy-B0hwK5o0V8zrfkCu",
+    "ObservantAnnoyingPeppermintWTRuck-rQzGrW3dwytTKh_p"
   ],
   "history": [
     {
@@ -1371,6 +1373,16 @@
       "twitch_views": 9187,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-06T14:21:37.079828+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jinnytty/clip/ObservantAnnoyingPeppermintWTRuck-rQzGrW3dwytTKh_p",
+      "clip_id": "ObservantAnnoyingPeppermintWTRuck-rQzGrW3dwytTKh_p",
+      "streamer": "Jinnytty",
+      "game": "Just Chatting",
+      "title": "GIGAJINNY",
+      "twitch_views": 8935,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-06T16:35:27.450039+00:00"
     }
   ]
 }
