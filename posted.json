@@ -130,7 +130,8 @@
     "https://www.twitch.tv/lacy/clip/BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
     "https://www.twitch.tv/xqc/clip/SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
     "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
-    "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf"
+    "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
+    "https://www.twitch.tv/foxiekt/clip/BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -263,7 +264,8 @@
     "BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
     "SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
     "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
-    "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf"
+    "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
+    "BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM"
   ],
   "history": [
     {
@@ -1479,6 +1481,16 @@
       "twitch_views": 8919,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-07T21:15:26.476862+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/foxiekt/clip/BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
+      "clip_id": "BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
+      "streamer": "FoxieKT",
+      "game": "Just Chatting",
+      "title": "Meccha cheater",
+      "twitch_views": 8824,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-07T22:46:21.140129+00:00"
     }
   ]
 }
