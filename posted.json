@@ -129,7 +129,8 @@
     "https://www.twitch.tv/stableronaldo/clip/BoringSuccessfulCheddarKappaWealth-05X4e_uZvxvy__hu",
     "https://www.twitch.tv/lacy/clip/BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
     "https://www.twitch.tv/xqc/clip/SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
-    "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V"
+    "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
+    "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -261,7 +262,8 @@
     "BoringSuccessfulCheddarKappaWealth-05X4e_uZvxvy__hu",
     "BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
     "SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
-    "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V"
+    "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
+    "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf"
   ],
   "history": [
     {
@@ -1467,6 +1469,16 @@
       "twitch_views": 9280,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-07T19:28:22.698389+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
+      "clip_id": "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
+      "streamer": "Cinna",
+      "game": "Just Chatting",
+      "title": "Cinna reacts to Emily in a cop car",
+      "twitch_views": 8919,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-07T21:15:26.476862+00:00"
     }
   ]
 }
