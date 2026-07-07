@@ -128,7 +128,8 @@
     "https://www.twitch.tv/adapt/clip/InnocentGleamingCardM4xHeh-mT3JPgBDToaga_Ej",
     "https://www.twitch.tv/stableronaldo/clip/BoringSuccessfulCheddarKappaWealth-05X4e_uZvxvy__hu",
     "https://www.twitch.tv/lacy/clip/BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
-    "https://www.twitch.tv/xqc/clip/SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg"
+    "https://www.twitch.tv/xqc/clip/SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
+    "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -259,7 +260,8 @@
     "InnocentGleamingCardM4xHeh-mT3JPgBDToaga_Ej",
     "BoringSuccessfulCheddarKappaWealth-05X4e_uZvxvy__hu",
     "BadObliqueMeatloafSaltBae-_KMUZmKwdT7xbNLE",
-    "SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg"
+    "SpikyConsiderateOkapiGingerPower-XE6ss7zje3WABWqg",
+    "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V"
   ],
   "history": [
     {
@@ -1455,6 +1457,16 @@
       "twitch_views": 9224,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-07T12:44:40.384908+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
+      "clip_id": "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
+      "streamer": "NotQuiteLikeDuB",
+      "game": "Just Chatting",
+      "title": "clip 2",
+      "twitch_views": 9280,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-07T19:28:22.698389+00:00"
     }
   ]
 }
