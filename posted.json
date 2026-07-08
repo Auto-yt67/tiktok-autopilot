@@ -132,7 +132,8 @@
     "https://www.twitch.tv/notquitelikedub/clip/EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
     "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
     "https://www.twitch.tv/foxiekt/clip/BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
-    "https://www.twitch.tv/yonnajay/clip/AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO"
+    "https://www.twitch.tv/yonnajay/clip/AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
+    "https://www.twitch.tv/jynxzi/clip/BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -267,7 +268,8 @@
     "EnchantingDarkKimchiNinjaGrumpy-JjSqN2dOQ_aOCp3V",
     "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
     "BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
-    "AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO"
+    "AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
+    "BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-"
   ],
   "history": [
     {
@@ -1503,6 +1505,16 @@
       "twitch_views": 15665,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-08T07:19:58.200770+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jynxzi/clip/BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
+      "clip_id": "BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
+      "streamer": "Jynxzi",
+      "game": "Just Chatting",
+      "title": "Jynxzi Leaks Fortnite Duo",
+      "twitch_views": 9135,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-08T09:47:58.618644+00:00"
     }
   ]
 }
