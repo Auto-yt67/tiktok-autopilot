@@ -137,7 +137,8 @@
     "https://www.twitch.tv/ishowspeed/clip/CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
     "https://www.twitch.tv/sweet_anita/clip/TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf",
     "https://www.twitch.tv/jasontheween/clip/VainSavageTildeKreygasm-m4WysQ0YC8dT_Z4C",
-    "https://www.twitch.tv/kaicenat/clip/AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon"
+    "https://www.twitch.tv/kaicenat/clip/AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon",
+    "https://www.twitch.tv/jakenbakelive/clip/CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -277,7 +278,8 @@
     "CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
     "TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf",
     "VainSavageTildeKreygasm-m4WysQ0YC8dT_Z4C",
-    "AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon"
+    "AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon",
+    "CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W"
   ],
   "history": [
     {
@@ -1563,6 +1565,16 @@
       "twitch_views": 8082,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-08T20:43:17.174616+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jakenbakelive/clip/CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W",
+      "clip_id": "CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W",
+      "streamer": "jakenbakeLIVE",
+      "game": "Just Chatting",
+      "title": "Caught a 10-footer",
+      "twitch_views": 8164,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-08T23:02:18.787458+00:00"
     }
   ]
 }
