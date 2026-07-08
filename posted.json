@@ -133,7 +133,8 @@
     "https://www.twitch.tv/cinna/clip/CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
     "https://www.twitch.tv/foxiekt/clip/BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
     "https://www.twitch.tv/yonnajay/clip/AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
-    "https://www.twitch.tv/jynxzi/clip/BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-"
+    "https://www.twitch.tv/jynxzi/clip/BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
+    "https://www.twitch.tv/ishowspeed/clip/CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -269,7 +270,8 @@
     "CleanAdorableGazelleOSkomodo-TN37xfhDHTguuUyf",
     "BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
     "AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
-    "BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-"
+    "BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
+    "CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg"
   ],
   "history": [
     {
@@ -1515,6 +1517,16 @@
       "twitch_views": 9135,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-08T09:47:58.618644+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/ishowspeed/clip/CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
+      "clip_id": "CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
+      "streamer": "IShowSpeed",
+      "game": "Just Chatting",
+      "title": "Cristiano Ronaldo",
+      "twitch_views": 11165,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-08T11:23:41.880455+00:00"
     }
   ]
 }
