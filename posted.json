@@ -134,7 +134,8 @@
     "https://www.twitch.tv/foxiekt/clip/BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
     "https://www.twitch.tv/yonnajay/clip/AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
     "https://www.twitch.tv/jynxzi/clip/BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
-    "https://www.twitch.tv/ishowspeed/clip/CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg"
+    "https://www.twitch.tv/ishowspeed/clip/CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
+    "https://www.twitch.tv/sweet_anita/clip/TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -271,7 +272,8 @@
     "BeautifulSeductiveHarePeteZarollTie-nbfOAuEArnTVHgSM",
     "AttractiveTiredTapirRaccAttack-oDEPpoJJOIDgIcJO",
     "BombasticShinyMacaroniPunchTrees-wYMUPVHT0Y3fEQm-",
-    "CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg"
+    "CogentElegantCookieOSkomodo-2JRjviaXhszq8oWg",
+    "TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf"
   ],
   "history": [
     {
@@ -1527,6 +1529,16 @@
       "twitch_views": 11165,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-08T11:23:41.880455+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sweet_anita/clip/TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf",
+      "clip_id": "TriumphantConsiderateCobraOneHand-Uto8-IfftRLxY_Xf",
+      "streamer": "Sweet_Anita",
+      "game": "Just Chatting",
+      "title": "men rolling up their sleeves",
+      "twitch_views": 8725,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-08T18:11:27.322168+00:00"
     }
   ]
 }
