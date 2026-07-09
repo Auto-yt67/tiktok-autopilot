@@ -139,7 +139,8 @@
     "https://www.twitch.tv/jasontheween/clip/VainSavageTildeKreygasm-m4WysQ0YC8dT_Z4C",
     "https://www.twitch.tv/kaicenat/clip/AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon",
     "https://www.twitch.tv/jakenbakelive/clip/CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W",
-    "https://www.twitch.tv/chibidoki/clip/SnappyLittleNikudonSoBayed-YCDJf-AsQu76h66R"
+    "https://www.twitch.tv/chibidoki/clip/SnappyLittleNikudonSoBayed-YCDJf-AsQu76h66R",
+    "https://www.twitch.tv/kaicenat/clip/RefinedRamshackleOtterCharlieBitMe-8IJ1IwKQXHXQn7J7"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -281,7 +282,8 @@
     "VainSavageTildeKreygasm-m4WysQ0YC8dT_Z4C",
     "AnimatedShakingBoarPunchTrees-rrxwf2EO4L_jEcon",
     "CalmElatedCurlewPJSugar-03gJE5LphdNqhJ5W",
-    "SnappyLittleNikudonSoBayed-YCDJf-AsQu76h66R"
+    "SnappyLittleNikudonSoBayed-YCDJf-AsQu76h66R",
+    "RefinedRamshackleOtterCharlieBitMe-8IJ1IwKQXHXQn7J7"
   ],
   "history": [
     {
@@ -1587,6 +1589,16 @@
       "twitch_views": 8379,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-09T04:54:21.070503+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kaicenat/clip/RefinedRamshackleOtterCharlieBitMe-8IJ1IwKQXHXQn7J7",
+      "clip_id": "RefinedRamshackleOtterCharlieBitMe-8IJ1IwKQXHXQn7J7",
+      "streamer": "KaiCenat",
+      "game": "Just Chatting",
+      "title": "Maya is one of the professors for Streamer University 2026",
+      "twitch_views": 7895,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-09T07:41:44.472285+00:00"
     }
   ]
 }
