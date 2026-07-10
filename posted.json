@@ -144,7 +144,8 @@
     "https://www.twitch.tv/stableronaldo/clip/SpeedyKathishOysterMcaT-BY1-QIzhcq3M7LVM",
     "https://www.twitch.tv/aryssa614/clip/PerfectSmoggySalmonChocolateRain-cElyloBojdFHrBGN",
     "https://www.twitch.tv/2xrakai/clip/BreakableInnocentMacaroniCharlietheUnicorn-dMg2mAsX2c3ODBgd",
-    "https://www.twitch.tv/bonnie/clip/CrackyBlightedIcecreamPermaSmug-ESzG5HY01gZZ-5mg"
+    "https://www.twitch.tv/bonnie/clip/CrackyBlightedIcecreamPermaSmug-ESzG5HY01gZZ-5mg",
+    "https://www.twitch.tv/wendolynortizz/clip/VictoriousGracefulShallotSaltBae-hgDM-X_RWddqHu5X"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -291,7 +292,8 @@
     "SpeedyKathishOysterMcaT-BY1-QIzhcq3M7LVM",
     "PerfectSmoggySalmonChocolateRain-cElyloBojdFHrBGN",
     "BreakableInnocentMacaroniCharlietheUnicorn-dMg2mAsX2c3ODBgd",
-    "CrackyBlightedIcecreamPermaSmug-ESzG5HY01gZZ-5mg"
+    "CrackyBlightedIcecreamPermaSmug-ESzG5HY01gZZ-5mg",
+    "VictoriousGracefulShallotSaltBae-hgDM-X_RWddqHu5X"
   ],
   "history": [
     {
@@ -1647,6 +1649,16 @@
       "twitch_views": 7188,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-09T23:10:24.799735+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/wendolynortizz/clip/VictoriousGracefulShallotSaltBae-hgDM-X_RWddqHu5X",
+      "clip_id": "VictoriousGracefulShallotSaltBae-hgDM-X_RWddqHu5X",
+      "streamer": "wendolynortizz",
+      "game": "Just Chatting",
+      "title": "bruh",
+      "twitch_views": 8911,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-10T04:53:31.021888+00:00"
     }
   ]
 }
