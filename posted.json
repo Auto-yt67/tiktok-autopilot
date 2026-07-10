@@ -149,7 +149,8 @@
     "https://www.twitch.tv/loltyler1/clip/RacyPiliableLouseVoHiYo-62MlDr6u72CurRni",
     "https://www.twitch.tv/kaicenat/clip/CorrectTangentialDogeRlyTho-Cm3pNRX2rBuE_C4F",
     "https://www.twitch.tv/notbilzo/clip/SpineyAgileWolfBudStar-vfHSVjaIIE0FS-Is",
-    "https://www.twitch.tv/emiru/clip/DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a"
+    "https://www.twitch.tv/emiru/clip/DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a",
+    "https://www.twitch.tv/isthisemmiep/clip/LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -301,7 +302,8 @@
     "RacyPiliableLouseVoHiYo-62MlDr6u72CurRni",
     "CorrectTangentialDogeRlyTho-Cm3pNRX2rBuE_C4F",
     "SpineyAgileWolfBudStar-vfHSVjaIIE0FS-Is",
-    "DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a"
+    "DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a",
+    "LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4"
   ],
   "history": [
     {
@@ -1707,6 +1709,16 @@
       "twitch_views": 12364,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-10T20:28:36.560392+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/isthisemmiep/clip/LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4",
+      "clip_id": "LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4",
+      "streamer": "isthisemmiep",
+      "game": "Just Chatting",
+      "title": "MANIFESTING A MEOWTH EX",
+      "twitch_views": 8398,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-10T23:43:29.851276+00:00"
     }
   ]
 }
