@@ -152,7 +152,8 @@
     "https://www.twitch.tv/emiru/clip/DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a",
     "https://www.twitch.tv/isthisemmiep/clip/LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4",
     "https://www.twitch.tv/christinaandamber/clip/VibrantEmpathicMarjoramFUNgineer-XsvOTqa-QUvnLbOr",
-    "https://www.twitch.tv/stableronaldo/clip/ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku"
+    "https://www.twitch.tv/stableronaldo/clip/ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku",
+    "https://www.twitch.tv/squeex/clip/ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -307,7 +308,8 @@
     "DirtySeductiveTildeDogFace-bjIgfSCeUos3cR8a",
     "LuckyCuriousTrollJKanStyle-l90_z78j5mLwmwL4",
     "VibrantEmpathicMarjoramFUNgineer-XsvOTqa-QUvnLbOr",
-    "ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku"
+    "ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku",
+    "ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc"
   ],
   "history": [
     {
@@ -1743,6 +1745,16 @@
       "twitch_views": 8678,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-11T06:16:00.850922+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/squeex/clip/ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc",
+      "clip_id": "ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc",
+      "streamer": "Squeex",
+      "game": "Just Chatting",
+      "title": "got his ass",
+      "twitch_views": 13468,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-11T14:24:18.268653+00:00"
     }
   ]
 }
