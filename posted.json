@@ -154,7 +154,8 @@
     "https://www.twitch.tv/christinaandamber/clip/VibrantEmpathicMarjoramFUNgineer-XsvOTqa-QUvnLbOr",
     "https://www.twitch.tv/stableronaldo/clip/ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku",
     "https://www.twitch.tv/squeex/clip/ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc",
-    "https://www.twitch.tv/xqc/clip/EvilDiligentDolphinNerfRedBlaster--op7Morfli-nC4Nx"
+    "https://www.twitch.tv/xqc/clip/EvilDiligentDolphinNerfRedBlaster--op7Morfli-nC4Nx",
+    "https://www.twitch.tv/forsen/clip/GlamorousTrappedThymePhilosoraptor-s9nwJmhyytyv9LLp"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -311,7 +312,8 @@
     "VibrantEmpathicMarjoramFUNgineer-XsvOTqa-QUvnLbOr",
     "ApatheticObesePuppyKeyboardCat-MgzNK0OY7hFq7Eku",
     "ProtectivePoorMoonShazBotstix-tukvl4Y1Y4Kh_wEc",
-    "EvilDiligentDolphinNerfRedBlaster--op7Morfli-nC4Nx"
+    "EvilDiligentDolphinNerfRedBlaster--op7Morfli-nC4Nx",
+    "GlamorousTrappedThymePhilosoraptor-s9nwJmhyytyv9LLp"
   ],
   "history": [
     {
@@ -1767,6 +1769,16 @@
       "twitch_views": 10463,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-11T16:51:52.329401+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/forsen/clip/GlamorousTrappedThymePhilosoraptor-s9nwJmhyytyv9LLp",
+      "clip_id": "GlamorousTrappedThymePhilosoraptor-s9nwJmhyytyv9LLp",
+      "streamer": "forsen",
+      "game": "Just Chatting",
+      "title": "forsen",
+      "twitch_views": 15703,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-11T20:09:02.933486+00:00"
     }
   ]
 }
