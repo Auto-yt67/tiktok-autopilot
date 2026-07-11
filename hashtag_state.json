@@ -2,9 +2,9 @@
   "phase": "testing",
   "winner": null,
   "counts": {
-    "broad_reach": 20,
+    "broad_reach": 21,
     "niche_community": 20,
     "reaction_mood": 20
   },
-  "next_index": 0
+  "next_index": 1
 }
