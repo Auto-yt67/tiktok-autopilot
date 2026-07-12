@@ -160,7 +160,8 @@
     "https://www.twitch.tv/stableronaldo/clip/MoralCleanSkunkPraiseIt-s6xLWW2rX2m8eYCx",
     "https://www.twitch.tv/wendolynortizz/clip/BrightBrainyGoldfishKAPOW-yJsQIAoWGvPcm98R",
     "https://www.twitch.tv/2xrakai/clip/DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
-    "https://www.twitch.tv/yonnajay/clip/ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z"
+    "https://www.twitch.tv/yonnajay/clip/ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
+    "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -323,7 +324,8 @@
     "MoralCleanSkunkPraiseIt-s6xLWW2rX2m8eYCx",
     "BrightBrainyGoldfishKAPOW-yJsQIAoWGvPcm98R",
     "DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
-    "ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z"
+    "ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
+    "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak"
   ],
   "history": [
     {
@@ -1839,6 +1841,16 @@
       "twitch_views": 8402,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-12T16:55:51.989241+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
+      "clip_id": "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
+      "streamer": "obkatiekat",
+      "game": "Just Chatting",
+      "title": "So that\u2019s my wife",
+      "twitch_views": 8699,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-12T20:09:14.596497+00:00"
     }
   ]
 }
