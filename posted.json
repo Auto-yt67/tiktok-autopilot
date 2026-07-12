@@ -161,7 +161,8 @@
     "https://www.twitch.tv/wendolynortizz/clip/BrightBrainyGoldfishKAPOW-yJsQIAoWGvPcm98R",
     "https://www.twitch.tv/2xrakai/clip/DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
     "https://www.twitch.tv/yonnajay/clip/ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
-    "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak"
+    "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
+    "https://www.twitch.tv/zoil/clip/GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -325,7 +326,8 @@
     "BrightBrainyGoldfishKAPOW-yJsQIAoWGvPcm98R",
     "DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
     "ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
-    "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak"
+    "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
+    "GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew"
   ],
   "history": [
     {
@@ -1851,6 +1853,16 @@
       "twitch_views": 8699,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-12T20:09:14.596497+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/zoil/clip/GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
+      "clip_id": "GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
+      "streamer": "Zoil",
+      "game": "Just Chatting",
+      "title": "Those dating apps",
+      "twitch_views": 7048,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-12T22:43:56.750160+00:00"
     }
   ]
 }
