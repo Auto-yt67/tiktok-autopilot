@@ -163,7 +163,8 @@
     "https://www.twitch.tv/yonnajay/clip/ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
     "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
     "https://www.twitch.tv/zoil/clip/GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
-    "https://www.twitch.tv/jynxzi/clip/FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5"
+    "https://www.twitch.tv/jynxzi/clip/FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
+    "https://www.twitch.tv/xqc/clip/EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -329,7 +330,8 @@
     "ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
     "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
     "GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
-    "FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5"
+    "FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
+    "EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4"
   ],
   "history": [
     {
@@ -1875,6 +1877,16 @@
       "twitch_views": 7266,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-13T04:32:28.973530+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
+      "clip_id": "EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "the word",
+      "twitch_views": 8157,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-13T06:54:21.588777+00:00"
     }
   ]
 }
