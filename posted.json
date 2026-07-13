@@ -167,7 +167,8 @@
     "https://www.twitch.tv/xqc/clip/EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
     "https://www.twitch.tv/2xrakai/clip/OilyImportantConsoleTBTacoLeft-_k9pM5ce5ZEQJYUJ",
     "https://www.twitch.tv/ozgangjohnny/clip/MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
-    "https://www.twitch.tv/xqc/clip/SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv"
+    "https://www.twitch.tv/xqc/clip/SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
+    "https://www.twitch.tv/wendolynortizz/clip/CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -337,7 +338,8 @@
     "EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
     "OilyImportantConsoleTBTacoLeft-_k9pM5ce5ZEQJYUJ",
     "MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
-    "SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv"
+    "SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
+    "CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G"
   ],
   "history": [
     {
@@ -1923,6 +1925,16 @@
       "twitch_views": 9999,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-13T20:19:47.812672+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/wendolynortizz/clip/CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
+      "clip_id": "CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
+      "streamer": "wendolynortizz",
+      "game": "Just Chatting",
+      "title": "GYATT",
+      "twitch_views": 8363,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-13T22:52:56.779854+00:00"
     }
   ]
 }
