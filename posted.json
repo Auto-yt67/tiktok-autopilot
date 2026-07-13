@@ -166,7 +166,8 @@
     "https://www.twitch.tv/jynxzi/clip/FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
     "https://www.twitch.tv/xqc/clip/EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
     "https://www.twitch.tv/2xrakai/clip/OilyImportantConsoleTBTacoLeft-_k9pM5ce5ZEQJYUJ",
-    "https://www.twitch.tv/ozgangjohnny/clip/MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK"
+    "https://www.twitch.tv/ozgangjohnny/clip/MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
+    "https://www.twitch.tv/xqc/clip/SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -335,7 +336,8 @@
     "FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
     "EnergeticEmpathicElephantJKanStyle-0sOlvgAod9mDhCw4",
     "OilyImportantConsoleTBTacoLeft-_k9pM5ce5ZEQJYUJ",
-    "MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK"
+    "MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
+    "SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv"
   ],
   "history": [
     {
@@ -1911,6 +1913,16 @@
       "twitch_views": 9439,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-13T17:53:46.572466+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
+      "clip_id": "SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "debunked",
+      "twitch_views": 9999,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-13T20:19:47.812672+00:00"
     }
   ]
 }
