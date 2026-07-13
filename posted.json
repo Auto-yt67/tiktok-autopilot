@@ -162,7 +162,8 @@
     "https://www.twitch.tv/2xrakai/clip/DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
     "https://www.twitch.tv/yonnajay/clip/ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
     "https://www.twitch.tv/obkatiekat/clip/ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
-    "https://www.twitch.tv/zoil/clip/GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew"
+    "https://www.twitch.tv/zoil/clip/GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
+    "https://www.twitch.tv/jynxzi/clip/FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -327,7 +328,8 @@
     "DelightfulJollyAdminBloodTrail-r2ETD_Sz9yE230Nm",
     "ConcernedGeniusTarsierAliens-ELQuuPrKl93c391z",
     "ShyCreativeHerringPeanutButterJellyTime-925maBcX3LCjkKak",
-    "GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew"
+    "GrotesqueBrainyPepperoniPoooound-_-GLx7yTYGzwZfew",
+    "FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5"
   ],
   "history": [
     {
@@ -1863,6 +1865,16 @@
       "twitch_views": 7048,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-12T22:43:56.750160+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jynxzi/clip/FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
+      "clip_id": "FilthyBlueHeronChocolateRain-ZpLti_1F-LmWOta5",
+      "streamer": "Jynxzi",
+      "game": "Just Chatting",
+      "title": "Jynxzi Mbappe hater",
+      "twitch_views": 7266,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-13T04:32:28.973530+00:00"
     }
   ]
 }
