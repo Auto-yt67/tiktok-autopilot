@@ -171,7 +171,8 @@
     "https://www.twitch.tv/wendolynortizz/clip/CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
     "https://www.twitch.tv/kaicenat/clip/TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub",
     "https://www.twitch.tv/sodapoppin/clip/DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr",
-    "https://www.twitch.tv/wendolynortizz/clip/LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u"
+    "https://www.twitch.tv/wendolynortizz/clip/LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u",
+    "https://www.twitch.tv/suzy/clip/EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -345,7 +346,8 @@
     "CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
     "TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub",
     "DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr",
-    "LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u"
+    "LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u",
+    "EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV"
   ],
   "history": [
     {
@@ -1971,6 +1973,16 @@
       "twitch_views": 10017,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-14T14:49:36.969926+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/suzy/clip/EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
+      "clip_id": "EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
+      "streamer": "suzy",
+      "game": "Just Chatting",
+      "title": "2-9",
+      "twitch_views": 9693,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-14T17:11:14.344487+00:00"
     }
   ]
 }
