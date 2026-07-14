@@ -169,7 +169,8 @@
     "https://www.twitch.tv/ozgangjohnny/clip/MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
     "https://www.twitch.tv/xqc/clip/SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
     "https://www.twitch.tv/wendolynortizz/clip/CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
-    "https://www.twitch.tv/kaicenat/clip/TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub"
+    "https://www.twitch.tv/kaicenat/clip/TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub",
+    "https://www.twitch.tv/sodapoppin/clip/DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -341,7 +342,8 @@
     "MagnificentSuperYakMVGame-RN8KvBqQ2HgeP7ZK",
     "SourOpenRavenOMGScoots-pE9TgaRXzdDlUofv",
     "CaringThoughtfulSandpiperBigBrother-PZKTiz2jGG4TZq5G",
-    "TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub"
+    "TubularMiniatureZebraOhMyDog-4PxfO7jTBHKM69Ub",
+    "DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr"
   ],
   "history": [
     {
@@ -1947,6 +1949,16 @@
       "twitch_views": 8936,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-14T03:58:19.452619+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/sodapoppin/clip/DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr",
+      "clip_id": "DarkEnergeticTarsierDatSheffy-Rpm71or1tvWW5Zrr",
+      "streamer": "sodapoppin",
+      "game": "Just Chatting",
+      "title": "skippy takes a dive",
+      "twitch_views": 9519,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-14T06:12:43.132935+00:00"
     }
   ]
 }
