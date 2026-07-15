@@ -177,7 +177,8 @@
     "https://www.twitch.tv/aryssa614/clip/ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
     "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
     "https://www.twitch.tv/lacy/clip/IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
-    "https://www.twitch.tv/suzy/clip/VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ"
+    "https://www.twitch.tv/suzy/clip/VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ",
+    "https://www.twitch.tv/suzy/clip/SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -357,7 +358,8 @@
     "ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
     "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
     "IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
-    "VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ"
+    "VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ",
+    "SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR"
   ],
   "history": [
     {
@@ -2043,6 +2045,16 @@
       "twitch_views": 11772,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-15T14:49:26.667491+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/suzy/clip/SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
+      "clip_id": "SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
+      "streamer": "suzy",
+      "game": "Just Chatting",
+      "title": "froggy spotted",
+      "twitch_views": 8021,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-15T17:14:59.366337+00:00"
     }
   ]
 }
