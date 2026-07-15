@@ -174,7 +174,8 @@
     "https://www.twitch.tv/wendolynortizz/clip/LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u",
     "https://www.twitch.tv/suzy/clip/EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
     "https://www.twitch.tv/stableronaldo/clip/SparklingRamshackleWrenDansGame-pGgVz8HfWcw6aV4b",
-    "https://www.twitch.tv/aryssa614/clip/ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ"
+    "https://www.twitch.tv/aryssa614/clip/ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
+    "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -351,7 +352,8 @@
     "LittleFurryFoxRitzMitz-qhJ1xRw5Peo0BX6u",
     "EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
     "SparklingRamshackleWrenDansGame-pGgVz8HfWcw6aV4b",
-    "ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ"
+    "ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
+    "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS"
   ],
   "history": [
     {
@@ -2007,6 +2009,16 @@
       "twitch_views": 7567,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-14T22:56:23.053996+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
+      "clip_id": "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
+      "streamer": "suzy",
+      "game": "Just Chatting",
+      "title": "LIVE \ud83d\udd06 Random IRL [ kor/eng/\u4e2d\u6587 ]",
+      "twitch_views": 8564,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-15T04:00:43.988748+00:00"
     }
   ]
 }
