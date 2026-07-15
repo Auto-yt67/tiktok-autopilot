@@ -178,7 +178,8 @@
     "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
     "https://www.twitch.tv/lacy/clip/IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
     "https://www.twitch.tv/suzy/clip/VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ",
-    "https://www.twitch.tv/suzy/clip/SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR"
+    "https://www.twitch.tv/suzy/clip/SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
+    "https://www.twitch.tv/jasontheween/clip/PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -359,7 +360,8 @@
     "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
     "IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
     "VibrantRepleteOcelotItsBoshyTime-GSXvQVFEzraBCsgZ",
-    "SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR"
+    "SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
+    "PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr"
   ],
   "history": [
     {
@@ -2055,6 +2057,16 @@
       "twitch_views": 8021,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-15T17:14:59.366337+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jasontheween/clip/PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
+      "clip_id": "PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
+      "streamer": "jasontheween",
+      "game": "Just Chatting",
+      "title": "jason says the n-word",
+      "twitch_views": 8243,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-15T20:13:01.629250+00:00"
     }
   ]
 }
