@@ -175,7 +175,8 @@
     "https://www.twitch.tv/suzy/clip/EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
     "https://www.twitch.tv/stableronaldo/clip/SparklingRamshackleWrenDansGame-pGgVz8HfWcw6aV4b",
     "https://www.twitch.tv/aryssa614/clip/ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
-    "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS"
+    "https://www.twitch.tv/suzy/clip/AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
+    "https://www.twitch.tv/lacy/clip/IronicFancyBobaBudStar-5zGVp_H_lr3LauO2"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -353,7 +354,8 @@
     "EnthusiasticTemperedSproutKeepo-ynAzu1B66Xg9gkDV",
     "SparklingRamshackleWrenDansGame-pGgVz8HfWcw6aV4b",
     "ObedientSpinelessPoultryMrDestructoid-j9N-Yz1cVizR5xpJ",
-    "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS"
+    "AnimatedFrozenNeanderthalSoBayed-1UBq_tMKhQ9GTJnS",
+    "IronicFancyBobaBudStar-5zGVp_H_lr3LauO2"
   ],
   "history": [
     {
@@ -2019,6 +2021,16 @@
       "twitch_views": 8564,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-15T04:00:43.988748+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/lacy/clip/IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
+      "clip_id": "IronicFancyBobaBudStar-5zGVp_H_lr3LauO2",
+      "streamer": "Lacy",
+      "game": "Just Chatting",
+      "title": "Marlon??",
+      "twitch_views": 10129,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-15T06:14:22.668174+00:00"
     }
   ]
 }
