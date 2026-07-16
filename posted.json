@@ -181,7 +181,8 @@
     "https://www.twitch.tv/suzy/clip/SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
     "https://www.twitch.tv/jasontheween/clip/PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
     "https://www.twitch.tv/wendolynortizz/clip/FancyFreezingQuailHeyGuys-RiE3_G6pnCiQYk0e",
-    "https://www.twitch.tv/ilikehaskell/clip/BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW"
+    "https://www.twitch.tv/ilikehaskell/clip/BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
+    "https://www.twitch.tv/skaijackson/clip/TenuousDeadElkOSsloth-CinhNuX8oERDF3gn"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -365,7 +366,8 @@
     "SpicyCrackyFennelDuDudu-yF01jSFN6mvNRrlR",
     "PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
     "FancyFreezingQuailHeyGuys-RiE3_G6pnCiQYk0e",
-    "BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW"
+    "BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
+    "TenuousDeadElkOSsloth-CinhNuX8oERDF3gn"
   ],
   "history": [
     {
@@ -2091,6 +2093,16 @@
       "twitch_views": 60699,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-16T04:10:05.357759+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/skaijackson/clip/TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
+      "clip_id": "TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
+      "streamer": "skaijackson",
+      "game": "Just Chatting",
+      "title": "Thats me chat",
+      "twitch_views": 36532,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-16T06:17:21.035852+00:00"
     }
   ]
 }
