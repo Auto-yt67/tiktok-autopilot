@@ -182,7 +182,8 @@
     "https://www.twitch.tv/jasontheween/clip/PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
     "https://www.twitch.tv/wendolynortizz/clip/FancyFreezingQuailHeyGuys-RiE3_G6pnCiQYk0e",
     "https://www.twitch.tv/ilikehaskell/clip/BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
-    "https://www.twitch.tv/skaijackson/clip/TenuousDeadElkOSsloth-CinhNuX8oERDF3gn"
+    "https://www.twitch.tv/skaijackson/clip/TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
+    "https://www.twitch.tv/notbilzo/clip/IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -367,7 +368,8 @@
     "PoisedHedonisticWebBlargNaut-64pFTrxsM62B__Tr",
     "FancyFreezingQuailHeyGuys-RiE3_G6pnCiQYk0e",
     "BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
-    "TenuousDeadElkOSsloth-CinhNuX8oERDF3gn"
+    "TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
+    "IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX"
   ],
   "history": [
     {
@@ -2103,6 +2105,16 @@
       "twitch_views": 36532,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-16T06:17:21.035852+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/notbilzo/clip/IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
+      "clip_id": "IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
+      "streamer": "NotBilzo",
+      "game": "Just Chatting",
+      "title": "no wonder geo never wanted him to read the notes",
+      "twitch_views": 27132,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-16T15:02:15.100967+00:00"
     }
   ]
 }
