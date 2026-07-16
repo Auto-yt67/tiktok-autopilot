@@ -184,7 +184,8 @@
     "https://www.twitch.tv/ilikehaskell/clip/BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
     "https://www.twitch.tv/skaijackson/clip/TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
     "https://www.twitch.tv/notbilzo/clip/IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
-    "https://www.twitch.tv/zoil/clip/AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h"
+    "https://www.twitch.tv/zoil/clip/AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h",
+    "https://www.twitch.tv/erobb221/clip/AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -371,7 +372,8 @@
     "BlitheGleamingManateeBibleThump-1Uku3P2bnviuZOpW",
     "TenuousDeadElkOSsloth-CinhNuX8oERDF3gn",
     "IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
-    "AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h"
+    "AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h",
+    "AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v"
   ],
   "history": [
     {
@@ -2127,6 +2129,16 @@
       "twitch_views": 25910,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-16T17:12:38.437630+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/erobb221/clip/AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
+      "clip_id": "AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
+      "streamer": "erobb221",
+      "game": "Just Chatting",
+      "title": "Happy",
+      "twitch_views": 13958,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-16T20:06:36.374074+00:00"
     }
   ]
 }
