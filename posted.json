@@ -188,7 +188,8 @@
     "https://www.twitch.tv/erobb221/clip/AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
     "https://www.twitch.tv/theycallmeleii/clip/BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT",
     "https://www.twitch.tv/cyr/clip/SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh",
-    "https://www.twitch.tv/wendolynortizz/clip/BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ"
+    "https://www.twitch.tv/wendolynortizz/clip/BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ",
+    "https://www.twitch.tv/yololaryy/clip/ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -379,7 +380,8 @@
     "AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
     "BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT",
     "SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh",
-    "BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ"
+    "BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ",
+    "ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt"
   ],
   "history": [
     {
@@ -2175,6 +2177,16 @@
       "twitch_views": 23032,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-17T06:16:38.859626+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/yololaryy/clip/ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt",
+      "clip_id": "ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt",
+      "streamer": "yololaryy",
+      "game": "Just Chatting",
+      "title": "yumy",
+      "twitch_views": 15148,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-17T14:43:49.659920+00:00"
     }
   ]
 }
