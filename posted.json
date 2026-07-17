@@ -191,7 +191,8 @@
     "https://www.twitch.tv/wendolynortizz/clip/BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ",
     "https://www.twitch.tv/yololaryy/clip/ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt",
     "https://www.twitch.tv/therealbigwinnn/clip/FamousApatheticSeahorseKevinTurtle-WwpugJZ6AvPDytmu",
-    "https://www.twitch.tv/sweet_anita/clip/NastyIcyElkPraiseIt-q6719lFcYBvYTTHu"
+    "https://www.twitch.tv/sweet_anita/clip/NastyIcyElkPraiseIt-q6719lFcYBvYTTHu",
+    "https://www.twitch.tv/twitch/clip/PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -385,7 +386,8 @@
     "BumblingSourPresidentDAESuppy-MgXNpOtTHv5xA7xJ",
     "ExpensiveRichMochaNotATK-XP-TQml3CDE9tFzt",
     "FamousApatheticSeahorseKevinTurtle-WwpugJZ6AvPDytmu",
-    "NastyIcyElkPraiseIt-q6719lFcYBvYTTHu"
+    "NastyIcyElkPraiseIt-q6719lFcYBvYTTHu",
+    "PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02"
   ],
   "history": [
     {
@@ -2211,6 +2213,16 @@
       "twitch_views": 41703,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-17T20:10:18.889519+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/twitch/clip/PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02",
+      "clip_id": "PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02",
+      "streamer": "Twitch",
+      "game": "Just Chatting",
+      "title": "10 sounds nicer than 11, so we'll call it that",
+      "twitch_views": 10973,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-17T22:44:58.857996+00:00"
     }
   ]
 }
