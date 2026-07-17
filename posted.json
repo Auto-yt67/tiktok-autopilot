@@ -186,7 +186,8 @@
     "https://www.twitch.tv/notbilzo/clip/IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
     "https://www.twitch.tv/zoil/clip/AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h",
     "https://www.twitch.tv/erobb221/clip/AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
-    "https://www.twitch.tv/theycallmeleii/clip/BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT"
+    "https://www.twitch.tv/theycallmeleii/clip/BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT",
+    "https://www.twitch.tv/cyr/clip/SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -375,7 +376,8 @@
     "IronicPiliableWalletHeyGuys-xTVnqKZaw0q6xGqX",
     "AmazingAstuteRaccoonNotLikeThis-VseRbNkJHiUzJm2h",
     "AbnegateTrustworthyWallabyDBstyle-Y_4YMJkYAGH5Gq4v",
-    "BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT"
+    "BlatantAgileCattleDuDudu-swEXlNkGOFNaQ0aT",
+    "SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh"
   ],
   "history": [
     {
@@ -2151,6 +2153,16 @@
       "twitch_views": 13452,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-16T22:55:18.173075+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/cyr/clip/SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh",
+      "clip_id": "SavoryCulturedOctopusBatChest-QHrycjEZWImt-ywh",
+      "streamer": "CYR",
+      "game": "Just Chatting",
+      "title": "Cinema",
+      "twitch_views": 9926,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-17T04:02:49.117618+00:00"
     }
   ]
 }
