@@ -194,7 +194,8 @@
     "https://www.twitch.tv/sweet_anita/clip/NastyIcyElkPraiseIt-q6719lFcYBvYTTHu",
     "https://www.twitch.tv/twitch/clip/PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02",
     "https://www.twitch.tv/lacy/clip/EnthusiasticSincereStinkbugMcaT-gODQue_cPOzx_DK_",
-    "https://www.twitch.tv/xqc/clip/RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl"
+    "https://www.twitch.tv/xqc/clip/RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl",
+    "https://www.twitch.tv/jynxzi/clip/DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -391,7 +392,8 @@
     "NastyIcyElkPraiseIt-q6719lFcYBvYTTHu",
     "PricklyHorribleDaikonKAPOW-5tKOVZcJ1UOMp_02",
     "EnthusiasticSincereStinkbugMcaT-gODQue_cPOzx_DK_",
-    "RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl"
+    "RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl",
+    "DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz"
   ],
   "history": [
     {
@@ -2247,6 +2249,16 @@
       "twitch_views": 9132,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-18T06:06:29.710820+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jynxzi/clip/DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz",
+      "clip_id": "DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz",
+      "streamer": "Jynxzi",
+      "game": "Just Chatting",
+      "title": "Jynxzi pauses it at the wrong time",
+      "twitch_views": 9948,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-18T14:21:33.811646+00:00"
     }
   ]
 }
