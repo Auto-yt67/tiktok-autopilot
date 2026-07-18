@@ -196,7 +196,8 @@
     "https://www.twitch.tv/lacy/clip/EnthusiasticSincereStinkbugMcaT-gODQue_cPOzx_DK_",
     "https://www.twitch.tv/xqc/clip/RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl",
     "https://www.twitch.tv/jynxzi/clip/DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz",
-    "https://www.twitch.tv/akira/clip/OnerousHonorableAntBigBrother-GIh7At2-OjxuJzTU"
+    "https://www.twitch.tv/akira/clip/OnerousHonorableAntBigBrother-GIh7At2-OjxuJzTU",
+    "https://www.twitch.tv/yololaryy/clip/SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -395,7 +396,8 @@
     "EnthusiasticSincereStinkbugMcaT-gODQue_cPOzx_DK_",
     "RefinedSplendidEggNotATK-AEUOU8i0AqDrWzHl",
     "DepressedCalmMinkThunBeast-c6uwhnz8Ad_ydzdz",
-    "OnerousHonorableAntBigBrother-GIh7At2-OjxuJzTU"
+    "OnerousHonorableAntBigBrother-GIh7At2-OjxuJzTU",
+    "SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw"
   ],
   "history": [
     {
@@ -2271,6 +2273,16 @@
       "twitch_views": 9157,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-18T16:52:37.048301+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/yololaryy/clip/SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw",
+      "clip_id": "SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw",
+      "streamer": "yololaryy",
+      "game": "Just Chatting",
+      "title": "111",
+      "twitch_views": 9174,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-18T20:06:49.177372+00:00"
     }
   ]
 }
