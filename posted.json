@@ -200,7 +200,8 @@
     "https://www.twitch.tv/yololaryy/clip/SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw",
     "https://www.twitch.tv/jinnytty/clip/NiceZanyOilAsianGlow-riaiLiSxzXDiuqQw",
     "https://www.twitch.tv/wendolynortizz/clip/IcyOpenPelicanEagleEye-2_lqlv2vQHi673Ah",
-    "https://www.twitch.tv/myanicolelive/clip/NeighborlyArbitraryTapirNerfRedBlaster-t6o-vtV9J68nCELO"
+    "https://www.twitch.tv/myanicolelive/clip/NeighborlyArbitraryTapirNerfRedBlaster-t6o-vtV9J68nCELO",
+    "https://www.twitch.tv/theycallmeleii/clip/GracefulZealousLaptopBCWarrior-JTTb8N5ZX6ZJKVre"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -403,7 +404,8 @@
     "SparklyPhilanthropicHippoDuDudu-vmDglu7yTRrES6Pw",
     "NiceZanyOilAsianGlow-riaiLiSxzXDiuqQw",
     "IcyOpenPelicanEagleEye-2_lqlv2vQHi673Ah",
-    "NeighborlyArbitraryTapirNerfRedBlaster-t6o-vtV9J68nCELO"
+    "NeighborlyArbitraryTapirNerfRedBlaster-t6o-vtV9J68nCELO",
+    "GracefulZealousLaptopBCWarrior-JTTb8N5ZX6ZJKVre"
   ],
   "history": [
     {
@@ -2319,6 +2321,16 @@
       "twitch_views": 9700,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-19T06:30:34.229526+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/theycallmeleii/clip/GracefulZealousLaptopBCWarrior-JTTb8N5ZX6ZJKVre",
+      "clip_id": "GracefulZealousLaptopBCWarrior-JTTb8N5ZX6ZJKVre",
+      "streamer": "theycallmeleii",
+      "game": "Just Chatting",
+      "title": ".",
+      "twitch_views": 10292,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-19T14:25:04.371250+00:00"
     }
   ]
 }
