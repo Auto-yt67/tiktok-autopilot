@@ -207,7 +207,8 @@
     "https://www.twitch.tv/yololaryy/clip/IntelligentDifferentCoffeeKappaRoss-FmhgbJ7Bp5cFS2Pq",
     "https://www.twitch.tv/adapt/clip/ObliqueAmorphousHamDancingBanana-cy9_ksPaYxgPg8EM",
     "https://www.twitch.tv/hutchmf/clip/ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
-    "https://www.twitch.tv/totaamc/clip/SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7"
+    "https://www.twitch.tv/totaamc/clip/SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
+    "https://www.twitch.tv/kaise/clip/CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -417,7 +418,8 @@
     "IntelligentDifferentCoffeeKappaRoss-FmhgbJ7Bp5cFS2Pq",
     "ObliqueAmorphousHamDancingBanana-cy9_ksPaYxgPg8EM",
     "ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
-    "SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7"
+    "SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
+    "CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt"
   ],
   "history": [
     {
@@ -2403,6 +2405,16 @@
       "twitch_views": 11792,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-20T15:12:23.955366+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kaise/clip/CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt",
+      "clip_id": "CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt",
+      "streamer": "Kaise",
+      "game": "Just Chatting",
+      "title": "Asmongold preserving a severed cockroach head in his fridge",
+      "twitch_views": 15549,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-20T17:37:00.121107+00:00"
     }
   ]
 }
