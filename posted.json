@@ -206,7 +206,8 @@
     "https://www.twitch.tv/leaksworld_/clip/PoliteCogentPeachDerp-vcFGkJqD8TvwMDL8",
     "https://www.twitch.tv/yololaryy/clip/IntelligentDifferentCoffeeKappaRoss-FmhgbJ7Bp5cFS2Pq",
     "https://www.twitch.tv/adapt/clip/ObliqueAmorphousHamDancingBanana-cy9_ksPaYxgPg8EM",
-    "https://www.twitch.tv/hutchmf/clip/ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL"
+    "https://www.twitch.tv/hutchmf/clip/ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
+    "https://www.twitch.tv/totaamc/clip/SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -415,7 +416,8 @@
     "PoliteCogentPeachDerp-vcFGkJqD8TvwMDL8",
     "IntelligentDifferentCoffeeKappaRoss-FmhgbJ7Bp5cFS2Pq",
     "ObliqueAmorphousHamDancingBanana-cy9_ksPaYxgPg8EM",
-    "ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL"
+    "ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
+    "SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7"
   ],
   "history": [
     {
@@ -2391,6 +2393,16 @@
       "twitch_views": 10786,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-20T06:45:37.810152+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/totaamc/clip/SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
+      "clip_id": "SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
+      "streamer": "totaamc",
+      "game": "Just Chatting",
+      "title": "HOLY JUMPSHOT",
+      "twitch_views": 11792,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-20T15:12:23.955366+00:00"
     }
   ]
 }
