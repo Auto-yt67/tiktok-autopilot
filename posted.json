@@ -209,7 +209,8 @@
     "https://www.twitch.tv/hutchmf/clip/ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
     "https://www.twitch.tv/totaamc/clip/SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
     "https://www.twitch.tv/kaise/clip/CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt",
-    "https://www.twitch.tv/niyasantia/clip/AgreeableSpikyTardigradeCorgiDerp-Be82xTtqborakxAM"
+    "https://www.twitch.tv/niyasantia/clip/AgreeableSpikyTardigradeCorgiDerp-Be82xTtqborakxAM",
+    "https://www.twitch.tv/erobb221/clip/GiantDarlingMageBCouch-eNwgZH0lj2L8inUk"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -421,7 +422,8 @@
     "ViscousLightMonitorPermaSmug-iolm4AhZQMyGkNtL",
     "SneakyPerfectCrocodileDeIlluminati-daF2n18tdsMp_IP7",
     "CrispyDeterminedZucchiniAliens--D3ciCje1mvE34jt",
-    "AgreeableSpikyTardigradeCorgiDerp-Be82xTtqborakxAM"
+    "AgreeableSpikyTardigradeCorgiDerp-Be82xTtqborakxAM",
+    "GiantDarlingMageBCouch-eNwgZH0lj2L8inUk"
   ],
   "history": [
     {
@@ -2427,6 +2429,16 @@
       "twitch_views": 12675,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-20T20:26:49.619102+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/erobb221/clip/GiantDarlingMageBCouch-eNwgZH0lj2L8inUk",
+      "clip_id": "GiantDarlingMageBCouch-eNwgZH0lj2L8inUk",
+      "streamer": "erobb221",
+      "game": "Just Chatting",
+      "title": "Pissypants221",
+      "twitch_views": 12206,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-20T22:56:00.067430+00:00"
     }
   ]
 }
