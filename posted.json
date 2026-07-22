@@ -216,7 +216,8 @@
     "https://www.twitch.tv/yololaryy/clip/DeadHeartlessHippoFeelsBadMan-jKOvO7FUh0sy1Jgy",
     "https://www.twitch.tv/lirik/clip/ElegantPleasantPoultryDancingBanana-JgS1MYrKU1au0It9",
     "https://www.twitch.tv/twitch/clip/ModernCourteousCucumberLitty-NU5GeFjn9S1Hsp29",
-    "https://www.twitch.tv/lanahcherry/clip/UgliestDifferentEggnogOSfrog-kcb8k-Z8bNKWRFwu"
+    "https://www.twitch.tv/lanahcherry/clip/UgliestDifferentEggnogOSfrog-kcb8k-Z8bNKWRFwu",
+    "https://www.twitch.tv/strawberrytabby/clip/SparklyBoredLampBCWarrior-YG69yHiuNkqJUtom"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -435,7 +436,8 @@
     "DeadHeartlessHippoFeelsBadMan-jKOvO7FUh0sy1Jgy",
     "ElegantPleasantPoultryDancingBanana-JgS1MYrKU1au0It9",
     "ModernCourteousCucumberLitty-NU5GeFjn9S1Hsp29",
-    "UgliestDifferentEggnogOSfrog-kcb8k-Z8bNKWRFwu"
+    "UgliestDifferentEggnogOSfrog-kcb8k-Z8bNKWRFwu",
+    "SparklyBoredLampBCWarrior-YG69yHiuNkqJUtom"
   ],
   "history": [
     {
@@ -2511,6 +2513,16 @@
       "twitch_views": 9014,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-21T22:52:11.870614+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/strawberrytabby/clip/SparklyBoredLampBCWarrior-YG69yHiuNkqJUtom",
+      "clip_id": "SparklyBoredLampBCWarrior-YG69yHiuNkqJUtom",
+      "streamer": "StrawberryTabby",
+      "game": "Just Chatting",
+      "title": "He wanted to follow my X!",
+      "twitch_views": 9849,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-22T04:19:30.901822+00:00"
     }
   ]
 }
