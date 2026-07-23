@@ -226,7 +226,8 @@
     "https://www.twitch.tv/esfandtv/clip/SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
     "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
     "https://www.twitch.tv/cooksux/clip/PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
-    "https://www.twitch.tv/knut/clip/BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI"
+    "https://www.twitch.tv/knut/clip/BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI",
+    "https://www.twitch.tv/twitch/clip/SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -455,7 +456,8 @@
     "SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
     "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
     "PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
-    "BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI"
+    "BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI",
+    "SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c"
   ],
   "history": [
     {
@@ -2631,6 +2633,16 @@
       "twitch_views": 8421,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-23T17:16:43.640063+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/twitch/clip/SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
+      "clip_id": "SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
+      "streamer": "Twitch",
+      "game": "Just Chatting",
+      "title": "New TwitchCon emotes",
+      "twitch_views": 9166,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-23T20:17:04.405192+00:00"
     }
   ]
 }
