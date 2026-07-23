@@ -223,7 +223,8 @@
     "https://www.twitch.tv/aryssa614/clip/BraveDrabFennelWOOP-Mt3uwZbrOIhSXjlu",
     "https://www.twitch.tv/yololaryy/clip/DeafSmokyWormSSSsss-_4-L9F8mrCEKgpKP",
     "https://www.twitch.tv/yololaryy/clip/GlutenFreeDiligentSrirachaTBTacoRight-4PvW7q_zjso3PYi_",
-    "https://www.twitch.tv/esfandtv/clip/SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a"
+    "https://www.twitch.tv/esfandtv/clip/SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
+    "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -449,7 +450,8 @@
     "BraveDrabFennelWOOP-Mt3uwZbrOIhSXjlu",
     "DeafSmokyWormSSSsss-_4-L9F8mrCEKgpKP",
     "GlutenFreeDiligentSrirachaTBTacoRight-4PvW7q_zjso3PYi_",
-    "SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a"
+    "SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
+    "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax"
   ],
   "history": [
     {
@@ -2595,6 +2597,16 @@
       "twitch_views": 9709,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-23T04:18:18.899980+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
+      "clip_id": "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
+      "streamer": "Aryssa614",
+      "game": "Just Chatting",
+      "title": "Doggo found her pillows",
+      "twitch_views": 8299,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-23T06:31:45.199883+00:00"
     }
   ]
 }
