@@ -227,7 +227,8 @@
     "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
     "https://www.twitch.tv/cooksux/clip/PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
     "https://www.twitch.tv/knut/clip/BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI",
-    "https://www.twitch.tv/twitch/clip/SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c"
+    "https://www.twitch.tv/twitch/clip/SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
+    "https://www.twitch.tv/erobb221/clip/HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -457,7 +458,8 @@
     "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
     "PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
     "BlueCrackyOrcaKreygasm-c8_bkKACH3RkHsuI",
-    "SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c"
+    "SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
+    "HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt"
   ],
   "history": [
     {
@@ -2643,6 +2645,16 @@
       "twitch_views": 9166,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-23T20:17:04.405192+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/erobb221/clip/HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt",
+      "clip_id": "HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt",
+      "streamer": "erobb221",
+      "game": "Just Chatting",
+      "title": "My mousepad",
+      "twitch_views": 8161,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-23T22:55:45.556580+00:00"
     }
   ]
 }
