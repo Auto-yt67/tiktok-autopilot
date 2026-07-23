@@ -224,7 +224,8 @@
     "https://www.twitch.tv/yololaryy/clip/DeafSmokyWormSSSsss-_4-L9F8mrCEKgpKP",
     "https://www.twitch.tv/yololaryy/clip/GlutenFreeDiligentSrirachaTBTacoRight-4PvW7q_zjso3PYi_",
     "https://www.twitch.tv/esfandtv/clip/SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
-    "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax"
+    "https://www.twitch.tv/aryssa614/clip/StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
+    "https://www.twitch.tv/cooksux/clip/PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -451,7 +452,8 @@
     "DeafSmokyWormSSSsss-_4-L9F8mrCEKgpKP",
     "GlutenFreeDiligentSrirachaTBTacoRight-4PvW7q_zjso3PYi_",
     "SavoryArborealGooseVoteYea-FTY1rJZEOKoww47a",
-    "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax"
+    "StupidSilkyKoalaDBstyle-oqrahwPm0QTIz8ax",
+    "PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ"
   ],
   "history": [
     {
@@ -2607,6 +2609,16 @@
       "twitch_views": 8299,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-23T06:31:45.199883+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/cooksux/clip/PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
+      "clip_id": "PiercingEagerBearDancingBaby-2Ga7XDLJF8AWHvnZ",
+      "streamer": "CookSux",
+      "game": "Just Chatting",
+      "title": "follow button",
+      "twitch_views": 9578,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-23T15:12:29.525990+00:00"
     }
   ]
 }
