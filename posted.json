@@ -230,7 +230,8 @@
     "https://www.twitch.tv/twitch/clip/SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
     "https://www.twitch.tv/erobb221/clip/HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt",
     "https://www.twitch.tv/akira/clip/SlickToughBubbleteaGivePLZ-UJhPxIxv5jrYI-X-",
-    "https://www.twitch.tv/aozami/clip/ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd"
+    "https://www.twitch.tv/aozami/clip/ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd",
+    "https://www.twitch.tv/xqc/clip/TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -463,7 +464,8 @@
     "SparklyAstuteHamsterDxCat-3NdCL_-7UmVOJ40c",
     "HeadstrongAgitatedJellyfishAMPTropPunch-nZazvSL6pjHykoWt",
     "SlickToughBubbleteaGivePLZ-UJhPxIxv5jrYI-X-",
-    "ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd"
+    "ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd",
+    "TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66"
   ],
   "history": [
     {
@@ -2679,6 +2681,16 @@
       "twitch_views": 7891,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-24T06:26:21.192583+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66",
+      "clip_id": "TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "20 min",
+      "twitch_views": 10539,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-24T14:54:51.164573+00:00"
     }
   ]
 }
