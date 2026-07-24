@@ -232,7 +232,8 @@
     "https://www.twitch.tv/akira/clip/SlickToughBubbleteaGivePLZ-UJhPxIxv5jrYI-X-",
     "https://www.twitch.tv/aozami/clip/ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd",
     "https://www.twitch.tv/xqc/clip/TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66",
-    "https://www.twitch.tv/twitch/clip/SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4"
+    "https://www.twitch.tv/twitch/clip/SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4",
+    "https://www.twitch.tv/quqco/clip/SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -467,7 +468,8 @@
     "SlickToughBubbleteaGivePLZ-UJhPxIxv5jrYI-X-",
     "ArtisticMiniatureCobraUnSane-qn-RfqgrYYDwGRYd",
     "TacitBlitheEyeballOSkomodo-Nn43JxgVPqx8ag66",
-    "SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4"
+    "SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4",
+    "SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN"
   ],
   "history": [
     {
@@ -2703,6 +2705,16 @@
       "twitch_views": 7168,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-24T17:27:56.556326+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/quqco/clip/SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN",
+      "clip_id": "SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN",
+      "streamer": "quqco",
+      "game": "Just Chatting",
+      "title": "i hope i dont \ud83d\udc80  today",
+      "twitch_views": 6762,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-24T20:24:08.274678+00:00"
     }
   ]
 }
