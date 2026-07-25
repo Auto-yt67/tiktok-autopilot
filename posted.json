@@ -235,7 +235,8 @@
     "https://www.twitch.tv/twitch/clip/SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4",
     "https://www.twitch.tv/quqco/clip/SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN",
     "https://www.twitch.tv/twitch/clip/TacitBoxyPandaCoolStoryBro-K7QXK7WeCv8lT4zg",
-    "https://www.twitch.tv/notbilzo/clip/ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA"
+    "https://www.twitch.tv/notbilzo/clip/ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA",
+    "https://www.twitch.tv/jynxzi/clip/GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -473,7 +474,8 @@
     "SpineyAgreeableCurryM4xHeh-El86-XY6W2e-LKs4",
     "SmallColdbloodedFrogTinyFace-0WfZNE-a5sUbeqPN",
     "TacitBoxyPandaCoolStoryBro-K7QXK7WeCv8lT4zg",
-    "ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA"
+    "ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA",
+    "GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b"
   ],
   "history": [
     {
@@ -2739,6 +2741,16 @@
       "twitch_views": 7065,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-25T04:12:55.701302+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jynxzi/clip/GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b",
+      "clip_id": "GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b",
+      "streamer": "Jynxzi",
+      "game": "Just Chatting",
+      "title": "jynxi read my chat omg omg",
+      "twitch_views": 6810,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-25T06:17:54.662542+00:00"
     }
   ]
 }
