@@ -237,7 +237,8 @@
     "https://www.twitch.tv/twitch/clip/TacitBoxyPandaCoolStoryBro-K7QXK7WeCv8lT4zg",
     "https://www.twitch.tv/notbilzo/clip/ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA",
     "https://www.twitch.tv/jynxzi/clip/GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b",
-    "https://www.twitch.tv/yololaryy/clip/EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF"
+    "https://www.twitch.tv/yololaryy/clip/EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF",
+    "https://www.twitch.tv/xqc/clip/LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -477,7 +478,8 @@
     "TacitBoxyPandaCoolStoryBro-K7QXK7WeCv8lT4zg",
     "ExuberantBombasticSalsifyRuleFive-WiJ17UGmtCChudJA",
     "GentleBoldGorillaTinyFace-XI0s7tDtqn4h2h_b",
-    "EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF"
+    "EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF",
+    "LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6"
   ],
   "history": [
     {
@@ -2763,6 +2765,16 @@
       "twitch_views": 6962,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-25T14:31:05.722522+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
+      "clip_id": "LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "TheStockGuy what",
+      "twitch_views": 7558,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-25T16:55:15.392814+00:00"
     }
   ]
 }
