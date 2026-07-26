@@ -245,7 +245,8 @@
     "https://www.twitch.tv/kaise/clip/TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
     "https://www.twitch.tv/fuslie/clip/TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
     "https://www.twitch.tv/xqc/clip/PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
-    "https://www.twitch.tv/jasontheween/clip/SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv"
+    "https://www.twitch.tv/jasontheween/clip/SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv",
+    "https://www.twitch.tv/akira/clip/CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -493,7 +494,8 @@
     "TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
     "TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
     "PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
-    "SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv"
+    "SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv",
+    "CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI"
   ],
   "history": [
     {
@@ -2859,6 +2861,16 @@
       "twitch_views": 9095,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-26T20:12:34.937868+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/akira/clip/CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
+      "clip_id": "CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
+      "streamer": "Akira",
+      "game": "Just Chatting",
+      "title": "NFL Starting Center",
+      "twitch_views": 6761,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-26T22:57:19.044329+00:00"
     }
   ]
 }
