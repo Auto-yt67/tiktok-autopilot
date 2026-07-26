@@ -241,7 +241,8 @@
     "https://www.twitch.tv/xqc/clip/LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
     "https://www.twitch.tv/emilycc/clip/FantasticBelovedPorcupineHoneyBadger-8_QmzAPv2EMaQrkj",
     "https://www.twitch.tv/quqco/clip/CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
-    "https://www.twitch.tv/kaise/clip/BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy"
+    "https://www.twitch.tv/kaise/clip/BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
+    "https://www.twitch.tv/kaise/clip/TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -485,7 +486,8 @@
     "LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
     "FantasticBelovedPorcupineHoneyBadger-8_QmzAPv2EMaQrkj",
     "CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
-    "BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy"
+    "BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
+    "TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz"
   ],
   "history": [
     {
@@ -2811,6 +2813,16 @@
       "twitch_views": 7428,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-26T04:29:47.968859+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kaise/clip/TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
+      "clip_id": "TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
+      "streamer": "Kaise",
+      "game": "Just Chatting",
+      "title": "she didnt like it",
+      "twitch_views": 7187,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-26T06:37:15.139555+00:00"
     }
   ]
 }
