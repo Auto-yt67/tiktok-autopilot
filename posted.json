@@ -243,7 +243,8 @@
     "https://www.twitch.tv/quqco/clip/CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
     "https://www.twitch.tv/kaise/clip/BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
     "https://www.twitch.tv/kaise/clip/TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
-    "https://www.twitch.tv/fuslie/clip/TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq"
+    "https://www.twitch.tv/fuslie/clip/TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
+    "https://www.twitch.tv/xqc/clip/PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -489,7 +490,8 @@
     "CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
     "BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
     "TemperedBeautifulYakinikuNinjaGrumpy--XzjZbk1rpDqYKvz",
-    "TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq"
+    "TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
+    "PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_"
   ],
   "history": [
     {
@@ -2835,6 +2837,16 @@
       "twitch_views": 7308,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-26T14:31:01.732766+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
+      "clip_id": "PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "alright",
+      "twitch_views": 7886,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-26T16:55:57.910456+00:00"
     }
   ]
 }
