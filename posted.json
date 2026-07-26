@@ -240,7 +240,8 @@
     "https://www.twitch.tv/yololaryy/clip/EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF",
     "https://www.twitch.tv/xqc/clip/LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
     "https://www.twitch.tv/emilycc/clip/FantasticBelovedPorcupineHoneyBadger-8_QmzAPv2EMaQrkj",
-    "https://www.twitch.tv/quqco/clip/CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB"
+    "https://www.twitch.tv/quqco/clip/CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
+    "https://www.twitch.tv/kaise/clip/BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -483,7 +484,8 @@
     "EnergeticPlainPlumberFeelsBadMan-xiNmxtQRQBTPD4YF",
     "LuckyPiercingDiscBIRB-R5BQgaojckrHj5y6",
     "FantasticBelovedPorcupineHoneyBadger-8_QmzAPv2EMaQrkj",
-    "CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB"
+    "CulturedPunchySheepBIRB-neIyIsZZ8wSUWBeB",
+    "BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy"
   ],
   "history": [
     {
@@ -2799,6 +2801,16 @@
       "twitch_views": 7722,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-25T22:51:31.649104+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/kaise/clip/BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
+      "clip_id": "BlindingInventiveCarrotEagleEye-JanmikYUZew0_JNy",
+      "streamer": "Kaise",
+      "game": "Just Chatting",
+      "title": "dookie stain part 2",
+      "twitch_views": 7428,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-26T04:29:47.968859+00:00"
     }
   ]
 }
