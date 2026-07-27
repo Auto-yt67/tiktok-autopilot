@@ -246,7 +246,8 @@
     "https://www.twitch.tv/fuslie/clip/TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
     "https://www.twitch.tv/xqc/clip/PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
     "https://www.twitch.tv/jasontheween/clip/SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv",
-    "https://www.twitch.tv/akira/clip/CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI"
+    "https://www.twitch.tv/akira/clip/CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
+    "https://www.twitch.tv/blukitsune9/clip/TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -495,7 +496,8 @@
     "TrustworthyObservantAubergineGrammarKing-lCimNhCEoAS6Tpwq",
     "PerfectSuspiciousSoybeanFutureMan-Y4AwQy6Pswrpw12_",
     "SplendidHandsomeLadiesSSSsss-tkXrgOH8q2aH3JZv",
-    "CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI"
+    "CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
+    "TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz"
   ],
   "history": [
     {
@@ -2871,6 +2873,16 @@
       "twitch_views": 6761,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-26T22:57:19.044329+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/blukitsune9/clip/TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz",
+      "clip_id": "TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz",
+      "streamer": "BluKitsune9",
+      "game": "Just Chatting",
+      "title": "Streaming is Hard",
+      "twitch_views": 6550,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-27T04:38:47.942866+00:00"
     }
   ]
 }
