@@ -249,7 +249,8 @@
     "https://www.twitch.tv/akira/clip/CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
     "https://www.twitch.tv/blukitsune9/clip/TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz",
     "https://www.twitch.tv/pokelawls/clip/MildHumblePastaAliens-W9UiS1n58t3yo4lZ",
-    "https://www.twitch.tv/mund/clip/PlacidRefinedRedpandaThunBeast-Tg5IMNnqYRziIarv"
+    "https://www.twitch.tv/mund/clip/PlacidRefinedRedpandaThunBeast-Tg5IMNnqYRziIarv",
+    "https://www.twitch.tv/forsen/clip/PerfectFaithfulRutabagaSeemsGood-k_5SYqlgtwY7Orkw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -501,7 +502,8 @@
     "CorrectCovertTeaTBTacoRight-9E06ZHcV7jEamwXI",
     "TallPopularChickenDoritosChip-U5UcaY0n-QM_tABz",
     "MildHumblePastaAliens-W9UiS1n58t3yo4lZ",
-    "PlacidRefinedRedpandaThunBeast-Tg5IMNnqYRziIarv"
+    "PlacidRefinedRedpandaThunBeast-Tg5IMNnqYRziIarv",
+    "PerfectFaithfulRutabagaSeemsGood-k_5SYqlgtwY7Orkw"
   ],
   "history": [
     {
@@ -2907,6 +2909,16 @@
       "twitch_views": 7663,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-27T15:43:41.978568+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/forsen/clip/PerfectFaithfulRutabagaSeemsGood-k_5SYqlgtwY7Orkw",
+      "clip_id": "PerfectFaithfulRutabagaSeemsGood-k_5SYqlgtwY7Orkw",
+      "streamer": "forsen",
+      "game": "Just Chatting",
+      "title": "-10 LULE",
+      "twitch_views": 7713,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-27T17:41:46.774561+00:00"
     }
   ]
 }
