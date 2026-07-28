@@ -254,7 +254,8 @@
     "https://www.twitch.tv/tylil/clip/PluckyRelievedMonitorCorgiDerp-pT92_tupUZp2vecd",
     "https://www.twitch.tv/stableronaldo/clip/StupidAstuteWallabyJKanStyle-vdWE7jd6hEyS6Svz",
     "https://www.twitch.tv/2xrakai/clip/IcyVainSangRiPepperonis-NcWJyHDGzH8dWphk",
-    "https://www.twitch.tv/chopxmeyah/clip/TacitBovineAxeCmonBruh-ipIAzk9KvLAKPL-5"
+    "https://www.twitch.tv/chopxmeyah/clip/TacitBovineAxeCmonBruh-ipIAzk9KvLAKPL-5",
+    "https://www.twitch.tv/plaqueboymax/clip/FlaccidVainWombatArgieB8-RrCr0e8BIb33QQcT"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -511,7 +512,8 @@
     "PluckyRelievedMonitorCorgiDerp-pT92_tupUZp2vecd",
     "StupidAstuteWallabyJKanStyle-vdWE7jd6hEyS6Svz",
     "IcyVainSangRiPepperonis-NcWJyHDGzH8dWphk",
-    "TacitBovineAxeCmonBruh-ipIAzk9KvLAKPL-5"
+    "TacitBovineAxeCmonBruh-ipIAzk9KvLAKPL-5",
+    "FlaccidVainWombatArgieB8-RrCr0e8BIb33QQcT"
   ],
   "history": [
     {
@@ -2967,6 +2969,16 @@
       "twitch_views": 8476,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-28T06:27:22.539926+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/plaqueboymax/clip/FlaccidVainWombatArgieB8-RrCr0e8BIb33QQcT",
+      "clip_id": "FlaccidVainWombatArgieB8-RrCr0e8BIb33QQcT",
+      "streamer": "PlaqueBoyMax",
+      "game": "Just Chatting",
+      "title": "w max",
+      "twitch_views": 9518,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-28T15:19:45.150632+00:00"
     }
   ]
 }
