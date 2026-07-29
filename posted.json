@@ -261,7 +261,8 @@
     "https://www.twitch.tv/wardrobewinter/clip/CuriousFancyNightingalePeteZaroll-qWRX6yU8M-2XGVKV",
     "https://www.twitch.tv/iwantacinnamonroll/clip/ClearSteamyRavenTwitchRaid-H-tbosy33kBmbobz",
     "https://www.twitch.tv/yonnajay/clip/SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH",
-    "https://www.twitch.tv/lacy/clip/ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU"
+    "https://www.twitch.tv/lacy/clip/ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU",
+    "https://www.twitch.tv/suzy/clip/HelpfulDeadTroutCopyThis-ZJ3glrCd-J1QvF6B"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -525,7 +526,8 @@
     "CuriousFancyNightingalePeteZaroll-qWRX6yU8M-2XGVKV",
     "ClearSteamyRavenTwitchRaid-H-tbosy33kBmbobz",
     "SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH",
-    "ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU"
+    "ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU",
+    "HelpfulDeadTroutCopyThis-ZJ3glrCd-J1QvF6B"
   ],
   "history": [
     {
@@ -3051,6 +3053,16 @@
       "twitch_views": 10250,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-07-29T15:09:33.022792+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/suzy/clip/HelpfulDeadTroutCopyThis-ZJ3glrCd-J1QvF6B",
+      "clip_id": "HelpfulDeadTroutCopyThis-ZJ3glrCd-J1QvF6B",
+      "streamer": "suzy",
+      "game": "Just Chatting",
+      "title": "Pro drinker",
+      "twitch_views": 9930,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-07-29T17:11:33.335650+00:00"
     }
   ]
 }
