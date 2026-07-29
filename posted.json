@@ -260,7 +260,8 @@
     "https://www.twitch.tv/fanum/clip/IcyPoisedChinchillaDuDudu-APqVAKHjE1G90-50",
     "https://www.twitch.tv/wardrobewinter/clip/CuriousFancyNightingalePeteZaroll-qWRX6yU8M-2XGVKV",
     "https://www.twitch.tv/iwantacinnamonroll/clip/ClearSteamyRavenTwitchRaid-H-tbosy33kBmbobz",
-    "https://www.twitch.tv/yonnajay/clip/SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH"
+    "https://www.twitch.tv/yonnajay/clip/SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH",
+    "https://www.twitch.tv/lacy/clip/ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -523,7 +524,8 @@
     "IcyPoisedChinchillaDuDudu-APqVAKHjE1G90-50",
     "CuriousFancyNightingalePeteZaroll-qWRX6yU8M-2XGVKV",
     "ClearSteamyRavenTwitchRaid-H-tbosy33kBmbobz",
-    "SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH"
+    "SeductiveWrongTireNotLikeThis-msq4GgN3oZ7ULDRH",
+    "ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU"
   ],
   "history": [
     {
@@ -3039,6 +3041,16 @@
       "twitch_views": 8764,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-29T06:31:19.427079+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/lacy/clip/ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU",
+      "clip_id": "ConfidentInexpensiveCougarSquadGoals-A8BvFO1OK6rYvxCU",
+      "streamer": "Lacy",
+      "game": "Just Chatting",
+      "title": "WOAH JSHOCK???",
+      "twitch_views": 10250,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-29T15:09:33.022792+00:00"
     }
   ]
 }
