@@ -269,7 +269,8 @@
     "https://www.twitch.tv/misterarther/clip/SnappyDarlingWalletLeeroyJenkins-63E6_2evig8IS88Z",
     "https://www.twitch.tv/kingsammelot/clip/SquareRespectfulAnacondaLeeroyJenkins-Wu9MV7TDExerwDqC",
     "https://www.twitch.tv/jasontheween/clip/FreezingHotFoxDAESuppy-15sqnkvgYe5as-mY",
-    "https://www.twitch.tv/yololaryy/clip/HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN"
+    "https://www.twitch.tv/yololaryy/clip/HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN",
+    "https://www.twitch.tv/anjooneena/clip/JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -541,7 +542,8 @@
     "SnappyDarlingWalletLeeroyJenkins-63E6_2evig8IS88Z",
     "SquareRespectfulAnacondaLeeroyJenkins-Wu9MV7TDExerwDqC",
     "FreezingHotFoxDAESuppy-15sqnkvgYe5as-mY",
-    "HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN"
+    "HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN",
+    "JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg"
   ],
   "history": [
     {
@@ -3147,6 +3149,16 @@
       "twitch_views": 9984,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-30T20:18:53.716149+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/anjooneena/clip/JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg",
+      "clip_id": "JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg",
+      "streamer": "anjooneena",
+      "game": "Just Chatting",
+      "title": "God gamer setups are hard to recreate: \ud83d\ude04",
+      "twitch_views": 10533,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-30T23:02:25.547093+00:00"
     }
   ]
 }
