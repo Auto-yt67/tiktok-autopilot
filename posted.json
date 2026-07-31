@@ -275,7 +275,8 @@
     "https://www.twitch.tv/fanfan/clip/ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
     "https://www.twitch.tv/thestockguy/clip/SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
     "https://www.twitch.tv/yonnajay/clip/NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E",
-    "https://www.twitch.tv/yonnajay/clip/EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh"
+    "https://www.twitch.tv/yonnajay/clip/EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
+    "https://www.twitch.tv/benjiroboy/clip/GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -553,7 +554,8 @@
     "ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
     "SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
     "NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E",
-    "EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh"
+    "EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
+    "GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM"
   ],
   "history": [
     {
@@ -3219,6 +3221,16 @@
       "twitch_views": 8394,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-31T20:24:23.346287+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/benjiroboy/clip/GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM",
+      "clip_id": "GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM",
+      "streamer": "benjiroboy",
+      "game": "Just Chatting",
+      "title": "collect all three",
+      "twitch_views": 8287,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-31T22:58:13.575762+00:00"
     }
   ]
 }
