@@ -272,7 +272,8 @@
     "https://www.twitch.tv/yololaryy/clip/HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN",
     "https://www.twitch.tv/anjooneena/clip/JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg",
     "https://www.twitch.tv/stableronaldo/clip/EagerStrangeWeaselSaltBae-oG0eLAg9WhpTKDez",
-    "https://www.twitch.tv/fanfan/clip/ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce"
+    "https://www.twitch.tv/fanfan/clip/ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
+    "https://www.twitch.tv/thestockguy/clip/SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -547,7 +548,8 @@
     "HeartlessHomelyBananaSaltBae-Ex1hmEeeotbO4VQN",
     "JazzyCrazyTurnipPermaSmug-49aEdHcSsJbTALSg",
     "EagerStrangeWeaselSaltBae-oG0eLAg9WhpTKDez",
-    "ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce"
+    "ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
+    "SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR"
   ],
   "history": [
     {
@@ -3183,6 +3185,16 @@
       "twitch_views": 9742,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-07-31T06:44:58.115927+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/thestockguy/clip/SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
+      "clip_id": "SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
+      "streamer": "TheStockGuy",
+      "game": "Just Chatting",
+      "title": "comfy bed",
+      "twitch_views": 9066,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-07-31T15:19:39.005436+00:00"
     }
   ]
 }
