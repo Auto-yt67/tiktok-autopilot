@@ -274,7 +274,8 @@
     "https://www.twitch.tv/stableronaldo/clip/EagerStrangeWeaselSaltBae-oG0eLAg9WhpTKDez",
     "https://www.twitch.tv/fanfan/clip/ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
     "https://www.twitch.tv/thestockguy/clip/SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
-    "https://www.twitch.tv/yonnajay/clip/NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E"
+    "https://www.twitch.tv/yonnajay/clip/NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E",
+    "https://www.twitch.tv/yonnajay/clip/EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -551,7 +552,8 @@
     "EagerStrangeWeaselSaltBae-oG0eLAg9WhpTKDez",
     "ElegantTalentedSalsifyHeyGuys-XS3OiNMrkpWe3hce",
     "SaltySavoryPassionfruitWoofer-PQeAwHxGwMexnTmR",
-    "NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E"
+    "NimbleTacitDuckWTRuck-Vy5gRyWiCyUSLu6E",
+    "EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh"
   ],
   "history": [
     {
@@ -3207,6 +3209,16 @@
       "twitch_views": 8621,
       "hashtag_set": "niche_community",
       "posted_at": "2026-07-31T17:24:54.874495+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/yonnajay/clip/EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
+      "clip_id": "EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
+      "streamer": "YonnaJay",
+      "game": "Just Chatting",
+      "title": "...",
+      "twitch_views": 8394,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-07-31T20:24:23.346287+00:00"
     }
   ]
 }
