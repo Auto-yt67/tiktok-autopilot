@@ -278,7 +278,8 @@
     "https://www.twitch.tv/yonnajay/clip/EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
     "https://www.twitch.tv/benjiroboy/clip/GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM",
     "https://www.twitch.tv/robthemaster1/clip/FaintSpinelessParrotNotLikeThis-V_YCOjRYvu0TB7nr",
-    "https://www.twitch.tv/kennyandchan/clip/DifferentTolerantMetalGOWSkull-vRrf6eW4Vgod5Qex"
+    "https://www.twitch.tv/kennyandchan/clip/DifferentTolerantMetalGOWSkull-vRrf6eW4Vgod5Qex",
+    "https://www.twitch.tv/pokimane/clip/SmokyCallousStarDogFace-kgrQpVvxczFGWXJG"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -559,7 +560,8 @@
     "EntertainingTentativeEggAMPEnergyCherry-R9pHL8_CwlwTatfh",
     "GlamorousHappySpaghettiOneHand-xdscjJcSe774wxVM",
     "FaintSpinelessParrotNotLikeThis-V_YCOjRYvu0TB7nr",
-    "DifferentTolerantMetalGOWSkull-vRrf6eW4Vgod5Qex"
+    "DifferentTolerantMetalGOWSkull-vRrf6eW4Vgod5Qex",
+    "SmokyCallousStarDogFace-kgrQpVvxczFGWXJG"
   ],
   "history": [
     {
@@ -3255,6 +3257,16 @@
       "twitch_views": 9123,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-01T06:28:33.634688+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/pokimane/clip/SmokyCallousStarDogFace-kgrQpVvxczFGWXJG",
+      "clip_id": "SmokyCallousStarDogFace-kgrQpVvxczFGWXJG",
+      "streamer": "pokimane",
+      "game": "Just Chatting",
+      "title": "1",
+      "twitch_views": 8208,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-01T14:27:40.044500+00:00"
     }
   ]
 }
