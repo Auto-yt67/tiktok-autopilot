@@ -284,7 +284,8 @@
     "https://www.twitch.tv/jynxzi/clip/LightAuspiciousPuffinPanicBasket-8CkOnqkeHHxH5jGb",
     "https://www.twitch.tv/knut/clip/GeniusSuspiciousSardineChocolateRain-5cHo1JyGAl3310xL",
     "https://www.twitch.tv/sweet_anita/clip/PoisedSolidPotatoTheRinger-6IvRayPBvmq7-T4A",
-    "https://www.twitch.tv/esskayuwu/clip/YawningShortDotterelTwitchRPG-nBkX_nrCWRRh-wTb"
+    "https://www.twitch.tv/esskayuwu/clip/YawningShortDotterelTwitchRPG-nBkX_nrCWRRh-wTb",
+    "https://www.twitch.tv/fanum/clip/BigGoldenSpaghettiBatChest-pE5vnwf3vGIsde9Y"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -571,7 +572,8 @@
     "LightAuspiciousPuffinPanicBasket-8CkOnqkeHHxH5jGb",
     "GeniusSuspiciousSardineChocolateRain-5cHo1JyGAl3310xL",
     "PoisedSolidPotatoTheRinger-6IvRayPBvmq7-T4A",
-    "YawningShortDotterelTwitchRPG-nBkX_nrCWRRh-wTb"
+    "YawningShortDotterelTwitchRPG-nBkX_nrCWRRh-wTb",
+    "BigGoldenSpaghettiBatChest-pE5vnwf3vGIsde9Y"
   ],
   "history": [
     {
@@ -3327,6 +3329,16 @@
       "twitch_views": 9495,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-02T06:33:03.814483+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/fanum/clip/BigGoldenSpaghettiBatChest-pE5vnwf3vGIsde9Y",
+      "clip_id": "BigGoldenSpaghettiBatChest-pE5vnwf3vGIsde9Y",
+      "streamer": "Fanum",
+      "game": "Just Chatting",
+      "title": "tufffff",
+      "twitch_views": 11303,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-02T14:29:19.861986+00:00"
     }
   ]
 }
