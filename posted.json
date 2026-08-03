@@ -291,7 +291,8 @@
     "https://www.twitch.tv/anjooneena/clip/ThankfulNeighborlyMacaroniVoteYea-zVtceFBFUKGeeg9v",
     "https://www.twitch.tv/yololaryy/clip/ToughInquisitiveSashimiTakeNRG-0ylvn7X_5OUeKPc3",
     "https://www.twitch.tv/yonnajay/clip/EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19",
-    "https://www.twitch.tv/jasontheween/clip/CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li"
+    "https://www.twitch.tv/jasontheween/clip/CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li",
+    "https://www.twitch.tv/xqc/clip/StupidSavoryBunnyGOWSkull-UOULtimf_a-kocc0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -585,7 +586,8 @@
     "ThankfulNeighborlyMacaroniVoteYea-zVtceFBFUKGeeg9v",
     "ToughInquisitiveSashimiTakeNRG-0ylvn7X_5OUeKPc3",
     "EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19",
-    "CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li"
+    "CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li",
+    "StupidSavoryBunnyGOWSkull-UOULtimf_a-kocc0"
   ],
   "history": [
     {
@@ -3411,6 +3413,16 @@
       "twitch_views": 9944,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-03T15:44:38.905383+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/xqc/clip/StupidSavoryBunnyGOWSkull-UOULtimf_a-kocc0",
+      "clip_id": "StupidSavoryBunnyGOWSkull-UOULtimf_a-kocc0",
+      "streamer": "xQc",
+      "game": "Just Chatting",
+      "title": "xqc has the same reaction",
+      "twitch_views": 9909,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-03T17:50:05.086823+00:00"
     }
   ]
 }
