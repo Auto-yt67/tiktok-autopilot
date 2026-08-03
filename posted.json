@@ -290,7 +290,8 @@
     "https://www.twitch.tv/suzy/clip/AntsyBrightDoveMikeHogu-bxJAUdZqswr2MWlE",
     "https://www.twitch.tv/anjooneena/clip/ThankfulNeighborlyMacaroniVoteYea-zVtceFBFUKGeeg9v",
     "https://www.twitch.tv/yololaryy/clip/ToughInquisitiveSashimiTakeNRG-0ylvn7X_5OUeKPc3",
-    "https://www.twitch.tv/yonnajay/clip/EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19"
+    "https://www.twitch.tv/yonnajay/clip/EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19",
+    "https://www.twitch.tv/jasontheween/clip/CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -583,7 +584,8 @@
     "AntsyBrightDoveMikeHogu-bxJAUdZqswr2MWlE",
     "ThankfulNeighborlyMacaroniVoteYea-zVtceFBFUKGeeg9v",
     "ToughInquisitiveSashimiTakeNRG-0ylvn7X_5OUeKPc3",
-    "EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19"
+    "EmpathicBovineJuiceBigBrother-ZXbOKyCP1UtZyS19",
+    "CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li"
   ],
   "history": [
     {
@@ -3399,6 +3401,16 @@
       "twitch_views": 9741,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-03T06:59:57.474349+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jasontheween/clip/CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li",
+      "clip_id": "CrepuscularFancyCourgetteHassanChop-gszfPI8VGd2O0_Li",
+      "streamer": "jasontheween",
+      "game": "Just Chatting",
+      "title": "jason gets degloved",
+      "twitch_views": 9944,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-03T15:44:38.905383+00:00"
     }
   ]
 }
