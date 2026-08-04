@@ -299,7 +299,8 @@
     "https://www.twitch.tv/yololaryy/clip/BusyGoldenMink4Head-cBpBs4T7A-i-MSn1",
     "https://www.twitch.tv/chopxmeyah/clip/BlightedInquisitiveHorseKappa-cjdJZa3GUHjo5i7I",
     "https://www.twitch.tv/christinaandamber/clip/HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
-    "https://www.twitch.tv/xqc/clip/FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5"
+    "https://www.twitch.tv/xqc/clip/FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
+    "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -601,7 +602,8 @@
     "BusyGoldenMink4Head-cBpBs4T7A-i-MSn1",
     "BlightedInquisitiveHorseKappa-cjdJZa3GUHjo5i7I",
     "HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
-    "FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5"
+    "FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
+    "TamePowerfulLampBCouch-t9akalBGfSU-uiD3"
   ],
   "history": [
     {
@@ -3507,6 +3509,16 @@
       "twitch_views": 7648,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-04T20:29:15.601525+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
+      "clip_id": "TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
+      "streamer": "forsen",
+      "game": "Just Chatting",
+      "title": "Pippa baits forsen",
+      "twitch_views": 7456,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-04T22:59:27.722874+00:00"
     }
   ]
 }
