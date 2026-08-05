@@ -256,6 +256,13 @@ def download_clip(clip: dict) -> Path | None:
             "quiet": True,
             "no_warnings": True,
         }
+        # YouTube blocks anonymous downloads from datacenter IPs (GitHub
+        # Actions) with a bot check. If a cookies file is present, pass it so
+        # yt-dlp authenticates as a logged-in user. COOKIES_FILE is written
+        # from the YOUTUBE_COOKIES secret by the workflow before this runs.
+        cookies_file = os.environ.get("YOUTUBE_COOKIES_FILE", "cookies.txt")
+        if Path(cookies_file).exists():
+            ydl_opts["cookiefile"] = cookies_file
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([clip["url"]])
         files = sorted(DOWNLOAD_DIR.glob(f"{clip_id}.*"), key=lambda f: f.stat().st_mtime)

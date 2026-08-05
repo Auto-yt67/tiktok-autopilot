@@ -1,0 +1,6 @@
+cookies.txt
+client_secret.json
+downloads/
+*.pyc
+__pycache__/
+.env
