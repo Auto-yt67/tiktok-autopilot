@@ -300,7 +300,8 @@
     "https://www.twitch.tv/chopxmeyah/clip/BlightedInquisitiveHorseKappa-cjdJZa3GUHjo5i7I",
     "https://www.twitch.tv/christinaandamber/clip/HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
     "https://www.twitch.tv/xqc/clip/FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
-    "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3"
+    "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
+    "https://www.twitch.tv/suzy/clip/AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -603,7 +604,8 @@
     "BlightedInquisitiveHorseKappa-cjdJZa3GUHjo5i7I",
     "HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
     "FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
-    "TamePowerfulLampBCouch-t9akalBGfSU-uiD3"
+    "TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
+    "AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S"
   ],
   "history": [
     {
@@ -3519,6 +3521,16 @@
       "twitch_views": 7456,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-04T22:59:27.722874+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/suzy/clip/AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
+      "clip_id": "AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
+      "streamer": "suzy",
+      "game": "Just Chatting",
+      "title": "a vicious animal",
+      "twitch_views": 7204,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-05T04:11:19.397589+00:00"
     }
   ]
 }
