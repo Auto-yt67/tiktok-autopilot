@@ -301,7 +301,8 @@
     "https://www.twitch.tv/christinaandamber/clip/HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
     "https://www.twitch.tv/xqc/clip/FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
     "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
-    "https://www.twitch.tv/suzy/clip/AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S"
+    "https://www.twitch.tv/suzy/clip/AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
+    "https://www.twitch.tv/jasontheween/clip/CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -605,7 +606,8 @@
     "HomelyFineMarjoramKappaWealth-WU4UH3cKAseyH56v",
     "FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
     "TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
-    "AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S"
+    "AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
+    "CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz"
   ],
   "history": [
     {
@@ -3531,6 +3533,16 @@
       "twitch_views": 7204,
       "hashtag_set": "niche_community",
       "posted_at": "2026-08-05T04:11:19.397589+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/jasontheween/clip/CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
+      "clip_id": "CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
+      "streamer": "jasontheween",
+      "game": "Just Chatting",
+      "title": "Random kid pulls up to the Core House",
+      "twitch_views": 7275,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-08-05T06:29:31.862254+00:00"
     }
   ]
 }
