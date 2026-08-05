@@ -174,11 +174,32 @@ def scrape_all_channels() -> list:
 
 
 if __name__ == "__main__":
-    # Quick manual test: prints top 20 viral shorts across all channels.
+    # Quick manual test: prints top 20 viral shorts across all channels,
+    # plus each channel's detected primary broadcaster and, for the top
+    # clip per channel, whether a clean Twitch original was found.
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+    import twitch_match
+
     clips = scrape_all_channels()
     print(f"\n=== Top {min(20, len(clips))} of {len(clips)} recent shorts across all channels ===")
     for c in clips[:20]:
         print(f"{c['view_count']:>10,} views | {c['source_channel']:>20} | {c['title'][:60]}")
         desc_snippet = c["description"][:200].replace("\n", " ") if c["description"] else "(empty)"
         print(f"    description: {desc_snippet}")
+
+    print("\n=== Primary broadcaster detection + Twitch original match (top clip per channel) ===")
+    by_channel = {}
+    for c in clips:
+        by_channel.setdefault(c["source_channel"], []).append(c)
+
+    for handle, channel_clips in by_channel.items():
+        broadcaster = twitch_match.determine_primary_broadcaster(channel_clips)
+        print(f"\n{handle} -> detected broadcaster: {broadcaster or '(none found)'}")
+        if not broadcaster or not channel_clips:
+            continue
+        top_clip = max(channel_clips, key=lambda v: v["view_count"])
+        match = twitch_match.find_twitch_original(top_clip, broadcaster)
+        if match:
+            print(f"  ✓ Matched '{top_clip['title'][:50]}' -> {match['twitch_clip_url']} (score={match['match_score']:.2f})")
+        else:
+            print(f"  ✗ No clean match found for '{top_clip['title'][:50]}'")
