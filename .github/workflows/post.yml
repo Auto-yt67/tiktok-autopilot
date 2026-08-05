@@ -48,6 +48,10 @@ jobs:
           PUBLER_API_KEY: ${{ secrets.PUBLER_API_KEY }}
           PUBLER_WORKSPACE_ID: ${{ secrets.PUBLER_WORKSPACE_ID }}
           PUBLER_ACCOUNT_ID: ${{ secrets.PUBLER_ACCOUNT_ID }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
         run: python tiktok_autopilot.py
 
       - name: Commit updated posted.json / hashtag_state.json / best_times_cache.json
