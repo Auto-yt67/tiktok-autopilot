@@ -4,3 +4,6 @@ requests
 python-dotenv
 openai-whisper
 Pillow
+google-auth
+google-auth-oauthlib
+google-api-python-client
