@@ -188,11 +188,13 @@ if __name__ == "__main__":
         print(f"    description: {desc_snippet}")
 
     print("\n=== Per-clip Twitch original match (top 15 clips overall) ===")
+    print("Open BOTH links for each and confirm they're the same moment.\n")
     for c in clips[:15]:
         match = twitch_match.find_original_for_clip(c)
         if match:
             print(f"\n✓ {c['view_count']:>10,} | {c['source_channel']} | {c['title'][:50]}")
             print(f"    broadcaster: {match['broadcaster']} | score={match['match_score']:.2f} keywords={match['keyword_overlap']}")
-            print(f"    -> {match['twitch_clip_url']}")
+            print(f"    YouTube: {c['url']}")
+            print(f"    Twitch:  {match['twitch_clip_url']}")
         else:
             print(f"\n✗ {c['view_count']:>10,} | {c['source_channel']} | {c['title'][:50]} (no clean match)")
