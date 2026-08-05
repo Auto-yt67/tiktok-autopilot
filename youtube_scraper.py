@@ -36,10 +36,16 @@ CHANNEL_HANDLES = [
     "LudwinClips",
     "ClipMet",
     "RealPlugFinesser",
-    "dailyspeedzone",
-    "FaZeAdaptLive",
     "Coreclip5",
 ]
+
+# These channels don't post in the 9:16 blurred-edge format we want, so their
+# clips get run through the blur-reformat step. All others are already in the
+# right format and pass through untouched.
+CHANNELS_NEEDING_REFORMAT = {
+    "StableRonaldoLive",
+    "Kaishowspeed_Shorts",
+}
 
 MAX_SHORT_SECONDS = 90     # matches MAX_CLIP_SECONDS in tiktok_autopilot.py
 LOOKBACK_DAYS = 3          # how far back to consider "recent"

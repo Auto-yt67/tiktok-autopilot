@@ -15,6 +15,8 @@ from PIL import ImageFont
 
 import hashtag_manager as hm
 import best_times
+import youtube_upload
+import youtube_scraper
 
 logging.basicConfig(
     level=logging.INFO,
@@ -81,12 +83,11 @@ def already_posted(clip: dict) -> bool:
 
 
 def build_caption(clip: dict, tag_set: dict) -> str:
-    streamer = clip["streamer"]
-    opener = random.choice(CAPTION_OPENERS)
-    streamer_tag = f"#{re.sub(r'[^a-zA-Z0-9]', '', streamer.lower())}"
-    all_tags = tag_set["tags"] + [streamer_tag]
-    caption = f"{opener} {streamer}"
-    for tag in all_tags:
+    # Use the (already engaging) YouTube title as the caption body, plus the
+    # active hashtag set. Deliberately no source-channel name — we don't want
+    # to surface or credit the channel we sourced from.
+    caption = clip["title"].strip()
+    for tag in tag_set["tags"]:
         candidate = caption + " " + tag
         if len(candidate) <= CAPTION_LIMIT:
             caption = candidate
@@ -195,6 +196,32 @@ def fetch_just_chatting_clips(headers: dict) -> list:
     except Exception as e:
         log.warning(f"Error fetching Just Chatting clips: {e}")
         return []
+
+
+def scrape_youtube_clips() -> list:
+    """
+    Sources clips directly from the configured YouTube clip channels instead
+    of Twitch trending. Their format already matches what we want, so we post
+    the YouTube video itself. Clips from channels in CHANNELS_NEEDING_REFORMAT
+    get run through the blur-reformat step; all others pass through as-is.
+
+    Returns clips in the same dict shape the rest of the pipeline expects.
+    """
+    raw = youtube_scraper.scrape_all_channels()
+    clips = []
+    for v in raw:
+        clips.append({
+            "clip_id": v["video_id"],
+            "streamer": v["source_channel"],   # channel name; used for dedup + caption
+            "url": v["url"],
+            "title": v["title"],
+            "views": v["view_count"],
+            "duration": v["duration_seconds"],
+            "game": "",
+            "needs_reformat": v["source_channel"] in youtube_scraper.CHANNELS_NEEDING_REFORMAT,
+        })
+    log.info(f"Found {len(clips)} YouTube clips across {len(youtube_scraper.CHANNEL_HANDLES)} channels")
+    return clips
 
 
 def scrape_viral_clips() -> list:
@@ -495,7 +522,7 @@ def post_to_publer(video_path: Path, caption: str) -> bool:
 
 def main():
     log.info("── Starting post cycle ──")
-    clips = scrape_viral_clips()
+    clips = scrape_youtube_clips()
     if not clips:
         log.info("No new clips found")
         return
@@ -511,12 +538,25 @@ def main():
         video_path = download_clip(clip)
         if not video_path:
             continue
-        processed_path = process_video(video_path, clip["title"])
+
+        # Channels already in 9:16 blurred-edge format post as-is; the rest
+        # get run through the blur-reformat pipeline first.
+        if clip.get("needs_reformat"):
+            log.info(f"'{clip['streamer']}' needs reformat — running blur pipeline")
+            processed_path = process_video(video_path, clip["title"])
+        else:
+            log.info(f"'{clip['streamer']}' already vertical — posting as-is")
+            processed_path = video_path
+
         caption = build_caption(clip, tag_set)
         success = post_to_publer(processed_path, caption)
         if success:
             save_posted(clip, set_name)
             hm.record_post(set_name)
+            if clip["duration"] <= 60:
+                youtube_upload.upload_short(processed_path, clip["title"], caption)
+            else:
+                log.info(f"Clip is {clip['duration']}s (>60s) — skipping YouTube Shorts upload")
             log.info("Done!")
             return
 
