@@ -92,20 +92,28 @@ def determine_primary_broadcaster(channel_clips: list) -> str:
     Returns the most likely Twitch login for that channel's primary
     broadcaster, or None if no confident candidate is found.
     """
+    if not channel_clips:
+        return None
+
+    # A candidate tag that's literally embedded in the repost channel's own
+    # handle (e.g. 'core' inside 'core_fx', 'Core.Clipperz', 'Coreclip5') is
+    # self-branding, not a streamer name — exclude it regardless of frequency.
+    own_handle = re.sub(r"[^a-z0-9]", "", channel_clips[0]["source_channel"].lower())
+
     tag_counts = {}
     for clip in channel_clips:
         tags = set(_extract_hashtags(clip.get("description", ""))) - GENERIC_TAGS
         for tag in tags:
-            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+            if len(tag) >= 3 and tag not in own_handle:
+                tag_counts[tag] = tag_counts.get(tag, 0) + 1
 
     if not tag_counts:
         return None
 
     total_clips = len(channel_clips)
     # Sort by frequency first, then by length descending — when tags tie on
-    # frequency (common: a channel's own branding tag coincidentally being a
-    # real but unrelated Twitch username, e.g. 'core' vs 'stableronaldo'),
-    # prefer the longer/more specific one.
+    # frequency, prefer the longer/more specific one (avoids e.g. a short
+    # generic word coincidentally being a real but unrelated Twitch login).
     ranked = sorted(tag_counts.items(), key=lambda kv: (kv[1], len(kv[0])), reverse=True)
 
     for candidate, count in ranked:
@@ -115,6 +123,7 @@ def determine_primary_broadcaster(channel_clips: list) -> str:
             break
         if _twitch_login_exists(candidate):
             return candidate
+        log.info(f"'{candidate}' looked like the broadcaster but isn't a valid Twitch login, trying next")
 
     return None
 
@@ -128,34 +137,46 @@ def _twitch_login_exists(login: str) -> bool:
     return bool(resp.json().get("data"))
 
 
-def _get_broadcaster_id(login: str):
+def _get_broadcaster_info(login: str):
+    """Returns (broadcaster_id, display_name) or (None, None)."""
     resp = requests.get(
         "https://api.twitch.tv/helix/users",
         headers=_twitch_headers(),
         params={"login": login},
     )
     data = resp.json().get("data", [])
-    return data[0]["id"] if data else None
+    if not data:
+        return None, None
+    return data[0]["id"], data[0].get("display_name", login)
 
 
 def _title_similarity(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
-def _extract_keywords(clip: dict, broadcaster_login: str) -> set:
+def _extract_keywords(clip: dict, broadcaster_login: str, broadcaster_name_words: set) -> set:
     """
     Pulls 'named entity'-ish signal out of a clip: non-generic hashtags
     (guest names etc.) plus capitalized words from the title, minus
-    stopwords and the broadcaster's own name. This is what we require
-    actual overlap on — raw title-string similarity alone proved too weak
-    a signal (Twitch clip titles are often generic/auto-generated and
-    unrelated in wording to the YouTube repost's rewritten title).
+    stopwords, minus short/junk tags, and minus every word of the
+    broadcaster's own name (login AND display name, e.g. 'Kai Cenat' ->
+    excludes both 'kai' and 'cenat' individually — otherwise a clip just
+    mentioning the broadcaster's own name in the title looks like a
+    "keyword match" against literally any of their other clips).
     """
-    tags = set(_extract_hashtags(clip.get("description", ""))) - GENERIC_TAGS - {broadcaster_login}
-    title_words = {w.lower() for w in re.findall(r"\b[A-Za-z']{3,}\b", clip["title"])}
+    exclude = {broadcaster_login} | broadcaster_name_words
+
+    tags = {t for t in _extract_hashtags(clip.get("description", "")) if len(t) >= 3}
+    tags -= GENERIC_TAGS
+    tags = {t for t in tags if t not in exclude and t not in broadcaster_login}
+
+    # Capitalized words only (proper-noun-ish) — plain case-insensitive
+    # matching let too many common words like "wanna"/"break" through.
+    title_words = {w.lower() for w in re.findall(r"\b[A-Z][a-zA-Z']{2,}\b", clip["title"])}
     title_words -= STOPWORDS
     title_words -= GENERIC_TAGS
-    title_words.discard(broadcaster_login)
+    title_words = {w for w in title_words if w not in exclude and w not in broadcaster_login}
+
     return tags | title_words
 
 
@@ -168,10 +189,12 @@ def find_twitch_original(clip: dict, broadcaster_login: str):
     as a fallback. Returns None otherwise — a wrong match is worse than no
     match, so this errs toward skipping over guessing.
     """
-    broadcaster_id = _get_broadcaster_id(broadcaster_login)
+    broadcaster_id, display_name = _get_broadcaster_info(broadcaster_login)
     if not broadcaster_id:
         log.warning(f"Could not resolve Twitch broadcaster '{broadcaster_login}'")
         return None
+
+    broadcaster_name_words = {w.lower() for w in re.findall(r"[a-zA-Z]+", display_name or "")}
 
     published_at = datetime.fromisoformat(clip["published_at"].replace("Z", "+00:00"))
     started_at = published_at - timedelta(days=MATCH_LOOKBACK_DAYS)
@@ -191,7 +214,7 @@ def find_twitch_original(clip: dict, broadcaster_login: str):
         log.info(f"No Twitch clips found for '{broadcaster_login}' in window")
         return None
 
-    keywords = _extract_keywords(clip, broadcaster_login)
+    keywords = _extract_keywords(clip, broadcaster_login, broadcaster_name_words)
 
     best_match, best_ratio, best_overlap = None, 0.0, 0
     for c in candidates:
