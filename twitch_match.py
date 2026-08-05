@@ -42,7 +42,20 @@ GENERIC_TAGS = {
 }
 
 MATCH_LOOKBACK_DAYS = 14   # how far before the YT repost date to search Twitch clips
-MATCH_SCORE_THRESHOLD = 0.30  # minimum title similarity to accept a match
+MATCH_SCORE_THRESHOLD = 0.55  # raw title-similarity fallback bar when there's no keyword overlap
+
+# Common English function words — filtered out of title-derived keywords so
+# things like "Has", "Use", "To", "His" don't count as false "named entity"
+# overlaps between unrelated clips.
+STOPWORDS = {
+    "the", "is", "are", "was", "were", "has", "have", "had", "use", "used",
+    "to", "of", "in", "on", "at", "by", "for", "with", "and", "or", "but",
+    "his", "her", "their", "its", "he", "she", "it", "they", "them", "him",
+    "this", "that", "from", "as", "be", "been", "being", "a", "an", "will",
+    "would", "can", "could", "should", "not", "no", "yes", "you", "your",
+    "i", "we", "us", "our", "do", "does", "did", "get", "gets", "got", "go",
+    "goes", "went", "when", "why", "how", "what", "who", "there",
+}
 
 _token_cache = {"access_token": None, "expires_at": 0}
 
@@ -89,7 +102,11 @@ def determine_primary_broadcaster(channel_clips: list) -> str:
         return None
 
     total_clips = len(channel_clips)
-    ranked = sorted(tag_counts.items(), key=lambda kv: kv[1], reverse=True)
+    # Sort by frequency first, then by length descending — when tags tie on
+    # frequency (common: a channel's own branding tag coincidentally being a
+    # real but unrelated Twitch username, e.g. 'core' vs 'stableronaldo'),
+    # prefer the longer/more specific one.
+    ranked = sorted(tag_counts.items(), key=lambda kv: (kv[1], len(kv[0])), reverse=True)
 
     for candidate, count in ranked:
         # Require the tag to show up on a clear majority of the channel's
@@ -125,11 +142,31 @@ def _title_similarity(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
+def _extract_keywords(clip: dict, broadcaster_login: str) -> set:
+    """
+    Pulls 'named entity'-ish signal out of a clip: non-generic hashtags
+    (guest names etc.) plus capitalized words from the title, minus
+    stopwords and the broadcaster's own name. This is what we require
+    actual overlap on — raw title-string similarity alone proved too weak
+    a signal (Twitch clip titles are often generic/auto-generated and
+    unrelated in wording to the YouTube repost's rewritten title).
+    """
+    tags = set(_extract_hashtags(clip.get("description", ""))) - GENERIC_TAGS - {broadcaster_login}
+    title_words = {w.lower() for w in re.findall(r"\b[A-Za-z']{3,}\b", clip["title"])}
+    title_words -= STOPWORDS
+    title_words -= GENERIC_TAGS
+    title_words.discard(broadcaster_login)
+    return tags | title_words
+
+
 def find_twitch_original(clip: dict, broadcaster_login: str):
     """
     Searches broadcaster_login's Twitch clips in a window before the
-    YouTube repost date and returns the best title-matching clip, or None
-    if nothing clears MATCH_SCORE_THRESHOLD (no low-confidence fallback).
+    YouTube repost date and returns the best match — but ONLY if it clears
+    a real evidence bar: either a shared keyword (guest name, distinctive
+    word) with the Twitch clip's title, or a very high raw title similarity
+    as a fallback. Returns None otherwise — a wrong match is worse than no
+    match, so this errs toward skipping over guessing.
     """
     broadcaster_id = _get_broadcaster_id(broadcaster_login)
     if not broadcaster_id:
@@ -154,25 +191,36 @@ def find_twitch_original(clip: dict, broadcaster_login: str):
         log.info(f"No Twitch clips found for '{broadcaster_login}' in window")
         return None
 
-    # Build a search string from the YT title plus any non-generic hashtags
-    # (guest names etc.) to give the matcher more signal than title alone.
-    tags = [t for t in _extract_hashtags(clip.get("description", "")) if t not in GENERIC_TAGS]
-    search_text = clip["title"] + " " + " ".join(tags)
+    keywords = _extract_keywords(clip, broadcaster_login)
 
-    best_match, best_score = None, 0.0
+    best_match, best_ratio, best_overlap = None, 0.0, 0
     for c in candidates:
-        score = _title_similarity(search_text, c["title"])
-        if score > best_score:
-            best_match, best_score = c, score
+        c_title_lower = c["title"].lower()
+        overlap = sum(1 for kw in keywords if kw in c_title_lower)
+        ratio = _title_similarity(clip["title"], c["title"])
+        # Rank primarily by keyword overlap (strongest signal), then ratio.
+        if (overlap, ratio) > (best_overlap, best_ratio):
+            best_match, best_ratio, best_overlap = c, ratio, overlap
 
-    if best_match and best_score >= MATCH_SCORE_THRESHOLD:
-        log.info(f"Matched (score={best_score:.2f}): '{clip['title'][:50]}' -> '{best_match['title'][:50]}'")
+    if not best_match:
+        return None
+
+    confident = best_overlap >= 1 or best_ratio >= MATCH_SCORE_THRESHOLD
+    if confident:
+        log.info(
+            f"Matched (keywords={best_overlap}, ratio={best_ratio:.2f}): "
+            f"'{clip['title'][:50]}' -> '{best_match['title'][:50]}'"
+        )
         return {
             "twitch_clip_url": best_match["url"],
             "twitch_title": best_match["title"],
             "twitch_view_count": best_match["view_count"],
-            "match_score": best_score,
+            "match_score": best_ratio,
+            "keyword_overlap": best_overlap,
         }
 
-    log.info(f"No confident Twitch match for '{clip['title'][:50]}' (best score={best_score:.2f})")
+    log.info(
+        f"No confident Twitch match for '{clip['title'][:50]}' "
+        f"(best keywords={best_overlap}, ratio={best_ratio:.2f})"
+    )
     return None
