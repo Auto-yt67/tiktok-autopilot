@@ -252,7 +252,11 @@ def download_clip(clip: dict) -> Path | None:
         log.info(f"Downloading: {clip['url']}")
         ydl_opts = {
             "outtmpl": str(DOWNLOAD_DIR / f"{clip_id}.%(ext)s"),
-            "format": "mp4/best[ext=mp4]/best",
+            # Prefer a pre-merged mp4, but fall back to best video+audio and
+            # let yt-dlp merge them. Shorts often only offer separate streams
+            # or non-mp4 containers, which the old strict filter rejected.
+            "format": "best[ext=mp4]/bestvideo+bestaudio/best",
+            "merge_output_format": "mp4",
             "quiet": True,
             "no_warnings": True,
         }
