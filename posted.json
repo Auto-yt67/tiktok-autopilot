@@ -302,7 +302,8 @@
     "https://www.twitch.tv/xqc/clip/FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
     "https://www.twitch.tv/forsen/clip/TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
     "https://www.twitch.tv/suzy/clip/AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
-    "https://www.twitch.tv/jasontheween/clip/CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz"
+    "https://www.twitch.tv/jasontheween/clip/CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
+    "https://www.twitch.tv/cinna/clip/FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -607,7 +608,8 @@
     "FairEagerCheesecakeFreakinStinkin-nw3yw81A7HMvbIa5",
     "TamePowerfulLampBCouch-t9akalBGfSU-uiD3",
     "AffluentTacitBibimbapCoolCat-Jnm943Bx43BDCF0S",
-    "CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz"
+    "CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
+    "FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN"
   ],
   "history": [
     {
@@ -3543,6 +3545,16 @@
       "twitch_views": 7275,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-05T06:29:31.862254+00:00"
+    },
+    {
+      "url": "https://www.twitch.tv/cinna/clip/FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
+      "clip_id": "FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
+      "streamer": "Cinna",
+      "game": "Just Chatting",
+      "title": "hehehehe",
+      "twitch_views": 7960,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-05T15:15:03.645226+00:00"
     }
   ]
 }
