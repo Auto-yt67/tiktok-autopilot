@@ -41,7 +41,7 @@ CHANNEL_HANDLES = [
     "Coreclip5",
 ]
 
-MAX_SHORT_SECONDS = 60
+MAX_SHORT_SECONDS = 90     # matches MAX_CLIP_SECONDS in tiktok_autopilot.py
 LOOKBACK_DAYS = 3          # how far back to consider "recent"
 RESULTS_PER_CHANNEL = 25   # how many recent uploads to pull per channel before filtering
 
@@ -180,3 +180,5 @@ if __name__ == "__main__":
     print(f"\n=== Top {min(20, len(clips))} of {len(clips)} recent shorts across all channels ===")
     for c in clips[:20]:
         print(f"{c['view_count']:>10,} views | {c['source_channel']:>20} | {c['title'][:60]}")
+        desc_snippet = c["description"][:200].replace("\n", " ") if c["description"] else "(empty)"
+        print(f"    description: {desc_snippet}")
