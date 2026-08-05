@@ -180,6 +180,43 @@ def _extract_keywords(clip: dict, broadcaster_login: str, broadcaster_name_words
     return tags | title_words
 
 
+def find_original_for_clip(clip: dict, channel_broadcaster: str = None):
+    """
+    Per-clip matching that doesn't assume a channel has one fixed broadcaster
+    or that tag order is meaningful. Strategy:
+
+    1. Collect candidate broadcaster logins for THIS clip: its non-generic
+       hashtags, plus (if known) the channel's usual broadcaster as a hint.
+    2. For each candidate that's a real Twitch login, search their clips in
+       the time window and score against this video.
+    3. Return the single best confident match across all candidates, or None.
+
+    Because a real match requires the broadcaster's clip library to actually
+    contain a title-matching clip in the right window, a wrong candidate tag
+    (a guest, not the streamer) simply won't produce a match — so we don't
+    need to know in advance which tag is "the" broadcaster.
+    """
+    candidates = [t for t in _extract_hashtags(clip.get("description", ""))
+                  if len(t) >= 3 and t not in GENERIC_TAGS]
+    if channel_broadcaster and channel_broadcaster not in candidates:
+        candidates.insert(0, channel_broadcaster)
+
+    seen = set()
+    best = None
+    for login in candidates:
+        if login in seen:
+            continue
+        seen.add(login)
+
+        result = find_twitch_original(clip, login)
+        if result and (best is None or result["match_score"] > best["match_score"]
+                       or result["keyword_overlap"] > best.get("keyword_overlap", 0)):
+            result["broadcaster"] = login
+            best = result
+
+    return best
+
+
 def find_twitch_original(clip: dict, broadcaster_login: str):
     """
     Searches broadcaster_login's Twitch clips in a window before the

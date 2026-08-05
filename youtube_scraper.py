@@ -187,19 +187,12 @@ if __name__ == "__main__":
         desc_snippet = c["description"][:200].replace("\n", " ") if c["description"] else "(empty)"
         print(f"    description: {desc_snippet}")
 
-    print("\n=== Primary broadcaster detection + Twitch original match (top clip per channel) ===")
-    by_channel = {}
-    for c in clips:
-        by_channel.setdefault(c["source_channel"], []).append(c)
-
-    for handle, channel_clips in by_channel.items():
-        broadcaster = twitch_match.determine_primary_broadcaster(channel_clips)
-        print(f"\n{handle} -> detected broadcaster: {broadcaster or '(none found)'}")
-        if not broadcaster or not channel_clips:
-            continue
-        top_clip = max(channel_clips, key=lambda v: v["view_count"])
-        match = twitch_match.find_twitch_original(top_clip, broadcaster)
+    print("\n=== Per-clip Twitch original match (top 15 clips overall) ===")
+    for c in clips[:15]:
+        match = twitch_match.find_original_for_clip(c)
         if match:
-            print(f"  ✓ Matched '{top_clip['title'][:50]}' -> {match['twitch_clip_url']} (score={match['match_score']:.2f})")
+            print(f"\n✓ {c['view_count']:>10,} | {c['source_channel']} | {c['title'][:50]}")
+            print(f"    broadcaster: {match['broadcaster']} | score={match['match_score']:.2f} keywords={match['keyword_overlap']}")
+            print(f"    -> {match['twitch_clip_url']}")
         else:
-            print(f"  ✗ No clean match found for '{top_clip['title'][:50]}'")
+            print(f"\n✗ {c['view_count']:>10,} | {c['source_channel']} | {c['title'][:50]} (no clean match)")
