@@ -1,0 +1,24 @@
+name: Test YouTube Scraper
+
+on:
+  workflow_dispatch:   # adds a "Run workflow" button on the Actions tab
+
+jobs:
+  test-scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv
+
+      - name: Run scraper
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python youtube_scraper.py
