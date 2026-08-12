@@ -305,7 +305,8 @@
     "https://www.twitch.tv/jasontheween/clip/CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
     "https://www.twitch.tv/cinna/clip/FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
     "https://www.twitch.tv/cinna/clip/AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
-    "https://www.twitch.tv/suzy/clip/AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H"
+    "https://www.twitch.tv/suzy/clip/AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
+    "https://www.youtube.com/shorts/WWeojqlwZr0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -613,7 +614,8 @@
     "CautiousPoliteLyrebirdRedCoat-KgUFv87xgampnFzz",
     "FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
     "AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
-    "AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H"
+    "AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
+    "WWeojqlwZr0"
   ],
   "history": [
     {
@@ -3579,6 +3581,16 @@
       "twitch_views": 7676,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-05T20:30:46.009395+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/WWeojqlwZr0",
+      "clip_id": "WWeojqlwZr0",
+      "streamer": "RealPlugFinesser",
+      "game": "",
+      "title": "Kai Cenat Kicked Siebe Out His Room After His Chat Fell In Love With Him! \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 857956,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-12T00:30:08.215827+00:00"
     }
   ]
 }
