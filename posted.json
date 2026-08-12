@@ -307,7 +307,8 @@
     "https://www.twitch.tv/cinna/clip/AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
     "https://www.twitch.tv/suzy/clip/AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
     "https://www.youtube.com/shorts/WWeojqlwZr0",
-    "https://www.youtube.com/shorts/zV5Z3vLFx64"
+    "https://www.youtube.com/shorts/zV5Z3vLFx64",
+    "https://www.youtube.com/shorts/vAdKMB2ectE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -617,7 +618,8 @@
     "AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
     "AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
     "WWeojqlwZr0",
-    "zV5Z3vLFx64"
+    "zV5Z3vLFx64",
+    "vAdKMB2ectE"
   ],
   "history": [
     {
@@ -3603,6 +3605,16 @@
       "twitch_views": 1299316,
       "hashtag_set": "niche_community",
       "posted_at": "2026-08-12T17:53:58.621275+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/vAdKMB2ectE",
+      "clip_id": "vAdKMB2ectE",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Silky Took Care Of Lacy \ud83e\udd79\u2764\ufe0f",
+      "twitch_views": 696593,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-08-12T20:44:27.572112+00:00"
     }
   ]
 }
