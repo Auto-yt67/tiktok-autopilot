@@ -35,7 +35,6 @@ CHANNEL_HANDLES = [
     "Kaishowspeed_Shorts",
     "LudwinClips",
     "ClipMet",
-    "RealPlugFinesser",
     "Coreclip5",
 ]
 
