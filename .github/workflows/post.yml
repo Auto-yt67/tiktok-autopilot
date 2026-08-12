@@ -2,12 +2,10 @@ name: Post Twitch Clip
 
 on:
   schedule:
-    - cron: '0 13 * * *'   # 8am ET
-    - cron: '0 16 * * *'   # 11am ET
-    - cron: '0 19 * * *'   # 2pm ET
-    - cron: '0 22 * * *'   # 5pm ET
-    - cron: '0 1 * * *'    # 8pm ET
-    - cron: '0 4 * * *'    # 11pm ET
+    # 3 posts/day keeps us within the RapidAPI free tier (100 downloads/month).
+    - cron: '0 17 * * *'   # 12pm ET
+    - cron: '0 20 * * *'   # 3pm ET
+    - cron: '0 0 * * *'    # 7pm ET
   workflow_dispatch:         # allow manual trigger
 
 jobs:
@@ -41,13 +39,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Write YouTube cookies
-        run: |
-          printf '%s' "${{ secrets.YOUTUBE_COOKIES }}" > cookies.txt
-          # Sanity check — a valid Netscape cookie file starts with this header.
-          head -1 cookies.txt | grep -q "# HTTP Cookie File\|# Netscape" \
-            && echo "Cookies look OK" || echo "::warning::cookies.txt may be malformed"
-
       - name: Run bot
         env:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
@@ -56,6 +47,7 @@ jobs:
           PUBLER_WORKSPACE_ID: ${{ secrets.PUBLER_WORKSPACE_ID }}
           PUBLER_ACCOUNT_ID: ${{ secrets.PUBLER_ACCOUNT_ID }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
