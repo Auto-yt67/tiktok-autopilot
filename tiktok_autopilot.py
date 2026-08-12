@@ -243,34 +243,66 @@ def scrape_viral_clips() -> list:
 # ── Download ──────────────────────────────────────────────────────────────────
 
 def download_clip(clip: dict) -> Path | None:
+    """
+    Downloads a YouTube Short via the RapidAPI "YouTube Video FAST Downloader"
+    service. We can't use yt-dlp directly because YouTube blocks GitHub's
+    datacenter IPs with a bot check; the API runs the download through its own
+    proxies and hands back a temporary .mp4 link.
+
+    The API generates the file on demand — it returns the link immediately but
+    the file itself takes 20-300s to become ready (404 until then), so we poll
+    the link until it downloads successfully.
+    """
+    import time
+
     clip_id = clip["clip_id"]
     out_path = DOWNLOAD_DIR / f"{clip_id}.mp4"
     if out_path.exists():
         return out_path
+
+    api_key = os.environ.get("RAPIDAPI_KEY")
+    if not api_key:
+        log.error("RAPIDAPI_KEY not set — cannot download")
+        return None
+
     try:
-        import yt_dlp
-        log.info(f"Downloading: {clip['url']}")
-        ydl_opts = {
-            "outtmpl": str(DOWNLOAD_DIR / f"{clip_id}.%(ext)s"),
-            # Prefer a pre-merged mp4, but fall back to best video+audio and
-            # let yt-dlp merge them. Shorts often only offer separate streams
-            # or non-mp4 containers, which the old strict filter rejected.
-            "format": "best[ext=mp4]/bestvideo+bestaudio/best",
-            "merge_output_format": "mp4",
-            "quiet": True,
-            "no_warnings": True,
-        }
-        # YouTube blocks anonymous downloads from datacenter IPs (GitHub
-        # Actions) with a bot check. If a cookies file is present, pass it so
-        # yt-dlp authenticates as a logged-in user. COOKIES_FILE is written
-        # from the YOUTUBE_COOKIES secret by the workflow before this runs.
-        cookies_file = os.environ.get("YOUTUBE_COOKIES_FILE", "cookies.txt")
-        if Path(cookies_file).exists():
-            ydl_opts["cookiefile"] = cookies_file
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([clip["url"]])
-        files = sorted(DOWNLOAD_DIR.glob(f"{clip_id}.*"), key=lambda f: f.stat().st_mtime)
-        return files[-1] if files else None
+        log.info(f"Requesting download link for {clip_id}")
+        resp = requests.get(
+            f"https://youtube-video-fast-downloader-24-7.p.rapidapi.com/download_short/{clip_id}",
+            headers={
+                "x-rapidapi-key": api_key,
+                "x-rapidapi-host": "youtube-video-fast-downloader-24-7.p.rapidapi.com",
+            },
+            params={"quality": "247"},   # 247 = 720p vertical
+            timeout=30,
+        )
+        if resp.status_code != 200:
+            log.error(f"API returned {resp.status_code}: {resp.text[:200]}")
+            return None
+
+        data = resp.json()
+        file_url = data.get("file") or data.get("reserved_file")
+        if not file_url:
+            log.error(f"No file URL in API response: {str(data)[:200]}")
+            return None
+
+        # Poll the file URL until it's ready (API says 20-300s; 404 until then).
+        log.info("Waiting for file to be ready (can take up to ~5 min)...")
+        deadline = time.time() + 360   # 6 min ceiling
+        while time.time() < deadline:
+            dl = requests.get(file_url, stream=True, timeout=60)
+            if dl.status_code == 200:
+                with open(out_path, "wb") as f:
+                    for chunk in dl.iter_content(chunk_size=1 << 16):
+                        f.write(chunk)
+                if out_path.stat().st_size > 0:
+                    log.info(f"Downloaded {out_path.stat().st_size // 1024} KB")
+                    return out_path
+            dl.close()
+            time.sleep(15)
+
+        log.error("File never became ready within time limit")
+        return None
     except Exception as e:
         log.error(f"Download failed: {e}")
         return None
