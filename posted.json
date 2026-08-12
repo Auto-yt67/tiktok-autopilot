@@ -306,7 +306,8 @@
     "https://www.twitch.tv/cinna/clip/FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
     "https://www.twitch.tv/cinna/clip/AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
     "https://www.twitch.tv/suzy/clip/AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
-    "https://www.youtube.com/shorts/WWeojqlwZr0"
+    "https://www.youtube.com/shorts/WWeojqlwZr0",
+    "https://www.youtube.com/shorts/zV5Z3vLFx64"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -615,7 +616,8 @@
     "FitSpeedyTitanPartyTime-dXELLdXfdzeekmnN",
     "AveragePiercingDiamondOSkomodo-I4-QUgtb1z9JHeGS",
     "AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
-    "WWeojqlwZr0"
+    "WWeojqlwZr0",
+    "zV5Z3vLFx64"
   ],
   "history": [
     {
@@ -3591,6 +3593,16 @@
       "twitch_views": 857956,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-12T00:30:08.215827+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/zV5Z3vLFx64",
+      "clip_id": "zV5Z3vLFx64",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Becomes a Voice Actor \ud83d\ude2d\ud83c\udf99\ufe0f",
+      "twitch_views": 1299316,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-12T17:53:58.621275+00:00"
     }
   ]
 }
