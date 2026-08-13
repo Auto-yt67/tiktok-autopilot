@@ -308,7 +308,8 @@
     "https://www.twitch.tv/suzy/clip/AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
     "https://www.youtube.com/shorts/WWeojqlwZr0",
     "https://www.youtube.com/shorts/zV5Z3vLFx64",
-    "https://www.youtube.com/shorts/vAdKMB2ectE"
+    "https://www.youtube.com/shorts/vAdKMB2ectE",
+    "https://www.youtube.com/shorts/-1zR9GPW-CY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -619,7 +620,8 @@
     "AltruisticMagnificentTermiteHassanChop-8ltf81tvbrLVLA-H",
     "WWeojqlwZr0",
     "zV5Z3vLFx64",
-    "vAdKMB2ectE"
+    "vAdKMB2ectE",
+    "-1zR9GPW-CY"
   ],
   "history": [
     {
@@ -3615,6 +3617,16 @@
       "twitch_views": 696593,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-12T20:44:27.572112+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/-1zR9GPW-CY",
+      "clip_id": "-1zR9GPW-CY",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Silky Chased Lacy Down \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 584208,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-13T01:50:22.701782+00:00"
     }
   ]
 }
