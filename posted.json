@@ -309,7 +309,8 @@
     "https://www.youtube.com/shorts/WWeojqlwZr0",
     "https://www.youtube.com/shorts/zV5Z3vLFx64",
     "https://www.youtube.com/shorts/vAdKMB2ectE",
-    "https://www.youtube.com/shorts/-1zR9GPW-CY"
+    "https://www.youtube.com/shorts/-1zR9GPW-CY",
+    "https://www.youtube.com/shorts/xxtfLBciYIg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -621,7 +622,8 @@
     "WWeojqlwZr0",
     "zV5Z3vLFx64",
     "vAdKMB2ectE",
-    "-1zR9GPW-CY"
+    "-1zR9GPW-CY",
+    "xxtfLBciYIg"
   ],
   "history": [
     {
@@ -3627,6 +3629,16 @@
       "twitch_views": 584208,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-13T01:50:22.701782+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/xxtfLBciYIg",
+      "clip_id": "xxtfLBciYIg",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Reveals What Happened to Marlon in Paris \ud83d\ude2d",
+      "twitch_views": 553394,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-13T17:53:32.875243+00:00"
     }
   ]
 }
