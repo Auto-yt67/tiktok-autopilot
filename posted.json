@@ -310,7 +310,8 @@
     "https://www.youtube.com/shorts/zV5Z3vLFx64",
     "https://www.youtube.com/shorts/vAdKMB2ectE",
     "https://www.youtube.com/shorts/-1zR9GPW-CY",
-    "https://www.youtube.com/shorts/xxtfLBciYIg"
+    "https://www.youtube.com/shorts/xxtfLBciYIg",
+    "https://www.youtube.com/shorts/8K6gOQbvCHU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -623,7 +624,8 @@
     "zV5Z3vLFx64",
     "vAdKMB2ectE",
     "-1zR9GPW-CY",
-    "xxtfLBciYIg"
+    "xxtfLBciYIg",
+    "8K6gOQbvCHU"
   ],
   "history": [
     {
@@ -3639,6 +3641,16 @@
       "twitch_views": 553394,
       "hashtag_set": "niche_community",
       "posted_at": "2026-08-13T17:53:32.875243+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8K6gOQbvCHU",
+      "clip_id": "8K6gOQbvCHU",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Cooks Resident Evil Food \ud83d\ude2d\ud83c\udf73",
+      "twitch_views": 438409,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-08-13T20:43:27.846707+00:00"
     }
   ]
 }
