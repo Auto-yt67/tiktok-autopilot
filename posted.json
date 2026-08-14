@@ -311,7 +311,8 @@
     "https://www.youtube.com/shorts/vAdKMB2ectE",
     "https://www.youtube.com/shorts/-1zR9GPW-CY",
     "https://www.youtube.com/shorts/xxtfLBciYIg",
-    "https://www.youtube.com/shorts/8K6gOQbvCHU"
+    "https://www.youtube.com/shorts/8K6gOQbvCHU",
+    "https://www.youtube.com/shorts/liP0h59Mt64"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -625,7 +626,8 @@
     "vAdKMB2ectE",
     "-1zR9GPW-CY",
     "xxtfLBciYIg",
-    "8K6gOQbvCHU"
+    "8K6gOQbvCHU",
+    "liP0h59Mt64"
   ],
   "history": [
     {
@@ -3651,6 +3653,16 @@
       "twitch_views": 438409,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-13T20:43:27.846707+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/liP0h59Mt64",
+      "clip_id": "liP0h59Mt64",
+      "streamer": "Kaishowspeed_Shorts",
+      "game": "",
+      "title": "My FOOD!\ud83d\ude2d\u200b\u270c\ufe0f#kai #speed #kaicenat #ishowspeed #edit 2",
+      "twitch_views": 382975,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-14T01:48:07.671300+00:00"
     }
   ]
 }
