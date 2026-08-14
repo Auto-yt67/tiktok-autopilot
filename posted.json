@@ -314,7 +314,8 @@
     "https://www.youtube.com/shorts/8K6gOQbvCHU",
     "https://www.youtube.com/shorts/liP0h59Mt64",
     "https://www.youtube.com/shorts/kueMcqzuBRU",
-    "https://www.youtube.com/shorts/Pfj0M9yAyIU"
+    "https://www.youtube.com/shorts/Pfj0M9yAyIU",
+    "https://www.youtube.com/shorts/lRpiVMvq8g0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -631,7 +632,8 @@
     "8K6gOQbvCHU",
     "liP0h59Mt64",
     "kueMcqzuBRU",
-    "Pfj0M9yAyIU"
+    "Pfj0M9yAyIU",
+    "lRpiVMvq8g0"
   ],
   "history": [
     {
@@ -3687,6 +3689,16 @@
       "twitch_views": 675040,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-14T20:32:11.951365+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/lRpiVMvq8g0",
+      "clip_id": "lRpiVMvq8g0",
+      "streamer": "Kaishowspeed_Shorts",
+      "game": "",
+      "title": "He REALLY Thought a Smooth Stone Was Iron block?! \ud83e\udea8\ud83d\ude02#kaicenat #kai #edit 2",
+      "twitch_views": 221272,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-14T23:32:29.327509+00:00"
     }
   ]
 }
