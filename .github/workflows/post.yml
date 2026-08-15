@@ -2,10 +2,11 @@ name: Post Twitch Clip
 
 on:
   schedule:
-    # 3 posts/day keeps us within the RapidAPI free tier (100 downloads/month).
-    - cron: '0 17 * * *'   # 12pm ET
-    - cron: '0 20 * * *'   # 3pm ET
-    - cron: '0 0 * * *'    # 7pm ET
+    # Run all 3 early; best_times schedules each post for its best hour later
+    # the same day. (ET → UTC assuming EDT / UTC-4.)
+    - cron: '0 4 * * *'    # 12am ET
+    - cron: '0 5 * * *'    # 1am ET
+    - cron: '0 6 * * *'    # 2am ET
   workflow_dispatch:         # allow manual trigger
 
 jobs:
