@@ -116,3 +116,62 @@ def best_scheduled_time(default_delay_minutes: int = 2) -> str:
 
     log.info(f"Best posting slot in next {SEARCH_WINDOW_HOURS}h: {best_dt.isoformat()} (score {best_score})")
     return best_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+# Tracks hours already claimed within a single run so 3 posts scheduled in
+# one cycle don't all pile onto the same best hour. Reset each run start.
+_claimed_hours: set = set()
+
+
+def best_scheduled_time_today(min_lead_minutes: int = 30, horizon_hours: int = 18) -> str:
+    """
+    Finds the best-scoring hour in the next `horizon_hours` (default 18, i.e.
+    the rest of the day when the bot runs in the early morning), rather than
+    just the next few hours. Designed for the "run the bot early, let it
+    schedule posts for their best times later that day" workflow.
+
+    - Only considers hours at least `min_lead_minutes` in the future, so we
+      never hand Publer a slot that's already passing (the bug that dropped
+      the Aug 15 post).
+    - Avoids reusing an hour already claimed earlier in the same run, so 3
+      posts in one cycle spread out instead of stacking on one peak hour.
+    - Falls back to a staggered default if there's no heatmap or no
+      positive-scoring hour left in the window.
+    """
+    now = datetime.now(timezone.utc)
+    earliest = now + timedelta(minutes=min_lead_minutes)
+
+    # Candidate slots: top of each hour, from `earliest` out to horizon.
+    first = earliest.replace(minute=0, second=0, microsecond=0)
+    if first < earliest:
+        first += timedelta(hours=1)
+    candidates = [first + timedelta(hours=i) for i in range(horizon_hours)]
+
+    heatmap = load_heatmap()
+    if not heatmap:
+        slot = earliest + timedelta(hours=len(_claimed_hours) * 3)
+        log.info("No heatmap — using staggered default")
+        return slot.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    best_score, best_dt = -1, None
+    for candidate in candidates:
+        local_hour = (candidate.hour + ACCOUNT_TZ_UTC_OFFSET) % 24
+        key = (candidate.date(), candidate.hour)
+        if key in _claimed_hours:
+            continue
+        scores = heatmap.get(DAY_NAMES[candidate.weekday()])
+        if not scores or local_hour >= len(scores):
+            continue
+        score = scores[local_hour]
+        if score > best_score:
+            best_score = score
+            best_dt = candidate
+
+    if best_dt is None or best_score <= 0:
+        slot = earliest + timedelta(hours=len(_claimed_hours) * 3)
+        log.info("No strong best_times signal left in window — using staggered default")
+        return slot.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    _claimed_hours.add((best_dt.date(), best_dt.hour))
+    log.info(f"Best posting slot today: {best_dt.isoformat()} (score {best_score})")
+    return best_dt.strftime("%Y-%m-%dT%H:%M:%SZ")

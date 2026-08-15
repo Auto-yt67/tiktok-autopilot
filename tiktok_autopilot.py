@@ -524,14 +524,13 @@ def upload_to_publer(video_path: Path) -> str | None:
         return None
 
 
-def post_to_publer(video_path: Path, caption: str) -> bool:
+def post_to_publer(video_path: Path, caption: str, scheduled_at: str) -> bool:
     headers = get_publer_headers()
     try:
         log.info("Uploading to Publer...")
         media_id = upload_to_publer(video_path)
         if not media_id:
             raise Exception("No media ID returned")
-        scheduled_at = best_times.best_scheduled_time(default_delay_minutes=2)
         payload = {
             "bulk": {
                 "state": "scheduled",
@@ -592,12 +591,16 @@ def main():
             processed_path = video_path
 
         caption = build_caption(clip, tag_set)
-        success = post_to_publer(processed_path, caption)
+        # Pick the best-time slot once, use it for BOTH platforms so they go
+        # live together.
+        scheduled_at = best_times.best_scheduled_time_today(min_lead_minutes=30)
+        success = post_to_publer(processed_path, caption, scheduled_at)
         if success:
             save_posted(clip, set_name)
             hm.record_post(set_name)
             if clip["duration"] <= 60:
-                youtube_upload.upload_short(processed_path, clip["title"], caption)
+                youtube_upload.upload_short(processed_path, clip["title"], caption,
+                                            publish_at=scheduled_at)
             else:
                 log.info(f"Clip is {clip['duration']}s (>60s) — skipping YouTube Shorts upload")
             log.info("Done!")

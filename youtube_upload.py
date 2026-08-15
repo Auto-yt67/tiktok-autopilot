@@ -44,16 +44,31 @@ def _get_credentials() -> Credentials:
 
 
 def upload_short(video_path: Path, title: str, description: str,
-                  privacy: str = "public") -> bool:
+                  privacy: str = "public", publish_at: str = None) -> bool:
     """
     Uploads video_path as a YouTube Short. YouTube auto-detects Shorts
     treatment from aspect ratio (9:16) + duration (<=60s) — both already
     guaranteed upstream in process_video()/main(), so no #Shorts tag needed,
     though it doesn't hurt discoverability to have one in the description.
+
+    If publish_at (an ISO 8601 UTC timestamp like "2026-08-16T20:00:00Z") is
+    given, the video is uploaded as PRIVATE with a scheduled publish time, so
+    YouTube automatically makes it public at that moment — matching the slot
+    the bot picks for the TikTok post, so both go live together. Scheduling
+    is a normal built-in YouTube feature and doesn't affect reach.
     """
     try:
         creds = _get_credentials()
         youtube = build("youtube", "v3", credentials=creds)
+
+        status = {"selfDeclaredMadeForKids": False}
+        if publish_at:
+            # A scheduled video must be uploaded as private; YouTube flips it
+            # to public at publishAt.
+            status["privacyStatus"] = "private"
+            status["publishAt"] = publish_at
+        else:
+            status["privacyStatus"] = privacy
 
         body = {
             "snippet": {
@@ -61,10 +76,7 @@ def upload_short(video_path: Path, title: str, description: str,
                 "description": description,
                 "categoryId": CATEGORY_ID,
             },
-            "status": {
-                "privacyStatus": privacy,
-                "selfDeclaredMadeForKids": False,
-            },
+            "status": status,
         }
 
         media = MediaFileUpload(str(video_path), mimetype="video/mp4", resumable=True)
@@ -75,7 +87,10 @@ def upload_short(video_path: Path, title: str, description: str,
             _, response = request.next_chunk()
 
         video_id = response.get("id")
-        log.info(f"✓ Uploaded to YouTube Shorts: https://youtube.com/shorts/{video_id}")
+        if publish_at:
+            log.info(f"✓ Uploaded to YouTube (scheduled for {publish_at}): https://youtube.com/shorts/{video_id}")
+        else:
+            log.info(f"✓ Uploaded to YouTube Shorts: https://youtube.com/shorts/{video_id}")
         return True
     except Exception as e:
         log.error(f"YouTube upload failed: {e}")
