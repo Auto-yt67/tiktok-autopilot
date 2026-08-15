@@ -317,7 +317,8 @@
     "https://www.youtube.com/shorts/Pfj0M9yAyIU",
     "https://www.youtube.com/shorts/lRpiVMvq8g0",
     "https://www.youtube.com/shorts/9-N9YtwObJM",
-    "https://www.youtube.com/shorts/vQwyFkUmAS8"
+    "https://www.youtube.com/shorts/vQwyFkUmAS8",
+    "https://www.youtube.com/shorts/DFWA5hmpVlY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -637,7 +638,8 @@
     "Pfj0M9yAyIU",
     "lRpiVMvq8g0",
     "9-N9YtwObJM",
-    "vQwyFkUmAS8"
+    "vQwyFkUmAS8",
+    "DFWA5hmpVlY"
   ],
   "history": [
     {
@@ -3723,6 +3725,16 @@
       "twitch_views": 68894,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-15T17:16:25.082663+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/DFWA5hmpVlY",
+      "clip_id": "DFWA5hmpVlY",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Adapt Closed the Door on Jason and Lacy \ud83d\ude02\ud83d\udeaa",
+      "twitch_views": 393368,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-15T20:22:20.398216+00:00"
     }
   ]
 }
