@@ -59,5 +59,18 @@ jobs:
           git config user.name "clipbot"
           git config user.email "clipbot@users.noreply.github.com"
           git add posted.json hashtag_state.json best_times_cache.json
-          git diff --staged --quiet || git commit -m "update posted.json / hashtag_state.json / best_times_cache.json [skip ci]"
-          git push
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "update posted.json / hashtag_state.json / best_times_cache.json [skip ci]"
+          # Two runs can finish near-simultaneously and both try to push; if the
+          # remote moved under us, rebase onto it and retry a few times instead
+          # of failing the whole run.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) — pulling and retrying..."
+            git pull --rebase --autostash || true
+            sleep 3
+          done
+          echo "::warning::Could not push state after retries (another run likely committed it)"
