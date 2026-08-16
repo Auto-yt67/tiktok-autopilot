@@ -267,15 +267,25 @@ def download_clip(clip: dict) -> Path | None:
 
     try:
         log.info(f"Requesting download link for {clip_id}")
-        resp = requests.get(
-            f"https://youtube-video-fast-downloader-24-7.p.rapidapi.com/download_short/{clip_id}",
-            headers={
-                "x-rapidapi-key": api_key,
-                "x-rapidapi-host": "youtube-video-fast-downloader-24-7.p.rapidapi.com",
-            },
-            params={"quality": "247"},   # 247 = 720p vertical
-            timeout=30,
-        )
+        resp = None
+        for attempt in range(3):
+            try:
+                resp = requests.get(
+                    f"https://youtube-video-fast-downloader-24-7.p.rapidapi.com/download_short/{clip_id}",
+                    headers={
+                        "x-rapidapi-key": api_key,
+                        "x-rapidapi-host": "youtube-video-fast-downloader-24-7.p.rapidapi.com",
+                    },
+                    params={"quality": "247"},   # 247 = 720p vertical
+                    timeout=90,                  # API's first response can be slow
+                )
+                break
+            except requests.exceptions.RequestException as e:
+                log.warning(f"API request attempt {attempt + 1} failed ({e}); retrying...")
+                time.sleep(5)
+        if resp is None:
+            log.error("API request failed after retries")
+            return None
         if resp.status_code != 200:
             log.error(f"API returned {resp.status_code}: {resp.text[:200]}")
             return None
