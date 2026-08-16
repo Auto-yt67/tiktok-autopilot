@@ -319,7 +319,8 @@
     "https://www.youtube.com/shorts/9-N9YtwObJM",
     "https://www.youtube.com/shorts/vQwyFkUmAS8",
     "https://www.youtube.com/shorts/DFWA5hmpVlY",
-    "https://www.youtube.com/shorts/EURWRDR8rcA"
+    "https://www.youtube.com/shorts/EURWRDR8rcA",
+    "https://www.youtube.com/shorts/12tkx5hSWng"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -641,7 +642,8 @@
     "9-N9YtwObJM",
     "vQwyFkUmAS8",
     "DFWA5hmpVlY",
-    "EURWRDR8rcA"
+    "EURWRDR8rcA",
+    "12tkx5hSWng"
   ],
   "history": [
     {
@@ -3747,6 +3749,16 @@
       "twitch_views": 1557085,
       "hashtag_set": "niche_community",
       "posted_at": "2026-08-16T23:53:25.944781+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/12tkx5hSWng",
+      "clip_id": "12tkx5hSWng",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Sava Snatched Yugi\u2019s Durag Again \ud83d\ude2d",
+      "twitch_views": 1010475,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-08-16T23:58:13.349500+00:00"
     }
   ]
 }
