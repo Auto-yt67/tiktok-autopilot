@@ -318,7 +318,8 @@
     "https://www.youtube.com/shorts/lRpiVMvq8g0",
     "https://www.youtube.com/shorts/9-N9YtwObJM",
     "https://www.youtube.com/shorts/vQwyFkUmAS8",
-    "https://www.youtube.com/shorts/DFWA5hmpVlY"
+    "https://www.youtube.com/shorts/DFWA5hmpVlY",
+    "https://www.youtube.com/shorts/EURWRDR8rcA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -639,7 +640,8 @@
     "lRpiVMvq8g0",
     "9-N9YtwObJM",
     "vQwyFkUmAS8",
-    "DFWA5hmpVlY"
+    "DFWA5hmpVlY",
+    "EURWRDR8rcA"
   ],
   "history": [
     {
@@ -3735,6 +3737,16 @@
       "twitch_views": 393368,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-15T20:22:20.398216+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/EURWRDR8rcA",
+      "clip_id": "EURWRDR8rcA",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason\u2019s Cameraman Did an Insane Pan\ud83d\ude2d",
+      "twitch_views": 1557085,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-16T23:53:25.944781+00:00"
     }
   ]
 }
