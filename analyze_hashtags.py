@@ -67,6 +67,22 @@ def match_set(post_text: str) -> str | None:
     return None
 
 
+def _num(value) -> float:
+    """
+    Publer sometimes returns a metric as a plain number and sometimes as a
+    nested object like {"total": 42} or {"value": 42}. This safely pulls a
+    number out of either shape (defaulting to 0).
+    """
+    if isinstance(value, dict):
+        for key in ("total", "value", "count"):
+            if key in value and isinstance(value[key], (int, float)):
+                return value[key]
+        return 0
+    if isinstance(value, (int, float)):
+        return value
+    return 0
+
+
 def main():
     state = hm.load_state()
     if state["phase"] == "locked":
@@ -90,11 +106,11 @@ def main():
             continue
         a = post.get("analytics", {}) or {}
         per_set[name].append({
-            "views": a.get("video_views", 0) or 0,
-            "engagement_rate": a.get("engagement_rate", 0) or 0,
-            "raw_engagement": (a.get("likes", 0) or 0)
-                + (a.get("comments", 0) or 0)
-                + (a.get("shares", 0) or 0),
+            "views": _num(a.get("video_views", 0)),
+            "engagement_rate": _num(a.get("engagement_rate", 0)),
+            "raw_engagement": _num(a.get("likes", 0))
+                + _num(a.get("comments", 0))
+                + _num(a.get("shares", 0)),
         })
 
     summary = {}
