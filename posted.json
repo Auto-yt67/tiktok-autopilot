@@ -320,7 +320,8 @@
     "https://www.youtube.com/shorts/vQwyFkUmAS8",
     "https://www.youtube.com/shorts/DFWA5hmpVlY",
     "https://www.youtube.com/shorts/EURWRDR8rcA",
-    "https://www.youtube.com/shorts/12tkx5hSWng"
+    "https://www.youtube.com/shorts/12tkx5hSWng",
+    "https://www.youtube.com/shorts/iU3ZRjOrPCE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -643,7 +644,8 @@
     "vQwyFkUmAS8",
     "DFWA5hmpVlY",
     "EURWRDR8rcA",
-    "12tkx5hSWng"
+    "12tkx5hSWng",
+    "iU3ZRjOrPCE"
   ],
   "history": [
     {
@@ -3759,6 +3761,16 @@
       "twitch_views": 1010475,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-16T23:58:13.349500+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/iU3ZRjOrPCE",
+      "clip_id": "iU3ZRjOrPCE",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Aishah Asked Jason If Sophie Rain Could Come to the CORE House \ud83d\ude2d",
+      "twitch_views": 155711,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-17T00:07:58.417704+00:00"
     }
   ]
 }
