@@ -26,6 +26,12 @@ LOOKBACK_DAYS = 90            # how much post history Publer should analyze
 SEARCH_WINDOW_HOURS = 3       # how far ahead to look for the best slot (~matches post cadence)
 ACCOUNT_TZ_UTC_OFFSET = 0     # hours; see NOTE above — adjust if needed
 
+# Fixed daily posting slots, in the account's local hour (24h). The bot runs
+# early each day and assigns each post to the first of these slots that isn't
+# already taken today — so 3 posts spread across the day and never collide on
+# the same minute (Publer rejects posts <1 min apart).
+FIXED_SLOTS_LOCAL_HOURS = [12, 15, 18]   # 12pm, 3pm, 6pm
+
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
@@ -77,6 +83,75 @@ def load_heatmap() -> dict | None:
         log.info("Using stale best_times cache (refresh failed)")
         return json.loads(CACHE_PATH.read_text())["heatmap"]
     return None
+
+
+def _todays_scheduled_hours() -> set:
+    """
+    Returns the set of local hours that already have a post scheduled for
+    today, by asking Publer for this account's scheduled posts. Used to avoid
+    double-booking a fixed slot across separate runs. On any error, returns an
+    empty set (better to risk a rare collision than to skip posting).
+    """
+    try:
+        today = datetime.now(timezone.utc).date()
+        r = requests.get(
+            "https://app.publer.com/api/v1/posts",
+            headers=_get_headers(),
+            params={"state": "scheduled", "postType": "video"},
+            timeout=30,
+        )
+        r.raise_for_status()
+        data = r.json()
+        posts = data.get("posts", data if isinstance(data, list) else [])
+        hours = set()
+        for p in posts:
+            sched = p.get("scheduled_at") or p.get("scheduledAt")
+            if not sched:
+                continue
+            try:
+                dt = datetime.fromisoformat(sched.replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            if dt.date() == today:
+                hours.add((dt.hour + ACCOUNT_TZ_UTC_OFFSET) % 24)
+        return hours
+    except Exception as e:
+        log.warning(f"Could not fetch today's scheduled posts from Publer: {e}")
+        return set()
+
+
+def next_free_fixed_slot() -> str:
+    """
+    Picks the first FIXED_SLOTS_LOCAL_HOURS slot today that (a) isn't already
+    taken by another scheduled post and (b) is still at least a few minutes in
+    the future. Returns an ISO 8601 UTC timestamp for Publer/YouTube.
+
+    Because the bot runs early (midnight–2am), all afternoon slots are in the
+    future, so there's no 'scheduled in the past' risk. If every slot is taken
+    or passed, falls back to the next open slot tomorrow.
+    """
+    now = datetime.now(timezone.utc)
+    taken = _todays_scheduled_hours()
+
+    def utc_for(local_hour: int, day_offset: int = 0) -> datetime:
+        utc_hour = (local_hour - ACCOUNT_TZ_UTC_OFFSET) % 24
+        return (now + timedelta(days=day_offset)).replace(
+            hour=utc_hour, minute=0, second=0, microsecond=0)
+
+    for day_offset in (0, 1):
+        for local_hour in FIXED_SLOTS_LOCAL_HOURS:
+            if day_offset == 0 and local_hour in taken:
+                continue
+            candidate = utc_for(local_hour, day_offset)
+            if candidate <= now + timedelta(minutes=5):
+                continue
+            log.info(f"Assigned fixed slot: {candidate.isoformat()} "
+                     f"({local_hour}:00 local, day+{day_offset})")
+            return candidate.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    fallback = now + timedelta(hours=3)
+    log.warning("No free fixed slot found — using now + 3h fallback")
+    return fallback.strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def best_scheduled_time(default_delay_minutes: int = 2) -> str:
