@@ -120,6 +120,55 @@ def _todays_scheduled_hours() -> set:
         return set()
 
 
+def next_best_free_slot(min_lead_minutes: int = 30) -> str:
+    """
+    Data-driven scheduling without collisions. Picks the highest-scoring hour
+    from the Publer best-times heatmap that (a) isn't already taken by a post
+    scheduled today and (b) is still at least min_lead_minutes in the future.
+
+    Because each run checks Publer for what's already booked, three separate
+    runs naturally land on the 1st, 2nd, and 3rd best hours of the day instead
+    of all colliding on the single top hour (the bug that made posts fail with
+    "There's another post at this time").
+
+    Falls back to the fixed slots, then to now+3h, if there's no heatmap.
+    """
+    now = datetime.now(timezone.utc)
+    earliest = now + timedelta(minutes=min_lead_minutes)
+    taken = _todays_scheduled_hours()
+    heatmap = load_heatmap()
+
+    if not heatmap:
+        log.info("No heatmap — falling back to fixed slots")
+        return next_free_fixed_slot()
+
+    # Score every remaining hour today, skip taken/past ones, pick the best.
+    today_name = DAY_NAMES[now.weekday()]
+    scores = heatmap.get(today_name) or []
+
+    best_score, best_dt = -1, None
+    for utc_hour in range(24):
+        candidate = now.replace(hour=utc_hour, minute=0, second=0, microsecond=0)
+        if candidate < earliest:
+            continue
+        local_hour = (utc_hour + ACCOUNT_TZ_UTC_OFFSET) % 24
+        if local_hour in taken:
+            continue
+        if local_hour >= len(scores):
+            continue
+        score = scores[local_hour]
+        if score > best_score:
+            best_score, best_dt = score, candidate
+
+    if best_dt is None or best_score <= 0:
+        log.info("No good free hour left today from heatmap — using fixed-slot fallback")
+        return next_free_fixed_slot()
+
+    log.info(f"Assigned best free slot: {best_dt.isoformat()} "
+             f"(local {(best_dt.hour + ACCOUNT_TZ_UTC_OFFSET) % 24}:00, score {best_score})")
+    return best_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def next_free_fixed_slot() -> str:
     """
     Picks the first FIXED_SLOTS_LOCAL_HOURS slot today that (a) isn't already
