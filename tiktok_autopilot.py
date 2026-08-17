@@ -563,6 +563,37 @@ def post_to_publer(video_path: Path, caption: str, scheduled_at: str) -> bool:
         r = requests.post("https://app.publer.com/api/v1/posts/schedule",
                           headers=headers, json=payload, timeout=30)
         r.raise_for_status()
+        resp = r.json()
+        log.info(f"Publer schedule response: {str(resp)[:300]}")
+
+        # Publer's schedule endpoint is async: it returns a job_id and processes
+        # the post in the background. A 200 here does NOT mean the post was
+        # actually created — we have to poll the job to find out.
+        job_id = resp.get("job_id")
+        if job_id:
+            import time
+            for _ in range(10):
+                time.sleep(3)
+                jr = requests.get(f"https://app.publer.com/api/v1/job_status/{job_id}",
+                                  headers=headers, timeout=30)
+                if jr.status_code != 200:
+                    continue
+                jstatus = jr.json()
+                status = jstatus.get("status")
+                if status == "complete":
+                    failures = jstatus.get("payload", {}).get("failures") or []
+                    if failures:
+                        log.error(f"Publer job completed WITH FAILURES: {str(failures)[:300]}")
+                        return False
+                    log.info(f"✓ Queued in Publer: {caption[:80]}")
+                    return True
+                if status == "failed":
+                    log.error(f"Publer job failed: {str(jstatus)[:300]}")
+                    return False
+            log.warning("Publer job didn't finish in time — check Publer manually")
+            return False
+
+        # No job_id — fall back to assuming the 200 meant success.
         log.info(f"✓ Queued in Publer: {caption[:80]}")
         return True
     except Exception as e:
