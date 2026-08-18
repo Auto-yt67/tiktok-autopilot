@@ -322,7 +322,8 @@
     "https://www.youtube.com/shorts/EURWRDR8rcA",
     "https://www.youtube.com/shorts/12tkx5hSWng",
     "https://www.youtube.com/shorts/iU3ZRjOrPCE",
-    "https://www.youtube.com/shorts/D7BB62ukhCw"
+    "https://www.youtube.com/shorts/D7BB62ukhCw",
+    "https://www.youtube.com/shorts/h_hAlV3AUlY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -647,7 +648,8 @@
     "EURWRDR8rcA",
     "12tkx5hSWng",
     "iU3ZRjOrPCE",
-    "D7BB62ukhCw"
+    "D7BB62ukhCw",
+    "h_hAlV3AUlY"
   ],
   "history": [
     {
@@ -3783,6 +3785,16 @@
       "twitch_views": 341207,
       "hashtag_set": "niche_community",
       "posted_at": "2026-08-17T01:00:13.458226+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/h_hAlV3AUlY",
+      "clip_id": "h_hAlV3AUlY",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Spends $3,600 A Month On Food \ud83d\ude2d\ud83c\udf7d\ufe0f",
+      "twitch_views": 970016,
+      "hashtag_set": "reaction_mood",
+      "posted_at": "2026-08-18T04:34:42.680990+00:00"
     }
   ]
 }
