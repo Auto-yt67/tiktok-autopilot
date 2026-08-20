@@ -30,7 +30,7 @@ ACCOUNT_TZ_UTC_OFFSET = 0     # hours; see NOTE above — adjust if needed
 # early each day and assigns each post to the first of these slots that isn't
 # already taken today — so 3 posts spread across the day and never collide on
 # the same minute (Publer rejects posts <1 min apart).
-FIXED_SLOTS_LOCAL_HOURS = [12, 15, 18]   # 12pm, 3pm, 6pm
+FIXED_SLOTS_LOCAL_HOURS = [10, 12, 14, 16, 18, 20]   # 6 posts: 10a,12p,2p,4p,6p,8p
 
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 

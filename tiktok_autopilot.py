@@ -242,16 +242,61 @@ def scrape_viral_clips() -> list:
 
 # ── Download ──────────────────────────────────────────────────────────────────
 
+def _pick_best_formats(adaptive_formats: list) -> tuple:
+    """
+    From YT-API's adaptiveFormats list, picks the best vertical mp4 video-only
+    stream (prefer ~720p, i.e. itag 247, but fall back to whatever's best) and
+    the best m4a audio stream. Returns (video_url, audio_url) or (None, None).
+    """
+    videos, audios = [], []
+    for f in adaptive_formats:
+        mime = f.get("mimeType", "")
+        url = f.get("url")
+        if not url:
+            continue
+        if mime.startswith("video/mp4"):
+            videos.append((f.get("height", 0) or 0, f.get("bitrate", 0) or 0, url))
+        elif mime.startswith("audio/mp4"):
+            audios.append((f.get("bitrate", 0) or 0, url))
+
+    if not videos:
+        # No mp4 video — accept webm as a last resort (ffmpeg can still merge).
+        for f in adaptive_formats:
+            mime = f.get("mimeType", "")
+            url = f.get("url")
+            if url and mime.startswith("video/"):
+                videos.append((f.get("height", 0) or 0, f.get("bitrate", 0) or 0, url))
+    if not audios:
+        for f in adaptive_formats:
+            mime = f.get("mimeType", "")
+            url = f.get("url")
+            if url and mime.startswith("audio/"):
+                audios.append((f.get("bitrate", 0) or 0, url))
+
+    if not videos or not audios:
+        return None, None
+
+    # Prefer height closest to 720 (good for vertical Shorts) without going
+    # over 1080; tie-break on bitrate.
+    def video_key(v):
+        height, bitrate, _ = v
+        over = height > 1080
+        return (over, abs(height - 720), -bitrate)
+    videos.sort(key=video_key)
+    audios.sort(key=lambda a: -a[0])
+
+    return videos[0][2], audios[0][1]
+
+
 def download_clip(clip: dict) -> Path | None:
     """
-    Downloads a YouTube Short via the RapidAPI "YouTube Video FAST Downloader"
-    service. We can't use yt-dlp directly because YouTube blocks GitHub's
-    datacenter IPs with a bot check; the API runs the download through its own
-    proxies and hands back a temporary .mp4 link.
+    Downloads a YouTube Short via the RapidAPI "YT-API" service. YouTube blocks
+    yt-dlp from GitHub's datacenter IPs, so we use YT-API (which proxies the
+    request). YT-API returns SEPARATE video-only and audio-only streams, so we
+    download both and merge them into one mp4 with ffmpeg.
 
-    The API generates the file on demand — it returns the link immediately but
-    the file itself takes 20-300s to become ready (404 until then), so we poll
-    the link until it downloads successfully.
+    cgeo=US matters: the download links are geo-tied, and the actual download
+    happens from GitHub's US servers, so a mismatched geo would 403.
     """
     import time
 
@@ -266,18 +311,18 @@ def download_clip(clip: dict) -> Path | None:
         return None
 
     try:
-        log.info(f"Requesting download link for {clip_id}")
+        log.info(f"Requesting formats for {clip_id} (YT-API)")
         resp = None
         for attempt in range(3):
             try:
                 resp = requests.get(
-                    f"https://youtube-video-fast-downloader-24-7.p.rapidapi.com/download_short/{clip_id}",
+                    "https://yt-api.p.rapidapi.com/dl",
                     headers={
                         "x-rapidapi-key": api_key,
-                        "x-rapidapi-host": "youtube-video-fast-downloader-24-7.p.rapidapi.com",
+                        "x-rapidapi-host": "yt-api.p.rapidapi.com",
                     },
-                    params={"quality": "247"},   # 247 = 720p vertical
-                    timeout=90,                  # API's first response can be slow
+                    params={"id": clip_id, "cgeo": "US"},
+                    timeout=90,
                 )
                 break
             except requests.exceptions.RequestException as e:
@@ -291,27 +336,57 @@ def download_clip(clip: dict) -> Path | None:
             return None
 
         data = resp.json()
-        file_url = data.get("file") or data.get("reserved_file")
-        if not file_url:
-            log.error(f"No file URL in API response: {str(data)[:200]}")
+        adaptive = data.get("adaptiveFormats") or []
+        video_url, audio_url = _pick_best_formats(adaptive)
+        if not video_url or not audio_url:
+            log.error("Could not find suitable video+audio formats in response")
             return None
 
-        # Poll the file URL until it's ready (API says 20-300s; 404 until then).
-        log.info("Waiting for file to be ready (can take up to ~5 min)...")
-        deadline = time.time() + 360   # 6 min ceiling
-        while time.time() < deadline:
-            dl = requests.get(file_url, stream=True, timeout=60)
-            if dl.status_code == 200:
-                with open(out_path, "wb") as f:
-                    for chunk in dl.iter_content(chunk_size=1 << 16):
-                        f.write(chunk)
-                if out_path.stat().st_size > 0:
-                    log.info(f"Downloaded {out_path.stat().st_size // 1024} KB")
-                    return out_path
-            dl.close()
-            time.sleep(15)
+        video_tmp = DOWNLOAD_DIR / f"{clip_id}_video.mp4"
+        audio_tmp = DOWNLOAD_DIR / f"{clip_id}_audio.m4a"
 
-        log.error("File never became ready within time limit")
+        # Download the two streams.
+        for url, path, label in [(video_url, video_tmp, "video"), (audio_url, audio_tmp, "audio")]:
+            log.info(f"Downloading {label} stream...")
+            dl = requests.get(url, stream=True, timeout=120)
+            if dl.status_code != 200:
+                log.error(f"{label} download returned {dl.status_code}")
+                dl.close()
+                return None
+            with open(path, "wb") as f:
+                for chunk in dl.iter_content(chunk_size=1 << 16):
+                    f.write(chunk)
+            dl.close()
+            if path.stat().st_size == 0:
+                log.error(f"{label} stream was empty")
+                return None
+
+        # Merge with ffmpeg (copy streams, no re-encode — fast).
+        log.info("Merging video + audio...")
+        cmd = [
+            "ffmpeg", "-y",
+            "-i", str(video_tmp),
+            "-i", str(audio_tmp),
+            "-c:v", "copy", "-c:a", "aac",
+            "-shortest",
+            str(out_path),
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+        if result.returncode != 0:
+            log.error(f"ffmpeg merge failed: {result.stderr[-400:]}")
+            return None
+
+        # Clean up temp streams.
+        for p in (video_tmp, audio_tmp):
+            try:
+                p.unlink()
+            except OSError:
+                pass
+
+        if out_path.exists() and out_path.stat().st_size > 0:
+            log.info(f"Downloaded + merged {out_path.stat().st_size // 1024} KB")
+            return out_path
+        log.error("Merged file missing or empty")
         return None
     except Exception as e:
         log.error(f"Download failed: {e}")
