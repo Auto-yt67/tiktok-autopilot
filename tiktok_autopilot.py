@@ -345,11 +345,24 @@ def download_clip(clip: dict) -> Path | None:
         video_tmp = DOWNLOAD_DIR / f"{clip_id}_video.mp4"
         audio_tmp = DOWNLOAD_DIR / f"{clip_id}_audio.m4a"
 
+        # YouTube's media servers 403 requests that don't look like a real
+        # browser/player. Send browser-like headers when fetching the streams.
+        dl_headers = {
+            "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                           "AppleWebKit/537.36 (KHTML, like Gecko) "
+                           "Chrome/124.0.0.0 Safari/537.36"),
+            "Accept": "*/*",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": "https://www.youtube.com/",
+            "Origin": "https://www.youtube.com",
+            "Range": "bytes=0-",
+        }
+
         # Download the two streams.
         for url, path, label in [(video_url, video_tmp, "video"), (audio_url, audio_tmp, "audio")]:
             log.info(f"Downloading {label} stream...")
-            dl = requests.get(url, stream=True, timeout=120)
-            if dl.status_code != 200:
+            dl = requests.get(url, stream=True, timeout=120, headers=dl_headers)
+            if dl.status_code not in (200, 206):
                 log.error(f"{label} download returned {dl.status_code}")
                 dl.close()
                 return None
