@@ -242,61 +242,18 @@ def scrape_viral_clips() -> list:
 
 # ── Download ──────────────────────────────────────────────────────────────────
 
-def _pick_best_formats(adaptive_formats: list) -> tuple:
-    """
-    From YT-API's adaptiveFormats list, picks the best vertical mp4 video-only
-    stream (prefer ~720p, i.e. itag 247, but fall back to whatever's best) and
-    the best m4a audio stream. Returns (video_url, audio_url) or (None, None).
-    """
-    videos, audios = [], []
-    for f in adaptive_formats:
-        mime = f.get("mimeType", "")
-        url = f.get("url")
-        if not url:
-            continue
-        if mime.startswith("video/mp4"):
-            videos.append((f.get("height", 0) or 0, f.get("bitrate", 0) or 0, url))
-        elif mime.startswith("audio/mp4"):
-            audios.append((f.get("bitrate", 0) or 0, url))
-
-    if not videos:
-        # No mp4 video — accept webm as a last resort (ffmpeg can still merge).
-        for f in adaptive_formats:
-            mime = f.get("mimeType", "")
-            url = f.get("url")
-            if url and mime.startswith("video/"):
-                videos.append((f.get("height", 0) or 0, f.get("bitrate", 0) or 0, url))
-    if not audios:
-        for f in adaptive_formats:
-            mime = f.get("mimeType", "")
-            url = f.get("url")
-            if url and mime.startswith("audio/"):
-                audios.append((f.get("bitrate", 0) or 0, url))
-
-    if not videos or not audios:
-        return None, None
-
-    # Prefer height closest to 720 (good for vertical Shorts) without going
-    # over 1080; tie-break on bitrate.
-    def video_key(v):
-        height, bitrate, _ = v
-        over = height > 1080
-        return (over, abs(height - 720), -bitrate)
-    videos.sort(key=video_key)
-    audios.sort(key=lambda a: -a[0])
-
-    return videos[0][2], audios[0][1]
-
-
 def download_clip(clip: dict) -> Path | None:
     """
-    Downloads a YouTube Short via the RapidAPI "YT-API" service. YouTube blocks
-    yt-dlp from GitHub's datacenter IPs, so we use YT-API (which proxies the
-    request). YT-API returns SEPARATE video-only and audio-only streams, so we
-    download both and merge them into one mp4 with ffmpeg.
+    Downloads a YouTube Short via the RapidAPI "Youtube MP4/MP3 Downloader".
 
-    cgeo=US matters: the download links are geo-tied, and the actual download
-    happens from GitHub's US servers, so a mismatched geo would 403.
+    This API downloads server-side (on ITS servers) and hands back a finished
+    file on its own domain (savenow.to) — so, unlike direct-link APIs, the
+    download never touches GitHub's blocked IP and doesn't 403.
+
+    Flow:
+      1. GET /download  -> starts a job, returns a progressId
+      2. GET /progress  -> poll until finished:true, returns downloadUrl
+      3. download the file from downloadUrl (already a finished mp4)
     """
     import time
 
@@ -310,96 +267,80 @@ def download_clip(clip: dict) -> Path | None:
         log.error("RAPIDAPI_KEY not set — cannot download")
         return None
 
+    api_headers = {
+        "x-rapidapi-key": api_key,
+        "x-rapidapi-host": "youtube-mp4-mp3-downloader.p.rapidapi.com",
+    }
+    base = "https://youtube-mp4-mp3-downloader.p.rapidapi.com/api/v1"
+
     try:
-        log.info(f"Requesting formats for {clip_id} (YT-API)")
-        resp = None
+        # 1. Start the download job.
+        log.info(f"Starting download job for {clip_id}")
+        start = None
         for attempt in range(3):
             try:
-                resp = requests.get(
-                    "https://yt-api.p.rapidapi.com/dl",
-                    headers={
-                        "x-rapidapi-key": api_key,
-                        "x-rapidapi-host": "yt-api.p.rapidapi.com",
+                start = requests.get(
+                    f"{base}/download",
+                    headers=api_headers,
+                    params={
+                        "format": "720",
+                        "id": clip_id,
+                        "audioQuality": "128",
+                        "addInfo": "false",
+                        "allowExtendedDuration": "false",
                     },
-                    params={"id": clip_id, "cgeo": "US"},
                     timeout=90,
                 )
                 break
             except requests.exceptions.RequestException as e:
-                log.warning(f"API request attempt {attempt + 1} failed ({e}); retrying...")
+                log.warning(f"Start request attempt {attempt + 1} failed ({e}); retrying...")
                 time.sleep(5)
-        if resp is None:
-            log.error("API request failed after retries")
-            return None
-        if resp.status_code != 200:
-            log.error(f"API returned {resp.status_code}: {resp.text[:200]}")
-            return None
-
-        data = resp.json()
-        adaptive = data.get("adaptiveFormats") or []
-        video_url, audio_url = _pick_best_formats(adaptive)
-        if not video_url or not audio_url:
-            log.error("Could not find suitable video+audio formats in response")
+        if start is None or start.status_code != 200:
+            code = start.status_code if start is not None else "no response"
+            body = start.text[:200] if start is not None else ""
+            log.error(f"Download start failed ({code}): {body}")
             return None
 
-        video_tmp = DOWNLOAD_DIR / f"{clip_id}_video.mp4"
-        audio_tmp = DOWNLOAD_DIR / f"{clip_id}_audio.m4a"
+        start_data = start.json()
+        progress_id = start_data.get("progressId")
+        if not progress_id:
+            log.error(f"No progressId in start response: {str(start_data)[:200]}")
+            return None
 
-        # YouTube's media servers 403 requests that don't look like a real
-        # browser/player. Send browser-like headers when fetching the streams.
-        dl_headers = {
-            "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                           "AppleWebKit/537.36 (KHTML, like Gecko) "
-                           "Chrome/124.0.0.0 Safari/537.36"),
-            "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://www.youtube.com/",
-            "Origin": "https://www.youtube.com",
-            "Range": "bytes=0-",
-        }
+        # 2. Poll progress until finished.
+        log.info("Waiting for server-side download to finish...")
+        download_url = None
+        deadline = time.time() + 300   # 5 min ceiling
+        while time.time() < deadline:
+            pr = requests.get(f"{base}/progress", headers=api_headers,
+                              params={"id": progress_id}, timeout=60)
+            if pr.status_code == 200:
+                pdata = pr.json()
+                if pdata.get("finished") or pdata.get("status") == "Finished":
+                    download_url = pdata.get("downloadUrl")
+                    break
+            time.sleep(5)
 
-        # Download the two streams.
-        for url, path, label in [(video_url, video_tmp, "video"), (audio_url, audio_tmp, "audio")]:
-            log.info(f"Downloading {label} stream...")
-            dl = requests.get(url, stream=True, timeout=120, headers=dl_headers)
-            if dl.status_code not in (200, 206):
-                log.error(f"{label} download returned {dl.status_code}")
-                dl.close()
-                return None
-            with open(path, "wb") as f:
-                for chunk in dl.iter_content(chunk_size=1 << 16):
-                    f.write(chunk)
+        if not download_url:
+            log.error("Server-side download didn't finish in time")
+            return None
+
+        # 3. Download the finished file (on the API's own domain, not googlevideo).
+        log.info("Downloading finished file...")
+        dl = requests.get(download_url, stream=True, timeout=120)
+        if dl.status_code != 200:
+            log.error(f"File download returned {dl.status_code}")
             dl.close()
-            if path.stat().st_size == 0:
-                log.error(f"{label} stream was empty")
-                return None
-
-        # Merge with ffmpeg (copy streams, no re-encode — fast).
-        log.info("Merging video + audio...")
-        cmd = [
-            "ffmpeg", "-y",
-            "-i", str(video_tmp),
-            "-i", str(audio_tmp),
-            "-c:v", "copy", "-c:a", "aac",
-            "-shortest",
-            str(out_path),
-        ]
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
-        if result.returncode != 0:
-            log.error(f"ffmpeg merge failed: {result.stderr[-400:]}")
             return None
-
-        # Clean up temp streams.
-        for p in (video_tmp, audio_tmp):
-            try:
-                p.unlink()
-            except OSError:
-                pass
+        with open(out_path, "wb") as f:
+            for chunk in dl.iter_content(chunk_size=1 << 16):
+                f.write(chunk)
+        dl.close()
 
         if out_path.exists() and out_path.stat().st_size > 0:
-            log.info(f"Downloaded + merged {out_path.stat().st_size // 1024} KB")
+            log.info(f"Downloaded {out_path.stat().st_size // 1024} KB")
             return out_path
-        log.error("Merged file missing or empty")
+        log.error("Downloaded file missing or empty")
         return None
     except Exception as e:
         log.error(f"Download failed: {e}")
