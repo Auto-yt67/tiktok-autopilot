@@ -323,7 +323,8 @@
     "https://www.youtube.com/shorts/12tkx5hSWng",
     "https://www.youtube.com/shorts/iU3ZRjOrPCE",
     "https://www.youtube.com/shorts/D7BB62ukhCw",
-    "https://www.youtube.com/shorts/h_hAlV3AUlY"
+    "https://www.youtube.com/shorts/h_hAlV3AUlY",
+    "https://www.youtube.com/shorts/6cDBjCDcQ9M"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -649,7 +650,8 @@
     "12tkx5hSWng",
     "iU3ZRjOrPCE",
     "D7BB62ukhCw",
-    "h_hAlV3AUlY"
+    "h_hAlV3AUlY",
+    "6cDBjCDcQ9M"
   ],
   "history": [
     {
@@ -3795,6 +3797,16 @@
       "twitch_views": 970016,
       "hashtag_set": "reaction_mood",
       "posted_at": "2026-08-18T04:34:42.680990+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6cDBjCDcQ9M",
+      "clip_id": "6cDBjCDcQ9M",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Adapt Forgot About Celsius \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 1344528,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-08-21T00:41:16.697179+00:00"
     }
   ]
 }
