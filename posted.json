@@ -324,7 +324,8 @@
     "https://www.youtube.com/shorts/iU3ZRjOrPCE",
     "https://www.youtube.com/shorts/D7BB62ukhCw",
     "https://www.youtube.com/shorts/h_hAlV3AUlY",
-    "https://www.youtube.com/shorts/6cDBjCDcQ9M"
+    "https://www.youtube.com/shorts/6cDBjCDcQ9M",
+    "https://www.youtube.com/shorts/8z_ztc9qxsU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -651,7 +652,8 @@
     "iU3ZRjOrPCE",
     "D7BB62ukhCw",
     "h_hAlV3AUlY",
-    "6cDBjCDcQ9M"
+    "6cDBjCDcQ9M",
+    "8z_ztc9qxsU"
   ],
   "history": [
     {
@@ -3807,6 +3809,16 @@
       "twitch_views": 1344528,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-08-21T00:41:16.697179+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8z_ztc9qxsU",
+      "clip_id": "8z_ztc9qxsU",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "xQc Ranks Jason on His Streamer Tier List \ud83d\ude2d\ud83d\udc40",
+      "twitch_views": 751431,
+      "hashtag_set": "niche_community",
+      "posted_at": "2026-08-22T03:37:27.631314+00:00"
     }
   ]
 }
