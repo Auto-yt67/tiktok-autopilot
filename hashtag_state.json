@@ -1,6 +1,6 @@
 {
-  "phase": "testing",
-  "winner": null,
+  "phase": "locked",
+  "winner": "broad_reach",
   "counts": {
     "broad_reach": 77,
     "niche_community": 77,
