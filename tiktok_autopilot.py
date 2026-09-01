@@ -242,109 +242,199 @@ def scrape_viral_clips() -> list:
 
 # ── Download ──────────────────────────────────────────────────────────────────
 
-def download_clip(clip: dict) -> Path | None:
+def _download_via_opachi(clip_id: str, out_path: Path) -> str | None:
     """
-    Downloads a YouTube Short via the RapidAPI "Youtube MP4/MP3 Downloader".
-
-    This API downloads server-side (on ITS servers) and hands back a finished
-    file on its own domain (savenow.to) — so, unlike direct-link APIs, the
-    download never touches GitHub's blocked IP and doesn't 403.
-
-    Flow:
-      1. GET /download  -> starts a job, returns a progressId
-      2. GET /progress  -> poll until finished:true, returns downloadUrl
-      3. download the file from downloadUrl (already a finished mp4)
+    Provider 1: RapidAPI "Youtube MP4/MP3 Downloader" (Opachi).
+    Server-side job: /download -> progressId, /progress -> finished file on
+    savenow.to. Returns "ok" on success, "quota" if out of monthly quota,
+    or None on other failure.
     """
     import time
 
-    clip_id = clip["clip_id"]
-    out_path = DOWNLOAD_DIR / f"{clip_id}.mp4"
-    if out_path.exists():
-        return out_path
-
     api_key = os.environ.get("RAPIDAPI_KEY")
     if not api_key:
-        log.error("RAPIDAPI_KEY not set — cannot download")
         return None
-
-    api_headers = {
+    headers = {
         "x-rapidapi-key": api_key,
         "x-rapidapi-host": "youtube-mp4-mp3-downloader.p.rapidapi.com",
     }
     base = "https://youtube-mp4-mp3-downloader.p.rapidapi.com/api/v1"
 
+    log.info(f"[Opachi] Starting download job for {clip_id}")
     try:
-        # 1. Start the download job.
-        log.info(f"Starting download job for {clip_id}")
-        start = None
-        for attempt in range(3):
-            try:
-                start = requests.get(
-                    f"{base}/download",
-                    headers=api_headers,
-                    params={
-                        "format": "720",
-                        "id": clip_id,
-                        "audioQuality": "128",
-                        "addInfo": "false",
-                        "allowExtendedDuration": "false",
-                    },
-                    timeout=90,
-                )
+        start = requests.get(
+            f"{base}/download", headers=headers,
+            params={"format": "720", "id": clip_id, "audioQuality": "128",
+                    "addInfo": "false", "allowExtendedDuration": "false"},
+            timeout=90,
+        )
+    except requests.exceptions.RequestException as e:
+        log.warning(f"[Opachi] start request error: {e}")
+        return None
+
+    if start.status_code == 429:
+        log.warning("[Opachi] monthly quota exceeded")
+        return "quota"
+    if start.status_code != 200:
+        log.error(f"[Opachi] start failed ({start.status_code}): {start.text[:200]}")
+        return None
+
+    progress_id = start.json().get("progressId")
+    if not progress_id:
+        log.error("[Opachi] no progressId in response")
+        return None
+
+    log.info("[Opachi] waiting for server-side download...")
+    download_url = None
+    deadline = time.time() + 300
+    while time.time() < deadline:
+        pr = requests.get(f"{base}/progress", headers=headers,
+                          params={"id": progress_id}, timeout=60)
+        if pr.status_code == 429:
+            return "quota"
+        if pr.status_code == 200:
+            pdata = pr.json()
+            if pdata.get("finished") or pdata.get("status") == "Finished":
+                download_url = pdata.get("downloadUrl")
                 break
-            except requests.exceptions.RequestException as e:
-                log.warning(f"Start request attempt {attempt + 1} failed ({e}); retrying...")
-                time.sleep(5)
-        if start is None or start.status_code != 200:
-            code = start.status_code if start is not None else "no response"
-            body = start.text[:200] if start is not None else ""
-            log.error(f"Download start failed ({code}): {body}")
-            return None
+        time.sleep(5)
 
-        start_data = start.json()
-        progress_id = start_data.get("progressId")
-        if not progress_id:
-            log.error(f"No progressId in start response: {str(start_data)[:200]}")
-            return None
+    if not download_url:
+        log.error("[Opachi] download didn't finish in time")
+        return None
 
-        # 2. Poll progress until finished.
-        log.info("Waiting for server-side download to finish...")
-        download_url = None
-        deadline = time.time() + 300   # 5 min ceiling
-        while time.time() < deadline:
-            pr = requests.get(f"{base}/progress", headers=api_headers,
-                              params={"id": progress_id}, timeout=60)
-            if pr.status_code == 200:
-                pdata = pr.json()
-                if pdata.get("finished") or pdata.get("status") == "Finished":
-                    download_url = pdata.get("downloadUrl")
-                    break
-            time.sleep(5)
-
-        if not download_url:
-            log.error("Server-side download didn't finish in time")
-            return None
-
-        # 3. Download the finished file (on the API's own domain, not googlevideo).
-        log.info("Downloading finished file...")
-        dl = requests.get(download_url, stream=True, timeout=120)
-        if dl.status_code != 200:
-            log.error(f"File download returned {dl.status_code}")
-            dl.close()
-            return None
-        with open(out_path, "wb") as f:
-            for chunk in dl.iter_content(chunk_size=1 << 16):
-                f.write(chunk)
+    dl = requests.get(download_url, stream=True, timeout=120)
+    if dl.status_code != 200:
+        log.error(f"[Opachi] file fetch returned {dl.status_code}")
         dl.close()
+        return None
+    with open(out_path, "wb") as f:
+        for chunk in dl.iter_content(chunk_size=1 << 16):
+            f.write(chunk)
+    dl.close()
+    return "ok" if out_path.stat().st_size > 0 else None
 
-        if out_path.exists() and out_path.stat().st_size > 0:
+
+def _download_via_railway(clip_id: str, out_path: Path) -> str | None:
+    """
+    Provider: RapidAPI "YouTube Download & Info API" (youtube-download-info-api).
+    Server-side job. Best free tier we found: 500 downloads/DAY (resets daily,
+    so it never gets month-locked).
+
+    Flow:
+      1. GET /api/download?format=720&url=...  -> returns id + progress_url
+      2. poll progress_url until text:"finished" -> returns download_url
+      3. download the finished file (on railway.app, not googlevideo)
+
+    The progress_url and download_url are direct railway.app links (not through
+    RapidAPI), so polling doesn't burn RapidAPI quota. Returns "ok"/"quota"/None.
+    """
+    import time
+
+    api_key = os.environ.get("RAPIDAPI_KEY")
+    if not api_key:
+        return None
+    headers = {
+        "x-rapidapi-key": api_key,
+        "x-rapidapi-host": "youtube-download-info-api.p.rapidapi.com",
+    }
+    youtube_url = f"https://www.youtube.com/shorts/{clip_id}"
+
+    log.info(f"[Railway] Starting download job for {clip_id}")
+    try:
+        start = requests.get(
+            "https://youtube-download-info-api.p.rapidapi.com/api/download",
+            headers=headers,
+            params={"format": "720", "url": youtube_url,
+                    "audio_quality": "128", "audio_language": "en"},
+            timeout=90,
+        )
+    except requests.exceptions.RequestException as e:
+        log.warning(f"[Railway] start request error: {e}")
+        return None
+
+    if start.status_code == 429:
+        log.warning("[Railway] quota exceeded")
+        return "quota"
+    if start.status_code != 200:
+        log.error(f"[Railway] start failed ({start.status_code}): {start.text[:200]}")
+        return None
+
+    sdata = start.json()
+    progress_url = sdata.get("progress_url")
+    if not progress_url:
+        log.error(f"[Railway] no progress_url in response: {str(sdata)[:200]}")
+        return None
+
+    # Poll the progress URL (direct railway link) until finished.
+    log.info("[Railway] waiting for server-side download...")
+    download_url = None
+    deadline = time.time() + 300
+    while time.time() < deadline:
+        try:
+            pr = requests.get(progress_url, timeout=60)
+        except requests.exceptions.RequestException:
+            time.sleep(5)
+            continue
+        if pr.status_code == 200:
+            pdata = pr.json()
+            if pdata.get("text") == "finished" or pdata.get("progress") == 1000:
+                download_url = pdata.get("download_url")
+                if download_url:
+                    break
+        time.sleep(5)
+
+    if not download_url:
+        log.error("[Railway] download didn't finish in time")
+        return None
+
+    dl = requests.get(download_url, stream=True, timeout=120)
+    if dl.status_code != 200:
+        log.error(f"[Railway] file fetch returned {dl.status_code}")
+        dl.close()
+        return None
+    with open(out_path, "wb") as f:
+        for chunk in dl.iter_content(chunk_size=1 << 16):
+            f.write(chunk)
+    dl.close()
+    return "ok" if out_path.stat().st_size > 0 else None
+
+
+def _download_via_provider2(clip_id: str, out_path: Path) -> str | None:
+    """Unused placeholder kept for clarity; real providers are listed in
+    download_clip()'s `providers` list."""
+    return None
+
+
+def download_clip(clip: dict) -> Path | None:
+    """
+    Downloads a YouTube Short, trying each provider in order. If a provider is
+    out of monthly quota (429), automatically falls through to the next one —
+    so two ~250/month APIs give ~500/month of combined headroom.
+    """
+    clip_id = clip["clip_id"]
+    out_path = DOWNLOAD_DIR / f"{clip_id}.mp4"
+    if out_path.exists():
+        return out_path
+
+    # Primary: Railway API (500/day, resets daily). Backup: Opachi (250/month).
+    providers = [_download_via_railway, _download_via_opachi]
+    for provider in providers:
+        try:
+            result = provider(clip_id, out_path)
+        except Exception as e:
+            log.error(f"Provider {provider.__name__} errored: {e}")
+            result = None
+
+        if result == "ok" and out_path.exists() and out_path.stat().st_size > 0:
             log.info(f"Downloaded {out_path.stat().st_size // 1024} KB")
             return out_path
-        log.error("Downloaded file missing or empty")
-        return None
-    except Exception as e:
-        log.error(f"Download failed: {e}")
-        return None
+        if result == "quota":
+            log.info("Provider out of quota — trying next provider...")
+            continue
+        # Other failure — also try the next provider before giving up.
+
+    return None
 
 
 # ── Video Processing ──────────────────────────────────────────────────────────
