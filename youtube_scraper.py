@@ -26,6 +26,28 @@ log = logging.getLogger("youtube_scraper")
 API_KEY = os.environ.get("YOUTUBE_API_KEY")
 BASE_URL = "https://www.googleapis.com/youtube/v3"
 
+
+def _get_with_retry(url: str, params: dict, tries: int = 4, timeout: int = 30):
+    """
+    GET wrapper that retries on transient network errors (connection resets,
+    timeouts) instead of letting them crash the whole run. Waits a bit longer
+    between each try. Returns the response, or raises after the last try.
+    """
+    import time
+    last_err = None
+    for attempt in range(tries):
+        try:
+            return requests.get(url, params=params, timeout=timeout)
+        except requests.exceptions.RequestException as e:
+            last_err = e
+            wait = 2 * (attempt + 1)
+            log.warning(f"Request to {url.split('/')[-1]} failed ({e}); "
+                        f"retry {attempt + 1}/{tries} in {wait}s")
+            time.sleep(wait)
+    # All retries failed — re-raise so the caller can decide, but callers
+    # here are wrapped so one bad channel won't kill the whole scrape.
+    raise last_err
+
 # Channels to scrape — handle only (without the leading @ or trailing /shorts)
 CHANNEL_HANDLES = [
     "Core.Clipperz",
@@ -62,7 +84,7 @@ def _iso8601_duration_to_seconds(duration: str) -> int:
 
 def resolve_channel_id(handle: str):
     """Resolves a @handle to a channel ID, with a search fallback."""
-    resp = requests.get(f"{BASE_URL}/channels", params={
+    resp = _get_with_retry(f"{BASE_URL}/channels", {
         "part": "id",
         "forHandle": handle,
         "key": API_KEY,
@@ -73,7 +95,7 @@ def resolve_channel_id(handle: str):
         return items[0]["id"]
 
     log.warning(f"forHandle lookup failed for '{handle}', trying search fallback")
-    resp = requests.get(f"{BASE_URL}/search", params={
+    resp = _get_with_retry(f"{BASE_URL}/search", {
         "part": "snippet",
         "q": handle,
         "type": "channel",
@@ -89,7 +111,7 @@ def resolve_channel_id(handle: str):
 
 
 def get_uploads_playlist_id(channel_id: str):
-    resp = requests.get(f"{BASE_URL}/channels", params={
+    resp = _get_with_retry(f"{BASE_URL}/channels", {
         "part": "contentDetails",
         "id": channel_id,
         "key": API_KEY,
@@ -101,7 +123,7 @@ def get_uploads_playlist_id(channel_id: str):
 
 
 def get_recent_video_ids(uploads_playlist_id: str, max_results: int):
-    resp = requests.get(f"{BASE_URL}/playlistItems", params={
+    resp = _get_with_retry(f"{BASE_URL}/playlistItems", {
         "part": "contentDetails",
         "playlistId": uploads_playlist_id,
         "maxResults": max_results,
@@ -116,7 +138,7 @@ def get_video_details(video_ids: list) -> list:
     all_details = []
     for i in range(0, len(video_ids), 50):
         batch = video_ids[i:i + 50]
-        resp = requests.get(f"{BASE_URL}/videos", params={
+        resp = _get_with_retry(f"{BASE_URL}/videos", {
             "part": "snippet,statistics,contentDetails",
             "id": ",".join(batch),
             "key": API_KEY,
@@ -172,7 +194,11 @@ def scrape_all_channels() -> list:
 
     all_clips = []
     for handle in CHANNEL_HANDLES:
-        all_clips.extend(scrape_channel(handle))
+        try:
+            all_clips.extend(scrape_channel(handle))
+        except Exception as e:
+            log.warning(f"'{handle}': scrape failed ({e}); skipping this channel")
+            continue
 
     all_clips.sort(key=lambda v: v["view_count"], reverse=True)
     return all_clips
