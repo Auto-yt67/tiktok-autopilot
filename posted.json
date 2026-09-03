@@ -328,7 +328,8 @@
     "https://www.youtube.com/shorts/8z_ztc9qxsU",
     "https://www.youtube.com/shorts/zGv-it9NWfg",
     "https://www.youtube.com/shorts/6PktACzv0lY",
-    "https://www.youtube.com/shorts/hFHjNjb7pnM"
+    "https://www.youtube.com/shorts/hFHjNjb7pnM",
+    "https://www.youtube.com/shorts/A6mEZNpfWYQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -659,7 +660,8 @@
     "8z_ztc9qxsU",
     "zGv-it9NWfg",
     "6PktACzv0lY",
-    "hFHjNjb7pnM"
+    "hFHjNjb7pnM",
+    "A6mEZNpfWYQ"
   ],
   "history": [
     {
@@ -3855,6 +3857,16 @@
       "twitch_views": 1283969,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-02T07:35:32.888239+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/A6mEZNpfWYQ",
+      "clip_id": "A6mEZNpfWYQ",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Isn't Allowed To Play GTA 6 \ud83d\ude2d\ud83c\udfae",
+      "twitch_views": 1263152,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-03T07:35:03.384320+00:00"
     }
   ]
 }
