@@ -329,7 +329,8 @@
     "https://www.youtube.com/shorts/zGv-it9NWfg",
     "https://www.youtube.com/shorts/6PktACzv0lY",
     "https://www.youtube.com/shorts/hFHjNjb7pnM",
-    "https://www.youtube.com/shorts/A6mEZNpfWYQ"
+    "https://www.youtube.com/shorts/A6mEZNpfWYQ",
+    "https://www.youtube.com/shorts/6_s2S1ZLIzY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -661,7 +662,8 @@
     "zGv-it9NWfg",
     "6PktACzv0lY",
     "hFHjNjb7pnM",
-    "A6mEZNpfWYQ"
+    "A6mEZNpfWYQ",
+    "6_s2S1ZLIzY"
   ],
   "history": [
     {
@@ -3867,6 +3869,16 @@
       "twitch_views": 1263152,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-03T07:35:03.384320+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6_s2S1ZLIzY",
+      "clip_id": "6_s2S1ZLIzY",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Adapt Saw Maya Get Proposed To \u2764\ufe0f\ud83d\udc8d",
+      "twitch_views": 809848,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-04T07:36:40.687206+00:00"
     }
   ]
 }
