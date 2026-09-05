@@ -330,7 +330,8 @@
     "https://www.youtube.com/shorts/6PktACzv0lY",
     "https://www.youtube.com/shorts/hFHjNjb7pnM",
     "https://www.youtube.com/shorts/A6mEZNpfWYQ",
-    "https://www.youtube.com/shorts/6_s2S1ZLIzY"
+    "https://www.youtube.com/shorts/6_s2S1ZLIzY",
+    "https://www.youtube.com/shorts/NBY5nrKKzOI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -663,7 +664,8 @@
     "6PktACzv0lY",
     "hFHjNjb7pnM",
     "A6mEZNpfWYQ",
-    "6_s2S1ZLIzY"
+    "6_s2S1ZLIzY",
+    "NBY5nrKKzOI"
   ],
   "history": [
     {
@@ -3879,6 +3881,16 @@
       "twitch_views": 809848,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-04T07:36:40.687206+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/NBY5nrKKzOI",
+      "clip_id": "NBY5nrKKzOI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Valkyrae Reveals to Jason That Her Dad Passed Away \ud83d\ude22\ud83d\udc94",
+      "twitch_views": 520956,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-05T07:17:48.189639+00:00"
     }
   ]
 }
