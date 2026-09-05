@@ -32,6 +32,44 @@ ACCOUNT_TZ_UTC_OFFSET = 0     # hours; see NOTE above — adjust if needed
 # the same minute (Publer rejects posts <1 min apart).
 FIXED_SLOTS_LOCAL_HOURS = [10, 12, 14, 16, 18, 20]   # 6 posts: 10a,12p,2p,4p,6p,8p
 
+
+# The 6 daily workflow runs fire at these UTC hours (see post.yml crons).
+# Each run maps to one distinct posting slot, so 6 runs => 6 different times
+# with NO dependence on Publer's "already scheduled" state (which is unreliable
+# when a post fails). This makes collisions impossible.
+RUN_HOUR_TO_SLOT_UTC = {
+    3: 17,   # 11pm-ET run  -> 1pm ET slot  (17:00 UTC)
+    4: 19,   # 12am-ET run  -> 3pm ET slot  (19:00 UTC)
+    5: 21,   # 1am-ET run   -> 5pm ET slot  (21:00 UTC)
+    6: 23,   # 2am-ET run   -> 7pm ET slot  (23:00 UTC)
+    7: 16,   # 3am-ET run   -> 12pm ET slot (16:00 UTC)
+    8: 18,   # 4am-ET run   -> 2pm ET slot  (18:00 UTC)
+}
+
+
+def slot_for_this_run(min_lead_minutes: int = 15) -> str:
+    """
+    Deterministic scheduling: pick a posting slot based on which hour THIS run
+    fired at. Each of the 6 daily runs maps to a different UTC slot, so the 6
+    posts never collide — no reliance on Publer state.
+
+    If the mapped slot is already in the past (e.g. a manual run at an odd
+    hour), rolls to the next day so Publer never rejects a past time.
+    """
+    now = datetime.now(timezone.utc)
+    target_utc_hour = RUN_HOUR_TO_SLOT_UTC.get(now.hour)
+
+    if target_utc_hour is None:
+        # Manual/off-schedule run: just post a few hours out.
+        slot = now + timedelta(hours=3)
+        return slot.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    slot = now.replace(hour=target_utc_hour, minute=0, second=0, microsecond=0)
+    if slot <= now + timedelta(minutes=min_lead_minutes):
+        slot += timedelta(days=1)   # already passed today -> tomorrow
+    log.info(f"Run-hour {now.hour}:00 UTC -> posting slot {slot.isoformat()}")
+    return slot.strftime("%Y-%m-%dT%H:%M:%SZ")
+
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 

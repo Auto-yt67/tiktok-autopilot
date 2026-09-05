@@ -753,7 +753,7 @@ def main():
         caption = build_caption(clip, tag_set)
         # Pick the best-time slot once, use it for BOTH platforms so they go
         # live together.
-        scheduled_at = best_times.next_best_free_slot(min_lead_minutes=30)
+        scheduled_at = best_times.slot_for_this_run(min_lead_minutes=15)
         success = post_to_publer(processed_path, caption, scheduled_at)
         if success:
             save_posted(clip, set_name)
