@@ -333,7 +333,8 @@
     "https://www.youtube.com/shorts/6_s2S1ZLIzY",
     "https://www.youtube.com/shorts/NBY5nrKKzOI",
     "https://www.youtube.com/shorts/z7YAERLWqEw",
-    "https://www.youtube.com/shorts/xNrH-i5F_2w"
+    "https://www.youtube.com/shorts/xNrH-i5F_2w",
+    "https://www.youtube.com/shorts/tVVA0x1El0w"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -669,7 +670,8 @@
     "6_s2S1ZLIzY",
     "NBY5nrKKzOI",
     "z7YAERLWqEw",
-    "xNrH-i5F_2w"
+    "xNrH-i5F_2w",
+    "tVVA0x1El0w"
   ],
   "history": [
     {
@@ -3915,6 +3917,16 @@
       "twitch_views": 658790,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-06T08:22:35.220879+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/tVVA0x1El0w",
+      "clip_id": "tVVA0x1El0w",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Almost Got Speed With This Joke \ud83d\ude2d",
+      "twitch_views": 405281,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-06T09:02:09.727299+00:00"
     }
   ]
 }
