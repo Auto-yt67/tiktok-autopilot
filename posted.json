@@ -335,7 +335,8 @@
     "https://www.youtube.com/shorts/z7YAERLWqEw",
     "https://www.youtube.com/shorts/xNrH-i5F_2w",
     "https://www.youtube.com/shorts/tVVA0x1El0w",
-    "https://www.youtube.com/shorts/pAU4iPUY8qI"
+    "https://www.youtube.com/shorts/pAU4iPUY8qI",
+    "https://www.youtube.com/shorts/8X0F2KmvU0U"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -673,7 +674,8 @@
     "z7YAERLWqEw",
     "xNrH-i5F_2w",
     "tVVA0x1El0w",
-    "pAU4iPUY8qI"
+    "pAU4iPUY8qI",
+    "8X0F2KmvU0U"
   ],
   "history": [
     {
@@ -3939,6 +3941,16 @@
       "twitch_views": 297265,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-06T09:58:44.274892+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8X0F2KmvU0U",
+      "clip_id": "8X0F2KmvU0U",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "QT and Valkyrae Couldn\u2019t Believe Jason\u2019s Facial Hair\ud83d\ude2d",
+      "twitch_views": 205443,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-06T11:30:12.309367+00:00"
     }
   ]
 }
