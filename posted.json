@@ -336,7 +336,8 @@
     "https://www.youtube.com/shorts/xNrH-i5F_2w",
     "https://www.youtube.com/shorts/tVVA0x1El0w",
     "https://www.youtube.com/shorts/pAU4iPUY8qI",
-    "https://www.youtube.com/shorts/8X0F2KmvU0U"
+    "https://www.youtube.com/shorts/8X0F2KmvU0U",
+    "https://www.youtube.com/shorts/UceqQBe21Wk"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -675,7 +676,8 @@
     "xNrH-i5F_2w",
     "tVVA0x1El0w",
     "pAU4iPUY8qI",
-    "8X0F2KmvU0U"
+    "8X0F2KmvU0U",
+    "UceqQBe21Wk"
   ],
   "history": [
     {
@@ -3951,6 +3953,16 @@
       "twitch_views": 205443,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-06T11:30:12.309367+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/UceqQBe21Wk",
+      "clip_id": "UceqQBe21Wk",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Yonna Reacts to Jason\u2019s Mustache \ud83d\ude2d",
+      "twitch_views": 127925,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-06T11:53:58.559709+00:00"
     }
   ]
 }
