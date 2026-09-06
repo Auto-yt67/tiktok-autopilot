@@ -331,7 +331,8 @@
     "https://www.youtube.com/shorts/hFHjNjb7pnM",
     "https://www.youtube.com/shorts/A6mEZNpfWYQ",
     "https://www.youtube.com/shorts/6_s2S1ZLIzY",
-    "https://www.youtube.com/shorts/NBY5nrKKzOI"
+    "https://www.youtube.com/shorts/NBY5nrKKzOI",
+    "https://www.youtube.com/shorts/z7YAERLWqEw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -665,7 +666,8 @@
     "hFHjNjb7pnM",
     "A6mEZNpfWYQ",
     "6_s2S1ZLIzY",
-    "NBY5nrKKzOI"
+    "NBY5nrKKzOI",
+    "z7YAERLWqEw"
   ],
   "history": [
     {
@@ -3891,6 +3893,16 @@
       "twitch_views": 520956,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-05T07:17:48.189639+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/z7YAERLWqEw",
+      "clip_id": "z7YAERLWqEw",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason, Speed & Marlon Compare Their Physiques \ud83d\ude2d",
+      "twitch_views": 1153196,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-06T07:29:58.924363+00:00"
     }
   ]
 }
