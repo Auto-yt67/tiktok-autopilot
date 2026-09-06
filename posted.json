@@ -334,7 +334,8 @@
     "https://www.youtube.com/shorts/NBY5nrKKzOI",
     "https://www.youtube.com/shorts/z7YAERLWqEw",
     "https://www.youtube.com/shorts/xNrH-i5F_2w",
-    "https://www.youtube.com/shorts/tVVA0x1El0w"
+    "https://www.youtube.com/shorts/tVVA0x1El0w",
+    "https://www.youtube.com/shorts/pAU4iPUY8qI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -671,7 +672,8 @@
     "NBY5nrKKzOI",
     "z7YAERLWqEw",
     "xNrH-i5F_2w",
-    "tVVA0x1El0w"
+    "tVVA0x1El0w",
+    "pAU4iPUY8qI"
   ],
   "history": [
     {
@@ -3927,6 +3929,16 @@
       "twitch_views": 405281,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-06T09:02:09.727299+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/pAU4iPUY8qI",
+      "clip_id": "pAU4iPUY8qI",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jason Scanned His Face Into NBA 2K \ud83d\ude2d\ud83c\udfc0",
+      "twitch_views": 297265,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-06T09:58:44.274892+00:00"
     }
   ]
 }
