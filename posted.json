@@ -339,7 +339,8 @@
     "https://www.youtube.com/shorts/8X0F2KmvU0U",
     "https://www.youtube.com/shorts/UceqQBe21Wk",
     "https://www.youtube.com/shorts/FKOMwuoLIc0",
-    "https://www.youtube.com/shorts/vUVRyR7ArTs"
+    "https://www.youtube.com/shorts/vUVRyR7ArTs",
+    "https://www.youtube.com/shorts/37dGBxKFu2I"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -681,7 +682,8 @@
     "8X0F2KmvU0U",
     "UceqQBe21Wk",
     "FKOMwuoLIc0",
-    "vUVRyR7ArTs"
+    "vUVRyR7ArTs",
+    "37dGBxKFu2I"
   ],
   "history": [
     {
@@ -3987,6 +3989,16 @@
       "twitch_views": 148748,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T08:55:26.203830+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/37dGBxKFu2I",
+      "clip_id": "37dGBxKFu2I",
+      "streamer": "StableRonaldoLive",
+      "game": "",
+      "title": "Travis Scott Fish! \ud83d\ude02",
+      "twitch_views": 135548,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-07T09:51:19.326987+00:00"
     }
   ]
 }
