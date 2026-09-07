@@ -342,7 +342,8 @@
     "https://www.youtube.com/shorts/vUVRyR7ArTs",
     "https://www.youtube.com/shorts/37dGBxKFu2I",
     "https://www.youtube.com/shorts/i5eJOHuWXYc",
-    "https://www.youtube.com/shorts/jfH6FqgzOhE"
+    "https://www.youtube.com/shorts/jfH6FqgzOhE",
+    "https://www.youtube.com/shorts/m5vaKswwXd0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -687,7 +688,8 @@
     "vUVRyR7ArTs",
     "37dGBxKFu2I",
     "i5eJOHuWXYc",
-    "jfH6FqgzOhE"
+    "jfH6FqgzOhE",
+    "m5vaKswwXd0"
   ],
   "history": [
     {
@@ -4023,6 +4025,16 @@
       "twitch_views": 97606,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T13:14:49.820846+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/m5vaKswwXd0",
+      "clip_id": "m5vaKswwXd0",
+      "streamer": "StableRonaldoLive",
+      "game": "",
+      "title": "Stable Ronaldo WILL Be Hosting The Streamer Awards! \ud83d\ude33",
+      "twitch_views": 86866,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-07T13:53:57.881956+00:00"
     }
   ]
 }
