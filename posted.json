@@ -341,7 +341,8 @@
     "https://www.youtube.com/shorts/FKOMwuoLIc0",
     "https://www.youtube.com/shorts/vUVRyR7ArTs",
     "https://www.youtube.com/shorts/37dGBxKFu2I",
-    "https://www.youtube.com/shorts/i5eJOHuWXYc"
+    "https://www.youtube.com/shorts/i5eJOHuWXYc",
+    "https://www.youtube.com/shorts/jfH6FqgzOhE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -685,7 +686,8 @@
     "FKOMwuoLIc0",
     "vUVRyR7ArTs",
     "37dGBxKFu2I",
-    "i5eJOHuWXYc"
+    "i5eJOHuWXYc",
+    "jfH6FqgzOhE"
   ],
   "history": [
     {
@@ -4011,6 +4013,16 @@
       "twitch_views": 129004,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T11:08:46.113634+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/jfH6FqgzOhE",
+      "clip_id": "jfH6FqgzOhE",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Couldn\u2019t Believe Speed Called Him Immature \ud83d\ude2d",
+      "twitch_views": 97606,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-07T13:14:49.820846+00:00"
     }
   ]
 }
