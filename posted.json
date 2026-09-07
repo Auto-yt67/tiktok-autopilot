@@ -338,7 +338,8 @@
     "https://www.youtube.com/shorts/pAU4iPUY8qI",
     "https://www.youtube.com/shorts/8X0F2KmvU0U",
     "https://www.youtube.com/shorts/UceqQBe21Wk",
-    "https://www.youtube.com/shorts/FKOMwuoLIc0"
+    "https://www.youtube.com/shorts/FKOMwuoLIc0",
+    "https://www.youtube.com/shorts/vUVRyR7ArTs"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -679,7 +680,8 @@
     "pAU4iPUY8qI",
     "8X0F2KmvU0U",
     "UceqQBe21Wk",
-    "FKOMwuoLIc0"
+    "FKOMwuoLIc0",
+    "vUVRyR7ArTs"
   ],
   "history": [
     {
@@ -3975,6 +3977,16 @@
       "twitch_views": 232254,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T07:46:25.003251+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/vUVRyR7ArTs",
+      "clip_id": "vUVRyR7ArTs",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Dub Kept It Real With Jason \ud83d\ude2d",
+      "twitch_views": 148748,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-07T08:55:26.203830+00:00"
     }
   ]
 }
