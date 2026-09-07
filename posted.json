@@ -340,7 +340,8 @@
     "https://www.youtube.com/shorts/UceqQBe21Wk",
     "https://www.youtube.com/shorts/FKOMwuoLIc0",
     "https://www.youtube.com/shorts/vUVRyR7ArTs",
-    "https://www.youtube.com/shorts/37dGBxKFu2I"
+    "https://www.youtube.com/shorts/37dGBxKFu2I",
+    "https://www.youtube.com/shorts/i5eJOHuWXYc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -683,7 +684,8 @@
     "UceqQBe21Wk",
     "FKOMwuoLIc0",
     "vUVRyR7ArTs",
-    "37dGBxKFu2I"
+    "37dGBxKFu2I",
+    "i5eJOHuWXYc"
   ],
   "history": [
     {
@@ -3999,6 +4001,16 @@
       "twitch_views": 135548,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T09:51:19.326987+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/i5eJOHuWXYc",
+      "clip_id": "i5eJOHuWXYc",
+      "streamer": "StableRonaldoLive",
+      "game": "",
+      "title": "Bro's Got The WORST Life! \ud83d\ude02",
+      "twitch_views": 129004,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-07T11:08:46.113634+00:00"
     }
   ]
 }
