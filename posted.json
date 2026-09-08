@@ -343,7 +343,8 @@
     "https://www.youtube.com/shorts/37dGBxKFu2I",
     "https://www.youtube.com/shorts/i5eJOHuWXYc",
     "https://www.youtube.com/shorts/jfH6FqgzOhE",
-    "https://www.youtube.com/shorts/m5vaKswwXd0"
+    "https://www.youtube.com/shorts/m5vaKswwXd0",
+    "https://www.youtube.com/shorts/2Xp76r0EXXc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -689,7 +690,8 @@
     "37dGBxKFu2I",
     "i5eJOHuWXYc",
     "jfH6FqgzOhE",
-    "m5vaKswwXd0"
+    "m5vaKswwXd0",
+    "2Xp76r0EXXc"
   ],
   "history": [
     {
@@ -4035,6 +4037,16 @@
       "twitch_views": 86866,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-07T13:53:57.881956+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/2Xp76r0EXXc",
+      "clip_id": "2Xp76r0EXXc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Tbanks Had to Do a Double Take at Jason \ud83d\ude2d",
+      "twitch_views": 320016,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-08T07:41:14.085681+00:00"
     }
   ]
 }
