@@ -345,7 +345,8 @@
     "https://www.youtube.com/shorts/jfH6FqgzOhE",
     "https://www.youtube.com/shorts/m5vaKswwXd0",
     "https://www.youtube.com/shorts/2Xp76r0EXXc",
-    "https://www.youtube.com/shorts/4OUwx25t4tk"
+    "https://www.youtube.com/shorts/4OUwx25t4tk",
+    "https://www.youtube.com/shorts/sYtKopBs_7w"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -693,7 +694,8 @@
     "jfH6FqgzOhE",
     "m5vaKswwXd0",
     "2Xp76r0EXXc",
-    "4OUwx25t4tk"
+    "4OUwx25t4tk",
+    "sYtKopBs_7w"
   ],
   "history": [
     {
@@ -4059,6 +4061,16 @@
       "twitch_views": 148885,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-08T08:48:28.267797+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/sYtKopBs_7w",
+      "clip_id": "sYtKopBs_7w",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Pudgie Opens Up to Jason About His Sleep Apnea \ud83d\ude2d\ud83d\udc94",
+      "twitch_views": 124597,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-08T09:14:30.008141+00:00"
     }
   ]
 }
