@@ -346,7 +346,8 @@
     "https://www.youtube.com/shorts/m5vaKswwXd0",
     "https://www.youtube.com/shorts/2Xp76r0EXXc",
     "https://www.youtube.com/shorts/4OUwx25t4tk",
-    "https://www.youtube.com/shorts/sYtKopBs_7w"
+    "https://www.youtube.com/shorts/sYtKopBs_7w",
+    "https://www.youtube.com/shorts/n_ZB83vLhl8"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -695,7 +696,8 @@
     "m5vaKswwXd0",
     "2Xp76r0EXXc",
     "4OUwx25t4tk",
-    "sYtKopBs_7w"
+    "sYtKopBs_7w",
+    "n_ZB83vLhl8"
   ],
   "history": [
     {
@@ -4071,6 +4073,16 @@
       "twitch_views": 124597,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-08T09:14:30.008141+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/n_ZB83vLhl8",
+      "clip_id": "n_ZB83vLhl8",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Looked Like a Black Ops Enemy \ud83d\ude2d",
+      "twitch_views": 111384,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-08T10:23:28.937788+00:00"
     }
   ]
 }
