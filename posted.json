@@ -344,7 +344,8 @@
     "https://www.youtube.com/shorts/i5eJOHuWXYc",
     "https://www.youtube.com/shorts/jfH6FqgzOhE",
     "https://www.youtube.com/shorts/m5vaKswwXd0",
-    "https://www.youtube.com/shorts/2Xp76r0EXXc"
+    "https://www.youtube.com/shorts/2Xp76r0EXXc",
+    "https://www.youtube.com/shorts/4OUwx25t4tk"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -691,7 +692,8 @@
     "i5eJOHuWXYc",
     "jfH6FqgzOhE",
     "m5vaKswwXd0",
-    "2Xp76r0EXXc"
+    "2Xp76r0EXXc",
+    "4OUwx25t4tk"
   ],
   "history": [
     {
@@ -4047,6 +4049,16 @@
       "twitch_views": 320016,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-08T07:41:14.085681+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/4OUwx25t4tk",
+      "clip_id": "4OUwx25t4tk",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Meets His Biggest Fans \ud83d\ude2d\u2764\ufe0f",
+      "twitch_views": 148885,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-08T08:48:28.267797+00:00"
     }
   ]
 }
