@@ -350,7 +350,8 @@
     "https://www.youtube.com/shorts/n_ZB83vLhl8",
     "https://www.youtube.com/shorts/gv8KGAivicg",
     "https://www.youtube.com/shorts/TVWWkq_gXc8",
-    "https://www.youtube.com/shorts/rxdiefrWWwQ"
+    "https://www.youtube.com/shorts/rxdiefrWWwQ",
+    "https://www.youtube.com/shorts/i1Lc16vhKWI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -703,7 +704,8 @@
     "n_ZB83vLhl8",
     "gv8KGAivicg",
     "TVWWkq_gXc8",
-    "rxdiefrWWwQ"
+    "rxdiefrWWwQ",
+    "i1Lc16vhKWI"
   ],
   "history": [
     {
@@ -4119,6 +4121,16 @@
       "twitch_views": 243335,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-09T07:45:47.250573+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/i1Lc16vhKWI",
+      "clip_id": "i1Lc16vhKWI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Dub Asked Jason If He Knew His Real Name \ud83d\ude2d",
+      "twitch_views": 256829,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-09T08:37:21.229822+00:00"
     }
   ]
 }
