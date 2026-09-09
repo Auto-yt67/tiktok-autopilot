@@ -351,7 +351,8 @@
     "https://www.youtube.com/shorts/gv8KGAivicg",
     "https://www.youtube.com/shorts/TVWWkq_gXc8",
     "https://www.youtube.com/shorts/rxdiefrWWwQ",
-    "https://www.youtube.com/shorts/i1Lc16vhKWI"
+    "https://www.youtube.com/shorts/i1Lc16vhKWI",
+    "https://www.youtube.com/shorts/uPfNBVVL29g"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -705,7 +706,8 @@
     "gv8KGAivicg",
     "TVWWkq_gXc8",
     "rxdiefrWWwQ",
-    "i1Lc16vhKWI"
+    "i1Lc16vhKWI",
+    "uPfNBVVL29g"
   ],
   "history": [
     {
@@ -4131,6 +4133,16 @@
       "twitch_views": 256829,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-09T08:37:21.229822+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/uPfNBVVL29g",
+      "clip_id": "uPfNBVVL29g",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "CORE's Water Bill Is Insane \ud83d\ude2d\ud83d\udca7",
+      "twitch_views": 142771,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-09T09:18:29.013145+00:00"
     }
   ]
 }
