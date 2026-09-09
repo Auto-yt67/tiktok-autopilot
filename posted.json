@@ -353,7 +353,8 @@
     "https://www.youtube.com/shorts/rxdiefrWWwQ",
     "https://www.youtube.com/shorts/i1Lc16vhKWI",
     "https://www.youtube.com/shorts/uPfNBVVL29g",
-    "https://www.youtube.com/shorts/hv6On9Rd_AM"
+    "https://www.youtube.com/shorts/hv6On9Rd_AM",
+    "https://www.youtube.com/shorts/gFvpDspfGhA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -709,7 +710,8 @@
     "rxdiefrWWwQ",
     "i1Lc16vhKWI",
     "uPfNBVVL29g",
-    "hv6On9Rd_AM"
+    "hv6On9Rd_AM",
+    "gFvpDspfGhA"
   ],
   "history": [
     {
@@ -4155,6 +4157,16 @@
       "twitch_views": 115931,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-09T10:29:24.309905+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/gFvpDspfGhA",
+      "clip_id": "gFvpDspfGhA",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Aired Out Pudgie\u2019s Shirt Size \ud83d\ude2d",
+      "twitch_views": 60155,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-09T12:07:53.081170+00:00"
     }
   ]
 }
