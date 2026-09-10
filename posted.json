@@ -360,7 +360,8 @@
     "https://www.youtube.com/shorts/qgHAaOIolGw",
     "https://www.youtube.com/shorts/nMMPCbpZ6wk",
     "https://www.youtube.com/shorts/VZMQXNRXyIw",
-    "https://www.youtube.com/shorts/lG2chgh6grs"
+    "https://www.youtube.com/shorts/lG2chgh6grs",
+    "https://www.youtube.com/shorts/KkvH2gM8z2Y"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -723,7 +724,8 @@
     "qgHAaOIolGw",
     "nMMPCbpZ6wk",
     "VZMQXNRXyIw",
-    "lG2chgh6grs"
+    "lG2chgh6grs",
+    "KkvH2gM8z2Y"
   ],
   "history": [
     {
@@ -4239,6 +4241,16 @@
       "twitch_views": 276336,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-10T12:01:58.850906+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/KkvH2gM8z2Y",
+      "clip_id": "KkvH2gM8z2Y",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Insane for Saying This to Them \ud83d\ude2d",
+      "twitch_views": 68857,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-10T12:36:26.841146+00:00"
     }
   ]
 }
