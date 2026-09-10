@@ -357,7 +357,8 @@
     "https://www.youtube.com/shorts/gFvpDspfGhA",
     "https://www.youtube.com/shorts/6FJc4vgwqhw",
     "https://www.youtube.com/shorts/KoqsxKKJtIM",
-    "https://www.youtube.com/shorts/qgHAaOIolGw"
+    "https://www.youtube.com/shorts/qgHAaOIolGw",
+    "https://www.youtube.com/shorts/nMMPCbpZ6wk"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -717,7 +718,8 @@
     "gFvpDspfGhA",
     "6FJc4vgwqhw",
     "KoqsxKKJtIM",
-    "qgHAaOIolGw"
+    "qgHAaOIolGw",
+    "nMMPCbpZ6wk"
   ],
   "history": [
     {
@@ -4203,6 +4205,16 @@
       "twitch_views": 343489,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-10T08:40:06.277572+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/nMMPCbpZ6wk",
+      "clip_id": "nMMPCbpZ6wk",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Tweaked Out After Laiys Threw a Ball at Him \ud83d\ude2d",
+      "twitch_views": 83869,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-10T09:22:54.843567+00:00"
     }
   ]
 }
