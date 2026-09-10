@@ -358,7 +358,8 @@
     "https://www.youtube.com/shorts/6FJc4vgwqhw",
     "https://www.youtube.com/shorts/KoqsxKKJtIM",
     "https://www.youtube.com/shorts/qgHAaOIolGw",
-    "https://www.youtube.com/shorts/nMMPCbpZ6wk"
+    "https://www.youtube.com/shorts/nMMPCbpZ6wk",
+    "https://www.youtube.com/shorts/VZMQXNRXyIw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -719,7 +720,8 @@
     "6FJc4vgwqhw",
     "KoqsxKKJtIM",
     "qgHAaOIolGw",
-    "nMMPCbpZ6wk"
+    "nMMPCbpZ6wk",
+    "VZMQXNRXyIw"
   ],
   "history": [
     {
@@ -4215,6 +4217,16 @@
       "twitch_views": 83869,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-10T09:22:54.843567+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/VZMQXNRXyIw",
+      "clip_id": "VZMQXNRXyIw",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jynxzi Couldn't Believe Ron Was In An Ad With LeBron \ud83d\ude2d\ud83d\udc40",
+      "twitch_views": 329425,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-10T10:19:30.894662+00:00"
     }
   ]
 }
