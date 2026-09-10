@@ -356,7 +356,8 @@
     "https://www.youtube.com/shorts/hv6On9Rd_AM",
     "https://www.youtube.com/shorts/gFvpDspfGhA",
     "https://www.youtube.com/shorts/6FJc4vgwqhw",
-    "https://www.youtube.com/shorts/KoqsxKKJtIM"
+    "https://www.youtube.com/shorts/KoqsxKKJtIM",
+    "https://www.youtube.com/shorts/qgHAaOIolGw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -715,7 +716,8 @@
     "hv6On9Rd_AM",
     "gFvpDspfGhA",
     "6FJc4vgwqhw",
-    "KoqsxKKJtIM"
+    "KoqsxKKJtIM",
+    "qgHAaOIolGw"
   ],
   "history": [
     {
@@ -4191,6 +4193,16 @@
       "twitch_views": 768223,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-10T07:44:10.924924+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/qgHAaOIolGw",
+      "clip_id": "qgHAaOIolGw",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy Reveals To Marlon Their Next Marathon Stream!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 343489,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-10T08:40:06.277572+00:00"
     }
   ]
 }
