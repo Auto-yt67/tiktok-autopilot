@@ -355,7 +355,8 @@
     "https://www.youtube.com/shorts/uPfNBVVL29g",
     "https://www.youtube.com/shorts/hv6On9Rd_AM",
     "https://www.youtube.com/shorts/gFvpDspfGhA",
-    "https://www.youtube.com/shorts/6FJc4vgwqhw"
+    "https://www.youtube.com/shorts/6FJc4vgwqhw",
+    "https://www.youtube.com/shorts/KoqsxKKJtIM"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -713,7 +714,8 @@
     "uPfNBVVL29g",
     "hv6On9Rd_AM",
     "gFvpDspfGhA",
-    "6FJc4vgwqhw"
+    "6FJc4vgwqhw",
+    "KoqsxKKJtIM"
   ],
   "history": [
     {
@@ -4179,6 +4181,16 @@
       "twitch_views": 55536,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-09T12:38:27.316516+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/KoqsxKKJtIM",
+      "clip_id": "KoqsxKKJtIM",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Found Out The Wheel Was Rigged \ud83d\ude2d\ud83e\udd5e",
+      "twitch_views": 768223,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-10T07:44:10.924924+00:00"
     }
   ]
 }
