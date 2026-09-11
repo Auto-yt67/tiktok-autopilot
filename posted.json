@@ -361,7 +361,8 @@
     "https://www.youtube.com/shorts/nMMPCbpZ6wk",
     "https://www.youtube.com/shorts/VZMQXNRXyIw",
     "https://www.youtube.com/shorts/lG2chgh6grs",
-    "https://www.youtube.com/shorts/KkvH2gM8z2Y"
+    "https://www.youtube.com/shorts/KkvH2gM8z2Y",
+    "https://www.youtube.com/shorts/iAWq8JOhufs"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -725,7 +726,8 @@
     "nMMPCbpZ6wk",
     "VZMQXNRXyIw",
     "lG2chgh6grs",
-    "KkvH2gM8z2Y"
+    "KkvH2gM8z2Y",
+    "iAWq8JOhufs"
   ],
   "history": [
     {
@@ -4251,6 +4253,16 @@
       "twitch_views": 68857,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-10T12:36:26.841146+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/iAWq8JOhufs",
+      "clip_id": "iAWq8JOhufs",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jason Lost $100 And It Got Worse \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 82782,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-11T07:39:43.178901+00:00"
     }
   ]
 }
