@@ -365,7 +365,8 @@
     "https://www.youtube.com/shorts/iAWq8JOhufs",
     "https://www.youtube.com/shorts/w7BsNXrC3mk",
     "https://www.youtube.com/shorts/xb4AbQ-2rNM",
-    "https://www.youtube.com/shorts/kpqpWAOBYjU"
+    "https://www.youtube.com/shorts/kpqpWAOBYjU",
+    "https://www.youtube.com/shorts/dgb1aURiOf4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -733,7 +734,8 @@
     "iAWq8JOhufs",
     "w7BsNXrC3mk",
     "xb4AbQ-2rNM",
-    "kpqpWAOBYjU"
+    "kpqpWAOBYjU",
+    "dgb1aURiOf4"
   ],
   "history": [
     {
@@ -4299,6 +4301,16 @@
       "twitch_views": 37957,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-11T10:18:45.628787+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/dgb1aURiOf4",
+      "clip_id": "dgb1aURiOf4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason & YBG Said This in Front of a Kid \ud83d\ude2d",
+      "twitch_views": 29625,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-11T12:00:54.834887+00:00"
     }
   ]
 }
