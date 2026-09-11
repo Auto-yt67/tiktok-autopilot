@@ -364,7 +364,8 @@
     "https://www.youtube.com/shorts/KkvH2gM8z2Y",
     "https://www.youtube.com/shorts/iAWq8JOhufs",
     "https://www.youtube.com/shorts/w7BsNXrC3mk",
-    "https://www.youtube.com/shorts/xb4AbQ-2rNM"
+    "https://www.youtube.com/shorts/xb4AbQ-2rNM",
+    "https://www.youtube.com/shorts/kpqpWAOBYjU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -731,7 +732,8 @@
     "KkvH2gM8z2Y",
     "iAWq8JOhufs",
     "w7BsNXrC3mk",
-    "xb4AbQ-2rNM"
+    "xb4AbQ-2rNM",
+    "kpqpWAOBYjU"
   ],
   "history": [
     {
@@ -4287,6 +4289,16 @@
       "twitch_views": 46437,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-11T09:15:53.361980+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/kpqpWAOBYjU",
+      "clip_id": "kpqpWAOBYjU",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Says Attack on Titan Is the BEST Anime \ud83d\ude2d",
+      "twitch_views": 37957,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-11T10:18:45.628787+00:00"
     }
   ]
 }
