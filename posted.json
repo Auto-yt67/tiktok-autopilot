@@ -366,7 +366,8 @@
     "https://www.youtube.com/shorts/w7BsNXrC3mk",
     "https://www.youtube.com/shorts/xb4AbQ-2rNM",
     "https://www.youtube.com/shorts/kpqpWAOBYjU",
-    "https://www.youtube.com/shorts/dgb1aURiOf4"
+    "https://www.youtube.com/shorts/dgb1aURiOf4",
+    "https://www.youtube.com/shorts/00qSq3hzEpE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -735,7 +736,8 @@
     "w7BsNXrC3mk",
     "xb4AbQ-2rNM",
     "kpqpWAOBYjU",
-    "dgb1aURiOf4"
+    "dgb1aURiOf4",
+    "00qSq3hzEpE"
   ],
   "history": [
     {
@@ -4311,6 +4313,16 @@
       "twitch_views": 29625,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-11T12:00:54.834887+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/00qSq3hzEpE",
+      "clip_id": "00qSq3hzEpE",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy Catches Someone Selling His Vending Machine!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 28040,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-11T12:31:06.703003+00:00"
     }
   ]
 }
