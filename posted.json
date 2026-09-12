@@ -371,7 +371,8 @@
     "https://www.youtube.com/shorts/uc_zJSkokkw",
     "https://www.youtube.com/shorts/HjmxEHtHj9g",
     "https://www.youtube.com/shorts/IIO7Xahj8wA",
-    "https://www.youtube.com/shorts/VD_cONe9VBA"
+    "https://www.youtube.com/shorts/VD_cONe9VBA",
+    "https://www.youtube.com/shorts/g79Pq9ulA9c"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -745,7 +746,8 @@
     "uc_zJSkokkw",
     "HjmxEHtHj9g",
     "IIO7Xahj8wA",
-    "VD_cONe9VBA"
+    "VD_cONe9VBA",
+    "g79Pq9ulA9c"
   ],
   "history": [
     {
@@ -4371,6 +4373,16 @@
       "twitch_views": 51212,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-12T09:51:43.018019+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/g79Pq9ulA9c",
+      "clip_id": "g79Pq9ulA9c",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Couldn\u2019t Believe His Song Was Playing in the Store \ud83d\ude2d",
+      "twitch_views": 46141,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-12T11:27:35.261671+00:00"
     }
   ]
 }
