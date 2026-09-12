@@ -372,7 +372,8 @@
     "https://www.youtube.com/shorts/HjmxEHtHj9g",
     "https://www.youtube.com/shorts/IIO7Xahj8wA",
     "https://www.youtube.com/shorts/VD_cONe9VBA",
-    "https://www.youtube.com/shorts/g79Pq9ulA9c"
+    "https://www.youtube.com/shorts/g79Pq9ulA9c",
+    "https://www.youtube.com/shorts/GC-i7FwaDxE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -747,7 +748,8 @@
     "HjmxEHtHj9g",
     "IIO7Xahj8wA",
     "VD_cONe9VBA",
-    "g79Pq9ulA9c"
+    "g79Pq9ulA9c",
+    "GC-i7FwaDxE"
   ],
   "history": [
     {
@@ -4383,6 +4385,16 @@
       "twitch_views": 46141,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-12T11:27:35.261671+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/GC-i7FwaDxE",
+      "clip_id": "GC-i7FwaDxE",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Had No Social Anxiety In The Crowd\ud83d\ude2d\ud83d\udd25",
+      "twitch_views": 35507,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-12T11:54:08.614351+00:00"
     }
   ]
 }
