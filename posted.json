@@ -368,7 +368,8 @@
     "https://www.youtube.com/shorts/kpqpWAOBYjU",
     "https://www.youtube.com/shorts/dgb1aURiOf4",
     "https://www.youtube.com/shorts/00qSq3hzEpE",
-    "https://www.youtube.com/shorts/uc_zJSkokkw"
+    "https://www.youtube.com/shorts/uc_zJSkokkw",
+    "https://www.youtube.com/shorts/HjmxEHtHj9g"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -739,7 +740,8 @@
     "kpqpWAOBYjU",
     "dgb1aURiOf4",
     "00qSq3hzEpE",
-    "uc_zJSkokkw"
+    "uc_zJSkokkw",
+    "HjmxEHtHj9g"
   ],
   "history": [
     {
@@ -4335,6 +4337,16 @@
       "twitch_views": 99704,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-12T07:32:35.970279+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/HjmxEHtHj9g",
+      "clip_id": "HjmxEHtHj9g",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Not Letting Speed Forget His Loss \ud83d\ude2d",
+      "twitch_views": 81867,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-12T08:22:19.816176+00:00"
     }
   ]
 }
