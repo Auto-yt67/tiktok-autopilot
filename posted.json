@@ -369,7 +369,8 @@
     "https://www.youtube.com/shorts/dgb1aURiOf4",
     "https://www.youtube.com/shorts/00qSq3hzEpE",
     "https://www.youtube.com/shorts/uc_zJSkokkw",
-    "https://www.youtube.com/shorts/HjmxEHtHj9g"
+    "https://www.youtube.com/shorts/HjmxEHtHj9g",
+    "https://www.youtube.com/shorts/IIO7Xahj8wA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -741,7 +742,8 @@
     "dgb1aURiOf4",
     "00qSq3hzEpE",
     "uc_zJSkokkw",
-    "HjmxEHtHj9g"
+    "HjmxEHtHj9g",
+    "IIO7Xahj8wA"
   ],
   "history": [
     {
@@ -4347,6 +4349,16 @@
       "twitch_views": 81867,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-12T08:22:19.816176+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/IIO7Xahj8wA",
+      "clip_id": "IIO7Xahj8wA",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Thought Deji Predicted The iPhone 18 \ud83d\ude2d\ud83d\udcf1",
+      "twitch_views": 10215,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-12T09:00:10.854558+00:00"
     }
   ]
 }
