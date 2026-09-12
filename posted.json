@@ -367,7 +367,8 @@
     "https://www.youtube.com/shorts/xb4AbQ-2rNM",
     "https://www.youtube.com/shorts/kpqpWAOBYjU",
     "https://www.youtube.com/shorts/dgb1aURiOf4",
-    "https://www.youtube.com/shorts/00qSq3hzEpE"
+    "https://www.youtube.com/shorts/00qSq3hzEpE",
+    "https://www.youtube.com/shorts/uc_zJSkokkw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -737,7 +738,8 @@
     "xb4AbQ-2rNM",
     "kpqpWAOBYjU",
     "dgb1aURiOf4",
-    "00qSq3hzEpE"
+    "00qSq3hzEpE",
+    "uc_zJSkokkw"
   ],
   "history": [
     {
@@ -4323,6 +4325,16 @@
       "twitch_views": 28040,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-11T12:31:06.703003+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/uc_zJSkokkw",
+      "clip_id": "uc_zJSkokkw",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Couldn\u2019t Believe She Knew Duke Dennis \ud83d\ude02",
+      "twitch_views": 99704,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-12T07:32:35.970279+00:00"
     }
   ]
 }
