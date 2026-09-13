@@ -373,7 +373,8 @@
     "https://www.youtube.com/shorts/IIO7Xahj8wA",
     "https://www.youtube.com/shorts/VD_cONe9VBA",
     "https://www.youtube.com/shorts/g79Pq9ulA9c",
-    "https://www.youtube.com/shorts/GC-i7FwaDxE"
+    "https://www.youtube.com/shorts/GC-i7FwaDxE",
+    "https://www.youtube.com/shorts/RFCX0QS9xkY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -749,7 +750,8 @@
     "IIO7Xahj8wA",
     "VD_cONe9VBA",
     "g79Pq9ulA9c",
-    "GC-i7FwaDxE"
+    "GC-i7FwaDxE",
+    "RFCX0QS9xkY"
   ],
   "history": [
     {
@@ -4395,6 +4397,16 @@
       "twitch_views": 35507,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-12T11:54:08.614351+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/RFCX0QS9xkY",
+      "clip_id": "RFCX0QS9xkY",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Tricked Marlon With A Donut \ud83d\ude2d\ud83c\udf69",
+      "twitch_views": 282105,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-13T07:52:45.949279+00:00"
     }
   ]
 }
