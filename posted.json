@@ -377,7 +377,8 @@
     "https://www.youtube.com/shorts/RFCX0QS9xkY",
     "https://www.youtube.com/shorts/rw22J0wzNV4",
     "https://www.youtube.com/shorts/U4XV6GSzCs4",
-    "https://www.youtube.com/shorts/8bsRniPksP0"
+    "https://www.youtube.com/shorts/8bsRniPksP0",
+    "https://www.youtube.com/shorts/aWA-0aFFQIc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -757,7 +758,8 @@
     "RFCX0QS9xkY",
     "rw22J0wzNV4",
     "U4XV6GSzCs4",
-    "8bsRniPksP0"
+    "8bsRniPksP0",
+    "aWA-0aFFQIc"
   ],
   "history": [
     {
@@ -4443,6 +4445,16 @@
       "twitch_views": 50952,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-13T12:31:32.159262+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/aWA-0aFFQIc",
+      "clip_id": "aWA-0aFFQIc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason & YBG Recreated the \u201cGGEZ\u201d Song \ud83d\ude2d",
+      "twitch_views": 43923,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-13T13:03:22.045435+00:00"
     }
   ]
 }
