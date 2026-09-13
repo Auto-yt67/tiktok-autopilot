@@ -374,7 +374,8 @@
     "https://www.youtube.com/shorts/VD_cONe9VBA",
     "https://www.youtube.com/shorts/g79Pq9ulA9c",
     "https://www.youtube.com/shorts/GC-i7FwaDxE",
-    "https://www.youtube.com/shorts/RFCX0QS9xkY"
+    "https://www.youtube.com/shorts/RFCX0QS9xkY",
+    "https://www.youtube.com/shorts/rw22J0wzNV4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -751,7 +752,8 @@
     "VD_cONe9VBA",
     "g79Pq9ulA9c",
     "GC-i7FwaDxE",
-    "RFCX0QS9xkY"
+    "RFCX0QS9xkY",
+    "rw22J0wzNV4"
   ],
   "history": [
     {
@@ -4407,6 +4409,16 @@
       "twitch_views": 282105,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-13T07:52:45.949279+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rw22J0wzNV4",
+      "clip_id": "rw22J0wzNV4",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Couldn't Resist Free Samples \ud83d\ude2d\ud83c\udf6a",
+      "twitch_views": 106182,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-13T09:54:14.418986+00:00"
     }
   ]
 }
