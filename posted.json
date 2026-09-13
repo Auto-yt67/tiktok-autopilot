@@ -375,7 +375,8 @@
     "https://www.youtube.com/shorts/g79Pq9ulA9c",
     "https://www.youtube.com/shorts/GC-i7FwaDxE",
     "https://www.youtube.com/shorts/RFCX0QS9xkY",
-    "https://www.youtube.com/shorts/rw22J0wzNV4"
+    "https://www.youtube.com/shorts/rw22J0wzNV4",
+    "https://www.youtube.com/shorts/U4XV6GSzCs4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -753,7 +754,8 @@
     "g79Pq9ulA9c",
     "GC-i7FwaDxE",
     "RFCX0QS9xkY",
-    "rw22J0wzNV4"
+    "rw22J0wzNV4",
+    "U4XV6GSzCs4"
   ],
   "history": [
     {
@@ -4419,6 +4421,16 @@
       "twitch_views": 106182,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-13T09:54:14.418986+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/U4XV6GSzCs4",
+      "clip_id": "U4XV6GSzCs4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Recreated This Meme With His Outfit \ud83d\ude2d",
+      "twitch_views": 59302,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-13T10:51:46.766584+00:00"
     }
   ]
 }
