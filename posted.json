@@ -381,7 +381,8 @@
     "https://www.youtube.com/shorts/aWA-0aFFQIc",
     "https://www.youtube.com/shorts/KLEHJ6wgi0M",
     "https://www.youtube.com/shorts/EAeBw6F3SG8",
-    "https://www.youtube.com/shorts/77jpKTnOjQI"
+    "https://www.youtube.com/shorts/77jpKTnOjQI",
+    "https://www.youtube.com/shorts/rq2Fb1--Qnc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -765,7 +766,8 @@
     "aWA-0aFFQIc",
     "KLEHJ6wgi0M",
     "EAeBw6F3SG8",
-    "77jpKTnOjQI"
+    "77jpKTnOjQI",
+    "rq2Fb1--Qnc"
   ],
   "history": [
     {
@@ -4491,6 +4493,16 @@
       "twitch_views": 53819,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T10:12:57.621959+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rq2Fb1--Qnc",
+      "clip_id": "rq2Fb1--Qnc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Got a FREE Pair of $3K Chrome Pants \ud83d\ude2d",
+      "twitch_views": 49171,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-14T11:20:25.441935+00:00"
     }
   ]
 }
