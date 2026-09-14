@@ -380,7 +380,8 @@
     "https://www.youtube.com/shorts/8bsRniPksP0",
     "https://www.youtube.com/shorts/aWA-0aFFQIc",
     "https://www.youtube.com/shorts/KLEHJ6wgi0M",
-    "https://www.youtube.com/shorts/EAeBw6F3SG8"
+    "https://www.youtube.com/shorts/EAeBw6F3SG8",
+    "https://www.youtube.com/shorts/77jpKTnOjQI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -763,7 +764,8 @@
     "8bsRniPksP0",
     "aWA-0aFFQIc",
     "KLEHJ6wgi0M",
-    "EAeBw6F3SG8"
+    "EAeBw6F3SG8",
+    "77jpKTnOjQI"
   ],
   "history": [
     {
@@ -4479,6 +4481,16 @@
       "twitch_views": 54453,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T09:34:32.746964+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/77jpKTnOjQI",
+      "clip_id": "77jpKTnOjQI",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy's Girlfriend Found Out His Pants Cost $7K \ud83d\ude2d\ud83d\udc56",
+      "twitch_views": 53819,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-14T10:12:57.621959+00:00"
     }
   ]
 }
