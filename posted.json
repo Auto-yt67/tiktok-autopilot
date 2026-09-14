@@ -383,7 +383,8 @@
     "https://www.youtube.com/shorts/EAeBw6F3SG8",
     "https://www.youtube.com/shorts/77jpKTnOjQI",
     "https://www.youtube.com/shorts/rq2Fb1--Qnc",
-    "https://www.youtube.com/shorts/rVYhL4KBIm4"
+    "https://www.youtube.com/shorts/rVYhL4KBIm4",
+    "https://www.youtube.com/shorts/64q8cL5jBgc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -769,7 +770,8 @@
     "EAeBw6F3SG8",
     "77jpKTnOjQI",
     "rq2Fb1--Qnc",
-    "rVYhL4KBIm4"
+    "rVYhL4KBIm4",
+    "64q8cL5jBgc"
   ],
   "history": [
     {
@@ -4515,6 +4517,16 @@
       "twitch_views": 36408,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T13:49:06.469345+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/64q8cL5jBgc",
+      "clip_id": "64q8cL5jBgc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason & Ron Found a VIVET Poster \ud83d\ude2d",
+      "twitch_views": 33120,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-14T14:39:29.435833+00:00"
     }
   ]
 }
