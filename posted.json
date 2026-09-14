@@ -382,7 +382,8 @@
     "https://www.youtube.com/shorts/KLEHJ6wgi0M",
     "https://www.youtube.com/shorts/EAeBw6F3SG8",
     "https://www.youtube.com/shorts/77jpKTnOjQI",
-    "https://www.youtube.com/shorts/rq2Fb1--Qnc"
+    "https://www.youtube.com/shorts/rq2Fb1--Qnc",
+    "https://www.youtube.com/shorts/rVYhL4KBIm4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -767,7 +768,8 @@
     "KLEHJ6wgi0M",
     "EAeBw6F3SG8",
     "77jpKTnOjQI",
-    "rq2Fb1--Qnc"
+    "rq2Fb1--Qnc",
+    "rVYhL4KBIm4"
   ],
   "history": [
     {
@@ -4503,6 +4505,16 @@
       "twitch_views": 49171,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T11:20:25.441935+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rVYhL4KBIm4",
+      "clip_id": "rVYhL4KBIm4",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Marlon Was A Model For Kai's VIVET Show \ud83d\ude2d\ud83d\udd25",
+      "twitch_views": 36408,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-14T13:49:06.469345+00:00"
     }
   ]
 }
