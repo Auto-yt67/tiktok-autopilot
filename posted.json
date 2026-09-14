@@ -379,7 +379,8 @@
     "https://www.youtube.com/shorts/U4XV6GSzCs4",
     "https://www.youtube.com/shorts/8bsRniPksP0",
     "https://www.youtube.com/shorts/aWA-0aFFQIc",
-    "https://www.youtube.com/shorts/KLEHJ6wgi0M"
+    "https://www.youtube.com/shorts/KLEHJ6wgi0M",
+    "https://www.youtube.com/shorts/EAeBw6F3SG8"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -761,7 +762,8 @@
     "U4XV6GSzCs4",
     "8bsRniPksP0",
     "aWA-0aFFQIc",
-    "KLEHJ6wgi0M"
+    "KLEHJ6wgi0M",
+    "EAeBw6F3SG8"
   ],
   "history": [
     {
@@ -4467,6 +4469,16 @@
       "twitch_views": 250371,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T08:25:20.963405+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/EAeBw6F3SG8",
+      "clip_id": "EAeBw6F3SG8",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "DDG Got Jealous of Jason & Dub \ud83d\ude2d",
+      "twitch_views": 54453,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-14T09:34:32.746964+00:00"
     }
   ]
 }
