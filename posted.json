@@ -384,7 +384,8 @@
     "https://www.youtube.com/shorts/77jpKTnOjQI",
     "https://www.youtube.com/shorts/rq2Fb1--Qnc",
     "https://www.youtube.com/shorts/rVYhL4KBIm4",
-    "https://www.youtube.com/shorts/64q8cL5jBgc"
+    "https://www.youtube.com/shorts/64q8cL5jBgc",
+    "https://www.youtube.com/shorts/D715M4QpcOA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -771,7 +772,8 @@
     "77jpKTnOjQI",
     "rq2Fb1--Qnc",
     "rVYhL4KBIm4",
-    "64q8cL5jBgc"
+    "64q8cL5jBgc",
+    "D715M4QpcOA"
   ],
   "history": [
     {
@@ -4527,6 +4529,16 @@
       "twitch_views": 33120,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-14T14:39:29.435833+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/D715M4QpcOA",
+      "clip_id": "D715M4QpcOA",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Insane For Saying This to Her Little Brother \ud83d\ude2d",
+      "twitch_views": 107825,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-15T08:20:56.379748+00:00"
     }
   ]
 }
