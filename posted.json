@@ -388,7 +388,8 @@
     "https://www.youtube.com/shorts/D715M4QpcOA",
     "https://www.youtube.com/shorts/c-FkzTs9oMo",
     "https://www.youtube.com/shorts/OVWe5EEntn8",
-    "https://www.youtube.com/shorts/Xp0b2YLXcgs"
+    "https://www.youtube.com/shorts/Xp0b2YLXcgs",
+    "https://www.youtube.com/shorts/hfMDCiD78EI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -779,7 +780,8 @@
     "D715M4QpcOA",
     "c-FkzTs9oMo",
     "OVWe5EEntn8",
-    "Xp0b2YLXcgs"
+    "Xp0b2YLXcgs",
+    "hfMDCiD78EI"
   ],
   "history": [
     {
@@ -4575,6 +4577,16 @@
       "twitch_views": 38971,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-15T10:50:04.785392+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/hfMDCiD78EI",
+      "clip_id": "hfMDCiD78EI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Tried to Wingman His Cameraman \ud83d\ude2d",
+      "twitch_views": 37594,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-15T12:31:09.032145+00:00"
     }
   ]
 }
