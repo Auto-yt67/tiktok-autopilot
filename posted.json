@@ -387,7 +387,8 @@
     "https://www.youtube.com/shorts/64q8cL5jBgc",
     "https://www.youtube.com/shorts/D715M4QpcOA",
     "https://www.youtube.com/shorts/c-FkzTs9oMo",
-    "https://www.youtube.com/shorts/OVWe5EEntn8"
+    "https://www.youtube.com/shorts/OVWe5EEntn8",
+    "https://www.youtube.com/shorts/Xp0b2YLXcgs"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -777,7 +778,8 @@
     "64q8cL5jBgc",
     "D715M4QpcOA",
     "c-FkzTs9oMo",
-    "OVWe5EEntn8"
+    "OVWe5EEntn8",
+    "Xp0b2YLXcgs"
   ],
   "history": [
     {
@@ -4563,6 +4565,16 @@
       "twitch_views": 54962,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-15T09:47:31.656043+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/Xp0b2YLXcgs",
+      "clip_id": "Xp0b2YLXcgs",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Darla Couldn't Believe The Price Of Lacy's Pants!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 38971,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-15T10:50:04.785392+00:00"
     }
   ]
 }
