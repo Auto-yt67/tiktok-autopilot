@@ -394,7 +394,8 @@
     "https://www.youtube.com/shorts/iYmW4IYSiGU",
     "https://www.youtube.com/shorts/dPAeqPwtsFg",
     "https://www.youtube.com/shorts/ouj_szcrDgc",
-    "https://www.youtube.com/shorts/4BmO8WuC6Zo"
+    "https://www.youtube.com/shorts/4BmO8WuC6Zo",
+    "https://www.youtube.com/shorts/KHOTCsiWWPA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -791,7 +792,8 @@
     "iYmW4IYSiGU",
     "dPAeqPwtsFg",
     "ouj_szcrDgc",
-    "4BmO8WuC6Zo"
+    "4BmO8WuC6Zo",
+    "KHOTCsiWWPA"
   ],
   "history": [
     {
@@ -4647,6 +4649,16 @@
       "twitch_views": 56242,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-16T10:33:52.578315+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/KHOTCsiWWPA",
+      "clip_id": "KHOTCsiWWPA",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "\"I'm At A Table Full Of Goats\"\ud83d\ude2d\ud83e\udd40",
+      "twitch_views": 38216,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-16T12:24:34.721037+00:00"
     }
   ]
 }
