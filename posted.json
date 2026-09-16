@@ -391,7 +391,8 @@
     "https://www.youtube.com/shorts/Xp0b2YLXcgs",
     "https://www.youtube.com/shorts/hfMDCiD78EI",
     "https://www.youtube.com/shorts/tmvDc03IXxI",
-    "https://www.youtube.com/shorts/iYmW4IYSiGU"
+    "https://www.youtube.com/shorts/iYmW4IYSiGU",
+    "https://www.youtube.com/shorts/dPAeqPwtsFg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -785,7 +786,8 @@
     "Xp0b2YLXcgs",
     "hfMDCiD78EI",
     "tmvDc03IXxI",
-    "iYmW4IYSiGU"
+    "iYmW4IYSiGU",
+    "dPAeqPwtsFg"
   ],
   "history": [
     {
@@ -4611,6 +4613,16 @@
       "twitch_views": 645696,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-16T08:10:43.559652+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/dPAeqPwtsFg",
+      "clip_id": "dPAeqPwtsFg",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "KSI Reveals He\u2019s No Longer Friends With Some Sidemen Members \ud83d\udc40\ud83d\ude33",
+      "twitch_views": 134695,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-16T09:05:18.576631+00:00"
     }
   ]
 }
