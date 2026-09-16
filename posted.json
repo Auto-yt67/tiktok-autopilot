@@ -392,7 +392,8 @@
     "https://www.youtube.com/shorts/hfMDCiD78EI",
     "https://www.youtube.com/shorts/tmvDc03IXxI",
     "https://www.youtube.com/shorts/iYmW4IYSiGU",
-    "https://www.youtube.com/shorts/dPAeqPwtsFg"
+    "https://www.youtube.com/shorts/dPAeqPwtsFg",
+    "https://www.youtube.com/shorts/ouj_szcrDgc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -787,7 +788,8 @@
     "hfMDCiD78EI",
     "tmvDc03IXxI",
     "iYmW4IYSiGU",
-    "dPAeqPwtsFg"
+    "dPAeqPwtsFg",
+    "ouj_szcrDgc"
   ],
   "history": [
     {
@@ -4623,6 +4625,16 @@
       "twitch_views": 134695,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-16T09:05:18.576631+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ouj_szcrDgc",
+      "clip_id": "ouj_szcrDgc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Marlon Was Wild for Saying This \ud83d\ude2d",
+      "twitch_views": 74449,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-16T09:36:56.947449+00:00"
     }
   ]
 }
