@@ -401,7 +401,8 @@
     "https://www.youtube.com/shorts/RjTOsLxjZlo",
     "https://www.youtube.com/shorts/N0dHv948Pxg",
     "https://www.youtube.com/shorts/eEA2C7_-9nU",
-    "https://www.youtube.com/shorts/6n90gf1rCPA"
+    "https://www.youtube.com/shorts/6n90gf1rCPA",
+    "https://www.youtube.com/shorts/DYFc8ahKf_4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -805,7 +806,8 @@
     "RjTOsLxjZlo",
     "N0dHv948Pxg",
     "eEA2C7_-9nU",
-    "6n90gf1rCPA"
+    "6n90gf1rCPA",
+    "DYFc8ahKf_4"
   ],
   "history": [
     {
@@ -4731,6 +4733,16 @@
       "twitch_views": 37574,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-17T12:23:30.672225+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/DYFc8ahKf_4",
+      "clip_id": "DYFc8ahKf_4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason, Marlon & Lacy Go to an Illusion Museum \ud83d\ude2d",
+      "twitch_views": 36286,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T12:57:05.823463+00:00"
     }
   ]
 }
