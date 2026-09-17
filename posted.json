@@ -400,7 +400,8 @@
     "https://www.youtube.com/shorts/UusvCdZ35pI",
     "https://www.youtube.com/shorts/RjTOsLxjZlo",
     "https://www.youtube.com/shorts/N0dHv948Pxg",
-    "https://www.youtube.com/shorts/eEA2C7_-9nU"
+    "https://www.youtube.com/shorts/eEA2C7_-9nU",
+    "https://www.youtube.com/shorts/6n90gf1rCPA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -803,7 +804,8 @@
     "UusvCdZ35pI",
     "RjTOsLxjZlo",
     "N0dHv948Pxg",
-    "eEA2C7_-9nU"
+    "eEA2C7_-9nU",
+    "6n90gf1rCPA"
   ],
   "history": [
     {
@@ -4719,6 +4721,16 @@
       "twitch_views": 38081,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-17T10:43:18.771466+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6n90gf1rCPA",
+      "clip_id": "6n90gf1rCPA",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was SHOCKED He Said This \ud83d\ude2d",
+      "twitch_views": 37574,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T12:23:30.672225+00:00"
     }
   ]
 }
