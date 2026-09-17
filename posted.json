@@ -398,7 +398,8 @@
     "https://www.youtube.com/shorts/KHOTCsiWWPA",
     "https://www.youtube.com/shorts/hIbaiKpzzkE",
     "https://www.youtube.com/shorts/UusvCdZ35pI",
-    "https://www.youtube.com/shorts/RjTOsLxjZlo"
+    "https://www.youtube.com/shorts/RjTOsLxjZlo",
+    "https://www.youtube.com/shorts/N0dHv948Pxg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -799,7 +800,8 @@
     "KHOTCsiWWPA",
     "hIbaiKpzzkE",
     "UusvCdZ35pI",
-    "RjTOsLxjZlo"
+    "RjTOsLxjZlo",
+    "N0dHv948Pxg"
   ],
   "history": [
     {
@@ -4695,6 +4697,16 @@
       "twitch_views": 182863,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-17T09:12:56.347170+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/N0dHv948Pxg",
+      "clip_id": "N0dHv948Pxg",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Marlon & Jason Were Shocked by This Fan Greeting \ud83d\ude2d",
+      "twitch_views": 82975,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T09:45:10.101944+00:00"
     }
   ]
 }
