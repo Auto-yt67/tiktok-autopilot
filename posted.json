@@ -399,7 +399,8 @@
     "https://www.youtube.com/shorts/hIbaiKpzzkE",
     "https://www.youtube.com/shorts/UusvCdZ35pI",
     "https://www.youtube.com/shorts/RjTOsLxjZlo",
-    "https://www.youtube.com/shorts/N0dHv948Pxg"
+    "https://www.youtube.com/shorts/N0dHv948Pxg",
+    "https://www.youtube.com/shorts/eEA2C7_-9nU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -801,7 +802,8 @@
     "hIbaiKpzzkE",
     "UusvCdZ35pI",
     "RjTOsLxjZlo",
-    "N0dHv948Pxg"
+    "N0dHv948Pxg",
+    "eEA2C7_-9nU"
   ],
   "history": [
     {
@@ -4707,6 +4709,16 @@
       "twitch_views": 82975,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-17T09:45:10.101944+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/eEA2C7_-9nU",
+      "clip_id": "eEA2C7_-9nU",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Saw The Perfect Human \ud83d\ude2d\ud83d\udc7c",
+      "twitch_views": 38081,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T10:43:18.771466+00:00"
     }
   ]
 }
