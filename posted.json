@@ -397,7 +397,8 @@
     "https://www.youtube.com/shorts/4BmO8WuC6Zo",
     "https://www.youtube.com/shorts/KHOTCsiWWPA",
     "https://www.youtube.com/shorts/hIbaiKpzzkE",
-    "https://www.youtube.com/shorts/UusvCdZ35pI"
+    "https://www.youtube.com/shorts/UusvCdZ35pI",
+    "https://www.youtube.com/shorts/RjTOsLxjZlo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -797,7 +798,8 @@
     "4BmO8WuC6Zo",
     "KHOTCsiWWPA",
     "hIbaiKpzzkE",
-    "UusvCdZ35pI"
+    "UusvCdZ35pI",
+    "RjTOsLxjZlo"
   ],
   "history": [
     {
@@ -4683,6 +4685,16 @@
       "twitch_views": 318889,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-17T08:16:30.042982+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/RjTOsLxjZlo",
+      "clip_id": "RjTOsLxjZlo",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Lacy, Marlon & Jason Lost It After What This Kid Said\ud83d\ude2d",
+      "twitch_views": 182863,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T09:12:56.347170+00:00"
     }
   ]
 }
