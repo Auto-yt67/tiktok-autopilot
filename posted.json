@@ -396,7 +396,8 @@
     "https://www.youtube.com/shorts/ouj_szcrDgc",
     "https://www.youtube.com/shorts/4BmO8WuC6Zo",
     "https://www.youtube.com/shorts/KHOTCsiWWPA",
-    "https://www.youtube.com/shorts/hIbaiKpzzkE"
+    "https://www.youtube.com/shorts/hIbaiKpzzkE",
+    "https://www.youtube.com/shorts/UusvCdZ35pI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -795,7 +796,8 @@
     "ouj_szcrDgc",
     "4BmO8WuC6Zo",
     "KHOTCsiWWPA",
-    "hIbaiKpzzkE"
+    "hIbaiKpzzkE",
+    "UusvCdZ35pI"
   ],
   "history": [
     {
@@ -4671,6 +4673,16 @@
       "twitch_views": 35515,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-16T13:01:46.356138+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/UusvCdZ35pI",
+      "clip_id": "UusvCdZ35pI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Asked KSI If He\u2019s Playing in the Sidemen Charity Match \ud83d\ude2d",
+      "twitch_views": 318889,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-17T08:16:30.042982+00:00"
     }
   ]
 }
