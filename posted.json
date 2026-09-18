@@ -404,7 +404,8 @@
     "https://www.youtube.com/shorts/6n90gf1rCPA",
     "https://www.youtube.com/shorts/DYFc8ahKf_4",
     "https://www.youtube.com/shorts/f5Rt192W6Uk",
-    "https://www.youtube.com/shorts/b_DHxsagr6Q"
+    "https://www.youtube.com/shorts/b_DHxsagr6Q",
+    "https://www.youtube.com/shorts/9wjFS8UdkZU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -811,7 +812,8 @@
     "6n90gf1rCPA",
     "DYFc8ahKf_4",
     "f5Rt192W6Uk",
-    "b_DHxsagr6Q"
+    "b_DHxsagr6Q",
+    "9wjFS8UdkZU"
   ],
   "history": [
     {
@@ -4767,6 +4769,16 @@
       "twitch_views": 39322,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-18T08:56:04.916538+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/9wjFS8UdkZU",
+      "clip_id": "9wjFS8UdkZU",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jason Asked KSI About The Sidemen \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 34051,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-18T09:28:38.281402+00:00"
     }
   ]
 }
