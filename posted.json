@@ -403,7 +403,8 @@
     "https://www.youtube.com/shorts/eEA2C7_-9nU",
     "https://www.youtube.com/shorts/6n90gf1rCPA",
     "https://www.youtube.com/shorts/DYFc8ahKf_4",
-    "https://www.youtube.com/shorts/f5Rt192W6Uk"
+    "https://www.youtube.com/shorts/f5Rt192W6Uk",
+    "https://www.youtube.com/shorts/b_DHxsagr6Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -809,7 +810,8 @@
     "eEA2C7_-9nU",
     "6n90gf1rCPA",
     "DYFc8ahKf_4",
-    "f5Rt192W6Uk"
+    "f5Rt192W6Uk",
+    "b_DHxsagr6Q"
   ],
   "history": [
     {
@@ -4755,6 +4757,16 @@
       "twitch_views": 275170,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-18T07:51:02.254518+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/b_DHxsagr6Q",
+      "clip_id": "b_DHxsagr6Q",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "KSI Tried to Break Up Amine & Jason \ud83d\ude2d",
+      "twitch_views": 39322,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-18T08:56:04.916538+00:00"
     }
   ]
 }
