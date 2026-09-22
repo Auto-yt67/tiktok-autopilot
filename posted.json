@@ -407,7 +407,8 @@
     "https://www.youtube.com/shorts/b_DHxsagr6Q",
     "https://www.youtube.com/shorts/9wjFS8UdkZU",
     "https://www.youtube.com/shorts/aVFocRfbueY",
-    "https://www.youtube.com/shorts/rwg5a77VpJQ"
+    "https://www.youtube.com/shorts/rwg5a77VpJQ",
+    "https://www.youtube.com/shorts/bbbyJuL2XBc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -817,7 +818,8 @@
     "b_DHxsagr6Q",
     "9wjFS8UdkZU",
     "aVFocRfbueY",
-    "rwg5a77VpJQ"
+    "rwg5a77VpJQ",
+    "bbbyJuL2XBc"
   ],
   "history": [
     {
@@ -4803,6 +4805,16 @@
       "twitch_views": 3000153,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-22T09:01:54.273630+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/bbbyJuL2XBc",
+      "clip_id": "bbbyJuL2XBc",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jynxzi Tried To Copy Ron \ud83d\ude2d\ud83e\udd9c",
+      "twitch_views": 1302747,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-22T09:34:26.707300+00:00"
     }
   ]
 }
