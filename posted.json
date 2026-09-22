@@ -406,7 +406,8 @@
     "https://www.youtube.com/shorts/f5Rt192W6Uk",
     "https://www.youtube.com/shorts/b_DHxsagr6Q",
     "https://www.youtube.com/shorts/9wjFS8UdkZU",
-    "https://www.youtube.com/shorts/aVFocRfbueY"
+    "https://www.youtube.com/shorts/aVFocRfbueY",
+    "https://www.youtube.com/shorts/rwg5a77VpJQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -815,7 +816,8 @@
     "f5Rt192W6Uk",
     "b_DHxsagr6Q",
     "9wjFS8UdkZU",
-    "aVFocRfbueY"
+    "aVFocRfbueY",
+    "rwg5a77VpJQ"
   ],
   "history": [
     {
@@ -4791,6 +4793,16 @@
       "twitch_views": 2791,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-18T12:53:21.516503+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rwg5a77VpJQ",
+      "clip_id": "rwg5a77VpJQ",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Fell In Love With Himself \ud83d\ude2d\ud83e\ude9e",
+      "twitch_views": 3000153,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-22T09:01:54.273630+00:00"
     }
   ]
 }
