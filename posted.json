@@ -411,7 +411,8 @@
     "https://www.youtube.com/shorts/bbbyJuL2XBc",
     "https://www.youtube.com/shorts/M8aYlkjJSCE",
     "https://www.youtube.com/shorts/6uhw75hDxps",
-    "https://www.youtube.com/shorts/ZcB-h1wN5iA"
+    "https://www.youtube.com/shorts/ZcB-h1wN5iA",
+    "https://www.youtube.com/shorts/b2hfc56XD2Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -825,7 +826,8 @@
     "bbbyJuL2XBc",
     "M8aYlkjJSCE",
     "6uhw75hDxps",
-    "ZcB-h1wN5iA"
+    "ZcB-h1wN5iA",
+    "b2hfc56XD2Q"
   ],
   "history": [
     {
@@ -4851,6 +4853,16 @@
       "twitch_views": 474099,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-23T08:11:12.412934+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/b2hfc56XD2Q",
+      "clip_id": "b2hfc56XD2Q",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy Gets Distracted By Rug's Cologne Collection!\ud83d\ude02\ud83d\ude2d",
+      "twitch_views": 0,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-23T12:04:10.545263+00:00"
     }
   ]
 }
