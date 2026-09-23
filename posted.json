@@ -410,7 +410,8 @@
     "https://www.youtube.com/shorts/rwg5a77VpJQ",
     "https://www.youtube.com/shorts/bbbyJuL2XBc",
     "https://www.youtube.com/shorts/M8aYlkjJSCE",
-    "https://www.youtube.com/shorts/6uhw75hDxps"
+    "https://www.youtube.com/shorts/6uhw75hDxps",
+    "https://www.youtube.com/shorts/ZcB-h1wN5iA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -823,7 +824,8 @@
     "rwg5a77VpJQ",
     "bbbyJuL2XBc",
     "M8aYlkjJSCE",
-    "6uhw75hDxps"
+    "6uhw75hDxps",
+    "ZcB-h1wN5iA"
   ],
   "history": [
     {
@@ -4839,6 +4841,16 @@
       "twitch_views": 55402,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-22T13:44:31.950529+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ZcB-h1wN5iA",
+      "clip_id": "ZcB-h1wN5iA",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Ron Trolls Jason With a Camera Filter \ud83d\ude2d",
+      "twitch_views": 474099,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-09-23T08:11:12.412934+00:00"
     }
   ]
 }
