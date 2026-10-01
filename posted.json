@@ -413,7 +413,8 @@
     "https://www.youtube.com/shorts/6uhw75hDxps",
     "https://www.youtube.com/shorts/ZcB-h1wN5iA",
     "https://www.youtube.com/shorts/b2hfc56XD2Q",
-    "https://www.youtube.com/shorts/ChZWFa5KOmk"
+    "https://www.youtube.com/shorts/ChZWFa5KOmk",
+    "https://www.youtube.com/shorts/d_o2ZLarYSI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -829,7 +830,8 @@
     "6uhw75hDxps",
     "ZcB-h1wN5iA",
     "b2hfc56XD2Q",
-    "ChZWFa5KOmk"
+    "ChZWFa5KOmk",
+    "d_o2ZLarYSI"
   ],
   "history": [
     {
@@ -4875,6 +4877,16 @@
       "twitch_views": 8321,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-09-23T13:54:55.316030+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/d_o2ZLarYSI",
+      "clip_id": "d_o2ZLarYSI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Fell for the AI Car Accident Prank \ud83d\ude2d",
+      "twitch_views": 665067,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-01T09:39:57.000185+00:00"
     }
   ]
 }
