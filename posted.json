@@ -415,7 +415,8 @@
     "https://www.youtube.com/shorts/b2hfc56XD2Q",
     "https://www.youtube.com/shorts/ChZWFa5KOmk",
     "https://www.youtube.com/shorts/d_o2ZLarYSI",
-    "https://www.youtube.com/shorts/SmHtjimoPMU"
+    "https://www.youtube.com/shorts/SmHtjimoPMU",
+    "https://www.youtube.com/shorts/iNQPdqW12NI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -833,7 +834,8 @@
     "b2hfc56XD2Q",
     "ChZWFa5KOmk",
     "d_o2ZLarYSI",
-    "SmHtjimoPMU"
+    "SmHtjimoPMU",
+    "iNQPdqW12NI"
   ],
   "history": [
     {
@@ -4899,6 +4901,16 @@
       "twitch_views": 378624,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-01T10:45:07.911050+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/iNQPdqW12NI",
+      "clip_id": "iNQPdqW12NI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Showed His Porsche to Haskell and Aldo \ud83d\ude97\ud83d\ude2d",
+      "twitch_views": 371355,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-01T11:16:16.985480+00:00"
     }
   ]
 }
