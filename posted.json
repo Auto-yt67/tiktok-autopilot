@@ -414,7 +414,8 @@
     "https://www.youtube.com/shorts/ZcB-h1wN5iA",
     "https://www.youtube.com/shorts/b2hfc56XD2Q",
     "https://www.youtube.com/shorts/ChZWFa5KOmk",
-    "https://www.youtube.com/shorts/d_o2ZLarYSI"
+    "https://www.youtube.com/shorts/d_o2ZLarYSI",
+    "https://www.youtube.com/shorts/SmHtjimoPMU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -831,7 +832,8 @@
     "ZcB-h1wN5iA",
     "b2hfc56XD2Q",
     "ChZWFa5KOmk",
-    "d_o2ZLarYSI"
+    "d_o2ZLarYSI",
+    "SmHtjimoPMU"
   ],
   "history": [
     {
@@ -4887,6 +4889,16 @@
       "twitch_views": 665067,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-01T09:39:57.000185+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/SmHtjimoPMU",
+      "clip_id": "SmHtjimoPMU",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron And Lacy Felt Bad For Shxrk \ud83d\ude2d\ud83d\udc94",
+      "twitch_views": 378624,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-01T10:45:07.911050+00:00"
     }
   ]
 }
