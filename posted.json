@@ -417,7 +417,8 @@
     "https://www.youtube.com/shorts/d_o2ZLarYSI",
     "https://www.youtube.com/shorts/SmHtjimoPMU",
     "https://www.youtube.com/shorts/iNQPdqW12NI",
-    "https://www.youtube.com/shorts/3nUd5z9_YSI"
+    "https://www.youtube.com/shorts/3nUd5z9_YSI",
+    "https://www.youtube.com/shorts/N8XqDd93HIo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -837,7 +838,8 @@
     "d_o2ZLarYSI",
     "SmHtjimoPMU",
     "iNQPdqW12NI",
-    "3nUd5z9_YSI"
+    "3nUd5z9_YSI",
+    "N8XqDd93HIo"
   ],
   "history": [
     {
@@ -4923,6 +4925,16 @@
       "twitch_views": 298,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-02T12:15:24.695151+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/N8XqDd93HIo",
+      "clip_id": "N8XqDd93HIo",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Is Giving Up $200K A Month \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 1616871,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T08:47:39.563521+00:00"
     }
   ]
 }
