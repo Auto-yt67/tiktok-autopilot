@@ -418,7 +418,8 @@
     "https://www.youtube.com/shorts/SmHtjimoPMU",
     "https://www.youtube.com/shorts/iNQPdqW12NI",
     "https://www.youtube.com/shorts/3nUd5z9_YSI",
-    "https://www.youtube.com/shorts/N8XqDd93HIo"
+    "https://www.youtube.com/shorts/N8XqDd93HIo",
+    "https://www.youtube.com/shorts/qXOhVKx0YtM"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -839,7 +840,8 @@
     "SmHtjimoPMU",
     "iNQPdqW12NI",
     "3nUd5z9_YSI",
-    "N8XqDd93HIo"
+    "N8XqDd93HIo",
+    "qXOhVKx0YtM"
   ],
   "history": [
     {
@@ -4935,6 +4937,16 @@
       "twitch_views": 1616871,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T08:47:39.563521+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/qXOhVKx0YtM",
+      "clip_id": "qXOhVKx0YtM",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Remembered This Fortnite Moment \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 307131,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T09:41:13.709097+00:00"
     }
   ]
 }
