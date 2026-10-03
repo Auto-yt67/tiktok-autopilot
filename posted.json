@@ -419,7 +419,8 @@
     "https://www.youtube.com/shorts/iNQPdqW12NI",
     "https://www.youtube.com/shorts/3nUd5z9_YSI",
     "https://www.youtube.com/shorts/N8XqDd93HIo",
-    "https://www.youtube.com/shorts/qXOhVKx0YtM"
+    "https://www.youtube.com/shorts/qXOhVKx0YtM",
+    "https://www.youtube.com/shorts/EUJfMQ7jfQ4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -841,7 +842,8 @@
     "iNQPdqW12NI",
     "3nUd5z9_YSI",
     "N8XqDd93HIo",
-    "qXOhVKx0YtM"
+    "qXOhVKx0YtM",
+    "EUJfMQ7jfQ4"
   ],
   "history": [
     {
@@ -4947,6 +4949,16 @@
       "twitch_views": 307131,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T09:41:13.709097+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/EUJfMQ7jfQ4",
+      "clip_id": "EUJfMQ7jfQ4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason and YBG Got Pressed by a Worker \ud83d\ude2d",
+      "twitch_views": 216003,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T10:09:13.921753+00:00"
     }
   ]
 }
