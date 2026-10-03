@@ -422,7 +422,8 @@
     "https://www.youtube.com/shorts/qXOhVKx0YtM",
     "https://www.youtube.com/shorts/EUJfMQ7jfQ4",
     "https://www.youtube.com/shorts/9L1dQtsAUdI",
-    "https://www.youtube.com/shorts/xmEg-fVp6_Q"
+    "https://www.youtube.com/shorts/xmEg-fVp6_Q",
+    "https://www.youtube.com/shorts/uoe756qRML4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -847,7 +848,8 @@
     "qXOhVKx0YtM",
     "EUJfMQ7jfQ4",
     "9L1dQtsAUdI",
-    "xmEg-fVp6_Q"
+    "xmEg-fVp6_Q",
+    "uoe756qRML4"
   ],
   "history": [
     {
@@ -4983,6 +4985,16 @@
       "twitch_views": 161198,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T12:12:42.903893+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/uoe756qRML4",
+      "clip_id": "uoe756qRML4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Reacts to Kai Cenat Suing Reggie \ud83d\udc40",
+      "twitch_views": 158495,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T12:57:35.319250+00:00"
     }
   ]
 }
