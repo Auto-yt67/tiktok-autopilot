@@ -420,7 +420,8 @@
     "https://www.youtube.com/shorts/3nUd5z9_YSI",
     "https://www.youtube.com/shorts/N8XqDd93HIo",
     "https://www.youtube.com/shorts/qXOhVKx0YtM",
-    "https://www.youtube.com/shorts/EUJfMQ7jfQ4"
+    "https://www.youtube.com/shorts/EUJfMQ7jfQ4",
+    "https://www.youtube.com/shorts/9L1dQtsAUdI"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -843,7 +844,8 @@
     "3nUd5z9_YSI",
     "N8XqDd93HIo",
     "qXOhVKx0YtM",
-    "EUJfMQ7jfQ4"
+    "EUJfMQ7jfQ4",
+    "9L1dQtsAUdI"
   ],
   "history": [
     {
@@ -4959,6 +4961,16 @@
       "twitch_views": 216003,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T10:09:13.921753+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/9L1dQtsAUdI",
+      "clip_id": "9L1dQtsAUdI",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Couldn\u2019t Believe Aldo Knew How to Play Guitar \ud83d\ude2d\ud83c\udfb8",
+      "twitch_views": 183430,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T10:53:10.596057+00:00"
     }
   ]
 }
