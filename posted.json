@@ -421,7 +421,8 @@
     "https://www.youtube.com/shorts/N8XqDd93HIo",
     "https://www.youtube.com/shorts/qXOhVKx0YtM",
     "https://www.youtube.com/shorts/EUJfMQ7jfQ4",
-    "https://www.youtube.com/shorts/9L1dQtsAUdI"
+    "https://www.youtube.com/shorts/9L1dQtsAUdI",
+    "https://www.youtube.com/shorts/xmEg-fVp6_Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -845,7 +846,8 @@
     "N8XqDd93HIo",
     "qXOhVKx0YtM",
     "EUJfMQ7jfQ4",
-    "9L1dQtsAUdI"
+    "9L1dQtsAUdI",
+    "xmEg-fVp6_Q"
   ],
   "history": [
     {
@@ -4971,6 +4973,16 @@
       "twitch_views": 183430,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T10:53:10.596057+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/xmEg-fVp6_Q",
+      "clip_id": "xmEg-fVp6_Q",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Shocked That Aldo Was 22 \ud83d\ude2d",
+      "twitch_views": 161198,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-03T12:12:42.903893+00:00"
     }
   ]
 }
