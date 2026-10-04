@@ -423,7 +423,8 @@
     "https://www.youtube.com/shorts/EUJfMQ7jfQ4",
     "https://www.youtube.com/shorts/9L1dQtsAUdI",
     "https://www.youtube.com/shorts/xmEg-fVp6_Q",
-    "https://www.youtube.com/shorts/uoe756qRML4"
+    "https://www.youtube.com/shorts/uoe756qRML4",
+    "https://www.youtube.com/shorts/1oppKzbgtGQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -849,7 +850,8 @@
     "EUJfMQ7jfQ4",
     "9L1dQtsAUdI",
     "xmEg-fVp6_Q",
-    "uoe756qRML4"
+    "uoe756qRML4",
+    "1oppKzbgtGQ"
   ],
   "history": [
     {
@@ -4995,6 +4997,16 @@
       "twitch_views": 158495,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-03T12:57:35.319250+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/1oppKzbgtGQ",
+      "clip_id": "1oppKzbgtGQ",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason and Dub Were Confused About Each Other\u2019s Ethnicity \ud83d\ude2d",
+      "twitch_views": 275945,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-04T09:12:52.612974+00:00"
     }
   ]
 }
