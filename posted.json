@@ -425,7 +425,8 @@
     "https://www.youtube.com/shorts/xmEg-fVp6_Q",
     "https://www.youtube.com/shorts/uoe756qRML4",
     "https://www.youtube.com/shorts/1oppKzbgtGQ",
-    "https://www.youtube.com/shorts/v2A-jCRfuxA"
+    "https://www.youtube.com/shorts/v2A-jCRfuxA",
+    "https://www.youtube.com/shorts/PAmBJMy5-so"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -853,7 +854,8 @@
     "xmEg-fVp6_Q",
     "uoe756qRML4",
     "1oppKzbgtGQ",
-    "v2A-jCRfuxA"
+    "v2A-jCRfuxA",
+    "PAmBJMy5-so"
   ],
   "history": [
     {
@@ -5019,6 +5021,16 @@
       "twitch_views": 189704,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-04T10:25:45.512809+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/PAmBJMy5-so",
+      "clip_id": "PAmBJMy5-so",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Ron Reacts to Jason Retiring From Streaming \ud83d\ude2d",
+      "twitch_views": 146265,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-04T10:50:54.951328+00:00"
     }
   ]
 }
