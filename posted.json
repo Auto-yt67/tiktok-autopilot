@@ -428,7 +428,8 @@
     "https://www.youtube.com/shorts/v2A-jCRfuxA",
     "https://www.youtube.com/shorts/PAmBJMy5-so",
     "https://www.youtube.com/shorts/5o0TnIlItrg",
-    "https://www.youtube.com/shorts/XebkiMovp7I"
+    "https://www.youtube.com/shorts/XebkiMovp7I",
+    "https://www.youtube.com/shorts/BApbGpA7o-Y"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -859,7 +860,8 @@
     "v2A-jCRfuxA",
     "PAmBJMy5-so",
     "5o0TnIlItrg",
-    "XebkiMovp7I"
+    "XebkiMovp7I",
+    "BApbGpA7o-Y"
   ],
   "history": [
     {
@@ -5055,6 +5057,16 @@
       "twitch_views": 87744,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-04T13:02:29.466606+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/BApbGpA7o-Y",
+      "clip_id": "BApbGpA7o-Y",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Wild for Saying This to Dub \ud83d\ude2d",
+      "twitch_views": 65775,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-04T13:38:28.136871+00:00"
     }
   ]
 }
