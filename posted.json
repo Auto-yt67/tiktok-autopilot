@@ -431,7 +431,8 @@
     "https://www.youtube.com/shorts/XebkiMovp7I",
     "https://www.youtube.com/shorts/BApbGpA7o-Y",
     "https://www.youtube.com/shorts/08jlGBmFJc0",
-    "https://www.youtube.com/shorts/3x7nor40w3k"
+    "https://www.youtube.com/shorts/3x7nor40w3k",
+    "https://www.youtube.com/shorts/4CTQDGVNmR0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -865,7 +866,8 @@
     "XebkiMovp7I",
     "BApbGpA7o-Y",
     "08jlGBmFJc0",
-    "3x7nor40w3k"
+    "3x7nor40w3k",
+    "4CTQDGVNmR0"
   ],
   "history": [
     {
@@ -5091,6 +5093,16 @@
       "twitch_views": 135876,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T11:13:35.144581+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/4CTQDGVNmR0",
+      "clip_id": "4CTQDGVNmR0",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Reacted To Marlon Climbing Kilimanjaro \ud83d\ude2d\ud83c\udfd4\ufe0f",
+      "twitch_views": 121111,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-05T11:56:48.623073+00:00"
     }
   ]
 }
