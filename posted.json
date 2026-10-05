@@ -434,7 +434,8 @@
     "https://www.youtube.com/shorts/3x7nor40w3k",
     "https://www.youtube.com/shorts/4CTQDGVNmR0",
     "https://www.youtube.com/shorts/5jLo9jN4XKg",
-    "https://www.youtube.com/shorts/Y3ixLJIApJE"
+    "https://www.youtube.com/shorts/Y3ixLJIApJE",
+    "https://www.youtube.com/shorts/rn9KtLJSaq0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -871,7 +872,8 @@
     "3x7nor40w3k",
     "4CTQDGVNmR0",
     "5jLo9jN4XKg",
-    "Y3ixLJIApJE"
+    "Y3ixLJIApJE",
+    "rn9KtLJSaq0"
   ],
   "history": [
     {
@@ -5127,6 +5129,16 @@
       "twitch_views": 46226,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T15:30:22.751930+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rn9KtLJSaq0",
+      "clip_id": "rn9KtLJSaq0",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Reacts to Speed\u2019s Comment on Cinna\u2019s Pics \ud83d\ude2d",
+      "twitch_views": 37424,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-05T16:43:11.118474+00:00"
     }
   ]
 }
