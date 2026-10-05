@@ -432,7 +432,8 @@
     "https://www.youtube.com/shorts/BApbGpA7o-Y",
     "https://www.youtube.com/shorts/08jlGBmFJc0",
     "https://www.youtube.com/shorts/3x7nor40w3k",
-    "https://www.youtube.com/shorts/4CTQDGVNmR0"
+    "https://www.youtube.com/shorts/4CTQDGVNmR0",
+    "https://www.youtube.com/shorts/5jLo9jN4XKg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -867,7 +868,8 @@
     "BApbGpA7o-Y",
     "08jlGBmFJc0",
     "3x7nor40w3k",
-    "4CTQDGVNmR0"
+    "4CTQDGVNmR0",
+    "5jLo9jN4XKg"
   ],
   "history": [
     {
@@ -5103,6 +5105,16 @@
       "twitch_views": 121111,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T11:56:48.623073+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/5jLo9jN4XKg",
+      "clip_id": "5jLo9jN4XKg",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Scared Rug With An Annabelle Doll \ud83d\ude2d\ud83d\udc7b",
+      "twitch_views": 44359,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-05T13:08:09.118101+00:00"
     }
   ]
 }
