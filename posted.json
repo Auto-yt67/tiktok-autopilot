@@ -430,7 +430,8 @@
     "https://www.youtube.com/shorts/5o0TnIlItrg",
     "https://www.youtube.com/shorts/XebkiMovp7I",
     "https://www.youtube.com/shorts/BApbGpA7o-Y",
-    "https://www.youtube.com/shorts/08jlGBmFJc0"
+    "https://www.youtube.com/shorts/08jlGBmFJc0",
+    "https://www.youtube.com/shorts/3x7nor40w3k"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -863,7 +864,8 @@
     "5o0TnIlItrg",
     "XebkiMovp7I",
     "BApbGpA7o-Y",
-    "08jlGBmFJc0"
+    "08jlGBmFJc0",
+    "3x7nor40w3k"
   ],
   "history": [
     {
@@ -5079,6 +5081,16 @@
       "twitch_views": 157142,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T09:53:20.295466+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/3x7nor40w3k",
+      "clip_id": "3x7nor40w3k",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Was Shocked by This Fan Interaction \ud83d\ude2d",
+      "twitch_views": 135876,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-05T11:13:35.144581+00:00"
     }
   ]
 }
