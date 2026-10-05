@@ -433,7 +433,8 @@
     "https://www.youtube.com/shorts/08jlGBmFJc0",
     "https://www.youtube.com/shorts/3x7nor40w3k",
     "https://www.youtube.com/shorts/4CTQDGVNmR0",
-    "https://www.youtube.com/shorts/5jLo9jN4XKg"
+    "https://www.youtube.com/shorts/5jLo9jN4XKg",
+    "https://www.youtube.com/shorts/Y3ixLJIApJE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -869,7 +870,8 @@
     "08jlGBmFJc0",
     "3x7nor40w3k",
     "4CTQDGVNmR0",
-    "5jLo9jN4XKg"
+    "5jLo9jN4XKg",
+    "Y3ixLJIApJE"
   ],
   "history": [
     {
@@ -5115,6 +5117,16 @@
       "twitch_views": 44359,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T13:08:09.118101+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/Y3ixLJIApJE",
+      "clip_id": "Y3ixLJIApJE",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Questioned If His Raids Helped \ud83d\ude2d\u2764\ufe0f",
+      "twitch_views": 46226,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-05T15:30:22.751930+00:00"
     }
   ]
 }
