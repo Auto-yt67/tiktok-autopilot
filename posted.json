@@ -436,7 +436,8 @@
     "https://www.youtube.com/shorts/5jLo9jN4XKg",
     "https://www.youtube.com/shorts/Y3ixLJIApJE",
     "https://www.youtube.com/shorts/rn9KtLJSaq0",
-    "https://www.youtube.com/shorts/zmd_s_tklho"
+    "https://www.youtube.com/shorts/zmd_s_tklho",
+    "https://www.youtube.com/shorts/fdd9qdFwgbs"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -875,7 +876,8 @@
     "5jLo9jN4XKg",
     "Y3ixLJIApJE",
     "rn9KtLJSaq0",
-    "zmd_s_tklho"
+    "zmd_s_tklho",
+    "fdd9qdFwgbs"
   ],
   "history": [
     {
@@ -5151,6 +5153,16 @@
       "twitch_views": 265316,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-06T09:41:21.260068+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/fdd9qdFwgbs",
+      "clip_id": "fdd9qdFwgbs",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason And Guapo Got Honked At by an Old Man \ud83d\ude2d",
+      "twitch_views": 37817,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-06T11:02:18.504448+00:00"
     }
   ]
 }
