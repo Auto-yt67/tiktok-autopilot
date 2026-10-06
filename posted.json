@@ -437,7 +437,8 @@
     "https://www.youtube.com/shorts/Y3ixLJIApJE",
     "https://www.youtube.com/shorts/rn9KtLJSaq0",
     "https://www.youtube.com/shorts/zmd_s_tklho",
-    "https://www.youtube.com/shorts/fdd9qdFwgbs"
+    "https://www.youtube.com/shorts/fdd9qdFwgbs",
+    "https://www.youtube.com/shorts/qezEzbk68uo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -877,7 +878,8 @@
     "Y3ixLJIApJE",
     "rn9KtLJSaq0",
     "zmd_s_tklho",
-    "fdd9qdFwgbs"
+    "fdd9qdFwgbs",
+    "qezEzbk68uo"
   ],
   "history": [
     {
@@ -5163,6 +5165,16 @@
       "twitch_views": 37817,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-06T11:02:18.504448+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/qezEzbk68uo",
+      "clip_id": "qezEzbk68uo",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Becomes A Cameraman\ud83d\ude2d",
+      "twitch_views": 35327,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-06T11:37:21.979895+00:00"
     }
   ]
 }
