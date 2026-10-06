@@ -439,7 +439,8 @@
     "https://www.youtube.com/shorts/zmd_s_tklho",
     "https://www.youtube.com/shorts/fdd9qdFwgbs",
     "https://www.youtube.com/shorts/qezEzbk68uo",
-    "https://www.youtube.com/shorts/UBSkyXB-tRc"
+    "https://www.youtube.com/shorts/UBSkyXB-tRc",
+    "https://www.youtube.com/shorts/FGzvjxWwAIQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -881,7 +882,8 @@
     "zmd_s_tklho",
     "fdd9qdFwgbs",
     "qezEzbk68uo",
-    "UBSkyXB-tRc"
+    "UBSkyXB-tRc",
+    "FGzvjxWwAIQ"
   ],
   "history": [
     {
@@ -5187,6 +5189,16 @@
       "twitch_views": 34572,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-06T12:30:40.817830+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/FGzvjxWwAIQ",
+      "clip_id": "FGzvjxWwAIQ",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Reacts to Valkyrae\u2019s Insane Take \ud83d\ude2d",
+      "twitch_views": 29710,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-06T13:53:28.279834+00:00"
     }
   ]
 }
