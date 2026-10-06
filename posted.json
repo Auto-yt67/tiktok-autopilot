@@ -435,7 +435,8 @@
     "https://www.youtube.com/shorts/4CTQDGVNmR0",
     "https://www.youtube.com/shorts/5jLo9jN4XKg",
     "https://www.youtube.com/shorts/Y3ixLJIApJE",
-    "https://www.youtube.com/shorts/rn9KtLJSaq0"
+    "https://www.youtube.com/shorts/rn9KtLJSaq0",
+    "https://www.youtube.com/shorts/zmd_s_tklho"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -873,7 +874,8 @@
     "4CTQDGVNmR0",
     "5jLo9jN4XKg",
     "Y3ixLJIApJE",
-    "rn9KtLJSaq0"
+    "rn9KtLJSaq0",
+    "zmd_s_tklho"
   ],
   "history": [
     {
@@ -5139,6 +5141,16 @@
       "twitch_views": 37424,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-05T16:43:11.118474+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/zmd_s_tklho",
+      "clip_id": "zmd_s_tklho",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "The CORE Boys Were Shocked When This Kid Said This \ud83d\ude2d",
+      "twitch_views": 265316,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-06T09:41:21.260068+00:00"
     }
   ]
 }
