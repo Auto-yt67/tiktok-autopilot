@@ -438,7 +438,8 @@
     "https://www.youtube.com/shorts/rn9KtLJSaq0",
     "https://www.youtube.com/shorts/zmd_s_tklho",
     "https://www.youtube.com/shorts/fdd9qdFwgbs",
-    "https://www.youtube.com/shorts/qezEzbk68uo"
+    "https://www.youtube.com/shorts/qezEzbk68uo",
+    "https://www.youtube.com/shorts/UBSkyXB-tRc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -879,7 +880,8 @@
     "rn9KtLJSaq0",
     "zmd_s_tklho",
     "fdd9qdFwgbs",
-    "qezEzbk68uo"
+    "qezEzbk68uo",
+    "UBSkyXB-tRc"
   ],
   "history": [
     {
@@ -5175,6 +5177,16 @@
       "twitch_views": 35327,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-06T11:37:21.979895+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/UBSkyXB-tRc",
+      "clip_id": "UBSkyXB-tRc",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Reminded Los How Bad He Is At Minecraft \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 34572,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-06T12:30:40.817830+00:00"
     }
   ]
 }
