@@ -441,7 +441,8 @@
     "https://www.youtube.com/shorts/qezEzbk68uo",
     "https://www.youtube.com/shorts/UBSkyXB-tRc",
     "https://www.youtube.com/shorts/FGzvjxWwAIQ",
-    "https://www.youtube.com/shorts/-xJvisL3D00"
+    "https://www.youtube.com/shorts/-xJvisL3D00",
+    "https://www.youtube.com/shorts/PqvpSsBrzhs"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -885,7 +886,8 @@
     "qezEzbk68uo",
     "UBSkyXB-tRc",
     "FGzvjxWwAIQ",
-    "-xJvisL3D00"
+    "-xJvisL3D00",
+    "PqvpSsBrzhs"
   ],
   "history": [
     {
@@ -5211,6 +5213,16 @@
       "twitch_views": 29461,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-06T14:43:42.995024+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/PqvpSsBrzhs",
+      "clip_id": "PqvpSsBrzhs",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Hivebrine Was Already Trolling Ron \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 194769,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-07T09:37:36.364743+00:00"
     }
   ]
 }
