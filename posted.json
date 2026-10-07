@@ -446,7 +446,8 @@
     "https://www.youtube.com/shorts/rXA6Nclsjac",
     "https://www.youtube.com/shorts/RZyCl5YVZBA",
     "https://www.youtube.com/shorts/uCU-J-QBOZ8",
-    "https://www.youtube.com/shorts/IE7HlIu4gV0"
+    "https://www.youtube.com/shorts/IE7HlIu4gV0",
+    "https://www.youtube.com/shorts/8JBGTktw3Eo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -895,7 +896,8 @@
     "rXA6Nclsjac",
     "RZyCl5YVZBA",
     "uCU-J-QBOZ8",
-    "IE7HlIu4gV0"
+    "IE7HlIu4gV0",
+    "8JBGTktw3Eo"
   ],
   "history": [
     {
@@ -5271,6 +5273,16 @@
       "twitch_views": 21698,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-07T14:15:20.103305+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8JBGTktw3Eo",
+      "clip_id": "8JBGTktw3Eo",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Marlon Gave His Porters $10K \u2764\ufe0f\ud83d\udcb8",
+      "twitch_views": 17952,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-07T15:00:29.915109+00:00"
     }
   ]
 }
