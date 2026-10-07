@@ -442,7 +442,8 @@
     "https://www.youtube.com/shorts/UBSkyXB-tRc",
     "https://www.youtube.com/shorts/FGzvjxWwAIQ",
     "https://www.youtube.com/shorts/-xJvisL3D00",
-    "https://www.youtube.com/shorts/PqvpSsBrzhs"
+    "https://www.youtube.com/shorts/PqvpSsBrzhs",
+    "https://www.youtube.com/shorts/rXA6Nclsjac"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -887,7 +888,8 @@
     "UBSkyXB-tRc",
     "FGzvjxWwAIQ",
     "-xJvisL3D00",
-    "PqvpSsBrzhs"
+    "PqvpSsBrzhs",
+    "rXA6Nclsjac"
   ],
   "history": [
     {
@@ -5223,6 +5225,16 @@
       "twitch_views": 194769,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-07T09:37:36.364743+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/rXA6Nclsjac",
+      "clip_id": "rXA6Nclsjac",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Silky Told Agent This Was Jason\u2019s Car \ud83d\ude02",
+      "twitch_views": 113561,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-07T10:52:14.661560+00:00"
     }
   ]
 }
