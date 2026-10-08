@@ -450,7 +450,8 @@
     "https://www.youtube.com/shorts/8JBGTktw3Eo",
     "https://www.youtube.com/shorts/qeiWl30MAFU",
     "https://www.youtube.com/shorts/bNuRakhPb-Y",
-    "https://www.youtube.com/shorts/zw8tcPsxOp8"
+    "https://www.youtube.com/shorts/zw8tcPsxOp8",
+    "https://www.youtube.com/shorts/WZqDFyq-IPQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -903,7 +904,8 @@
     "8JBGTktw3Eo",
     "qeiWl30MAFU",
     "bNuRakhPb-Y",
-    "zw8tcPsxOp8"
+    "zw8tcPsxOp8",
+    "WZqDFyq-IPQ"
   ],
   "history": [
     {
@@ -5319,6 +5321,16 @@
       "twitch_views": 13868,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-08T11:41:57.240595+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/WZqDFyq-IPQ",
+      "clip_id": "WZqDFyq-IPQ",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Dub Was Talking About Jason Behind His Back \ud83d\ude2d",
+      "twitch_views": 13570,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-08T12:33:09.857235+00:00"
     }
   ]
 }
