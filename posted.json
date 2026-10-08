@@ -451,7 +451,8 @@
     "https://www.youtube.com/shorts/qeiWl30MAFU",
     "https://www.youtube.com/shorts/bNuRakhPb-Y",
     "https://www.youtube.com/shorts/zw8tcPsxOp8",
-    "https://www.youtube.com/shorts/WZqDFyq-IPQ"
+    "https://www.youtube.com/shorts/WZqDFyq-IPQ",
+    "https://www.youtube.com/shorts/CBvX47v-Tb4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -905,7 +906,8 @@
     "qeiWl30MAFU",
     "bNuRakhPb-Y",
     "zw8tcPsxOp8",
-    "WZqDFyq-IPQ"
+    "WZqDFyq-IPQ",
+    "CBvX47v-Tb4"
   ],
   "history": [
     {
@@ -5331,6 +5333,16 @@
       "twitch_views": 13570,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-08T12:33:09.857235+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/CBvX47v-Tb4",
+      "clip_id": "CBvX47v-Tb4",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy Tells Bryce Alakai He'll Be On Love Island!\ud83d\ude02\ud83d\ude2d",
+      "twitch_views": 1084,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-08T14:21:02.094323+00:00"
     }
   ]
 }
