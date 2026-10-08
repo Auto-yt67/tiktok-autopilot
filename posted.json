@@ -449,7 +449,8 @@
     "https://www.youtube.com/shorts/IE7HlIu4gV0",
     "https://www.youtube.com/shorts/8JBGTktw3Eo",
     "https://www.youtube.com/shorts/qeiWl30MAFU",
-    "https://www.youtube.com/shorts/bNuRakhPb-Y"
+    "https://www.youtube.com/shorts/bNuRakhPb-Y",
+    "https://www.youtube.com/shorts/zw8tcPsxOp8"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -901,7 +902,8 @@
     "IE7HlIu4gV0",
     "8JBGTktw3Eo",
     "qeiWl30MAFU",
-    "bNuRakhPb-Y"
+    "bNuRakhPb-Y",
+    "zw8tcPsxOp8"
   ],
   "history": [
     {
@@ -5307,6 +5309,16 @@
       "twitch_views": 36881,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-08T11:10:16.377319+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/zw8tcPsxOp8",
+      "clip_id": "zw8tcPsxOp8",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Mike Majlak Impersonates Faze Banks Infront Of Lacy!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 13868,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-08T11:41:57.240595+00:00"
     }
   ]
 }
