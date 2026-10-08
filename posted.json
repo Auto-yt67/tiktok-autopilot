@@ -447,7 +447,8 @@
     "https://www.youtube.com/shorts/RZyCl5YVZBA",
     "https://www.youtube.com/shorts/uCU-J-QBOZ8",
     "https://www.youtube.com/shorts/IE7HlIu4gV0",
-    "https://www.youtube.com/shorts/8JBGTktw3Eo"
+    "https://www.youtube.com/shorts/8JBGTktw3Eo",
+    "https://www.youtube.com/shorts/qeiWl30MAFU"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -897,7 +898,8 @@
     "RZyCl5YVZBA",
     "uCU-J-QBOZ8",
     "IE7HlIu4gV0",
-    "8JBGTktw3Eo"
+    "8JBGTktw3Eo",
+    "qeiWl30MAFU"
   ],
   "history": [
     {
@@ -5283,6 +5285,16 @@
       "twitch_views": 17952,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-07T15:00:29.915109+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/qeiWl30MAFU",
+      "clip_id": "qeiWl30MAFU",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Schedules His Food Orders \ud83d\ude2d\ud83c\udf54",
+      "twitch_views": 36042,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-08T09:48:13.439208+00:00"
     }
   ]
 }
