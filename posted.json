@@ -452,7 +452,8 @@
     "https://www.youtube.com/shorts/bNuRakhPb-Y",
     "https://www.youtube.com/shorts/zw8tcPsxOp8",
     "https://www.youtube.com/shorts/WZqDFyq-IPQ",
-    "https://www.youtube.com/shorts/CBvX47v-Tb4"
+    "https://www.youtube.com/shorts/CBvX47v-Tb4",
+    "https://www.youtube.com/shorts/JJoW5NouQ6Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -907,7 +908,8 @@
     "bNuRakhPb-Y",
     "zw8tcPsxOp8",
     "WZqDFyq-IPQ",
-    "CBvX47v-Tb4"
+    "CBvX47v-Tb4",
+    "JJoW5NouQ6Q"
   ],
   "history": [
     {
@@ -5343,6 +5345,16 @@
       "twitch_views": 1084,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-08T14:21:02.094323+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/JJoW5NouQ6Q",
+      "clip_id": "JJoW5NouQ6Q",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "The CORE Boys Played Card Roulette for Breakfast\ud83d\ude02",
+      "twitch_views": 164014,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-09T09:53:22.415332+00:00"
     }
   ]
 }
