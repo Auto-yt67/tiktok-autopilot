@@ -453,7 +453,8 @@
     "https://www.youtube.com/shorts/zw8tcPsxOp8",
     "https://www.youtube.com/shorts/WZqDFyq-IPQ",
     "https://www.youtube.com/shorts/CBvX47v-Tb4",
-    "https://www.youtube.com/shorts/JJoW5NouQ6Q"
+    "https://www.youtube.com/shorts/JJoW5NouQ6Q",
+    "https://www.youtube.com/shorts/N6IfSybJWtE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -909,7 +910,8 @@
     "zw8tcPsxOp8",
     "WZqDFyq-IPQ",
     "CBvX47v-Tb4",
-    "JJoW5NouQ6Q"
+    "JJoW5NouQ6Q",
+    "N6IfSybJWtE"
   ],
   "history": [
     {
@@ -5355,6 +5357,16 @@
       "twitch_views": 164014,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-09T09:53:22.415332+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/N6IfSybJWtE",
+      "clip_id": "N6IfSybJWtE",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Missed His Friend's Wedding \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 47384,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-09T11:10:05.828815+00:00"
     }
   ]
 }
