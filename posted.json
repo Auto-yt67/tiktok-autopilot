@@ -454,7 +454,8 @@
     "https://www.youtube.com/shorts/WZqDFyq-IPQ",
     "https://www.youtube.com/shorts/CBvX47v-Tb4",
     "https://www.youtube.com/shorts/JJoW5NouQ6Q",
-    "https://www.youtube.com/shorts/N6IfSybJWtE"
+    "https://www.youtube.com/shorts/N6IfSybJWtE",
+    "https://www.youtube.com/shorts/f0Wl6hsCcQc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -911,7 +912,8 @@
     "WZqDFyq-IPQ",
     "CBvX47v-Tb4",
     "JJoW5NouQ6Q",
-    "N6IfSybJWtE"
+    "N6IfSybJWtE",
+    "f0Wl6hsCcQc"
   ],
   "history": [
     {
@@ -5367,6 +5369,16 @@
       "twitch_views": 47384,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-09T11:10:05.828815+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/f0Wl6hsCcQc",
+      "clip_id": "f0Wl6hsCcQc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Couldn\u2019t Believe Arky Didn\u2019t Know How to Care for His Clothes \ud83d\ude2d",
+      "twitch_views": 75453,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-09T11:34:59.494575+00:00"
     }
   ]
 }
