@@ -455,7 +455,8 @@
     "https://www.youtube.com/shorts/CBvX47v-Tb4",
     "https://www.youtube.com/shorts/JJoW5NouQ6Q",
     "https://www.youtube.com/shorts/N6IfSybJWtE",
-    "https://www.youtube.com/shorts/f0Wl6hsCcQc"
+    "https://www.youtube.com/shorts/f0Wl6hsCcQc",
+    "https://www.youtube.com/shorts/0HofzPgI77E"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -913,7 +914,8 @@
     "CBvX47v-Tb4",
     "JJoW5NouQ6Q",
     "N6IfSybJWtE",
-    "f0Wl6hsCcQc"
+    "f0Wl6hsCcQc",
+    "0HofzPgI77E"
   ],
   "history": [
     {
@@ -5379,6 +5381,16 @@
       "twitch_views": 75453,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-09T11:34:59.494575+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/0HofzPgI77E",
+      "clip_id": "0HofzPgI77E",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Silky Crashes Out On Lacy For Eating Instead Of Shopping!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 1114,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-09T12:41:58.091229+00:00"
     }
   ]
 }
