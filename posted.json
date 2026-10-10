@@ -460,7 +460,8 @@
     "https://www.youtube.com/shorts/P-BCbZlwDP0",
     "https://www.youtube.com/shorts/6rAwvO42Vk4",
     "https://www.youtube.com/shorts/4R4jfbyMs_w",
-    "https://www.youtube.com/shorts/ueuHa8fnfvc"
+    "https://www.youtube.com/shorts/ueuHa8fnfvc",
+    "https://www.youtube.com/shorts/23XGXVa9_R0"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -923,7 +924,8 @@
     "P-BCbZlwDP0",
     "6rAwvO42Vk4",
     "4R4jfbyMs_w",
-    "ueuHa8fnfvc"
+    "ueuHa8fnfvc",
+    "23XGXVa9_R0"
   ],
   "history": [
     {
@@ -5439,6 +5441,16 @@
       "twitch_views": 7099,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-10T10:53:57.496590+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/23XGXVa9_R0",
+      "clip_id": "23XGXVa9_R0",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy & Silky Couldn't Believe What Yonna Said!\ud83d\udc80\ud83d\ude2d",
+      "twitch_views": 360,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-10T11:39:28.103962+00:00"
     }
   ]
 }
