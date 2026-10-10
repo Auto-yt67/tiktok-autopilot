@@ -457,7 +457,8 @@
     "https://www.youtube.com/shorts/N6IfSybJWtE",
     "https://www.youtube.com/shorts/f0Wl6hsCcQc",
     "https://www.youtube.com/shorts/0HofzPgI77E",
-    "https://www.youtube.com/shorts/P-BCbZlwDP0"
+    "https://www.youtube.com/shorts/P-BCbZlwDP0",
+    "https://www.youtube.com/shorts/6rAwvO42Vk4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -917,7 +918,8 @@
     "N6IfSybJWtE",
     "f0Wl6hsCcQc",
     "0HofzPgI77E",
-    "P-BCbZlwDP0"
+    "P-BCbZlwDP0",
+    "6rAwvO42Vk4"
   ],
   "history": [
     {
@@ -5403,6 +5405,16 @@
       "twitch_views": 2370,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-09T14:06:05.760935+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6rAwvO42Vk4",
+      "clip_id": "6rAwvO42Vk4",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Los Surprised Ron And Jynxzi With Gifts \ud83d\ude2d\ud83c\udf81",
+      "twitch_views": 66811,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-10T09:17:20.806856+00:00"
     }
   ]
 }
