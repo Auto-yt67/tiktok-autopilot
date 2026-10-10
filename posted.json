@@ -459,7 +459,8 @@
     "https://www.youtube.com/shorts/0HofzPgI77E",
     "https://www.youtube.com/shorts/P-BCbZlwDP0",
     "https://www.youtube.com/shorts/6rAwvO42Vk4",
-    "https://www.youtube.com/shorts/4R4jfbyMs_w"
+    "https://www.youtube.com/shorts/4R4jfbyMs_w",
+    "https://www.youtube.com/shorts/ueuHa8fnfvc"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -921,7 +922,8 @@
     "0HofzPgI77E",
     "P-BCbZlwDP0",
     "6rAwvO42Vk4",
-    "4R4jfbyMs_w"
+    "4R4jfbyMs_w",
+    "ueuHa8fnfvc"
   ],
   "history": [
     {
@@ -5427,6 +5429,16 @@
       "twitch_views": 36855,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-10T10:26:36.585752+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ueuHa8fnfvc",
+      "clip_id": "ueuHa8fnfvc",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Dub Asked Jason an Insane Question \ud83d\ude2d",
+      "twitch_views": 7099,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-10T10:53:57.496590+00:00"
     }
   ]
 }
