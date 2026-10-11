@@ -463,7 +463,8 @@
     "https://www.youtube.com/shorts/ueuHa8fnfvc",
     "https://www.youtube.com/shorts/23XGXVa9_R0",
     "https://www.youtube.com/shorts/SdDDq2E8awo",
-    "https://www.youtube.com/shorts/pH8-GoeFp6Q"
+    "https://www.youtube.com/shorts/pH8-GoeFp6Q",
+    "https://www.youtube.com/shorts/ndRl4HoEya8"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -929,7 +930,8 @@
     "ueuHa8fnfvc",
     "23XGXVa9_R0",
     "SdDDq2E8awo",
-    "pH8-GoeFp6Q"
+    "pH8-GoeFp6Q",
+    "ndRl4HoEya8"
   ],
   "history": [
     {
@@ -5475,6 +5477,16 @@
       "twitch_views": 14047,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-11T10:37:13.478887+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ndRl4HoEya8",
+      "clip_id": "ndRl4HoEya8",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "The CORE Boys Didn\u2019t Know Who the First Female Vice President Was \ud83d\ude2d",
+      "twitch_views": 11856,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-11T11:06:33.843026+00:00"
     }
   ]
 }
