@@ -461,7 +461,8 @@
     "https://www.youtube.com/shorts/6rAwvO42Vk4",
     "https://www.youtube.com/shorts/4R4jfbyMs_w",
     "https://www.youtube.com/shorts/ueuHa8fnfvc",
-    "https://www.youtube.com/shorts/23XGXVa9_R0"
+    "https://www.youtube.com/shorts/23XGXVa9_R0",
+    "https://www.youtube.com/shorts/SdDDq2E8awo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -925,7 +926,8 @@
     "6rAwvO42Vk4",
     "4R4jfbyMs_w",
     "ueuHa8fnfvc",
-    "23XGXVa9_R0"
+    "23XGXVa9_R0",
+    "SdDDq2E8awo"
   ],
   "history": [
     {
@@ -5451,6 +5453,16 @@
       "twitch_views": 360,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-10T11:39:28.103962+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/SdDDq2E8awo",
+      "clip_id": "SdDDq2E8awo",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Kai Got Revenge On Ron \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 49439,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-11T09:33:44.536104+00:00"
     }
   ]
 }
