@@ -464,7 +464,8 @@
     "https://www.youtube.com/shorts/23XGXVa9_R0",
     "https://www.youtube.com/shorts/SdDDq2E8awo",
     "https://www.youtube.com/shorts/pH8-GoeFp6Q",
-    "https://www.youtube.com/shorts/ndRl4HoEya8"
+    "https://www.youtube.com/shorts/ndRl4HoEya8",
+    "https://www.youtube.com/shorts/JdpkGo2KxIE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -931,7 +932,8 @@
     "23XGXVa9_R0",
     "SdDDq2E8awo",
     "pH8-GoeFp6Q",
-    "ndRl4HoEya8"
+    "ndRl4HoEya8",
+    "JdpkGo2KxIE"
   ],
   "history": [
     {
@@ -5487,6 +5489,16 @@
       "twitch_views": 11856,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-11T11:06:33.843026+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/JdpkGo2KxIE",
+      "clip_id": "JdpkGo2KxIE",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Silky Got Mad At Lacy For Eating Everything \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 10377,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-11T11:52:53.284412+00:00"
     }
   ]
 }
