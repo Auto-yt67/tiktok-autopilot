@@ -462,7 +462,8 @@
     "https://www.youtube.com/shorts/4R4jfbyMs_w",
     "https://www.youtube.com/shorts/ueuHa8fnfvc",
     "https://www.youtube.com/shorts/23XGXVa9_R0",
-    "https://www.youtube.com/shorts/SdDDq2E8awo"
+    "https://www.youtube.com/shorts/SdDDq2E8awo",
+    "https://www.youtube.com/shorts/pH8-GoeFp6Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -927,7 +928,8 @@
     "4R4jfbyMs_w",
     "ueuHa8fnfvc",
     "23XGXVa9_R0",
-    "SdDDq2E8awo"
+    "SdDDq2E8awo",
+    "pH8-GoeFp6Q"
   ],
   "history": [
     {
@@ -5463,6 +5465,16 @@
       "twitch_views": 49439,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-11T09:33:44.536104+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/pH8-GoeFp6Q",
+      "clip_id": "pH8-GoeFp6Q",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "The CORE Boys Didn\u2019t Know What a Light-Year Measures \ud83d\ude2d",
+      "twitch_views": 14047,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-11T10:37:13.478887+00:00"
     }
   ]
 }
