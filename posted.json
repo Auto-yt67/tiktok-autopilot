@@ -470,7 +470,8 @@
     "https://www.youtube.com/shorts/e8vkd6zbG3U",
     "https://www.youtube.com/shorts/pu1Cdeu_xZE",
     "https://www.youtube.com/shorts/ePxvcjYfsdo",
-    "https://www.youtube.com/shorts/YCGHQjLCI3k"
+    "https://www.youtube.com/shorts/YCGHQjLCI3k",
+    "https://www.youtube.com/shorts/X4MXCeie9tw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -943,7 +944,8 @@
     "e8vkd6zbG3U",
     "pu1Cdeu_xZE",
     "ePxvcjYfsdo",
-    "YCGHQjLCI3k"
+    "YCGHQjLCI3k",
+    "X4MXCeie9tw"
   ],
   "history": [
     {
@@ -5559,6 +5561,16 @@
       "twitch_views": 1176,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-12T13:59:28.723597+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/X4MXCeie9tw",
+      "clip_id": "X4MXCeie9tw",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Said This Reminded Him of His City \ud83d\ude2d",
+      "twitch_views": 773,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T16:26:12.449121+00:00"
     }
   ]
 }
