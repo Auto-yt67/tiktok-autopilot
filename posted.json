@@ -467,7 +467,8 @@
     "https://www.youtube.com/shorts/ndRl4HoEya8",
     "https://www.youtube.com/shorts/JdpkGo2KxIE",
     "https://www.youtube.com/shorts/iF-45BJqWXQ",
-    "https://www.youtube.com/shorts/e8vkd6zbG3U"
+    "https://www.youtube.com/shorts/e8vkd6zbG3U",
+    "https://www.youtube.com/shorts/pu1Cdeu_xZE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -937,7 +938,8 @@
     "ndRl4HoEya8",
     "JdpkGo2KxIE",
     "iF-45BJqWXQ",
-    "e8vkd6zbG3U"
+    "e8vkd6zbG3U",
+    "pu1Cdeu_xZE"
   ],
   "history": [
     {
@@ -5523,6 +5525,16 @@
       "twitch_views": 118743,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-12T10:04:17.030962+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/pu1Cdeu_xZE",
+      "clip_id": "pu1Cdeu_xZE",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Reminded Adapt He Used to Be Cool With Tana Mongeau \ud83d\ude2d",
+      "twitch_views": 95404,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T11:40:59.037765+00:00"
     }
   ]
 }
