@@ -468,7 +468,8 @@
     "https://www.youtube.com/shorts/JdpkGo2KxIE",
     "https://www.youtube.com/shorts/iF-45BJqWXQ",
     "https://www.youtube.com/shorts/e8vkd6zbG3U",
-    "https://www.youtube.com/shorts/pu1Cdeu_xZE"
+    "https://www.youtube.com/shorts/pu1Cdeu_xZE",
+    "https://www.youtube.com/shorts/ePxvcjYfsdo"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -939,7 +940,8 @@
     "JdpkGo2KxIE",
     "iF-45BJqWXQ",
     "e8vkd6zbG3U",
-    "pu1Cdeu_xZE"
+    "pu1Cdeu_xZE",
+    "ePxvcjYfsdo"
   ],
   "history": [
     {
@@ -5535,6 +5537,16 @@
       "twitch_views": 95404,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-12T11:40:59.037765+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/ePxvcjYfsdo",
+      "clip_id": "ePxvcjYfsdo",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Kai Cenat Tell Jason To Shave His Mustache \ud83d\ude2d",
+      "twitch_views": 56071,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T12:34:48.884096+00:00"
     }
   ]
 }
