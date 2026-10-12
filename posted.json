@@ -471,7 +471,8 @@
     "https://www.youtube.com/shorts/pu1Cdeu_xZE",
     "https://www.youtube.com/shorts/ePxvcjYfsdo",
     "https://www.youtube.com/shorts/YCGHQjLCI3k",
-    "https://www.youtube.com/shorts/X4MXCeie9tw"
+    "https://www.youtube.com/shorts/X4MXCeie9tw",
+    "https://www.youtube.com/shorts/-oioXi0fM-I"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -945,7 +946,8 @@
     "pu1Cdeu_xZE",
     "ePxvcjYfsdo",
     "YCGHQjLCI3k",
-    "X4MXCeie9tw"
+    "X4MXCeie9tw",
+    "-oioXi0fM-I"
   ],
   "history": [
     {
@@ -5571,6 +5573,16 @@
       "twitch_views": 773,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-12T16:26:12.449121+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/-oioXi0fM-I",
+      "clip_id": "-oioXi0fM-I",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Thought His Car Got Stolen \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 229,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T17:14:31.777168+00:00"
     }
   ]
 }
