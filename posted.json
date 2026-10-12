@@ -469,7 +469,8 @@
     "https://www.youtube.com/shorts/iF-45BJqWXQ",
     "https://www.youtube.com/shorts/e8vkd6zbG3U",
     "https://www.youtube.com/shorts/pu1Cdeu_xZE",
-    "https://www.youtube.com/shorts/ePxvcjYfsdo"
+    "https://www.youtube.com/shorts/ePxvcjYfsdo",
+    "https://www.youtube.com/shorts/YCGHQjLCI3k"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -941,7 +942,8 @@
     "iF-45BJqWXQ",
     "e8vkd6zbG3U",
     "pu1Cdeu_xZE",
-    "ePxvcjYfsdo"
+    "ePxvcjYfsdo",
+    "YCGHQjLCI3k"
   ],
   "history": [
     {
@@ -5547,6 +5549,16 @@
       "twitch_views": 56071,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-12T12:34:48.884096+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/YCGHQjLCI3k",
+      "clip_id": "YCGHQjLCI3k",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Darla Narrates An NFL Game To Lacy!\ud83d\ude2d\ud83d\ude02",
+      "twitch_views": 1176,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T13:59:28.723597+00:00"
     }
   ]
 }
