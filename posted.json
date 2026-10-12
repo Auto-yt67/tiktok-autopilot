@@ -466,7 +466,8 @@
     "https://www.youtube.com/shorts/pH8-GoeFp6Q",
     "https://www.youtube.com/shorts/ndRl4HoEya8",
     "https://www.youtube.com/shorts/JdpkGo2KxIE",
-    "https://www.youtube.com/shorts/iF-45BJqWXQ"
+    "https://www.youtube.com/shorts/iF-45BJqWXQ",
+    "https://www.youtube.com/shorts/e8vkd6zbG3U"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -935,7 +936,8 @@
     "pH8-GoeFp6Q",
     "ndRl4HoEya8",
     "JdpkGo2KxIE",
-    "iF-45BJqWXQ"
+    "iF-45BJqWXQ",
+    "e8vkd6zbG3U"
   ],
   "history": [
     {
@@ -5511,6 +5513,16 @@
       "twitch_views": 6858,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-11T13:45:09.811435+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/e8vkd6zbG3U",
+      "clip_id": "e8vkd6zbG3U",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Silky Couldn't Believe Agent's Burger Was Gone \ud83d\ude2d",
+      "twitch_views": 118743,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-12T10:04:17.030962+00:00"
     }
   ]
 }
