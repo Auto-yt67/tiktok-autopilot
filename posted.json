@@ -477,7 +477,8 @@
     "https://www.youtube.com/shorts/F6LJ6HNd2t8",
     "https://www.youtube.com/shorts/3OGq4dK3qsI",
     "https://www.youtube.com/shorts/A6qfd3iMnG4",
-    "https://www.youtube.com/shorts/WAsrxr6LvVw"
+    "https://www.youtube.com/shorts/WAsrxr6LvVw",
+    "https://www.youtube.com/shorts/T8Gmljk5U_w"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -957,7 +958,8 @@
     "F6LJ6HNd2t8",
     "3OGq4dK3qsI",
     "A6qfd3iMnG4",
-    "WAsrxr6LvVw"
+    "WAsrxr6LvVw",
+    "T8Gmljk5U_w"
   ],
   "history": [
     {
@@ -5643,6 +5645,16 @@
       "twitch_views": 15314,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-13T14:46:31.951178+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/T8Gmljk5U_w",
+      "clip_id": "T8Gmljk5U_w",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Ron Got Hypnotized And Forgot The Number 3\ud83d\ude2d",
+      "twitch_views": 7836,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-13T15:30:51.613795+00:00"
     }
   ]
 }
