@@ -476,7 +476,8 @@
     "https://www.youtube.com/shorts/8NIXTdrZJb4",
     "https://www.youtube.com/shorts/F6LJ6HNd2t8",
     "https://www.youtube.com/shorts/3OGq4dK3qsI",
-    "https://www.youtube.com/shorts/A6qfd3iMnG4"
+    "https://www.youtube.com/shorts/A6qfd3iMnG4",
+    "https://www.youtube.com/shorts/WAsrxr6LvVw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -955,7 +956,8 @@
     "8NIXTdrZJb4",
     "F6LJ6HNd2t8",
     "3OGq4dK3qsI",
-    "A6qfd3iMnG4"
+    "A6qfd3iMnG4",
+    "WAsrxr6LvVw"
   ],
   "history": [
     {
@@ -5631,6 +5633,16 @@
       "twitch_views": 31963,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-13T13:16:22.477216+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/WAsrxr6LvVw",
+      "clip_id": "WAsrxr6LvVw",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Kai Kept Cooking Jason's Moustache \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 15314,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-13T14:46:31.951178+00:00"
     }
   ]
 }
