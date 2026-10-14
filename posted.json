@@ -482,7 +482,8 @@
     "https://www.youtube.com/shorts/QxZzfoFByZE",
     "https://www.youtube.com/shorts/8ARV8Ci2pNk",
     "https://www.youtube.com/shorts/GLsi-FPmgzY",
-    "https://www.youtube.com/shorts/uhkbKiaeWts"
+    "https://www.youtube.com/shorts/uhkbKiaeWts",
+    "https://www.youtube.com/shorts/o2Q30sKQEno"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -967,7 +968,8 @@
     "QxZzfoFByZE",
     "8ARV8Ci2pNk",
     "GLsi-FPmgzY",
-    "uhkbKiaeWts"
+    "uhkbKiaeWts",
+    "o2Q30sKQEno"
   ],
   "history": [
     {
@@ -5703,6 +5705,16 @@
       "twitch_views": 45090,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T10:55:42.228728+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/o2Q30sKQEno",
+      "clip_id": "o2Q30sKQEno",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Got A Text From His Girlfriend \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 45844,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-14T12:38:20.731407+00:00"
     }
   ]
 }
