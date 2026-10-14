@@ -481,7 +481,8 @@
     "https://www.youtube.com/shorts/T8Gmljk5U_w",
     "https://www.youtube.com/shorts/QxZzfoFByZE",
     "https://www.youtube.com/shorts/8ARV8Ci2pNk",
-    "https://www.youtube.com/shorts/GLsi-FPmgzY"
+    "https://www.youtube.com/shorts/GLsi-FPmgzY",
+    "https://www.youtube.com/shorts/uhkbKiaeWts"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -965,7 +966,8 @@
     "T8Gmljk5U_w",
     "QxZzfoFByZE",
     "8ARV8Ci2pNk",
-    "GLsi-FPmgzY"
+    "GLsi-FPmgzY",
+    "uhkbKiaeWts"
   ],
   "history": [
     {
@@ -5691,6 +5693,16 @@
       "twitch_views": 102603,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T09:51:40.081683+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/uhkbKiaeWts",
+      "clip_id": "uhkbKiaeWts",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "Lacy Crashes Out On Drink Vendor For Not Selling Him A Drink!\ud83d\ude02\ud83d\ude2d",
+      "twitch_views": 45090,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-14T10:55:42.228728+00:00"
     }
   ]
 }
