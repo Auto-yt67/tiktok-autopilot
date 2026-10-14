@@ -480,7 +480,8 @@
     "https://www.youtube.com/shorts/WAsrxr6LvVw",
     "https://www.youtube.com/shorts/T8Gmljk5U_w",
     "https://www.youtube.com/shorts/QxZzfoFByZE",
-    "https://www.youtube.com/shorts/8ARV8Ci2pNk"
+    "https://www.youtube.com/shorts/8ARV8Ci2pNk",
+    "https://www.youtube.com/shorts/GLsi-FPmgzY"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -963,7 +964,8 @@
     "WAsrxr6LvVw",
     "T8Gmljk5U_w",
     "QxZzfoFByZE",
-    "8ARV8Ci2pNk"
+    "8ARV8Ci2pNk",
+    "GLsi-FPmgzY"
   ],
   "history": [
     {
@@ -5679,6 +5681,16 @@
       "twitch_views": 138786,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T09:18:41.616431+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/GLsi-FPmgzY",
+      "clip_id": "GLsi-FPmgzY",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Recreated Marlon\u2019s Video Perfectly \ud83d\ude2d",
+      "twitch_views": 102603,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-14T09:51:40.081683+00:00"
     }
   ]
 }
