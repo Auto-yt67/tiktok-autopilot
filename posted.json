@@ -479,7 +479,8 @@
     "https://www.youtube.com/shorts/A6qfd3iMnG4",
     "https://www.youtube.com/shorts/WAsrxr6LvVw",
     "https://www.youtube.com/shorts/T8Gmljk5U_w",
-    "https://www.youtube.com/shorts/QxZzfoFByZE"
+    "https://www.youtube.com/shorts/QxZzfoFByZE",
+    "https://www.youtube.com/shorts/8ARV8Ci2pNk"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -961,7 +962,8 @@
     "A6qfd3iMnG4",
     "WAsrxr6LvVw",
     "T8Gmljk5U_w",
-    "QxZzfoFByZE"
+    "QxZzfoFByZE",
+    "8ARV8Ci2pNk"
   ],
   "history": [
     {
@@ -5667,6 +5669,16 @@
       "twitch_views": 163158,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T08:17:23.585166+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8ARV8Ci2pNk",
+      "clip_id": "8ARV8Ci2pNk",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Silky Jump Scared Jay Cinco \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 138786,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-14T09:18:41.616431+00:00"
     }
   ]
 }
