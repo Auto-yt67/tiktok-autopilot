@@ -483,7 +483,8 @@
     "https://www.youtube.com/shorts/8ARV8Ci2pNk",
     "https://www.youtube.com/shorts/GLsi-FPmgzY",
     "https://www.youtube.com/shorts/uhkbKiaeWts",
-    "https://www.youtube.com/shorts/o2Q30sKQEno"
+    "https://www.youtube.com/shorts/o2Q30sKQEno",
+    "https://www.youtube.com/shorts/JAaw_-F0JQQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -969,7 +970,8 @@
     "8ARV8Ci2pNk",
     "GLsi-FPmgzY",
     "uhkbKiaeWts",
-    "o2Q30sKQEno"
+    "o2Q30sKQEno",
+    "JAaw_-F0JQQ"
   ],
   "history": [
     {
@@ -5715,6 +5717,16 @@
       "twitch_views": 45844,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T12:38:20.731407+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/JAaw_-F0JQQ",
+      "clip_id": "JAaw_-F0JQQ",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Ron Laughed At Kai And Paid The Price \ud83d\ude2d\ud83d\udcf6",
+      "twitch_views": 29732,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-14T13:16:28.314995+00:00"
     }
   ]
 }
