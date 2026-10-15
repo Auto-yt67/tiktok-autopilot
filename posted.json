@@ -487,7 +487,8 @@
     "https://www.youtube.com/shorts/JAaw_-F0JQQ",
     "https://www.youtube.com/shorts/DVXKt16NWAQ",
     "https://www.youtube.com/shorts/zdbt9edznLg",
-    "https://www.youtube.com/shorts/hIwXLCaJmec"
+    "https://www.youtube.com/shorts/hIwXLCaJmec",
+    "https://www.youtube.com/shorts/N_rGreTzZck"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -977,7 +978,8 @@
     "JAaw_-F0JQQ",
     "DVXKt16NWAQ",
     "zdbt9edznLg",
-    "hIwXLCaJmec"
+    "hIwXLCaJmec",
+    "N_rGreTzZck"
   ],
   "history": [
     {
@@ -5763,6 +5765,16 @@
       "twitch_views": 32412,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-15T09:32:11.406208+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/N_rGreTzZck",
+      "clip_id": "N_rGreTzZck",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Crashes Out After Ludwig Gets Picked Before Him \ud83d\ude2d",
+      "twitch_views": 32640,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-15T10:37:49.990783+00:00"
     }
   ]
 }
