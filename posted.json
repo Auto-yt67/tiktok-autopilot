@@ -489,7 +489,8 @@
     "https://www.youtube.com/shorts/zdbt9edznLg",
     "https://www.youtube.com/shorts/hIwXLCaJmec",
     "https://www.youtube.com/shorts/N_rGreTzZck",
-    "https://www.youtube.com/shorts/KbuaHDubEbE"
+    "https://www.youtube.com/shorts/KbuaHDubEbE",
+    "https://www.youtube.com/shorts/XSPobdAhz_U"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -981,7 +982,8 @@
     "zdbt9edznLg",
     "hIwXLCaJmec",
     "N_rGreTzZck",
-    "KbuaHDubEbE"
+    "KbuaHDubEbE",
+    "XSPobdAhz_U"
   ],
   "history": [
     {
@@ -5787,6 +5789,16 @@
       "twitch_views": 28415,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-15T12:25:45.343164+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/XSPobdAhz_U",
+      "clip_id": "XSPobdAhz_U",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Opens Up About His Parents Getting Older \ud83e\udd79\u2764\ufe0f",
+      "twitch_views": 24002,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-15T13:01:51.097641+00:00"
     }
   ]
 }
