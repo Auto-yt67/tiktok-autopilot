@@ -485,7 +485,8 @@
     "https://www.youtube.com/shorts/uhkbKiaeWts",
     "https://www.youtube.com/shorts/o2Q30sKQEno",
     "https://www.youtube.com/shorts/JAaw_-F0JQQ",
-    "https://www.youtube.com/shorts/DVXKt16NWAQ"
+    "https://www.youtube.com/shorts/DVXKt16NWAQ",
+    "https://www.youtube.com/shorts/zdbt9edznLg"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -973,7 +974,8 @@
     "uhkbKiaeWts",
     "o2Q30sKQEno",
     "JAaw_-F0JQQ",
-    "DVXKt16NWAQ"
+    "DVXKt16NWAQ",
+    "zdbt9edznLg"
   ],
   "history": [
     {
@@ -5739,6 +5741,16 @@
       "twitch_views": 70477,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-15T07:54:50.072826+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/zdbt9edznLg",
+      "clip_id": "zdbt9edznLg",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Jason And Ron Watched Marlon Get Hypnotized \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 50061,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-15T08:52:09.462012+00:00"
     }
   ]
 }
