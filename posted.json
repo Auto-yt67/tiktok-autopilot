@@ -484,7 +484,8 @@
     "https://www.youtube.com/shorts/GLsi-FPmgzY",
     "https://www.youtube.com/shorts/uhkbKiaeWts",
     "https://www.youtube.com/shorts/o2Q30sKQEno",
-    "https://www.youtube.com/shorts/JAaw_-F0JQQ"
+    "https://www.youtube.com/shorts/JAaw_-F0JQQ",
+    "https://www.youtube.com/shorts/DVXKt16NWAQ"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -971,7 +972,8 @@
     "GLsi-FPmgzY",
     "uhkbKiaeWts",
     "o2Q30sKQEno",
-    "JAaw_-F0JQQ"
+    "JAaw_-F0JQQ",
+    "DVXKt16NWAQ"
   ],
   "history": [
     {
@@ -5727,6 +5729,16 @@
       "twitch_views": 29732,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-14T13:16:28.314995+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/DVXKt16NWAQ",
+      "clip_id": "DVXKt16NWAQ",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "StableRonaldo Pays For Everyone In The Drive Thru!\ud83e\udd79\u2764\ufe0f\u200d\ud83e\ude79",
+      "twitch_views": 70477,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-15T07:54:50.072826+00:00"
     }
   ]
 }
