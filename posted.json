@@ -488,7 +488,8 @@
     "https://www.youtube.com/shorts/DVXKt16NWAQ",
     "https://www.youtube.com/shorts/zdbt9edznLg",
     "https://www.youtube.com/shorts/hIwXLCaJmec",
-    "https://www.youtube.com/shorts/N_rGreTzZck"
+    "https://www.youtube.com/shorts/N_rGreTzZck",
+    "https://www.youtube.com/shorts/KbuaHDubEbE"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -979,7 +980,8 @@
     "DVXKt16NWAQ",
     "zdbt9edznLg",
     "hIwXLCaJmec",
-    "N_rGreTzZck"
+    "N_rGreTzZck",
+    "KbuaHDubEbE"
   ],
   "history": [
     {
@@ -5775,6 +5777,16 @@
       "twitch_views": 32640,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-15T10:37:49.990783+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/KbuaHDubEbE",
+      "clip_id": "KbuaHDubEbE",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Ron Got Hypnotized and Turned Into a Puppet \ud83d\ude2d",
+      "twitch_views": 28415,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-15T12:25:45.343164+00:00"
     }
   ]
 }
