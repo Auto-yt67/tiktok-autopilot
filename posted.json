@@ -494,7 +494,8 @@
     "https://www.youtube.com/shorts/6JuRndWwAv4",
     "https://www.youtube.com/shorts/HnLLLHh4h0Q",
     "https://www.youtube.com/shorts/zpxKMSDhS38",
-    "https://www.youtube.com/shorts/JnCIn077OUc"
+    "https://www.youtube.com/shorts/JnCIn077OUc",
+    "https://www.youtube.com/shorts/Lny1axDJFUw"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -991,7 +992,8 @@
     "6JuRndWwAv4",
     "HnLLLHh4h0Q",
     "zpxKMSDhS38",
-    "JnCIn077OUc"
+    "JnCIn077OUc",
+    "Lny1axDJFUw"
   ],
   "history": [
     {
@@ -5847,6 +5849,16 @@
       "twitch_views": 11361,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-16T10:25:00.901219+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/Lny1axDJFUw",
+      "clip_id": "Lny1axDJFUw",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "\"Is This A Facing Your Fears Stream\"\ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 875,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-16T12:04:57.715234+00:00"
     }
   ]
 }
