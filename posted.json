@@ -490,7 +490,8 @@
     "https://www.youtube.com/shorts/hIwXLCaJmec",
     "https://www.youtube.com/shorts/N_rGreTzZck",
     "https://www.youtube.com/shorts/KbuaHDubEbE",
-    "https://www.youtube.com/shorts/XSPobdAhz_U"
+    "https://www.youtube.com/shorts/XSPobdAhz_U",
+    "https://www.youtube.com/shorts/6JuRndWwAv4"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -983,7 +984,8 @@
     "hIwXLCaJmec",
     "N_rGreTzZck",
     "KbuaHDubEbE",
-    "XSPobdAhz_U"
+    "XSPobdAhz_U",
+    "6JuRndWwAv4"
   ],
   "history": [
     {
@@ -5799,6 +5801,16 @@
       "twitch_views": 24002,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-15T13:01:51.097641+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/6JuRndWwAv4",
+      "clip_id": "6JuRndWwAv4",
+      "streamer": "imgoochy",
+      "game": "",
+      "title": "Jason Ranks His Cameraman \ud83d\ude2d",
+      "twitch_views": 59385,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-16T07:46:34.446038+00:00"
     }
   ]
 }
