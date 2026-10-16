@@ -491,7 +491,8 @@
     "https://www.youtube.com/shorts/N_rGreTzZck",
     "https://www.youtube.com/shorts/KbuaHDubEbE",
     "https://www.youtube.com/shorts/XSPobdAhz_U",
-    "https://www.youtube.com/shorts/6JuRndWwAv4"
+    "https://www.youtube.com/shorts/6JuRndWwAv4",
+    "https://www.youtube.com/shorts/HnLLLHh4h0Q"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -985,7 +986,8 @@
     "N_rGreTzZck",
     "KbuaHDubEbE",
     "XSPobdAhz_U",
-    "6JuRndWwAv4"
+    "6JuRndWwAv4",
+    "HnLLLHh4h0Q"
   ],
   "history": [
     {
@@ -5811,6 +5813,16 @@
       "twitch_views": 59385,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-16T07:46:34.446038+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/HnLLLHh4h0Q",
+      "clip_id": "HnLLLHh4h0Q",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Ruined Jason's Minecraft Speedrun \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 34242,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-16T08:46:19.300842+00:00"
     }
   ]
 }
