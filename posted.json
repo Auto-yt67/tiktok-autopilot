@@ -492,7 +492,8 @@
     "https://www.youtube.com/shorts/KbuaHDubEbE",
     "https://www.youtube.com/shorts/XSPobdAhz_U",
     "https://www.youtube.com/shorts/6JuRndWwAv4",
-    "https://www.youtube.com/shorts/HnLLLHh4h0Q"
+    "https://www.youtube.com/shorts/HnLLLHh4h0Q",
+    "https://www.youtube.com/shorts/zpxKMSDhS38"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -987,7 +988,8 @@
     "KbuaHDubEbE",
     "XSPobdAhz_U",
     "6JuRndWwAv4",
-    "HnLLLHh4h0Q"
+    "HnLLLHh4h0Q",
+    "zpxKMSDhS38"
   ],
   "history": [
     {
@@ -5823,6 +5825,16 @@
       "twitch_views": 34242,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-16T08:46:19.300842+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/zpxKMSDhS38",
+      "clip_id": "zpxKMSDhS38",
+      "streamer": "core_fx",
+      "game": "",
+      "title": "Lacy Got Caught Lying About Seafood Boils \ud83d\ude2d\ud83d\udc80",
+      "twitch_views": 12457,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-16T09:25:11.933013+00:00"
     }
   ]
 }
