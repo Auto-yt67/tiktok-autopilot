@@ -495,7 +495,8 @@
     "https://www.youtube.com/shorts/HnLLLHh4h0Q",
     "https://www.youtube.com/shorts/zpxKMSDhS38",
     "https://www.youtube.com/shorts/JnCIn077OUc",
-    "https://www.youtube.com/shorts/Lny1axDJFUw"
+    "https://www.youtube.com/shorts/Lny1axDJFUw",
+    "https://www.youtube.com/shorts/DLWApKfy7wA"
   ],
   "clip_ids": [
     "ModernEasyLapwingBCWarrior-FZTCQ5rmbrQmpVZC",
@@ -993,7 +994,8 @@
     "HnLLLHh4h0Q",
     "zpxKMSDhS38",
     "JnCIn077OUc",
-    "Lny1axDJFUw"
+    "Lny1axDJFUw",
+    "DLWApKfy7wA"
   ],
   "history": [
     {
@@ -5859,6 +5861,16 @@
       "twitch_views": 875,
       "hashtag_set": "broad_reach",
       "posted_at": "2026-10-16T12:04:57.715234+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/DLWApKfy7wA",
+      "clip_id": "DLWApKfy7wA",
+      "streamer": "ClipMet",
+      "game": "",
+      "title": "\u201cM3\u202640i\u201d\ud83d\ude2d\ud83d\udc94\ud83e\udd40",
+      "twitch_views": 987,
+      "hashtag_set": "broad_reach",
+      "posted_at": "2026-10-16T12:57:36.007917+00:00"
     }
   ]
 }
